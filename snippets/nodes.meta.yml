@@ -1,31 +1,396 @@
 proxies:
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  type: trojan
+- name: 希腊+V2CROSS.COM
+  network: tcp
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  port: 443
+  server: 92.119.35.127
+  skip-cert-verify: false
+  type: trojan
+- name: '希腊+V2CROSS.COM #1'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.119
+  type: trojan
+- name: '希腊+V2CROSS.COM #2'
+  network: tcp
+  password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
+  port: 443
+  server: 92.119.35.130
+  skip-cert-verify: false
+  type: trojan
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
+  type: trojan
+- name: '希腊+V2CROSS.COM #3'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.87
+  type: trojan
+- name: 北美地区+V2CROSS.COM
+  password: f872264a-664a-4b6a-84e8-516a39099860
+  port: 443
+  server: 134.195.101.199
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- name: '希腊+V2CROSS.COM #4'
+  password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+  port: 443
+  server: 92.119.35.131
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 敏感时期，更新暂停
+  name: 美国 V2CROSS.COM
   network: tcp
-  port: '1'
-  server: 0.0.0.0
-  servername: web.51.la
+  port: '52080'
+  server: 154.37.223.56
+  servername: ''
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  sni: 130.94.94.15
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 2008
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 29449
+  server: 95.40.58.222
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3941
+  server: 16.163.149.119
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 52904
+  server: 18.181.219.39
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 日本2|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 3743
+  server: 18.163.118.4
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 日本3|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 37973
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 6357
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡2|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 48738
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 9149
+  server: 16.162.192.195
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 49277
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 17005
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 11993
+  server: 16.163.149.119
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alpn:
+  - ''
+  name: AE_speednode_0001
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 94.140.0.100
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: '%2FMiTiVPN%3DUsa'
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: CZ_speednode_0002
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: PL-jIhHOxLpCUmnDvMEsB3YY3n8o7smiAT0P_SV6RCM
+    short-id: '19d6296d2621d9fa'
+  server: 95.85.227.25
+  servername: pol1.hatvpn.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e3e90161-fe65-443a-a3a4-e0e3a73704ca
+- alpn:
+  - ''
+  name: GB_speednode_0005
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 164.38.155.135
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: '%2FMiTiVPN%3DDe'
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: ID_speednode_0009
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: '2715592069f36fe7'
+  server: 45.198.87.168
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: ID_speednode_0010
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: '2715592069f36fe7'
+  server: 45.198.87.13
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: ID_speednode_0011
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: '2715592069f36fe7'
+  server: 45.198.87.203
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: ID_speednode_0012
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: '2715592069f36fe7'
+  server: 45.198.87.102
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: ID_speednode_0013
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg
+    short-id: '2715592069f36fe7'
+  server: 45.198.87.33
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 7896c501-248f-4068-bc2f-363c91ba5122
+- name: NL_speednode_0015
+  obfs: ''
+  obfs-password: 2a7e8084206388f4
+  password: gdubbi2zb6gdp0c8
+  port: 443
+  server: 103.251.167.168
+  skip-cert-verify: true
+  sni: gettestin.xxee.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - ''
+  name: NL_speednode_0016
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 45.131.4.118
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: '%2FMiTiVPN%3DSe'
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: TW_speednode_0053
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
+    short-id: 'ea10cd5686751ec5'
+  server: 45.206.0.29
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 52faee73-e0fe-4661-992d-67259257170f
 - alterId: 0
   cipher: auto
-  name: 如有需要，自行搭建
+  name: US_speednode_0054
   network: tcp
-  port: '2'
-  server: 0.0.0.0
-  servername: web.51.la
+  port: 13932
+  server: 104.253.134.92
   tls: false
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 庆祝中华人民共和国成立76周年！
+  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+- alpn:
+  - ''
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_speednode_0055
   network: tcp
-  port: '3'
-  server: 0.0.0.0
-  servername: web.51.la
+  port: 14005
+  reality-opts:
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: '97a01dfaef'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
   tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  type: vless
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- alpn:
+  - ''
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_speednode_0056
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JlcNtRODuC4k8GhBFuXwjps9cRe3asq453_RLd3o9E8
+    short-id: 'e9e3098b62530266'
+  server: 38.244.20.69
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 057f3c26-0fe7-4315-aabc-90c79d413d70
+- name: US_speednode_0057
+  obfs: ''
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: vn2.yuntong.click
+  skip-cert-verify: true
+  sni: vn2.yuntong.click
+  tls: false
+  type: hysteria2
+- alpn:
+  - ''
+  name: US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: '%2Fusa%3Dmitivpn'

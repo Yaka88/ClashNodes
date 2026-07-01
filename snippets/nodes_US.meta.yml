@@ -1,1 +1,119 @@
-proxies: []
+proxies:
+- name: 美国+华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  type: trojan
+- name: 北美地区+V2CROSS.COM
+  password: f872264a-664a-4b6a-84e8-516a39099860
+  port: 443
+  server: 134.195.101.199
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: tcp
+  port: '52080'
+  server: 154.37.223.56
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  sni: 130.94.94.15
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 49277
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: cbed60798db0624ba9d15418f0d0d9a4
+  port: 17005
+  server: 95.40.113.209
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 11993
+  server: 16.163.149.119
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_speednode_0054
+  network: tcp
+  port: 13932
+  server: 104.253.134.92
+  tls: false
+  type: vmess
+  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
+- alpn:
+  - ''
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_speednode_0055
+  network: tcp
+  port: 14005
+  reality-opts:
+    public-key: sKWozGVep6wrIm63253QviGBtMLVrGB_W1JJHLEHi0s
+    short-id: '!!str 97a01dfaef'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+- alpn:
+  - ''
+  client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: US_speednode_0056
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JlcNtRODuC4k8GhBFuXwjps9cRe3asq453_RLd3o9E8
+    short-id: '!!str e9e3098b62530266'
+  server: 38.244.20.69
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 057f3c26-0fe7-4315-aabc-90c79d413d70
+- name: US_speednode_0057
+  obfs: ''
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: f7cb07a0-e6f9-4d22-a60e-c61854450c89
+  port: 443
+  server: vn2.yuntong.click
+  skip-cert-verify: true
+  sni: vn2.yuntong.click
+  tls: false
+  type: hysteria2
+- alpn:
+  - ''
+  name: US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: '%2Fusa%3Dmitivpn'
