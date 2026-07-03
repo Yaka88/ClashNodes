@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 1111
+  reality-opts:
+    public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
+  server: 78.159.250.32
+  servername: api-maps.yandex.ru
+  tls: false
+  type: vless
+  uuid: 9d748910-8306-411a-9b2e-11f0a2a4486f
