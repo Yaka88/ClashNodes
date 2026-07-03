@@ -1,15 +1,55 @@
 proxies:
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
 - name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.12
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: f922fa0f-3311-4368-85ff-cf65e727c854
+  port: 443
+  server: 104.16.72.2
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: '%2Fbr-orcl'
+- name: 美国+华盛顿Cogent通信公司
+  network: tcp
+  password: NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw
+  port: 443
+  server: 38.60.252.118
+  type: trojan
+  ws-opts:
+    path: '%2f'
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
-    path: '%2Fassignment'
+    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
