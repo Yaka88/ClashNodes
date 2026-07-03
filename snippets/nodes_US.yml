@@ -1,5 +1,5 @@
 proxies:
-- name: '美国+CloudFlare节点 #3'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
@@ -7,15 +7,12 @@ proxies:
   sni: www.calmloud.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: '美国+华盛顿Cogent通信公司 #2'
-  password: NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw
+    path: /assignment
+- name: 美国+V2CROSS.COM
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  server: 38.60.252.118
-  skip-cert-verify: false
-  sni: 38.60.252.118
+  server: 149.104.104.58
+  sni: 149.104.104.58
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
