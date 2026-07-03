@@ -1,72 +1,27 @@
 proxies:
-- name: '美国+CloudFlare节点 #1'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.229
+  server: 104.20.6.134
   sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
       Host: www.calmloud.com
-    path: /assignment
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.210
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: f922fa0f-3311-4368-85ff-cf65e727c854
-  port: 443
-  server: 104.16.72.2
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: '%2Fbr-orcl'
-- name: 美国+华盛顿Cogent通信公司
-  network: tcp
+    path: '%2Fassignment'
+- name: '美国+华盛顿Cogent通信公司 #2'
   password: NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw
   port: 443
   server: 38.60.252.118
+  skip-cert-verify: false
+  sni: 38.60.252.118
   type: trojan
-  ws-opts:
-    path: '%2f'
 - name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.128
+  server: 185.137.157.138
   type: trojan
-- name: 法国巴黎+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
