@@ -1,17 +1,46 @@
 proxies:
-- name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: 美国+华盛顿Cogent通信公司
+  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
   port: 443
-  server: 185.137.157.140
-  sni: 185.137.157.140
+  server: 38.60.136.156
   type: trojan
-- name: '罗马尼亚+V2CROSS.COM #1'
-  network: tcp
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
   server: 185.137.157.138
-  sni: 185.137.157.138
+  type: trojan
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.24
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.68
+  type: trojan
+- name: '亚太地区+V2CROSS.COM #1'
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+  port: 443
+  server: 103.125.216.18
   type: trojan
 - alterId: 2
   cipher: auto
