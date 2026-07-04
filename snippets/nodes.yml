@@ -1,46 +1,27 @@
 proxies:
 - name: 美国+华盛顿Cogent通信公司
-  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
+  password: t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak
   port: 443
-  server: 38.60.136.156
+  server: 38.60.220.65
   type: trojan
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
+- name: 英国+V2CROSS.COM
+  network: tcp
+  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
   port: 443
-  server: 104.20.6.134
-  sni: www.calmloud.com
+  server: 185.126.236.44
+  sni: www.mesaly.click
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: 美国+加利福尼亚
+  network: tcp
+  password: nsKBtW4V7LPHG5.iSySU8_pNM88Gkxz7eE
   port: 443
-  server: 185.137.157.138
+  server: 64.176.74.241
   type: trojan
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
+- name: 美国+V2CROSS.COM
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  server: 172.64.147.24
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: '%2Fassignment'
-- name: 亚太地区+V2CROSS.COM
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.68
-  type: trojan
-- name: '亚太地区+V2CROSS.COM #1'
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.18
+  server: 149.104.104.58
+  sni: 149.104.104.58
   type: trojan
 - alterId: 2
   cipher: auto
