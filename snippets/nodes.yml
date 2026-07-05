@@ -1,14 +1,15 @@
 proxies:
-- name: 亚太地区+V2CROSS.COM
-  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
-  port: 443
-  server: 103.125.216.68
-  type: trojan
 - name: 罗马尼亚+V2CROSS.COM
-  network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.142
+  server: 185.137.157.128
+  type: trojan
+- name: 美国+华盛顿Cogent通信公司
+  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+  port: 443
+  server: 38.60.202.163
+  skip-cert-verify: false
+  sni: 38.60.202.163
   type: trojan
 - alterId: 2
   cipher: auto
