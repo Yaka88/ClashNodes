@@ -1,15 +1,14 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 美国+华盛顿Cogent通信公司
+  password: hCunaKqdEJDBO+3jCrJUSMevXOw9Q_r4Ey
   port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
+  server: 38.60.136.156
   type: trojan
-- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
-  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+- name: '美国+华盛顿Cogent通信公司 #1'
+  password: NAdtbpuyJXPH=CfKmdBqD2YVbzdvwAtuxw
   port: 443
-  server: 130.94.94.15
-  sni: 130.94.94.15
+  server: 38.60.252.118
+  sni: 38.60.252.118
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
