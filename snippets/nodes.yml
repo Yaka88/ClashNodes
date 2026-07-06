@@ -1,15 +1,26 @@
 proxies:
-- name: 罗马尼亚+V2CROSS.COM
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+- name: 亚太地区+V2CROSS.COM
+  password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
   port: 443
-  server: 185.137.157.128
+  server: 103.125.216.18
   type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+- name: 香港+电讯盈科有限公司
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  type: trojan
+- name: 美国+V2CROSS.COM
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  server: 38.60.202.163
-  skip-cert-verify: false
-  sni: 38.60.202.163
+  server: 149.104.104.58
+  sni: 149.104.104.58
+  type: trojan
+- name: 美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司
+  password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
+  port: 443
+  server: 130.94.94.15
+  sni: 130.94.94.15
   type: trojan
 - alterId: 2
   cipher: auto
@@ -25,7 +36,7 @@ proxies:
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 2008
-  server: 18.162.58.236
+  server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -33,7 +44,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 11035
-  server: 16.163.150.200
+  server: 16.162.109.204
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -41,15 +52,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 29449
-  server: 16.162.150.200
+  server: 16.162.143.22
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27826
-  server: 3.112.52.247
+  port: 47656
+  server: 95.40.61.197
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -88,8 +99,8 @@ proxies:
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 16.163.150.200
+  port: 51396
+  server: 16.162.34.133
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -113,7 +124,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 44265
-  server: 95.40.58.154
+  server: 18.163.116.155
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
