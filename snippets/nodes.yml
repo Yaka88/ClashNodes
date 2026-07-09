@@ -1,49 +1,45 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
+- name: 美国+德克萨斯州达拉斯Choopa数据中心
   network: tcp
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF
   port: 443
-  server: 38.54.64.247
-  skip-cert-verify: true
-  sni: 38.54.64.247
+  server: 45.32.195.168
+  sni: 45.32.195.168
   type: trojan
-- name: 美国+CloudFlare节点
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.71.213
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.202.211.1
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.calmloud.com
+  server: 104.16.174.46
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: /assignment
-- name: '美国+V2CROSS.COM #2'
-  password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF
+- name: 罗马尼亚+V2CROSS.COM
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 149.28.241.235
+  server: 185.137.157.149
   skip-cert-verify: false
-  sni: 149.28.241.235
   type: trojan
+- name: 美国+V2CROSS.COM
+  password: NX7LOtiM.=RdQTq..yxi-dm6OcQrkgE5rg
+  port: 443
+  server: 149.104.87.141
+  sni: ''
+  type: trojan
+- name: '美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.2
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
