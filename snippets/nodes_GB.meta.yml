@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+社会保险安全部
+  network: tcp
+  port: 55025
+  reality-opts:
+    public-key: w-7OnHTgZcqOMrpIADIVnpAcbyColg9Y9w3BYpFeTg8
+    short-id: '!!str 06e557c2cc84390f'
+  server: 51.195.235.8
+  servername: www.googletagmanager.com
+  tls: false
+  type: vless
+  uuid: be20f85a-bc04-45f8-b6cf-b8abc5f746ce
 - alpn:
   - ''
   name: GB_speednode_0005
