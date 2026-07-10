@@ -1,12 +1,1 @@
-proxies:
-- name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 200
-  server: d.socialxxmedia.com
-  tls: false
-  type: vless
-  uuid: 6bc19aa1-d94b-488c-9b25-47214d371851
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: '%2F'
+proxies: []

@@ -1,9 +1,4 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
-  port: 443
-  server: 38.60.168.129
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528

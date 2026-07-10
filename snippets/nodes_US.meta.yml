@@ -1,15 +1,11 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
-  port: 443
-  server: 38.60.168.129
-  type: trojan
-- name: 美国+CloudFlare节点
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.21.227.134
+  server: cloudflare-ip.mofashi.ltd
   servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
@@ -17,18 +13,6 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  name: 美国+新泽西州(Merck公司)
-  network: tcp
-  port: 53411
-  reality-opts:
-    public-key: h2Hufqll77kjQHlxpCkvzZFqH4nr_P7A0EHW4QtJ7WA
-    short-id: '!!str 0b140b79a1dceaad'
-  server: 54.37.5.124
-  servername: icloud.com
-  tls: false
-  type: vless
-  uuid: aec17618-49c5-4bda-8f55-db9f430f7ca0
 - name: 美国|@ripaojiedian
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
