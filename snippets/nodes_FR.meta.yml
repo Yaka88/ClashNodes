@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  name: 法国+国际航空电讯集团公司(SITA)
+  network: tcp
+  port: 13238
+  reality-opts:
+    public-key: G4M0-8v7Vt2JyYGVZGW2CmsMwh3ABA_pZ272Nc5OMkA
+    short-id: '!!str 57b1396d1a6bbe9c'
+  server: 57.131.19.38
+  servername: play.google.com
+  tls: false
+  type: vless
+  uuid: 8a73c043-1896-4c1e-a5b6-e11e112e60ca
