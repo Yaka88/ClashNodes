@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 8090
+  server: 109.107.173.97
+  tls: false
+  type: vless
+  uuid: ef14c532-b69a-4f46-ae29-272f2fdaf673
+  ws-opts:
+    headers:
+      Host: rukr.speedload.ru
+    path: /ws
