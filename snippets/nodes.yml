@@ -4,35 +4,20 @@ proxies:
   port: 443
   server: 185.137.157.145
   type: trojan
-- name: 奥地利+V2CROSS.COM
-  network: ws
-  password: humanity
+- name: 美国+V2CROSS.COM
+  network: tcp
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  server: 212.183.88.136
-  sni: www.calmlunch.com
+  server: 149.104.104.58
+  sni: 149.104.104.58
   type: trojan
-  ws-opts:
-    path: /assignment
-- name: '美国+V2CROSS.COM #2'
-  password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF
+- name: '罗马尼亚+V2CROSS.COM #2'
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 149.28.241.235
-  sni: 149.28.241.235
+  server: 185.137.157.142
+  skip-cert-verify: false
   type: trojan
-- name: 美国+华盛顿Cogent通信公司
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
-  port: 443
-  server: 38.60.168.129
-  type: trojan
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
