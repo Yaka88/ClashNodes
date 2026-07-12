@@ -1,28 +1,51 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: true
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: '美国+V2CROSS.COM #2'
-  password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
+  network: ws
+  password: humanity
   port: 443
-  server: 149.28.241.235
-  sni: 149.28.241.235
+  server: 199.181.197.169
+  sni: www.calmloud.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
 - name: 罗马尼亚+V2CROSS.COM
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.142
+  server: 185.137.157.149
   type: trojan
-- name: '罗马尼亚+V2CROSS.COM #2'
+- name: 西班牙+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
+- name: '罗马尼亚+V2CROSS.COM #1'
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.156
+  server: 185.137.157.135
   type: trojan
+- name: 美国+CloudFlare
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.17.189
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
