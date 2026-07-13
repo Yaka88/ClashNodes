@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 英国+V2CROSS.COM
-  network: grpc
-  port: 56625
-  reality-opts:
-    public-key: sVtMU2ZA5W6TLnBCZdgfXqDnOwWePrGVjSNnueDlYmM
-    short-id: '!!str 2716d84d89b5eadc'
-  server: 167.172.35.27
-  servername: icloud.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: d7955f3f-dfa3-45a0-a3ef-9693df439a0f
 - alpn:
   - ''
   name: GB_speednode_0005
