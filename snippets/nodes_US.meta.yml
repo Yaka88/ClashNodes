@@ -1,5 +1,30 @@
 proxies:
-- name: 北美地区+V2CROSS.COM
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: nexusmods.com
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 8880
+  server: www.gov.ua
+  tls: false
+  type: vless
+  uuid: 30a88c40-581e-4952-aa4c-8af95686ede0
+  ws-opts:
+    headers:
+      Host: rapid-lab-95ef.173-74c.workers.dev
+    path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net'
+- name: 美国+V2CROSS.COM
   network: tcp
   port: 8882
   server: gr1.fifapes.monster
@@ -8,50 +33,72 @@ proxies:
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055
   ws-opts:
     headers:
-      Host: '%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI'
+      Host: gr1.fifapes.monster
     path: '%2F'
-- name: 美国+CloudFlare节点
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
-  sni: www.calmloud.com
+  server: 172.64.155.209
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.44.211
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
     path: /assignment
-- name: '美国+CloudFlare节点 #1'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8880
+  server: anydesk.com
+  tls: false
+  type: vless
+  uuid: 2e3431ac-0b98-4471-9822-6b7ae94a9a11
+  ws-opts:
+    headers:
+      Host: polished-hall-7427.463-5d2.workers.dev
+    path: '%2Fpyip%3DProxyIP.SG.CMLiussss.net'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   port: 443
-  server: cdn.9889888.xyz
+  server: 162.159.34.23
   servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-    path: /
+    path: '%2F'
 - name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
-  server: 18.162.115.77
+  server: 54.46.117.9
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 18.163.192.100
+  port: 17005
+  server: 18.163.110.193
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 34638
-  server: 95.40.54.118
+  server: 54.46.67.204
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
