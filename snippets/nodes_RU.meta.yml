@@ -1,8 +1,14 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
   network: tcp
-  port: 2090
-  server: fn.fifapes.monster
+  port: 443
+  reality-opts:
+    public-key: aFJd-2v7u8SUz5w95zS46_LpnMPievSZkGobHwx4JSI
+    short-id: '!!str 589b1c3ca18d6a16'
+  server: lva2.unlimitedteam.space
+  servername: lva2.unlimitedteam.space
   tls: false
   type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  uuid: 6fa1b8eb-56f4-4f41-97dc-e0185bcfc575

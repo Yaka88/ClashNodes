@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nfkwd9xJCoNuWrvvieBB9VfpcDldsARAdFPL0dF5A1Q
+    short-id: '!!str 305570274c0c72cc'
+  server: pl.hagrid-connected.com
+  servername: pl.hagrid-connected.com
+  tls: false
+  type: vless
+  uuid: 7499f0a0-3670-4cf6-a31c-ad4cd943cf18
 - alpn:
   - ''
   name: GB_speednode_0005
