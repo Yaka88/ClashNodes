@@ -1,68 +1,43 @@
 proxies:
-- name: 美国+CloudFlare节点
+- name: 美国+V2CROSS.COM
   network: ws
-  password: humanity
   port: 443
-  server: 104.20.6.134
-  sni: www.multiplydose.com
-  type: trojan
+  server: 167.82.77.173
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
   ws-opts:
-    path: '%2F%2Fassignment'
-- alpn:
-  - h3
-  name: 美国+V2CROSS.COM
-  password: hy2_zxlA_gZ5N1KzZlsyBKW-3sfR
-  port: 55020
-  server: 147.224.251.52
-  skip-cert-verify: true
-  sni: 129.146.243.146.sslip.io
-  tls: false
-  type: hysteria2
+    headers:
+      Host: pan21.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
+  name: 美国+CloudFlare
+  network: ws
+  port: 443
+  server: 162.159.16.154
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
+- name: '美国+V2CROSS.COM #1'
   network: tcp
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: '!!str ff776ff77be48b88'
-  server: pol2.helper-internet.com
-  servername: pol2.helper-internet.com
-  tls: false
-  type: vless
-  uuid: 59da5351-5151-417d-b2f7-6923848b717e
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: ldgb.pages.dev
-  servername: ldgb.pages.dev
+  server: 149.104.104.58
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: ldgb.pages.dev
-    path: /
+  sni: 149.104.104.58
+  type: trojan
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
+  name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: nexusmods.com
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 172.64.153.159
+  server: 162.159.8.123
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -72,24 +47,12 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 2083
-  server: 172.66.47.45
-  servername: wk1.f1w.de5.net
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: wk1.f1w.de5.net
-    path: '%2F'
-- name: '美国+V2CROSS.COM #2'
-  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
+- name: 美国加利福尼亚州硅谷+腾讯云
+  password: Hy2@SiLiCon2026!
   port: 8443
-  server: 209.74.81.28
+  server: 43.130.7.3
   skip-cert-verify: true
-  sni: 209.74.81.28
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: 美国|@ripaojiedian
