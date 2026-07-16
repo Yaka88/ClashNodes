@@ -1,17 +1,11 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
+- name: 俄罗斯+V2CROSS.COM
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug
-    short-id: '!!str 5e3ab3ab228625'
-  server: 185.209.15.133
-  servername: conetnet-vioooe-video.ru
+  port: 2090
+  server: fn.fifapes.monster
   tls: false
   type: vless
-  uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '俄罗斯+V2CROSS.COM #1'
