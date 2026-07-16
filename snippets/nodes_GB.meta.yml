@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+社会保险安全部
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KYNrRy0ElOU9Hg5tmWRwpf-Ff3R8Gjcjdk91jZt2nGg
+    short-id: '!!str bb6c8a1e7c'
+  server: 51.250.25.216
+  servername: cdn.tracker.yandex.net
+  tls: false
+  type: vless
+  uuid: 4392b776-41a2-4300-b545-a3d2724b605b
 - alpn:
   - ''
   name: GB_speednode_0005

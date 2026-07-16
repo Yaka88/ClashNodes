@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 德国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UTUTpaQVSpFwLyhMsKUiaVer4Bxgy1QFGY9lEK6t7AY
+  server: 89.106.86.87
+  servername: ads.cardds.store
+  tls: false
+  type: vless
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
