@@ -1,14 +1,7 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 2090
-  server: fn.fifapes.monster
-  tls: false
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
+  name: 俄罗斯+V2CROSS.COM
   network: tcp
   port: 59978
   reality-opts:
