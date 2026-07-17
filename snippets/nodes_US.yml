@@ -1,38 +1,58 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 加利福尼亚州洛杉矶IT7网络
-  network: tcp
-  port: '18339'
-  server: c87s5.portablesubmarines.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
-- name: 美国+华盛顿Cogent通信公司
-  password: Lw_DP4+W.J5K33MD2Jy5zQVuT5n71+=BcD
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
   port: 443
-  server: 38.60.168.129
+  server: 104.16.72.2
+  skip-cert-verify: false
+  sni: www.calmlunch.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.6.159
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.131.88
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 18.167.68.98
+  port: 17005
+  server: 18.166.55.241
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 16.163.103.15
+  port: 17005
+  server: 43.198.71.42
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 95.40.42.248
+  port: 35966
+  server: 18.163.5.109
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
