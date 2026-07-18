@@ -1,12 +1,1 @@
-proxies:
-- name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 21855
-  server: 95.182.90.97
-  tls: false
-  type: vless
-  uuid: 3d466ccc-1585-439d-aa28-5a82d626576a
-  ws-opts:
-    headers:
-      Host: genshin.hoyoverse.com
-    path: /
+proxies: []
