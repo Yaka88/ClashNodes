@@ -1,14 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: '!!str 17faf32cb516c9cb'
-  server: cz.srv.anti-zapret.com
-  servername: cz.srv.anti-zapret.com
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 21855
+  server: 95.182.90.97
   tls: false
   type: vless
-  uuid: 13b55e8e-fbea-4ee1-b6b7-115fa3043182
+  uuid: 3d466ccc-1585-439d-aa28-5a82d626576a
+  ws-opts:
+    headers:
+      Host: genshin.hoyoverse.com
+    path: /
