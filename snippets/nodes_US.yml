@@ -1,15 +1,11 @@
 proxies:
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
+- name: '美国+V2CROSS.COM #2'
+  network: tcp
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
   port: 443
-  server: 104.17.131.88
-  sni: www.gossipglove.com
+  server: 149.104.104.58
+  sni: 149.104.104.58
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
