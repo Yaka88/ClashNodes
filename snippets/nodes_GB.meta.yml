@@ -1,14 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '2078'
-  server: 93.180.134.52
-  servername: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: yLDI5Qjzn4AHlXVDEXNVcLKAdr_dFeJ3p4eAScGkQjA
+    short-id: '!!str 0b0aa9caed9d011e'
+  server: 31.77.201.85
+  servername: ag-03.rita-cloud.com
   tls: false
-  type: vmess
-  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
+  type: vless
+  uuid: 16ad976d-b5df-4b4e-87b6-87cc64ac0a8b
 - alpn:
   - ''
   name: GB_speednode_0005
