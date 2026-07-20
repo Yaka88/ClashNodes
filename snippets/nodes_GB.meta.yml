@@ -1,20 +1,14 @@
 proxies:
-- name: 英国+V2CROSS.COM
-  password: PD07395842
-  port: 443
-  server: pro-crane.rooster465.autos
-  sni: pro-crane.rooster465.autos
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 英国 V2CROSS.COM
   network: tcp
-  port: '180'
-  server: 82.198.246.37
+  port: '2078'
+  server: 93.180.134.52
   servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
 - alpn:
   - ''
   name: GB_speednode_0005
