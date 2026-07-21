@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 80
+  server: 91.193.58.166
+  tls: false
+  type: vless
+  uuid: d566d849-ab28-4695-b01f-dcd284b67f5c
+  ws-opts:
+    headers:
+      Host: dry-frog-8793.454-dc4.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2

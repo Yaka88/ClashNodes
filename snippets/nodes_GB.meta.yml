@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: yLDI5Qjzn4AHlXVDEXNVcLKAdr_dFeJ3p4eAScGkQjA
-    short-id: '!!str 0b0aa9caed9d011e'
-  server: 31.77.201.85
-  servername: ag-03.rita-cloud.com
-  tls: false
-  type: vless
-  uuid: 16ad976d-b5df-4b4e-87b6-87cc64ac0a8b
 - alpn:
   - ''
   name: GB_speednode_0005

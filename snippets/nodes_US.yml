@@ -1,22 +1,4 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: ''
-  type: trojan
-- name: '美国+CloudFlare节点 #1'
-  network: xhttp
-  password: VPNCUSTOMIZE
-  port: 443
-  server: 162.159.38.183
-  skip-cert-verify: false
-  sni: ww.offers.de5.net
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bvck-oizksj-swin-usje-c-o.offers.de5.net
-    path: /config
 - name: 美国+华盛顿Cogent通信公司
   password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
@@ -27,21 +9,21 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
-  server: 18.166.58.27
+  server: 95.40.51.248
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 18.162.155.166
+  port: 17005
+  server: 18.167.109.142
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11993
-  server: 43.199.148.22
+  server: 18.166.225.126
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
