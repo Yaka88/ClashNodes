@@ -1,29 +1,18 @@
 proxies:
-- name: 美国+华盛顿Cogent通信公司
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
-  port: 443
-  server: 38.54.64.247
-  sni: ''
-  type: trojan
-- name: 荷兰+V2CROSS.COM
+- alterId: 0
+  cipher: auto
+  name: 山西省太原市 联通
   network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
+  port: '443'
+  server: 221.204.41.88
+  servername: speeches-obligations-view-epinions.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
   ws-opts:
     headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: '%2Fin-pdr'
-- name: '美国+V2CROSS.COM #2'
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
+      Host: speeches-obligations-view-epinions.trycloudflare.com
+    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
