@@ -1,4 +1,12 @@
 proxies:
+- name: 日本+V2CROSS.COM
+  network: ws
+  password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
+  port: 443
+  server: rem.dtr.kotokopolb.ru
+  type: trojan
+  ws-opts:
+    path: '%2Ftrojan-ws'
 - name: 荷兰+V2CROSS.COM
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
@@ -7,21 +15,7 @@ proxies:
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
-    path: '%2Fin-pdr'
-- alterId: 0
-  cipher: auto
-  name: 山西省太原市 联通
-  network: ws
-  port: '443'
-  server: 221.204.41.88
-  servername: speeches-obligations-view-epinions.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
-  ws-opts:
-    headers:
-      Host: speeches-obligations-view-epinions.trycloudflare.com
-    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
+    path: /in-pdr
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

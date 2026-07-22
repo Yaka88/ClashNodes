@@ -1,4 +1,12 @@
 proxies:
+- name: 日本+V2CROSS.COM
+  network: ws
+  password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
+  port: 443
+  server: rem.dtr.kotokopolb.ru
+  type: trojan
+  ws-opts:
+    path: '%2Ftrojan-ws'
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe

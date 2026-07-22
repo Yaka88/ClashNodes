@@ -1,8 +1,11 @@
-trojan://c206d543-023d-46cc-9d5a-1f0f2fc16323@188.164.248.122:443?sni=space.byu.id.yxls.eu.cc&type=ws&path=%2Fin-pdr#%E8%8D%B7%E5%85%B0%2BV2CROSS.COM
-vmess://eyJ2IjogIjIiLCAicHMiOiAi5bGx6KW/55yB5aSq5Y6f5biCIOiBlOmAmiIsICJhZGQiOiAiMjIxLjIwNC40MS44OCIsICJwb3J0IjogIjQ0MyIsICJhaWQiOiAwLCAic2N5IjogImF1dG8iLCAibmV0IjogIndzIiwgInR5cGUiOiAibm9uZSIsICJ0bHMiOiAidGxzIiwgImlkIjogIjFjNTAzYmViLTQ1ODktNDA5Yi1iZGRmLTUxOTA5MjVmNzJmMCIsICJzbmkiOiAic3BlZWNoZXMtb2JsaWdhdGlvbnMtdmlldy1lcGluaW9ucy50cnljbG91ZGZsYXJlLmNvbSIsICJob3N0IjogInNwZWVjaGVzLW9ibGlnYXRpb25zLXZpZXctZXBpbmlvbnMudHJ5Y2xvdWRmbGFyZS5jb20iLCAicGF0aCI6ICIxYzUwM2JlYi00NTg5LTQwOWItYmRkZi01MTkwOTI1ZjcyZjAtdm0ifQ==
-vless://eeb6823c-b926-4ea2-866a-5542edd26e59@104.21.227.134:443?allowInsecure=1&sni=t1s1.rittbo.kdns.fr&security=tls&type=ws&host=t1s1.rittbo.kdns.fr&path=/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9
-vless://8c8d8180-a2c5-4478-a86e-4117f841e88e@31.192.244.42:12683?#%E8%8B%B1%E5%9B%BD%2BV2CROSS.COM
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?#%E7%BE%8E%E5%9B%BD%2BV2CROSS.COM
+vless://767b6340-96dc-4aa0-8013-a8af7513d920@172.67.75.194:8443?allowInsecure=0&sni=c7dabe95.proxy-978.pages.dev&fp=chrome&security=tls&type=ws&host=c7dabe95.proxy-978.pages.dev&path=/#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9
+trojan://p2QFnWdKPZt0evve7n-C52fTqRndJa5W@rem.dtr.kotokopolb.ru:443?type=ws&path=%2Ftrojan-ws#%E6%97%A5%E6%9C%AC%2BV2CROSS.COM
+trojan://c206d543-023d-46cc-9d5a-1f0f2fc16323@188.164.248.122:443?sni=space.byu.id.yxls.eu.cc&type=ws&path=/in-pdr#%E8%8D%B7%E5%85%B0%2BV2CROSS.COM
+vless://e081da45-9fae-4687-9376-f9a6a0dbbe83@e33xr.qzz.io:80?type=ws#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9%20%231
+vless://7b102311-43fd-4e8f-877e-8090623c101d@60.205.5.16:443?sni=vp58.cc.cd&fp=chrome&security=tls&type=ws&host=vp58.cc.cd&path=/Telegram🇨🇳 @VPNine1#%E5%8C%97%E4%BA%AC%E5%B8%82%2B%E9%98%BF%E9%87%8C%E4%BA%91BGP%E6%9C%8D%E5%8A%A1%E5%99%A8
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?#%E4%BF%84%E7%BD%97%E6%96%AF%2BV2CROSS.COM
+vless://f15a5586-23f6-453f-97f5-c301b949e699@deepl.com:8880?type=ws&host=mute-sunset-0849.40-aeb.workers.dev&path=/pyip=ProxyIP.KR.CMLiussss.net#%E7%BE%8E%E5%9B%BD%2BCloudFlare%E8%8A%82%E7%82%B9%20%232
+vless://1136f25a-4925-4ba6-9620-771dd9553f92@195.58.49.41:59978?sni=ymail.com&flow=xtls-rprx-vision&fp=qq&security=reality&pbk=zU3_YlbtgNxg4_mPQzmz3aBCET3vUNbBMYrEztVFs0Q&sid=c3a0d1#%E4%BF%84%E7%BD%97%E6%96%AF%2BV2CROSS.COM%20%231
 vmess://eyJ2IjogIjIiLCAicHMiOiAi6aaZ5rivfEByaXBhb2ppZWRpYW4iLCAiYWRkIjogInYxMC5oZGFjZC5jb20iLCAicG9ydCI6ICIzMDgwNyIsICJhaWQiOiAyLCAic2N5IjogImF1dG8iLCAibmV0IjogInRjcCIsICJ0eXBlIjogIm5vbmUiLCAidGxzIjogIiIsICJpZCI6ICJjYmIzZjg3Ny1kMWZiLTM0NGMtODdhOS1kMTUzYmZmZDU0ODQiLCAic25pIjogIiJ9
 trojan://b490740312aedb5f9f6b84c7aebd08c0@43.198.78.177:47867?sni=www.nintendogames.net#%E9%A6%99%E6%B8%AF3%7C%40ripaojiedian
 trojan://BxceQaOe@43.198.11.229:27161?allowInsecure=1&sni=t.me%2Fripaojiedian#%E9%A6%99%E6%B8%AF4%7C%40ripaojiedian
