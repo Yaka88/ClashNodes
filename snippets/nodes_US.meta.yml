@@ -1,27 +1,4 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: 104.26.5.60
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 8880
-  server: deepl.com
-  tls: false
-  type: vless
-  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
-  ws-opts:
-    headers:
-      Host: super-feather-91c4.267.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
 - name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
