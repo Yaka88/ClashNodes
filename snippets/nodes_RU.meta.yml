@@ -1,8 +1,8 @@
 proxies:
 - name: 俄罗斯+V2CROSS.COM
   network: tcp
-  password: KV63147582
-  port: 443
-  server: electric-sturgeon.rooster465.autos
-  sni: electric-sturgeon.rooster465.autos
-  type: trojan
+  port: 2090
+  server: fn.fifapes.monster
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
