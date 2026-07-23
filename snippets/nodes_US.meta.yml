@@ -1,15 +1,26 @@
 proxies:
-- name: 美国+俄勒冈州波特兰Amazon数据中心
-  password: OD90375861
-  port: 443
-  server: 54.184.22.123
-  sni: nearby-muskrat.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 2086
+  server: 172.64.144.52
+  tls: false
+  type: vless
+  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
+  ws-opts:
+    headers:
+      Host: od1kl638.xn--nxa.nyc.mn
+    path: /sub
+- name: 美国+宾利大学
+  network: tcp
+  port: 20342
+  server: 141.133.172.222
+  tls: false
+  type: vless
+  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
+- name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: yx.cloudflare.182682.xyz
+  server: 104.21.227.134
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -19,19 +30,6 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: '美国+俄勒冈州波特兰Amazon数据中心 #1'
-  network: raw
-  password: OD90375861
-  port: 443
-  server: nearby-muskrat.rooster465.autos
-  sni: nearby-muskrat.rooster465.autos
-  type: trojan
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0

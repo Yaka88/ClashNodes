@@ -1,1 +1,25 @@
-proxies: []
+proxies:
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 58500
+  server: 176.124.221.208
+  tls: false
+  type: vless
+  uuid: 3b2e0eab-f47f-45b0-87b2-71de9feef5c6
+  ws-opts:
+    headers:
+      Host: ''
+    path: /free
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
+    short-id: '!!str b7fc0f11dda97edb'
+  server: corelink.su
+  servername: corelink.su
+  tls: false
+  type: vless
+  uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
