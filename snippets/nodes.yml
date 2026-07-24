@@ -1,4 +1,10 @@
 proxies:
+- name: 美国+V2CROSS.COM
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  sni: 149.104.104.58
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
