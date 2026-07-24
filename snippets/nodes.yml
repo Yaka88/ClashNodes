@@ -1,19 +1,4 @@
 proxies:
-- name: 荷兰+V2CROSS.COM
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    path: '%2Fin-pdr'
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
