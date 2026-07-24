@@ -1,26 +1,22 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 2086
-  server: 172.64.144.52
-  tls: false
-  type: vless
-  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
-  ws-opts:
-    headers:
-      Host: od1kl638.xn--nxa.nyc.mn
-    path: /sub
-- name: 美国+宾利大学
-  network: tcp
-  port: 20342
-  server: 141.133.172.222
-  tls: false
-  type: vless
-  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
-- name: '美国+CloudFlare节点 #1'
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 104.21.227.134
+  server: www.shopify.com
+  servername: gddy.hhlfy.de5.net
+  tls: true
+  type: vless
+  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
+  ws-opts:
+    headers:
+      Host: gddy.hhlfy.de5.net
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: yx.cloudflare.182682.xyz
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -34,21 +30,21 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
-  server: 18.163.123.229
+  server: 95.40.110.103
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 16.162.122.228
+  port: 49277
+  server: 18.167.94.81
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 25651
-  server: 18.163.182.53
+  port: 35966
+  server: 18.163.28.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
