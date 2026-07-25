@@ -1,9 +1,8 @@
 proxies:
-- name: '德国+V2CROSS.COM #1'
+- name: 德国+V2CROSS.COM
   password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
   port: 443
   server: prodfr.h2corp.org
-  skip-cert-verify: false
   sni: prodfr.h2corp.org
   tls: false
   type: hysteria2

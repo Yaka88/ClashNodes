@@ -1,13 +1,13 @@
 proxies:
-- name: 北美地区+V2CROSS.COM
+- name: 荷兰+V2CROSS.COM
   network: ws
-  password: humanity
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
-  server: 198.62.62.23
-  sni: www.calmlunch.com
+  server: 188.164.248.122
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    path: '%2Fin-pdr'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
