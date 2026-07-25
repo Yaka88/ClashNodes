@@ -1,35 +1,10 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  password: NQ26071394
-  port: 443
-  server: 79.133.126.190
-  sni: renewed-phoenix.rooster465.autos
-  type: trojan
-- name: 罗马尼亚+V2CROSS.COM
-  password: NQ26071394
-  port: 443
-  server: thorough-falcon.rooster465.autos
-  sni: thorough-falcon.rooster465.autos
-  type: trojan
-- name: '俄罗斯+V2CROSS.COM #1'
-  password: NQ26071394
-  port: 443
-  server: renewed-phoenix.rooster465.autos
-  sni: renewed-phoenix.rooster465.autos
-  type: trojan
-- name: '美国+V2CROSS.COM #1'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
-- name: 巴西圣保罗+CloudFlare节点
+- name: 北美地区+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
-  server: 188.114.98.0
-  sni: www.creationlong.org
+  server: 198.62.62.23
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
