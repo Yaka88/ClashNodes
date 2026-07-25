@@ -1,13 +1,4 @@
 proxies:
-- name: 荷兰+V2CROSS.COM
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    path: '%2Fin-pdr'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -110,66 +101,15 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: AE_speednode_0001
+  name: NL_speednode_0015
   network: ws
-  password: MITIVPN
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
-  server: 94.140.0.100
+  server: 188.164.248.122
   skip-cert-verify: false
   sni: ''
   type: trojan
   ws-opts:
     headers:
-      Host: 95r.ir
-    path: '%2FMiTiVPN%3DUsa'
-- alpn:
-  - ''
-  name: GB_speednode_0005
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 164.38.155.135
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: '%2FMiTiVPN%3DDe'
-- alpn:
-  - ''
-  name: NL_speednode_0016
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 45.131.4.118
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: '%2FMiTiVPN%3DSe'
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0054
-  network: tcp
-  port: 13932
-  server: 104.253.134.92
-  tls: false
-  type: vmess
-  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
-- alpn:
-  - ''
-  name: US_speednode_0063
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: iranpoems.ir
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gamingdll.ir
-    path: '%2Fusa%3Dmitivpn'
+      Host: space.byu.id.yxls.eu.cc
+    path: '%2Fin-pdr'
