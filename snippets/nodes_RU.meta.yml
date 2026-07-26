@@ -1,5 +1,24 @@
 proxies:
 - alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  server: s299.freessr.bid
+  servername: u695099u36cf43b9s298.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 36cf43b9s298.wagahaha.xyz
+    path: ''
+- alpn:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
