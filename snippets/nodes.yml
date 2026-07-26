@@ -1,11 +1,37 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+- name: 美国+CloudFlare节点
+  network: xhttp
+  password: VPNCUSTOMIZE
   port: 443
-  server: 149.104.104.58
+  server: 104.18.16.56
   skip-cert-verify: false
-  sni: 149.104.104.58
+  sni: ww.gameserver.de5.net
   type: trojan
+  ws-opts:
+    headers:
+      Host: bvck-oizksj-swin-usje-c-o.gameserver.de5.net
+    path: /config
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 荷兰+V2CROSS.COM
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: '%2Fin-pdr'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
