@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 4334
+  reality-opts:
+    public-key: lIf6IZJ0xInP5l9FFUJRR0gmqkQNWCpXB-inaVhAXTQ
+    short-id: '!!str 1c'
+  server: 31.15.16.220
+  servername: intel.com
+  tls: false
+  type: vless
+  uuid: c737cf33-0af6-4ce3-9446-b2425d222be5
+- name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 8882
+  server: gr1.fifapes.monster
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: gr1.fifapes.monster
+    path: '%2F'
