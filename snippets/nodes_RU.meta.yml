@@ -11,14 +11,19 @@ proxies:
   tls: false
   type: vless
   uuid: c737cf33-0af6-4ce3-9446-b2425d222be5
-- name: '俄罗斯+V2CROSS.COM #1'
+- alpn:
+  - ''
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: RU_speednode_0067
   network: tcp
-  port: 8882
-  server: gr1.fifapes.monster
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+    short-id: '!!str '
+  server: ruded1.onlinestreamself.com
+  servername: apple.com
+  skip-cert-verify: true
   tls: false
   type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  ws-opts:
-    headers:
-      Host: gr1.fifapes.monster
-    path: '%2F'
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16

@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: GB_speednode_0003
+  network: tcp
+  port: 8882
+  server: gr1.fifapes.monster
+  servername: gr1.fifapes.monster
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
