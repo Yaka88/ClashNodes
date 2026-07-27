@@ -1,17 +1,12 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: GB_speednode_0003
+- name: 英国+V2CROSS.COM
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  skip-cert-verify: false
+  port: 6985
+  server: 178.104.225.122
   tls: false
   type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  uuid: e044297a-304f-40a9-a9fb-d17b744fa781
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: '%2F'
