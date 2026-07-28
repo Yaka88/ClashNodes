@@ -1,4 +1,11 @@
 proxies:
+- name: 香港+Simcentric网络公司
+  network: tcp
+  port: 10000
+  server: 180.178.60.252
+  tls: false
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -32,3 +39,35 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HK_speednode_0003
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.48
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HK_speednode_0004
+  network: tcp
+  port: 40118
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: '!!str 5895914d'
+  server: 43.255.156.59
+  servername: www.lamer.com.sg
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
