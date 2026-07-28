@@ -3,7 +3,7 @@ proxies:
   - ''
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: KR_speednode_0005
+  name: KR_speednode_0011
   network: tcp
   port: 443
   reality-opts:
@@ -11,15 +11,15 @@ proxies:
     short-id: '!!str c76ba2c2fb172e8b'
   server: 154.193.55.183
   servername: storage.yandex.net
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vless
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
 - alpn:
   - ''
-  client-fingerprint: firefox
+  client-fingerprint: random
   flow: xtls-rprx-vision
-  name: KR_speednode_0006
+  name: KR_speednode_0012
   network: tcp
   port: 443
   reality-opts:
