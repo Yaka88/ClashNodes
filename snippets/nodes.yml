@@ -1,25 +1,27 @@
 proxies:
-- name: 法国+V2CROSS.COM
-  network: ws
-  password: humanity
+- name: 巴西圣保罗+CloudFlare节点
+  network: xhttp
+  password: VPNCUSTOMIZE
   port: 443
-  server: 81.255.155.10
-  sni: www.creationlong.org
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: ww.offers.de5.net
   type: trojan
   ws-opts:
     headers:
-      Host: www.creationlong.org
-    path: '%2Fassignment'
-- name: 西班牙+V2CROSS.COM
+      Host: bvck-oizksj-swin-usje-c-o.offers.de5.net
+    path: /config
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 185.18.250.252
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

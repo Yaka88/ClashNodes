@@ -1,15 +1,33 @@
 proxies:
 - name: 法国+V2CROSS.COM
   network: ws
-  password: humanity
   port: 443
-  server: 81.255.155.10
-  sni: www.creationlong.org
-  type: trojan
+  server: 141.11.202.29
+  servername: octopusss.net
+  tls: true
+  type: vless
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
   ws-opts:
     headers:
-      Host: www.creationlong.org
-    path: '%2Fassignment'
+      Host: octopusss.net
+    path: '%2Fodiyfws'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: DE_speednode_0010
+  network: ws
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: '%2F'
 - alpn:
   - ''
   client-fingerprint: ''
