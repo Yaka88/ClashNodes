@@ -1,19 +1,4 @@
 proxies:
-- name: 英国+Technicolor+SA
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: hkdcrtc-e.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

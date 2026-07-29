@@ -1,13 +1,4 @@
 proxies:
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    path: /assignment
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
