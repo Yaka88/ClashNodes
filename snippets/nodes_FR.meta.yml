@@ -1,29 +1,40 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: FR_speednode_0008
+- name: 法国+V2CROSS.COM
   network: ws
-  port: 2053
-  server: 152.228.134.105
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  password: humanity
+  port: 443
+  server: 81.255.155.10
+  sni: www.creationlong.org
+  type: trojan
   ws-opts:
     headers:
-      Host: forfreeuse.sub-flow.online
+      Host: www.creationlong.org
+    path: '%2Fassignment'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0012
+  network: ws
+  port: 80
+  server: 199.232.170.246
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
     path: '%2F'
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: FR_speednode_0009
+  name: FR_speednode_0013
   network: ws
   port: 80
-  server: 199.232.170.177
+  server: 199.232.170.4
   servername: BankMelat.glObal.ssl.faStly.nEt
   skip-cert-verify: true
   tls: false
@@ -33,3 +44,224 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0014
+  network: ws
+  port: 80
+  server: 199.232.170.51
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0015
+  network: ws
+  port: 80
+  server: 199.232.170.27
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0016
+  network: ws
+  port: 80
+  server: 199.232.170.57
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0017
+  network: ws
+  port: 80
+  server: 199.232.170.213
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0018
+  network: ws
+  port: 80
+  server: 199.232.170.56
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0019
+  network: ws
+  port: 80
+  server: 199.232.170.160
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0020
+  network: ws
+  port: 80
+  server: 199.232.170.222
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0021
+  network: ws
+  port: 80
+  server: 199.232.170.40
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0022
+  network: ws
+  port: 80
+  server: 199.232.170.183
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0023
+  network: ws
+  port: 80
+  server: 199.232.170.61
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: FR_speednode_0024
+  network: ws
+  port: 80
+  server: 199.232.170.106
+  servername: BankMelat.glObal.ssl.faStly.nEt
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt
+    path: '%2F'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: FR_speednode_0025
+  network: ws
+  port: 443
+  server: 57.128.183.79
+  servername: vp58.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: '%2FTelegramU0001F1E8U0001F1F3%20%40VPNine1'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: FR_speednode_0026
+  network: ws
+  port: 443
+  server: 103.102.228.113
+  servername: vp58.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: '%2FTelegramU0001F1E8U0001F1F3%20%40VPNine1'
