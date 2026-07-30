@@ -1,17 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: KR_speednode_0008
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: '!!str c76ba2c2fb172e8b'
-  server: 154.193.55.183
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+proxies: []

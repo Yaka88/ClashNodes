@@ -1,18 +1,1 @@
-proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: DE_speednode_0002
-  network: ws
-  port: 2053
-  server: 51.89.23.94
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: '%2F'
+proxies: []
