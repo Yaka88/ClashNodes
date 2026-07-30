@@ -1,14 +1,16 @@
 proxies:
 - name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 8882
-  server: gr1.fifapes.monster
-  tls: false
+  network: ws
+  port: 443
+  server: 94.198.221.86
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
-      Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+      Host: forfreeuse.sub-flow.online
     path: /
 - name: RU_speednode_0105
   obfs: ''
