@@ -1,88 +1,64 @@
 proxies:
 - name: 美国+CloudFlare节点
   network: ws
-  port: 2095
-  server: itarmy.com.ua
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  password: humanity
+  port: 443
+  server: 172.64.155.209
+  sni: www.gossipglove.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-    path: /fp=randomized
+    path: '%2Fassignment'
 - client-fingerprint: chrome
   name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: ldgb.pages.dev
-  servername: ldgb.pages.dev
+  server: 104.21.90.146
+  servername: node-dispatch-c8-2.e20260720.kdns.fr
   tls: true
   type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
   ws-opts:
-    path: /
+    headers:
+      Host: node-dispatch-c8-2.e20260720.kdns.fr
+    path: /Wvf67jc5MgASmsb9Qsr0
 - client-fingerprint: chrome
   name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 2083
-  server: 172.66.44.211
-  servername: wk1.f1w.de5.net
+  port: 443
+  server: 104.17.147.109
+  servername: octopusss.net
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
   ws-opts:
     headers:
-      Host: wk1.f1w.de5.net
-    path: /
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #3'
+      Host: octopusss.net
+    path: /odiyfws
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- client-fingerprint: random
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 104.17.144.235
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
-- name: 美国+V2CROSS.COM
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: true
-  sni: devideo.h2corp.org
-  tls: false
-  type: hysteria2
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 159.112.235.52
-  skip-cert-verify: false
+  server: 172.64.147.166
   sni: www.multiplydose.com
   type: trojan
   ws-opts:
-    path: /assignment
+    path: '%2Fassignment'
+- name: 美国+宾利大学
+  network: tcp
+  port: 20342
+  server: 141.133.172.222
+  tls: false
+  type: vless
+  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
+  ws-opts:
+    path: '%2F'
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #5'
+  name: '美国+CloudFlare节点 #4'
   network: ws
   port: 443
-  server: 108.162.198.5
+  server: 190.93.246.202
   servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
@@ -90,53 +66,24 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- name: '美国+CloudFlare节点 #6'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #5'
   network: ws
-  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
   port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  sni: _acme-challenge.sb.cloudns.biz
-  type: trojan
-  ws-opts:
-    path: '%2F'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 8880
-  server: cf3.466688.xyz
-  tls: false
+  server: 172.67.169.143
+  servername: infra-services-c8-2.21491204-f13b-4977-9cc9-5275edd68fd8.kdns.fr
+  tls: true
   type: vless
-  uuid: 50c91104-c1fc-471e-914f-3ad252a0a34c
+  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
   ws-opts:
     headers:
-      Host: quiet-snowflake-e1dd.374-ac3.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net@https://t.me/QiangLieTuiJian
-- name: '美国+CloudFlare节点 #8'
-  network: ws
-  port: 2095
-  server: blog.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.127.214
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
+      Host: infra-services-c8-2.21491204-f13b-4977-9cc9-5275edd68fd8.kdns.fr
+    path: /Wvf67jc5MgASmsb9Qsr0
+- alpn:
+  - ''
+  client-fingerprint: firefox
   flow: ''
-  name: '美国+V2CROSS.COM #3'
+  name: GB_speednode_0002
   network: tcp
   port: 443
   reality-opts:
@@ -144,33 +91,57 @@ proxies:
     short-id: '!!str 0b'
   server: 45.155.52.231
   servername: ru2.skydrgn-online.online
+  skip-cert-verify: true
   tls: false
   type: vless
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 2086
+  server: 172.67.133.44
+  tls: false
+  type: vless
+  uuid: af19ce98-b58b-43ef-9f0d-2ae6343e28fe
+  ws-opts:
+    headers:
+      Host: blue-disk-1124.sawmansafi.workers.dev
+    path: /eyJqdW5rIjoiQTdKUTVZeVVoQWpjamhqIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #4'
-  network: tcp
+  name: '美国+V2CROSS.COM #1'
+  network: raw
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
+  server: 152.53.236.22
   servername: www.cloudflare.com
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: '美国+CloudFlare节点 #9'
+- name: '美国+CloudFlare节点 #7'
   network: ws
-  port: 8880
-  server: www.iplocation.net
+  port: 2095
+  server: 172.64.146.153
   tls: false
   type: vless
-  uuid: 4bf6fee9-d3c4-4a98-b83b-170bf37c669c
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: cold-water-945c.43-bc5.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+      Host: fangbinxingnmsl.pusytroller.gq
+    path: /
+- name: 美国+麻省理工学院
+  network: ws
+  port: 80
+  server: 18.239.134.69
+  servername: 18.239.134.69
+  tls: false
+  type: vless
+  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
+  ws-opts:
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+    path: /
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -188,124 +159,17 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0114
-  network: ws
-  port: 80
-  server: 172.67.148.41
-  servername: telegram4.freepersianland8.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 8be64379-08a5-4362-b8cf-234a65409bda
-  ws-opts:
-    headers:
-      Host: telegram4.freepersianland8.workers.dev
-    path: '%2FeyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ%3D%3D%3Fed%3D2560'
-- alpn:
-  - ''
-  name: US_speednode_0115
-  network: tcp
-  password: BxceQaOe
-  port: 41421
-  server: 54.46.46.228
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0116
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  servername: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 06823dfb-4ced-425d-a905-3774ee9d5026
-  ws-opts:
-    headers:
-      Host: b22ntzajtafvkew6em2th68a6030-ogu.hirad228.workers.dev
-    path: '%2Fvl%2FSjBu4OsqQDFKOlfK2lI9TXXrPWfi'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0117
-  network: ws
-  port: 80
-  server: 50.62.90.4
-  servername: raspy-feather-12ec.137-257.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
-  ws-opts:
-    headers:
-      Host: raspy-feather-12ec.137-257.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0118
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: dNfk0sOCzOlmE61B7ur7YzU2i08RqXIBcGVBA2Ne1Ck
-    short-id: '!!str 7548bc'
-  server: v-de-node-03.bot-auth.com
-  servername: www.oracle.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: b9b1e7c9-4160-49b4-85a4-2f096706509a
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0122
-  network: tcp
-  port: 2553
-  server: 195.21.129.117
-  servername: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0121
-  network: ws
-  port: 80
-  server: 50.62.90.4
-  servername: raspy-feather-12ec.137-257.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
-  ws-opts:
-    headers:
-      Host: raspy-feather-12ec.137-257.workers.dev
-    path: '%2Fpyip%3DTelegramU0001F1E8U0001F1F3%20%40WangCai2'
-- alpn:
-  - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0124
+  name: US_speednode_0137
   network: tcp
   port: 993
   reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
     short-id: '!!str '
   server: 88.218.44.4
-  servername: download.nvidia.com
-  skip-cert-verify: false
+  servername: dl.google.com
+  skip-cert-verify: true
   tls: false
   type: vless
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
@@ -313,7 +177,7 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0125
+  name: US_speednode_0119
   network: ws
   port: 80
   server: www.true.th
@@ -330,87 +194,26 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0126
+  name: US_speednode_0136
   network: ws
-  port: 80
-  server: www.true.th
-  servername: d3gxy6d0a9fs18.cloudfront.net
+  port: 8880
+  server: 172.64.88.168
+  servername: throbbing-haze-fbde.388-6c4.workers.dev
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: ff485c50-b364-4b4f-90be-ea576b949dd3
+  uuid: 6f876b28-1b3e-4088-85c0-d299e56bfccd
   ws-opts:
     headers:
-      Host: d3gxy6d0a9fs18.cloudfront.net
-    path: '%2Ffnetvpn2026'
-- alpn:
-  - http/1.1
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0127
-  network: ws
-  port: 443
-  server: ezaccess1-slv-ezaccess1-1077.up.railway.app
-  servername: ezaccess1-slv-ezaccess1-1077.up.railway.app
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ezaccess1-slv-ezaccess1-1077.up.railway.app
-    path: '%2Fws%2Fvless%2FKiyan%3Fed%3D2048'
-- alpn:
-  - ''
-  name: US_speednode_0128
-  network: tcp
-  password: BxceQaOe
-  port: 15775
-  server: 54.46.46.228
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  flow: ''
-  name: US_speednode_0132
-  network: ws
-  port: 443
-  server: 69.46.46.6
-  servername: rvg-production-accb.up.railway.app
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: cb7c2c3e-4323-c0bf-15d1-c7e5d93f6544
-  ws-opts:
-    headers:
-      Host: rvg-production-accb.up.railway.app
-    path: '%2Fws%2Fcb7c2c3e-4323-c0bf-15d1-c7e5d93f6544'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0146
-  network: ws
-  port: 80
-  server: 172.67.148.41
-  servername: telegram4.freepersianland8.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 8be64379-08a5-4362-b8cf-234a65409bda
-  ws-opts:
-    headers:
-      Host: telegram4.freepersianland8.workers.dev
-    path: '%2FeyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ%3D%3D'
-- name: US_speednode_0153
+      Host: throbbing-haze-fbde.388-6c4.workers.dev
+    path: '%2Fpyip%3DProxyIP.JP.CMLiussss.net'
+- name: US_speednode_0158
   obfs: ''
   obfs-password: ''
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8080
-  server: 23.95.75.151
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
   skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
+  sni: devideo.h2corp.org
   tls: false
   type: hysteria2

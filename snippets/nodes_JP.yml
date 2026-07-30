@@ -1,9 +1,4 @@
 proxies:
-- name: 日本+东京Amazon数据中心
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -25,24 +20,4 @@ proxies:
   port: 38937
   server: 18.181.205.36
   sni: www.nintendogames.net
-  type: trojan
-- alpn:
-  - ''
-  name: JP_speednode_0015
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 18.181.205.36
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: JP_speednode_0016
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 49277
-  server: 18.181.205.36
-  skip-cert-verify: false
-  sni: ''
   type: trojan

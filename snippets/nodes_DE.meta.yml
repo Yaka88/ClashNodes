@@ -4,28 +4,8 @@ proxies:
   name: 德国+V2CROSS.COM
   network: tcp
   port: 443
-  reality-opts:
-    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
-    short-id: '!!str 4c5a76834671'
-  server: 185.164.111.48
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: DE_speednode_0004
-  network: ws
-  port: 2053
-  server: 51.89.23.94
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
+  server: 185.119.19.105
+  servername: u695099u8adcedd7s8746.gogocs.xyz
   tls: true
   type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: '%2F'
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
