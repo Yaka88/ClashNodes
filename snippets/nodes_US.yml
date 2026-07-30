@@ -1,23 +1,30 @@
 proxies:
-- name: 美国|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 17005
-  server: 54.46.50.201
-  sni: www.nintendogames.net
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: '36822'
+  server: sylva51.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
-  server: 57.183.19.130
+  server: 18.181.205.36
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 38961
-  server: 18.166.236.71
+  port: 15775
+  server: 54.46.46.228
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
