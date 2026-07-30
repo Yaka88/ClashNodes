@@ -1,20 +1,4 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: RU_speednode_0108
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-    short-id: '!!str '
-  server: 94.139.251.189
-  servername: apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
 - name: RU_speednode_0102
   obfs: ''
   obfs-password: ''
@@ -99,6 +83,22 @@ proxies:
   tls: false
   type: vless
   uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- alpn:
+  - ''
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: RU_speednode_0108
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+    short-id: '!!str '
+  server: 94.139.251.189
+  servername: apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
 - alpn:
   - ''
   client-fingerprint: chrome
