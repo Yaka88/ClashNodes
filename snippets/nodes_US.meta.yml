@@ -12,114 +12,108 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 美国+V2CROSS.COM
-  network: ws
+  network: tcp
   port: 443
-  server: 69.46.46.102
-  servername: rvg-production-41ed.up.railway.app
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdvymxi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 2087
+  server: 172.64.146.59
+  servername: learn00.evany.de5.net
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 58e4bd3c-e54c-b961-d9c7-bbf419a4049a
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
-      Host: rvg-production-41ed.up.railway.app
-    path: /ws/58e4bd3c-e54c-b961-d9c7-bbf419a4049a
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.71.213
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.8
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+      Host: learn00.evany.de5.net
+    path: /fdip
 - client-fingerprint: chrome
-  flow: ''
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 8443
+  server: ad-013.milo1fmyz.info
+  servername: ad-013.milo1fmyz.info
+  tls: true
+  type: vless
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+  ws-opts:
+    headers:
+      Host: ad-013.milo1fmyz.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 Microsoft数据中心
+  network: ws
+  port: '36803'
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: 152.53.127.214
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
   name: '美国+CloudFlare节点 #3'
   network: ws
-  port: 2087
-  server: cf.9999669.xyz
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  port: 443
+  server: 162.159.2.40
+  servername: learn00.evany.de5.net
   tls: true
   type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #4'
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt?ed=2560fp=random
+- name: '美国+V2CROSS.COM #2'
   network: ws
-  port: 2087
-  server: www.shopify.com
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-    path: /?ed=2560
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  port: 80
-  server: 45.131.4.192
-  tls: false
-  type: vless
-  uuid: 5f4845b4-11dc-41d6-9508-4ff6a02e36c1
-  ws-opts:
-    headers:
-      Host: silent-paper-fa57.fipiyag989.workers.dev
-    path: /
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.131.88
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+麻省理工学院
-  network: ws
-  port: 80
-  server: 18.239.134.69
-  tls: false
-  type: vless
-  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com
-    path: '%2F'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.155.209
-  sni: www.gossipglove.com
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  sni: epge.muarua.filegear-sg.me
   type: trojan
   ws-opts:
     headers:
-      Host: www.gossipglove.com
-    path: '%2Fassignment'
+      Host: epge.muarua.filegear-sg.me
+    path: '%2F%3Fproxyip%3Dts.hpc.tw'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8080
+  server: 172.67.69.63
+  tls: false
+  type: vless
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
+  ws-opts:
+    headers:
+      Host: premium-us-ca-01-gthost.efgwf.online
+    path: /ws-6Tta3kYF
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
