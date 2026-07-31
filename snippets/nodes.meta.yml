@@ -1,35 +1,56 @@
 proxies:
-- name: 美国+宾利大学
+- flow: xtls-rprx-vision
+  name: 日本+V2CROSS.COM
   network: tcp
-  port: 20342
-  server: 141.133.172.222
+  port: 40118
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: '5895914d'
+  server: 43.255.156.59
+  servername: www.lamer.com.sg
   tls: false
   type: vless
-  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: 104.16.72.251
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
-- flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
+      Host: www.lamer.com.sg
+    path: '%2F'
+- client-fingerprint: random
+  name: 美国+CloudFlare节点
+  network: ws
   port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '7a76f3c4b9dd'
-  server: 152.53.236.22
-  servername: www.cloudflare.com
+  server: cf.090227.xyz
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
   tls: false
   type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+    path: /fp=randomized
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 8880
+  server: cf8.466688.xyz
+  tls: false
+  type: vless
+  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
+  ws-opts:
+    headers:
+      Host: summer-bonus-aa63.52-c03.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
 - name: 英国+Technicolor+SA
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20035
@@ -37,53 +58,94 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- client-fingerprint: random
-  name: '美国+CloudFlare节点 #1'
+- name: '美国+CloudFlare节点 #3'
   network: ws
-  port: 443
-  server: 104.17.144.235
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
+  port: 8880
+  server: cf3.466688.xyz
+  tls: false
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
-- name: 韩国+首尔Amazon数据中心
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-kr-003.fastervpn.world
+      Host: summer-bonus-aa63.52-c03.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 2053
+  server: 195.133.94.188
+  servername: forfreeuse.sub-flow.online
   skip-cert-verify: true
-  sni: vpn-kr-003.fastervpn.world
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: '%2F'
+- name: 印度+V2CROSS.COM
+  network: ws
+  port: 2053
+  server: 103.54.16.230
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    path: '%2F'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8880
+  server: cf5.466688.xyz
   tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #2'
+  type: vless
+  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
+  ws-opts:
+    headers:
+      Host: summer-bonus-aa63.52-c03.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+- name: 德国+V2CROSS.COM
+  network: ws
+  port: 80
+  server: 91.206.71.8
+  tls: false
+  type: vless
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  ws-opts:
+    headers:
+      Host: round-haze-8783.294.workers.dev
+    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.121.43
-  sni: www.calmlunch.com
+  server: 104.20.6.134
+  sni: www.creationlong.org
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '英国+Technicolor+SA #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: 香港+Simcentric网络公司
-  network: tcp
-  port: 10000
-  server: 180.178.60.252
-  tls: false
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
+  ws-opts:
+    headers:
+      Host: pan11.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+- name: 挪威+V2CROSS.COM
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8443
+  server: 185.90.61.28
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -98,52 +160,52 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
-  server: 43.199.32.78
+  server: 18.167.20.3
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.163.122.92
+  port: 27161
+  server: 43.198.187.59
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 16.163.138.98
+  port: 25982
+  server: 16.162.109.217
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 54.46.46.228
+  port: 49811
+  server: 43.198.187.59
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 43.199.32.78
+  port: 38937
+  server: 3.114.9.167
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 18.181.205.36
+  port: 40138
+  server: 3.114.9.167
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
-  server: 43.199.32.78
+  server: 18.167.20.3
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -151,29 +213,36 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 48738
-  server: 43.199.32.78
+  server: 18.167.20.3
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 32434
-  server: 43.198.12.180
+  server: 43.198.187.59
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 17005
+  server: 18.167.20.3
+  sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
-  server: 18.181.205.36
+  server: 18.167.20.3
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 15775
-  server: 54.46.46.228
+  port: 38961
+  server: 16.162.122.119
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

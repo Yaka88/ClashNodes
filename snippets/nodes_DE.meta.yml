@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: 德国+V2CROSS.COM
+  network: ws
+  port: 80
+  server: 91.206.71.8
+  tls: false
+  type: vless
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  ws-opts:
+    headers:
+      Host: round-haze-8783.294.workers.dev
+    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
