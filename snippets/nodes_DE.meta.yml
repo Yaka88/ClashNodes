@@ -1,12 +1,31 @@
 proxies:
-- name: 德国+V2CROSS.COM
-  network: ws
-  port: 80
-  server: 91.206.71.8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 德国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
+    short-id: '!!str 4c5a76834671'
+  server: 185.164.111.48
+  servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
+  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: DE_speednode_0007
+  network: ws
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
-      Host: round-haze-8783.294.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
+      Host: forfreeuse.sub-flow.online
+    path: '%2F'

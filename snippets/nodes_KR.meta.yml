@@ -3,7 +3,7 @@ proxies:
   - ''
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: KR_speednode_0004
+  name: KR_speednode_0022
   network: tcp
   port: 443
   reality-opts:

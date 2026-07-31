@@ -1,86 +1,101 @@
 proxies:
-- client-fingerprint: random
-  name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: learn00.evany.de5.net
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-    path: /fp=randomized
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8880
-  server: cf8.466688.xyz
-  tls: false
-  type: vless
-  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
-  ws-opts:
-    headers:
-      Host: summer-bonus-aa63.52-c03.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: cf3.466688.xyz
-  tls: false
-  type: vless
-  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
-  ws-opts:
-    headers:
-      Host: summer-bonus-aa63.52-c03.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 8880
-  server: cf5.466688.xyz
-  tls: false
-  type: vless
-  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
-  ws-opts:
-    headers:
-      Host: summer-bonus-aa63.52-c03.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #5'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.20.6.134
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - name: 美国+V2CROSS.COM
   network: ws
   port: 443
   server: 199.232.78.159
   servername: ssl.fastly.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
   ws-opts:
     headers:
       Host: pan11.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: cfn-0vn.pages.dev
+  servername: cfn-0vn.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8dfaad88-18fb-4f84-a3fe-9c9e19538141
+  ws-opts:
+    headers:
+      Host: cfn-0vn.pages.dev
+    path: /
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.gossipglove.com
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdwabxe.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: 美国+麻省理工学院
+  network: ws
+  port: 80
+  server: 18.239.134.69
+  tls: false
+  type: vless
+  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
+  ws-opts:
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: 152.53.239.182
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 104.25.244.217
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.146.1
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -105,9 +120,43 @@ proxies:
   type: trojan
 - alpn:
   - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0200
+  network: ws
+  port: 80
+  server: 172.67.148.41
+  servername: telegram4.freepersianland8.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 8be64379-08a5-4362-b8cf-234a65409bda
+  ws-opts:
+    headers:
+      Host: telegram4.freepersianland8.workers.dev
+    path: '%2FeyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ%3D%3D%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0202
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: '%2F'
+- alpn:
+  - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0137
+  name: US_speednode_0232
   network: tcp
   port: 993
   reality-opts:
@@ -123,43 +172,227 @@ proxies:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0119
+  name: US_speednode_0208
   network: ws
   port: 80
-  server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
+  server: 172.67.148.41
+  servername: telegram4.freepersianland8.workers.dev
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  uuid: 8be64379-08a5-4362-b8cf-234a65409bda
   ws-opts:
     headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
+      Host: telegram4.freepersianland8.workers.dev
+    path: '%2FeyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ%3D%3D'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0230
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6e2e03e2-4f66-479a-a186-a34d66ca8c91
+  ws-opts:
+    headers:
+      Host: pan11.global.ssl.fastly.net
+    path: '%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0231
+  network: ws
+  port: 8880
+  server: 66.81.247.209
+  servername: cnd.finland2.2.newwaycdn.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 1a755815-1d8f-4fdb-8616-ceedbd15c33f
+  ws-opts:
+    headers:
+      Host: cnd.finland2.2.newwaycdn.com
+    path: '%2Fcdn%2Fassets%2Fstream'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: US_speednode_0233
+  network: ws
+  port: 2083
+  server: 104.17.171.60
+  servername: vlso6.1d.mom
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso6.1d.mom
+    path: '%2Fsocks5%3D888%3A888%40hkip.1d.mom%3A1080'
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0234
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7_vH7zeCpAuc82hRhpewmCB0TGnF6EPfn7HZb4lDNmQ
+    short-id: '!!str a38fa7e8c1844957'
+  server: free.us1.laodavip.com
+  servername: free.us1.laodavip.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 89281585-8bde-4ef2-8807-96c603281ef8
+- alpn:
+  - ''
+  client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: US_speednode_0242
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: U1ABwLTij71fW63nwMukZBezSQKADiBRuKCATiNUxUw
+    short-id: '!!str 27bb'
+  server: update.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 9150748b-fa2b-4ef1-a7f1-7c4a76e2dc0b
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  flow: ''
+  name: US_speednode_0244
+  network: ws
+  port: 443
+  server: x4g-production-8f3d.up.railway.app
+  servername: x4g-production-8f3d.up.railway.app
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 44c8ef16-5a1e-9d04-4e30-0ce12e789841
+  ws-opts:
+    headers:
+      Host: x4g-production-8f3d.up.railway.app
+    path: '%2Fws%2F44c8ef16-5a1e-9d04-4e30-0ce12e789841'
+- alpn:
+  - ''
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: US_speednode_0245
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: turok2.o4ka-internet.com
+  servername: turok2.o4ka-internet.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: a03df445-0666-4d61-acde-9705009e409c
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0246
+  network: ws
+  port: 80
+  server: dtac.exp.dog
+  servername: duatoup3wk8q2.cloudfront.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 19668b6f-e215-41e6-8102-b8d29fb5b8ae
+  ws-opts:
+    headers:
+      Host: duatoup3wk8q2.cloudfront.net
+    path: '%2Ffnet50'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0247
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 957797d5-1710-4e4a-bf41-9f5b641503e3
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: '%2F'
+- alpn:
+  - ''
+  name: US_speednode_0248
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: ''
+  type: trojan
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0249
+  network: ws
+  port: 8880
+  server: 50.62.198.50
+  servername: vms.lifetime39.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0250
+  network: ws
+  port: 80
+  server: ru-de.apruxdomain.xyz
+  servername: ru-de.apruxdomain.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 84dc79c7-e443-489d-bf07-b4bb825f57d9
+  ws-opts:
+    headers:
+      Host: ru-de.apruxdomain.xyz
     path: '%2F'
 - alpn:
   - ''
   client-fingerprint: ''
   flow: ''
-  name: US_speednode_0136
+  name: US_speednode_0252
   network: ws
-  port: 8880
-  server: 172.64.88.168
-  servername: throbbing-haze-fbde.388-6c4.workers.dev
+  port: 80
+  server: www.true.th
+  servername: d7iwyzy9wpvuu.cloudfront.net
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 6f876b28-1b3e-4088-85c0-d299e56bfccd
+  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
   ws-opts:
     headers:
-      Host: throbbing-haze-fbde.388-6c4.workers.dev
-    path: '%2Fpyip%3DProxyIP.JP.CMLiussss.net'
-- name: US_speednode_0158
-  obfs: ''
-  obfs-password: ''
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: true
-  sni: devideo.h2corp.org
-  tls: false
-  type: hysteria2
+      Host: d7iwyzy9wpvuu.cloudfront.net
+    path: '%2Fknl8'
