@@ -34,27 +34,7 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: HK_speednode_0011
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 13118
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: HK_speednode_0012
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 17005
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: HK_speednode_0013
+  name: HK_speednode_0005
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -64,17 +44,17 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: HK_speednode_0016
+  name: HK_speednode_0006
   network: tcp
-  password: BxceQaOe
-  port: 38961
-  server: 16.162.122.119
-  skip-cert-verify: true
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 17005
+  server: 18.167.20.3
+  skip-cert-verify: false
   sni: ''
   type: trojan
 - alpn:
   - ''
-  name: HK_speednode_0015
+  name: HK_speednode_0007
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -82,3 +62,35 @@ proxies:
   skip-cert-verify: false
   sni: ''
   type: trojan
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: HK_speednode_0008
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.80
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: HK_speednode_0009
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.215
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85

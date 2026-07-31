@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 德国+V2CROSS.COM
-  network: tcp
+  network: raw
   port: 443
   reality-opts:
     public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
@@ -14,18 +14,18 @@ proxies:
   uuid: 59eefc04-b831-45cf-8d68-63ca23381171
 - alpn:
   - ''
-  client-fingerprint: chrome
+  client-fingerprint: ''
   flow: ''
-  name: DE_speednode_0007
+  name: DE_speednode_0004
   network: ws
-  port: 2053
-  server: 51.89.23.94
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
+  port: 8880
+  server: 45.80.111.175
+  servername: cnd.poland.myfilecdn.com
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
   ws-opts:
     headers:
-      Host: forfreeuse.sub-flow.online
-    path: '%2F'
+      Host: cnd.poland.myfilecdn.com
+    path: '%2Fcdn%2Fassets%2Fstream'

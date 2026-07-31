@@ -1,31 +1,46 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.9
+  servername: apple.com
+  tls: false
+  type: vless
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- alpn:
+  - ''
+  client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: RU_speednode_0084
+  network: tcp
+  port: 9893
+  reality-opts:
+    public-key: GVNhQWxHlpnqLnhlOeFpagU1QLVVHBepBQN0YcPjXVg
+    short-id: '!!str '
+  server: 46.253.132.41
+  servername: www.io.ozone.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  flow: ''
+  name: RU_speednode_0085
   network: ws
-  port: 2053
-  server: 188.227.86.123
-  servername: forfreeuse.sub-flow.online
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  uuid: 0e192bd1-8f19-4184-9fff-6d67e4f738bd
   ws-opts:
     headers:
-      Host: forfreeuse.sub-flow.online
+      Host: ov186.ochmaybrooooo.online
     path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: RU_speednode_0198
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: sntQ0HsOXhaye-K7bKrMw1w3cRmjgp0lT5IhP-ngwlU
-    short-id: '!!str 998432bc'
-  server: 89.169.3.42
-  servername: userapi.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
