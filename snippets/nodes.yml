@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 台湾省 中华电信(HiNet)数据中心
+  network: tcp
+  port: '51360'
+  server: lt.badns.help
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+- alterId: 0
+  cipher: auto
   name: 美国 Microsoft数据中心
   network: ws
   port: '36803'
@@ -13,17 +23,6 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: '%2F%3Fproxyip%3Dts.hpc.tw'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
