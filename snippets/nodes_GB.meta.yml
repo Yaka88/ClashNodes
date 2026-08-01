@@ -1,4 +1,14 @@
 proxies:
+- name: GB_speednode_0014
+  obfs: ''
+  obfs-password: ''
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa8.api3-max.ru
+  skip-cert-verify: true
+  sni: wopa8.api3-max.ru
+  tls: false
+  type: hysteria2
 - alpn:
   - ''
   client-fingerprint: firefox
