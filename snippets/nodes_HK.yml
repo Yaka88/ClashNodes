@@ -26,31 +26,11 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: HK_speednode_0005
+  name: HK_speednode_0024
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: HK_speednode_0006
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 17005
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: HK_speednode_0007
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 49277
-  server: 18.167.20.3
-  skip-cert-verify: false
+  password: BxceQaOe
+  port: 35966
+  server: 43.198.98.22
+  skip-cert-verify: true
   sni: ''
   type: trojan

@@ -1,18 +1,46 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 德国+V2CROSS.COM
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
+    short-id: '!!str 4c5a76834671'
+  server: 185.164.111.48
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: DE_speednode_0004
-  network: ws
-  port: 8880
-  server: 45.80.111.175
-  servername: cnd.poland.myfilecdn.com
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: DE_speednode_0009
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str d08bb54b5b94b2fc'
+  server: 109.163.239.60
+  servername: cdn5-89.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: DE_speednode_0010
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str 3c9c5d01c6f824dd'
+  server: 109.163.239.208
+  servername: cdn9-78.yahoo.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
-  ws-opts:
-    headers:
-      Host: cnd.poland.myfilecdn.com
-    path: '%2Fcdn%2Fassets%2Fstream'
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef

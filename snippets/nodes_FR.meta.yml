@@ -1,12 +1,29 @@
 proxies:
-- name: 法国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 94.140.0.100
+- client-fingerprint: chrome
+  name: 法国+国际航空电讯集团公司(SITA)
+  network: tcp
+  port: 5039
+  reality-opts:
+    public-key: fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0
+    short-id: '!!str 2e8424a2696cb606'
+  server: it.speedserver.site
+  servername: www.yahoo.com
   tls: false
   type: vless
-  uuid: 78e6619e-e82a-cd8d-b482-0973d8498305
-  ws-opts:
-    headers:
-      Host: silent-pine-a674.jfadwkglaugul.workers.dev
-    path: /sync
+  uuid: a5bea439-6176-4b5d-a891-bd31fc3530c9
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: FR_speednode_0012
+  network: tcp
+  port: 5039
+  reality-opts:
+    public-key: fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0
+    short-id: '!!str 2e8424a2696cb606'
+  server: taoccqyacf7e.dop66.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: a5bea439-6176-4b5d-a891-bd31fc3530c9
