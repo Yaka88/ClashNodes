@@ -1,18 +1,28 @@
 proxies:
+- name: 立陶宛+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: 美国 Microsoft数据中心
+  name: 香港 阿里云
   network: ws
-  port: '36803'
-  server: cindy52.ceoiii.com
-  servername: ''
-  tls: false
+  port: 443
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  tls: true
   type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+    path: /ws-vmess
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
