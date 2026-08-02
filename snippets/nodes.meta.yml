@@ -1,98 +1,105 @@
 proxies:
+- name: 美国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+- name: 荷兰+V2CROSS.COM
+  network: tcp
+  port: 1234
+  server: 62.238.63.51
+  tls: false
+  type: vless
+  uuid: 8b0c48db-c228-47d9-b634-6ea6edf81e22
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '7a76f3c4b9dd'
+  server: jdwadgw.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - name: 美国+CloudFlare节点
   network: ws
-  port: 8880
-  server: www.glassdoor.com
-  tls: false
-  type: vless
-  uuid: 3bf2781f-63a2-4c38-ad02-2cc337c2f7fa
-  ws-opts:
-    headers:
-      Host: silent-heart-175f.325-a85.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 192.169.222.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime40.workers.dev
-    path: /
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2087
-  server: cf.9999669.xyz
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  port: 8443
+  server: 172.64.80.1
+  servername: ad-013.fluxmxd18.info
   tls: true
   type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
   ws-opts:
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: '%2F'
-- name: 巴西圣保罗+CloudFlare节点
-  network: ws
+      Host: ad-013.fluxmxd18.info
+    path: /
+- name: 俄罗斯+V2CROSS.COM
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
   port: 443
-  server: 188.114.98.0
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  tls: false
+  type: hysteria2
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 8880
+  server: cf3.466688.xyz
+  tls: false
+  type: vless
+  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
+  ws-opts:
+    headers:
+      Host: nameless-tree-08b8.352.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+- client-fingerprint: random
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 2087
+  server: 172.64.146.59
   servername: learn00.evany.de5.net
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
       Host: learn00.evany.de5.net
-    path: /fdip
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8880
-  server: cf3.466688.xyz
-  tls: false
-  type: vless
-  uuid: c6c5ad2f-b4d5-450f-862f-341cebb7f9b5
-  ws-opts:
-    headers:
-      Host: empty-rain-1df4.332-633.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: PA_speednode_0098
-  network: tcp
-  port: 448
-  reality-opts:
-    public-key: XxCsLlJ3kJJa2MiPHS3FlF0DyAS9TkQkn8lfCVZgDQw
-    short-id: 'cd2d4a8f08aa985d'
-  server: 190.97.165.84
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 54bb59cf-96fc-4a66-8488-fa2391f2e650
-  ws-opts:
-    headers:
-      Host: www.cloudflare.com
-    path: /
-- name: '美国+V2CROSS.COM #1'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+    path: '%2Ffdip'
+- name: 摩尔多瓦+V2CROSS.COM
+  password: uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r
   port: 443
-  server: 149.104.104.58
-  sni: ''
-  type: trojan
-- flow: ''
-  name: '美国+V2CROSS.COM #2'
-  network: ws
-  port: 80
-  server: www.true.th
+  server: ro.h2corp.org
+  sni: ro.h2corp.org
   tls: false
-  type: vless
-  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 美国 Microsoft数据中心
+  network: ws
+  port: '36803'
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
   ws-opts:
     headers:
-      Host: d7iwyzy9wpvuu.cloudfront.net
-    path: /knl8
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - alpn:
   - ''
   flow: xtls-rprx-vision
@@ -110,63 +117,15 @@ proxies:
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
 - name: '美国+CloudFlare节点 #3'
   network: ws
-  port: 8880
-  server: deepl.com
-  tls: false
-  type: vless
-  uuid: 9bf81377-d077-4569-9fc9-5f0a55180651
-  ws-opts:
-    headers:
-      Host: super-feather-91c4.267.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-  server: 94.139.251.23
-  servername: apple.com
-  tls: false
-  type: vless
-  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
-  ws-opts:
-    headers:
-      Host: apple.com
-- name: '美国+V2CROSS.COM #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 2083
-  server: 172.66.44.211
-  servername: wk1.f1w.de5.net
+  port: 2087
+  server: 172.64.144.66
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: wk1.f1w.de5.net
-    path: /
-- name: 荷兰+V2CROSS.COM
-  network: tcp
-  port: 1234
-  server: 62.238.51.180
-  tls: false
-  type: vless
-  uuid: 8b0c48db-c228-47d9-b634-6ea6edf81e22
-  ws-opts:
-    headers:
-      Host: play.google.com
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
     path: /
 - alterId: 2
   cipher: auto
@@ -1573,6 +1532,21 @@ proxies:
     headers:
       Host: sni.ehb.cc.cd
     path: '%2Fproxyip%3DProxyIP.CMLiussss.net'
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: PA_speednode_0098
+  network: tcp
+  port: 448
+  reality-opts:
+    public-key: XxCsLlJ3kJJa2MiPHS3FlF0DyAS9TkQkn8lfCVZgDQw
+    short-id: 'cd2d4a8f08aa985d'
+  server: 190.97.165.84
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 54bb59cf-96fc-4a66-8488-fa2391f2e650
 - alpn:
   - ''
   client-fingerprint: qq
