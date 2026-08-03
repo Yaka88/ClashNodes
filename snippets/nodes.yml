@@ -1,4 +1,24 @@
 proxies:
+- name: 美国+V2CROSS.COM
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  sni: ''
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 美国 佐治亚州亚特兰大市BellSouth公司
+  network: ws
+  port: 36801
+  server: cindy50.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
