@@ -1,16 +1,33 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 英国+V2CROSS.COM
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 31.76.123.32
-  servername: pro-fi.emrata.top
-  tls: false
+  server: 31.76.11.46.cdn-one.org
+  tls: true
   type: vless
-  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
+  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
+  ws-opts:
+    headers:
+      Host: 31.76.11.46.cdn-one.org
+    path: /52872/BNzG4FvIAr
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: ''
+  name: GB_speednode_0042
+  network: ws
+  port: 443
+  server: 31.76.251.127.cdn-one.org
+  servername: 31.76.251.127.cdn-one.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.251.127.cdn-one.org
+    path: '%2F10336%2F2GCOqG7bvA'
 - alpn:
   - ''
   client-fingerprint: chrome
@@ -76,23 +93,6 @@ proxies:
   tls: false
   type: vless
   uuid: 8645697d-51c1-4e90-aca5-ba63a0392f11
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: GB_speednode_0042
-  network: ws
-  port: 443
-  server: 31.76.251.127.cdn-one.org
-  servername: 31.76.251.127.cdn-one.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
-  ws-opts:
-    headers:
-      Host: 31.76.251.127.cdn-one.org
-    path: '%2F10336%2F2GCOqG7bvA'
 - alpn:
   - h2
   client-fingerprint: firefox
