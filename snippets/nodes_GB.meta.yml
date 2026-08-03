@@ -1,17 +1,16 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
-  network: ws
-  port: 2053
-  server: 5.178.106.61
-  servername: forfreeuse.sub-flow.online
-  tls: true
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 31.76.123.32
+  servername: pro-fi.emrata.top
+  tls: false
   type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
+  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
 - alpn:
   - ''
   client-fingerprint: chrome

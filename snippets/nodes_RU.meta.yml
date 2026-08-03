@@ -5,15 +5,12 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-  server: 94.139.251.23
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+  server: 94.139.251.191
   servername: apple.com
   tls: false
   type: vless
-  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
-  ws-opts:
-    headers:
-      Host: apple.com
+  uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
 - alpn:
   - ''
   client-fingerprint: chrome
