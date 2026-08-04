@@ -1,29 +1,4 @@
 proxies:
-- name: 英国+Technicolor+SA
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: '美国+V2CROSS.COM #2'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 172.64.146.75
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: yks-dd9.pages.dev
-    path: '%2F'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -130,79 +105,31 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: HK_speednode_0009
-  network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: JP_speednode_0010
+  name: HK_speednode_0008
   network: tcp
   password: ND91608427
   port: 443
-  server: definite-sturgeon.rooster465.autos
+  server: upright-hamster.rooster465.autos
   skip-cert-verify: true
   sni: ''
   type: trojan
 - alpn:
   - ''
-  name: JP_speednode_0011
+  name: IE_speednode_0009
   network: tcp
   password: ND91608427
   port: 443
-  server: upright-impala.rooster465.autos
+  server: skilled-lioness.rooster465.autos
   skip-cert-verify: true
   sni: ''
   type: trojan
 - alpn:
   - ''
-  name: KR_speednode_0012
+  name: LU_speednode_0012
   network: tcp
   password: ND91608427
   port: 443
-  server: definite-malamute.rooster465.autos
+  server: eager-louse.rooster465.autos
   skip-cert-verify: true
   sni: ''
   type: trojan
-- alpn:
-  - ''
-  name: KR_speednode_0013
-  network: tcp
-  password: ND91608427
-  port: 443
-  server: moved-meerkat.rooster465.autos
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alpn:
-  - ''
-  name: NL_speednode_0017
-  network: tcp
-  password: 1BARPLkaLl
-  port: 32914
-  server: 45.130.22.70
-  skip-cert-verify: true
-  sni: ''
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0090
-  network: tcp
-  port: 9006
-  server: select-hk.ddnskunlun.com
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-- alterId: 0
-  cipher: auto
-  name: US_speednode_0093
-  network: tcp
-  port: 11973
-  server: board-04.ddnskunlun.com
-  tls: false
-  type: vmess
-  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07

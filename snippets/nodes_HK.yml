@@ -35,11 +35,11 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  name: HK_speednode_0009
+  name: HK_speednode_0008
   network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
+  password: ND91608427
+  port: 443
+  server: upright-hamster.rooster465.autos
   skip-cert-verify: true
   sni: ''
   type: trojan
