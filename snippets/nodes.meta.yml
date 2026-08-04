@@ -1,19 +1,14 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
+- name: 罗马尼亚+V2CROSS.COM
+  password: 35415e5e-3666-4454-8c45-903af0fcddf4
+  port: 47257
+  server: 85.120.228.208
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 82880171-779d-4c28-8a38-59f2769dccfa
-  ws-opts:
-    headers:
-      Host: pan11.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
+  name: 美国+V2CROSS.COM
   network: raw
   port: 443
   reality-opts:
@@ -24,43 +19,8 @@ proxies:
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: themeforest.net
-  tls: false
-  type: vless
-  uuid: c2569d72-0ba1-44e8-986f-be445edb5f3d
-  ws-opts:
-    headers:
-      Host: silent-union-ac36.315-33d.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2087
-  server: 172.64.53.194
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  port: 80
-  server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
-  tls: false
-  type: vless
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  ws-opts:
-    headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-    path: '%2F'
 - flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #3'
+  name: '美国+V2CROSS.COM #1'
   network: tcp
   port: 443
   reality-opts:
@@ -71,71 +31,71 @@ proxies:
   tls: false
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.16.72.70
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-- flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
+- name: 荷兰+V2CROSS.COM
+  password: LzMWgm6LaNWCm11bFTbynDPq2TqQj03t
   port: 443
-  reality-opts:
-    public-key: qBtxq4RZxDLCJT8i48iaGMhacv8MOI0yhIFiuwYJm08
-    short-id: '825d392c67e4'
-  server: 2.27.27.64
-  servername: jp.musicwave.net
+  server: 5.255.102.165
+  skip-cert-verify: true
+  sni: www.microsoft.com
   tls: false
+  type: hysteria2
+- name: 英国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 31.76.251.127.cdn-one.org
+  servername: 31.76.251.127.cdn-one.org
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.251.127.cdn-one.org
+    path: '%2F10336%2F2GCOqG7bvA'
+- alterId: 0
+  cipher: auto
+  name: 美国 Microsoft数据中心
+  network: ws
+  port: '36803'
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 2053
+  server: josni.hoyes.cloudns.ch
+  tls: true
+  type: vless
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
 - name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 8443
-  server: 172.64.52.196
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: cf3.466688.xyz
+  port: 2095
+  server: 172.64.145.202
   tls: false
   type: vless
-  uuid: f989cbf4-40d2-41d2-8a00-1fe4e29b2192
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: ancient-rice-c180.455-8ad.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net@https://t.me/QiangLieTuiJian
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 104.16.239.120
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 8443
-  server: 172.64.159.76
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip
+      Host: fangbinxingnmsl.pusytroller.gq
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

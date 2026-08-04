@@ -1,17 +1,18 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: qBtxq4RZxDLCJT8i48iaGMhacv8MOI0yhIFiuwYJm08
-    short-id: '!!str 825d392c67e4'
-  server: 2.27.27.64
-  servername: jp.musicwave.net
-  tls: false
+  server: 31.76.251.127.cdn-one.org
+  servername: 31.76.251.127.cdn-one.org
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.251.127.cdn-one.org
+    path: '%2F10336%2F2GCOqG7bvA'
 - alpn:
   - ''
   client-fingerprint: firefox
