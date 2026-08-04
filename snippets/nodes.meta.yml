@@ -1,41 +1,92 @@
 proxies:
 - name: 美国+CloudFlare节点
   network: ws
+  password: humanity
   port: 443
-  server: 104.18.40.56
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 80
-  server: 104.18.237.216
+    path: '%2Fassignment'
+- flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '7a76f3c4b9dd'
+  server: 152.53.239.182
+  servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: 69d38faa-21a1-4d18-82cb-796a942c181b
-  ws-opts:
-    headers:
-      Host: sfsl.ardomains1.dpdns.org
-    path: '%2F'
-- name: 立陶宛+V2CROSS.COM
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- name: '美国+CloudFlare节点 #1'
   network: ws
   port: 8880
-  server: 89.116.46.50
+  server: 172.67.81.7
+  tls: false
+  type: vless
+  uuid: 2ced390a-4252-4541-8985-730f7a06bb45
+  ws-opts:
+    headers:
+      Host: flat-butterfly-d503.411-d1e.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 104.17.112.113
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 176.124.223.30
   tls: false
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: vms.lifetime07.workers.dev
-    path: /?ed
+      Host: vms.lifetime38.workers.dev
+    path: /
 - client-fingerprint: firefox
-  name: 美国+V2CROSS.COM
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
+  servername: download.nvidia.com
+  tls: false
+  type: vless
+  uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d
+- name: '俄罗斯+V2CROSS.COM #1'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  tls: false
+  type: hysteria2
+- name: '美国+V2CROSS.COM #2'
+  network: httpupgrade
+  port: 17870
+  server: vip.pro2.website
+  tls: false
+  type: vless
+  uuid: a6a065c6-60f4-4bde-b8b9-3f5072b3ca0b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- flow: ''
+  name: '美国+V2CROSS.COM #3'
   network: tcp
   port: 443
   reality-opts:
@@ -46,108 +97,54 @@ proxies:
   tls: false
   type: vless
   uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
-- name: '美国+CloudFlare节点 #2'
+- name: '美国+CloudFlare节点 #3'
   network: ws
-  port: 443
-  server: 198.41.209.80
-  servername: support.zoom.us.yxls.eu.cc
+  port: 2087
+  server: 172.64.144.66
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   tls: true
   type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: '%2Fsg-melbi'
-- name: '立陶宛+V2CROSS.COM #1'
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 2095
+  server: 172.64.146.66
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+    path: /
+- name: '美国+V2CROSS.COM #4'
   network: ws
   port: 8880
-  server: 185.148.106.30
+  server: 45.142.120.40
   tls: false
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: vms.lifetime54.workers.dev
-    path: /
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: deepl.com
-  tls: false
-  type: vless
-  uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d
-  ws-opts:
-    headers:
-      Host: young-wind-3c58.240-2ce.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+      Host: vms.lifetime08.workers.dev
+    path: '%2F'
 - alpn:
   - http/1.1
-  name: '美国+CloudFlare节点 #4'
+  name: '美国+CloudFlare节点 #5'
   network: ws
-  port: 443
-  server: 104.16.75.68
-  servername: germany-2.ariyuz.org
+  port: 8443
+  server: france.io-com-de-dev.org
+  servername: france.io-com-de-dev.org
   tls: true
   type: vless
-  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
+  uuid: 05cf7b0e-ad1a-42bb-80e7-73ae45b1019a
   ws-opts:
     headers:
-      Host: germany-2.ariyuz.org
-    path: '%2F%3F%2F%3FBIA_TELEGRAM%40vless_socks_vless_socks_vless_socks_vless_sosks%3Fed%3D2560'
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 德国+GHOSTnet+GmbH
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
-  server: 94.249.225.47
-  servername: plucky-kestrel.cdn.cachefleet.com
-  tls: false
-  type: vless
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-- name: '美国+V2CROSS.COM #1'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: 149.104.104.58
-  type: trojan
-- flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
-    short-id: '4c5a76834671'
-  server: 185.164.111.48
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
-- client-fingerprint: ios
-  name: 瑞典+V2CROSS.COM
-  network: tcp
-  port: 1000
-  reality-opts:
-    public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
-    short-id: 'a62d513cd709744a'
-  server: teain.org
-  servername: knox.cdn-apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
-- name: 美国弗吉尼亚州阿什本+CloudFlare节点
-  network: ws
-  port: 2086
-  server: 173.245.49.114
-  tls: false
-  type: vless
-  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
-  ws-opts:
-    headers:
-      Host: misty-bread-fd96.salehinezhadali.workers.dev
-    path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==
+      Host: france.io-com-de-dev.org
+    path: /api/voip/updates/static/x9i2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
