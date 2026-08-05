@@ -1,28 +1,4 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: cctvhikvision.center
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  ws-opts:
-    path: '%2Fdksk'
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: ersi13mjahoao8e6
-  port: 443
-  server: hyperon.site
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  ws-opts:
-    path: '%2Fdksk'
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
