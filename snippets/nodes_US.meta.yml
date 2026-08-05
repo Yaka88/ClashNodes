@@ -1,18 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdvymxi.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
   name: 美国+CloudFlare节点
   network: ws
   port: 443
@@ -24,59 +11,42 @@ proxies:
   ws-opts:
     headers:
       Host: support.zoom.us.yxls.eu.cc
-    path: '%2Fsg-melbi'
+    path: /sg-melbi
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.236.22
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- client-fingerprint: random
   name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 162.159.0.8
-  servername: soucuovls.pages.dev
+  server: 104.16.72.251
+  servername: hhlfy.twiladaphne.ndjp.net
   tls: true
   type: vless
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: soucuovls.pages.dev
-    path: /pyip=proxyip.cmliussss.net
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
 - client-fingerprint: chrome
-  flow: ''
-  name: '美国+V2CROSS.COM #3'
-  network: tcp
+  name: 美国+V2CROSS.COM
+  network: ws
   port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  tls: false
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
   type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  uuid: 82880171-779d-4c28-8a38-59f2769dccfa
+  ws-opts:
+    headers:
+      Host: pan11.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -103,46 +73,17 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0059
-  network: tcp
-  port: 443
-  server: 45.78.73.241
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: b3b23e31-4972-4eec-9852-8de3eb6c7ef7
-- alpn:
-  - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0071
+  name: US_speednode_0021
   network: tcp
-  port: 993
+  port: 40724
   reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-    short-id: '!!str '
-  server: 88.218.44.4
-  servername: dl.google.com
+    public-key: k7iIWZPJ27YpA5ilhmAiRQP1P6fNWzQIIJNTYCmV6xw
+    short-id: '!!str 0d17feea'
+  server: evacuee.papstore.xyz
+  servername: www.e-japannavi.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- alpn:
-  - ''
-  client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: US_speednode_0070
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EXIEsAJq-s30mA0r997iwrR8ijvGLZ7DOTkr_R39QCE
-    short-id: '!!str 54fc3827c8'
-  server: 156.248.10.58
-  servername: nono.hhhkkhktt.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 6a0a5673-2406-4fd3-b0e9-8ecbd6d16a3a
+  uuid: e7d317bd-9124-4eb0-ae76-4d3b8dc54e92
