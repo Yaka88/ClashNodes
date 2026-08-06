@@ -1,26 +1,45 @@
 proxies:
-- name: '美国+CloudFlare节点 #7'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.37
-  skip-cert-verify: true
+  server: 198.41.223.96
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #4'
+- name: 英国+Technicolor+SA
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 意大利 V2CROSS.COM
+  network: ws
+  port: '443'
+  server: 89.150.35.155
+  servername: apjhdggyx.com
+  tls: true
+  type: vmess
+  uuid: 5f72f180-b21b-4b7a-8484-240759012604
+  ws-opts:
+    headers:
+      Host: apjhdggyx.com
+    path: /5f72f180-b21b-4b7a-8484-240759096785
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 45.130.125.126
-  sni: www.calmlunch.com
+  server: 104.18.152.208
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
     path: '%2Fassignment'
 - alterId: 2
   cipher: auto
