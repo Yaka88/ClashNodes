@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 瑞士+V2CROSS.COM
+  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
+  port: 443
+  server: node-degame.bangboonet.ru
+  sni: node-degame.bangboonet.ru
+  tls: false
+  type: hysteria2
