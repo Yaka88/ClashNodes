@@ -1,29 +1,11 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
+- name: 美国+V2CROSS.COM
+  password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
-  reality-opts:
-    public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
-  server: 45.143.201.8
-  servername: hasty-dolphin.cdn.cachefleet.com
+  server: de-two.quiet-rogue.site
+  sni: de-two.quiet-rogue.site
   tls: false
-  type: vless
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.127.214
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  type: hysteria2
 - client-fingerprint: chrome
   flow: ''
   name: 美国+麻省理工学院
@@ -38,38 +20,31 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: 152.53.239.182
-  servername: www.cloudflare.com
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 2200
+  server: tn.tmn141246.ru
   tls: false
   type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  uuid: e7299042-7d8f-440f-8368-2516b0e69341
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #3'
-  network: raw
+  name: 美国+CloudFlare节点
+  network: ws
   port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdvymxi.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
+  server: 104.26.2.173
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: '美国+V2CROSS.COM #4'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: ''
-  type: trojan
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b

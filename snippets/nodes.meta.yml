@@ -1,64 +1,4 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 荷兰+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
-  server: 94.102.51.218
-  servername: fair-lunar.cdn.cachefleet.com
-  tls: false
-  type: vless
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
-  server: 45.143.201.8
-  servername: hasty-dolphin.cdn.cachefleet.com
-  tls: false
-  type: vless
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-- flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '7a76f3c4b9dd'
-  server: 152.53.127.214
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- flow: xtls-rprx-vision
-  name: 加拿大+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
-    short-id: '250b5976473a'
-  server: 167.17.68.205
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-- flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: qY222OdlPFi9DvfoHZNgp0UHLubudtKLLF_KMuDy-Ho
-    short-id: '9795f83547c168d3'
-  server: 89.23.103.121
-  servername: www.debian.org
-  tls: false
-  type: vless
-  uuid: 7596b721-f311-4194-96e6-b7b407cd6083
 - flow: xtls-rprx-vision
   name: 保加利亚+V2CROSS.COM
   network: tcp
@@ -70,6 +10,13 @@ proxies:
   tls: false
   type: vless
   uuid: dd8b69d3-5ef6-418c-a94c-2f4f37d88a7f
+- name: 美国+V2CROSS.COM
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: de-two.quiet-rogue.site
+  sni: de-two.quiet-rogue.site
+  tls: false
+  type: hysteria2
 - flow: ''
   name: 美国+麻省理工学院
   network: ws
@@ -84,35 +31,79 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: /
 - flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #2'
-  network: raw
+  name: 德国+V2CROSS.COM
+  network: tcp
   port: 443
   reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '7a76f3c4b9dd'
-  server: 152.53.239.182
+    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
+    short-id: '4c5a76834671'
+  server: 185.164.111.48
   servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #3'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '7a76f3c4b9dd'
-  server: jdvymxi.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- name: '美国+V2CROSS.COM #4'
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  sni: ''
+  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+- name: 英国+Technicolor+SA
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
   type: trojan
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 2200
+  server: tn.tmn141246.ru
+  tls: false
+  type: vless
+  uuid: e7299042-7d8f-440f-8368-2516b0e69341
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
+- name: '英国+Technicolor+SA #1'
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20129
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- flow: xtls-rprx-vision
+  name: 加拿大+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
+    short-id: '250b5976473a'
+  server: jyvlryz.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
+- flow: xtls-rprx-vision
+  name: 南非+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.117
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.26.2.173
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
