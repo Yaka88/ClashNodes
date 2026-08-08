@@ -1,71 +1,138 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: de-two.quiet-rogue.site
-  sni: de-two.quiet-rogue.site
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
-  flow: ''
-  name: 美国+麻省理工学院
-  network: ws
+  flow: xtls-rprx-vision
+  name: 美国+加利福尼亚
+  network: tcp
   port: 443
-  server: www.true.th
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
+  reality-opts:
+    public-key: P2MV0I11JvKg-G3wfg64YVGUEh0Wvy6C4MTVsMPWdyQ
+    short-id: '!!str 7b1c7d9a3f2a'
+  server: 64.188.82.57
+  servername: ee-download.spectrum.vu
+  tls: false
   type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8880
+  server: cf5.466688.xyz
+  tls: false
+  type: vless
+  uuid: 612f78a0-65ca-45af-a3ff-7d0f8e9f8655
   ws-opts:
     headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: /
-- name: '美国+V2CROSS.COM #1'
+      Host: broken-star-c5ae.446.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+- name: 美国+佛罗里达州迈阿密市
   network: ws
   port: 2200
-  server: tn.tmn141246.ru
+  server: 72.56.247.70
   tls: false
   type: vless
-  uuid: e7299042-7d8f-440f-8368-2516b0e69341
+  uuid: 59525c39-e731-4c27-bc9e-6d8cef67572c
   ws-opts:
     headers:
       Host: rzd.ru
-    path: /v1
+    path: '%2Fv1'
 - client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+  flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdvymxi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+加利福尼亚 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 3_EcaGWGxJluoPja5IIZeCf2bBwur7cuEGR74itgHyU
+    short-id: '!!str f641d171'
+  server: 64.176.43.163
+  servername: www.amazon.com
+  tls: false
+  type: vless
+  uuid: 23eaa47c-e54a-4ea9-b75a-92835863a0a3
+- alterId: 0
+  cipher: auto
+  name: 美国 Microsoft数据中心
+  network: ws
+  port: 36803
+  server: cindy52.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: '!!str 7a76f3c4b9dd'
+  server: jdwacdi.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 104.26.2.173
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
+  server: time.is
+  servername: support.zoom.us.yxls.eu.cc.
   tls: true
   type: vless
   uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
+      Host: support.zoom.us.yxls.eu.cc.
+    path: /sg-melbi?ed=443
+- name: 美国+内华达州拉斯维加斯Versaweb
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.217
+  skip-cert-verify: true
+  sni: mercedes-grape.yyuyy.com
+  tls: false
+  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
+  password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
-  server: 18.166.178.12
+  server: 95.40.107.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 39024
-  server: 18.163.100.58
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 28051
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 34039
-  server: 95.40.58.84
+  port: 1431
+  server: 43.198.89.155
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
