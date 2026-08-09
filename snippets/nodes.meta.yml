@@ -1,66 +1,165 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 2095
-  server: 172.64.145.202
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-- name: 立陶宛+V2CROSS.COM
-  network: tcp
-  port: 443
-  server: ddc-chr.astralweb.tech
-  servername: ddc-chr.astralweb.tech
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-- flow: xtls-rprx-vision
-  name: 罗马尼亚+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '2f3e735aedc55aaf'
-  server: 109.163.239.4
-  servername: cdn9-40.yahoo.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: e9824072-c700-4aa2-bcbb-7e6cc2d895aa
 - name: 美国+V2CROSS.COM
-  network: ws
-  port: 80
-  server: www.true.th
-  tls: false
-  type: vless
-  uuid: 63ae5b68-f6f8-432e-b440-d975053cfbc2
-  ws-opts:
-    headers:
-      Host: d16l6nb4do0zu4.cloudfront.net
-    path: /than
-- name: '美国+V2CROSS.COM #6'
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
+  skip-cert-verify: true
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: '美国+CloudFlare节点 #1'
+- flow: ''
+  name: 美国+麻省理工学院
   network: ws
-  port: 8443
-  server: fast.nanniang.top
-  servername: mo-akile.nanniang.top
-  tls: true
+  port: 80
+  server: 18.239.134.69
+  tls: false
   type: vless
-  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
   ws-opts:
     headers:
-      Host: mo-akile.nanniang.top
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
     path: /
+- name: 美国+Datability
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4466
+  server: 140.99.130.34
+  skip-cert-verify: true
+  sni: sg3.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 英国+Technicolor+SA
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20088
+  server: oplosgru-c.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.16.151.220
+  servername: free-7f1.pages.dev
+  tls: true
+  type: vless
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  ws-opts:
+    headers:
+      Host: free-7f1.pages.dev
+    path: /
+- name: 英国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 31.76.251.127.cdn-one.org
+  servername: 31.76.251.127.cdn-one.org
+  tls: true
+  type: vless
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: 31.76.251.127.cdn-one.org
+    path: '%2F10336%2F2GCOqG7bvA'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 104.16.1.120
+  skip-cert-verify: false
+  sni: us-ga-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Us-A-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/us---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 2087
+  server: cf.9999669.xyz
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: '%2F'
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg
+    short-id: '03a70b17f8036009'
+  server: 149.33.8.216
+  servername: smartcaptcha.yandexcloud.net
+  tls: false
+  type: vless
+  uuid: 4d064d9b-d4bb-468d-a4e0-948cf6a7541b
+- alterId: 0
+  cipher: auto
+  name: 香港 阿里云
+  network: ws
+  port: '443'
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: wwafj5LHl6bI8aU9.v.3dns.vip
+    path: /ws-vmess
+- alpn:
+  - http/1.1
+  name: 亚太地区+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 103.161.237.54
+  servername: vod.ensf.top
+  tls: true
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: /api/v1/irc
+- flow: xtls-rprx-vision
+  name: 德国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
+    short-id: '4c5a76834671'
+  server: kzbkjum.cvewfjg.shop
+  servername: www.cloudflare.com
+  tls: false
+  type: vless
+  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+- name: '美国+V2CROSS.COM #2'
+  network: tcp
+  port: 28759
+  reality-opts:
+    public-key: IenQk4fZZepVAEZpqXO-RHOyXH9JrsAEm-fRsBgOFQk
+    short-id: '2194495d'
+  server: 45.39.230.145
+  servername: www.amazonaws-china.com
+  tls: false
+  type: vless
+  uuid: 476be63b-4537-4b05-91b8-066c5e5833e4
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: cf-vless-4cf55824.aimall.fr
+  tls: true
+  type: vless
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - alpn:
   - h2
   name: 美国+乔治亚洲亚特兰大Fastly节点
@@ -75,34 +174,35 @@ proxies:
     headers:
       Host: c12.com
     path: /
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8880
-  server: 172.64.88.168
+- flow: xtls-rprx-vision
+  name: 土耳其+V2CROSS.COM
+  network: tcp
+  port: 13868
+  reality-opts:
+    public-key: XxzDVidmyjuPnBKrFDwCpowaIdLth4-kJsqrDvdPPx8
+    short-id: 'e852dc'
+  server: ger01.skorostnet.space
+  servername: amd.com
   tls: false
   type: vless
-  uuid: b4883d27-3151-4adf-92b1-841c0dccd1ea
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 2087
+  server: www.shopify.com
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: damp-surf-aacf.296-8ed.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '美国+V2CROSS.COM #2'
-  network: tcp
-  port: 28759
-  reality-opts:
-    public-key: IenQk4fZZepVAEZpqXO-RHOyXH9JrsAEm-fRsBgOFQk
-    short-id: '2194495d'
-  server: 45.39.230.145
-  servername: www.amazonaws-china.com
-  tls: false
-  type: vless
-  uuid: 476be63b-4537-4b05-91b8-066c5e5833e4
-- name: '美国+V2CROSS.COM #3'
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+    path: /?ed=2560
+- name: 美国+Amazon+EC2服务器
   network: ws
   port: 443
-  server: www.true.th
+  server: 3.162.103.97
   servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
@@ -110,89 +210,15 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
-- name: '美国+CloudFlare节点 #3'
+- name: '美国+CloudFlare节点 #6'
   network: ws
-  port: 8443
-  server: 172.66.3.90
-  servername: shin-ra.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 817b61c8-9bf0-4365-8a52-e43dfad274a6
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.82.246
+  sni: yks-dd9.pages.dev
+  type: trojan
   ws-opts:
-    headers:
-      Host: shin-ra.ccwu.cc
-    path: /
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: russia.com
-  servername: misaka.cndyw.ggff.net
-  tls: true
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  ws-opts:
-    headers:
-      Host: misaka.cndyw.ggff.net
-    path: /?ed=2560fp=chrome
-- flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #4'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '7a76f3c4b9dd'
-  server: jdwabxe.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-- flow: ''
-  name: 美国+麻省理工学院
-  network: ws
-  port: 80
-  server: 18.239.134.69
-  tls: false
-  type: vless
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-    path: /
-- flow: xtls-rprx-vision
-  name: 加拿大+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
-    short-id: '250b5976473a'
-  server: jyvlryz.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-- name: '美国+V2CROSS.COM #5'
-  network: tcp
-  port: 57500
-  reality-opts:
-    public-key: IenQk4fZZepVAEZpqXO-RHOyXH9JrsAEm-fRsBgOFQk
-    short-id: '2194495d'
-  server: 45.39.230.145
-  servername: aws.amazon.com
-  tls: false
-  type: vless
-  uuid: 476be63b-4537-4b05-91b8-066c5e5833e4
-- flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #7'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '7a76f3c4b9dd'
-  server: jdvymxi.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+    path: '%2F%3Fed%3D2048'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
