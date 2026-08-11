@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 33184
+  reality-opts:
+    public-key: qTJhC_rpwRUQSRFiGxUifpXAnfL4W-EuoBauKKIiBQY
+    short-id: '!!str 5542'
+  server: 46.8.224.46
+  servername: support-shield.nvidia.se
+  tls: false
+  type: vless
+  uuid: 1369d309-51db-4822-8ba0-229a015fc53c
