@@ -1,14 +1,14 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
-  network: ws
-  port: 2053
-  server: 185.109.48.13
-  servername: forfreeuse.rtqa.ru
-  tls: true
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: lat.o4ka-internet.com
+  servername: lat.o4ka-internet.com
+  tls: false
   type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /
+  uuid: 2cb6b4d9-0c74-45e2-a4fb-645bb8ac532a
