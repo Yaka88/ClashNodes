@@ -1,9 +1,9 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: 130e6aab-9eba-441e-9021-22cbccc72832
-  port: 8443
-  server: srvhy1.ezcon24.online
-  skip-cert-verify: false
-  sni: srvhy1.ezcon24.online
+- name: 俄罗斯+新西伯利亚JustHost
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  sni: els1.mangshe.xyz
   tls: false
   type: hysteria2

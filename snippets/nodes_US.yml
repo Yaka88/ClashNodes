@@ -1,13 +1,18 @@
 proxies:
-- name: 美国+CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+Fastly全球Anycast节点
   network: ws
-  password: humanity
+  password: MITIVPN
   port: 443
-  server: 104.26.15.137
-  sni: www.ignitelimit.com
+  server: 151.101.193.242
+  skip-cert-verify: true
+  sni: mitivpn.lifestyle
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: mitivpn.lifestyle
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e

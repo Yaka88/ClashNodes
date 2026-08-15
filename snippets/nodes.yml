@@ -1,31 +1,14 @@
 proxies:
-- name: 乌克兰+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 5.181.187.58
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.15.137
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: 英国 V2CROSS.COM
+  network: tcp
+  port: '80'
+  server: ar.paydar.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 00104263-5b99-491f-85bd-5f296d8447df
 - name: 伊朗+V2CROSS.COM
   network: ws
   password: humanity
@@ -36,6 +19,26 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: 日本+V2CROSS.COM
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  sni: www.nintendogames.net
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 美国+Fastly全球Anycast节点
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 151.101.193.242
+  skip-cert-verify: true
+  sni: mitivpn.lifestyle
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn.lifestyle
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
