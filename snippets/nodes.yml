@@ -1,44 +1,40 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
-  network: tcp
-  port: '80'
-  server: ar.paydar.site
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 00104263-5b99-491f-85bd-5f296d8447df
-- name: 伊朗+V2CROSS.COM
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
-  port: 2000
-  server: 2.144.21.150
+  port: 443
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 日本+V2CROSS.COM
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  sni: www.nintendogames.net
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+Fastly全球Anycast节点
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  password: MITIVPN
+  password: humanity
   port: 443
-  server: 151.101.193.242
-  skip-cert-verify: true
-  sni: mitivpn.lifestyle
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
-      Host: mitivpn.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

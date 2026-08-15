@@ -1,64 +1,50 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 英国 V2CROSS.COM
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 德国+V2CROSS.COM
   network: tcp
-  port: '80'
-  server: ar.paydar.site
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 00104263-5b99-491f-85bd-5f296d8447df
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: 162.159.140.78
-  tls: false
+  port: 443
+  server: s661.uugfw.top
+  servername: u643766ueb789917s660.gogocs.xyz
+  tls: true
   type: vless
-  uuid: a8c27bd6-e395-4f9b-a75d-1c3bc6b1f83a
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
   ws-opts:
     headers:
-      Host: long-boat-7113.303-08c.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: 法国+ONLINE+S.A.S.数据中心
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- flow: xtls-rprx-vision
-  name: 伊拉克+V2CROSS.COM
-  network: tcp
-  port: 2066
-  reality-opts:
-    public-key: XIBKbglsQ9pI4eo26LoUkmNxnVqlKtxZRO0H91v3jF0
-    short-id: '1b2a3f'
-  server: pl-1.p-esmy.icu
-  servername: ads.x5.ru
+      Host: eb789917s660.gogocs.xyz
+    path: ''
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 4100
+  server: 168.222.202.15
   tls: false
   type: vless
-  uuid: 24f8209b-6689-4e7a-b067-f886e04dfc43
-- name: 伊朗+V2CROSS.COM
+  uuid: 2001e98b-e06e-4244-910f-7ff640746eda
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: '%2Fv1'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
-  port: 2000
-  server: 2.144.21.150
+  port: 443
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 英国+V2CROSS.COM
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: db1.mangshe.xyz
-  skip-cert-verify: true
-  sni: db1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 美国+麻省理工学院
+- flow: ''
+  name: 美国+麻省理工学院
   network: ws
   port: 80
   server: 18.239.134.69
@@ -69,69 +55,100 @@ proxies:
     headers:
       Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
     path: /
-- name: 日本+V2CROSS.COM
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  sni: www.nintendogames.net
-  type: trojan
-- alpn:
-  - http/1.1
-  name: 美国+Fastly全球Anycast节点
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 151.101.193.242
-  skip-cert-verify: true
-  sni: mitivpn.lifestyle
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 8880
-  server: themeforest.net
-  tls: false
-  type: vless
-  uuid: 530868e7-d788-4595-b2d6-6a40c098164d
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: crimson-sea-a4bb.343-1a7.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 8880
-  server: www.glassdoor.com
-  servername: www.glassdoor.com
-  tls: false
-  type: vless
-  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: yellow-sky-38b3.154-d73.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: raw
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '8d3293f0066e129a'
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 伊朗+V2CROSS.COM
+  network: tcp
+  port: 443
+  server: s1218.csgfw.top
+  servername: u643766u5dfdedf2s846.csgfw.top
+  tls: true
+  type: vless
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  ws-opts:
+    headers:
+      Host: 5dfdedf2s846.csgfw.top
+    path: ''
 - flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
+  name: 保加利亚+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
-    short-id: '5629431325884ff0'
-  server: lat.o4ka-internet.com
-  servername: lat.o4ka-internet.com
+    public-key: 3q3mtbcT5QLQZkoUc-sovBeRuOx8k1WMTqUH3AJcMlI
+    short-id: 'cae40ea067e9ebd2'
+  server: 87.120.196.153
+  servername: cdnjs.cloudflare.com
   tls: false
   type: vless
-  uuid: 2cb6b4d9-0c74-45e2-a4fb-645bb8ac532a
-- name: 俄罗斯+新西伯利亚JustHost
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: els1.mangshe.xyz
+  uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
+- name: 法国+ONLINE+S.A.S.数据中心
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
   skip-cert-verify: true
-  sni: els1.mangshe.xyz
+  sni: bing.com
   tls: false
   type: hysteria2
+- name: 英国+V2CROSS.COM
+  password: dbab9df7-5c0a-4726-8574-11e34972b67d
+  port: 33015
+  server: 86.53.105.117
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '英国+V2CROSS.COM #1'
+  network: ws
+  port: 2053
+  server: 185.109.48.13
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

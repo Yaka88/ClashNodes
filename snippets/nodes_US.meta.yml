@@ -1,16 +1,31 @@
 proxies:
-- name: 美国+CloudFlare节点
+- name: 美国+V2CROSS.COM
   network: ws
-  port: 8880
-  server: 162.159.140.78
+  port: 4100
+  server: 168.222.202.15
   tls: false
   type: vless
-  uuid: a8c27bd6-e395-4f9b-a75d-1c3bc6b1f83a
+  uuid: 2001e98b-e06e-4244-910f-7ff640746eda
   ws-opts:
     headers:
-      Host: long-boat-7113.303-08c.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: 美国+麻省理工学院
+      Host: live.ok.ru
+    path: '%2Fv1'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- flow: ''
+  name: 美国+麻省理工学院
   network: ws
   port: 80
   server: 18.239.134.69
@@ -21,43 +36,28 @@ proxies:
     headers:
       Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
     path: /
-- alpn:
-  - http/1.1
-  name: 美国+Fastly全球Anycast节点
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  password: MITIVPN
+  password: humanity
   port: 443
-  server: 151.101.193.242
-  skip-cert-verify: true
-  sni: mitivpn.lifestyle
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
-      Host: mitivpn.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 8880
-  server: themeforest.net
-  tls: false
-  type: vless
-  uuid: 530868e7-d788-4595-b2d6-6a40c098164d
-  ws-opts:
-    headers:
-      Host: crimson-sea-a4bb.343-1a7.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8880
-  server: www.glassdoor.com
-  servername: www.glassdoor.com
-  tls: false
-  type: vless
-  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
-  ws-opts:
-    headers:
-      Host: yellow-sky-38b3.154-d73.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
