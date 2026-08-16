@@ -3,7 +3,30 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.77
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  name: 美国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 108.138.26.70
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
+- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.6
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -13,16 +36,34 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.44
+  server: 104.18.152.175
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 13868
+  reality-opts:
+    public-key: xbCFPD2Gk3HP6EwfFT_0W3D_-biFaz10wlPc2h3y6QQ
+    short-id: '!!str e852dc'
+  server: 45.155.68.234
+  servername: yoox.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  ws-opts:
+    headers:
+      Host: v2rayNplus--v2rayNplus--v2rayNplus
 - name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.159
+  server: 104.16.174.34
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -32,17 +73,20 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.219
+  server: 104.18.152.225
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: '美国+V2CROSS.COM #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.143
+  server: 165.215.250.14
+  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -51,7 +95,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '美国+CloudFlare节点 #5'
+  name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
@@ -60,56 +104,17 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+麻省理工学院
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-003.fastervpn.world
-  tls: false
-  type: hysteria2
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #6'
+- name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.23.63
+  server: 104.18.152.152
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 8880
-  server: www.glassdoor.com
-  tls: false
-  type: vless
-  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
-  ws-opts:
-    headers:
-      Host: red-disk-58df.153-2ce.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #8'
-  network: ws
-  port: 443
-  server: time.is
-  servername: fREE.sERVer6PeeKCOnFIG.wOrkErs.dEv.
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d195909a-eff4-489d-a261-955b904894cb
-  ws-opts:
-    headers:
-      Host: free.server6peekconfig.workers.dev.
-    path: /eyJqdW5rIjoieUhYMWhoZEVEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed=2560
-- name: '美国+CloudFlare节点 #9'
+- name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
@@ -118,52 +123,74 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: 美国+Amazon数据中心
-  network: ws
-  port: 443
-  server: 52.84.199.28
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
-- name: '美国+CloudFlare节点 #10'
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.108
+  server: 104.26.15.137
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
   network: ws
-  port: 8880
-  server: 104.26.13.23
-  tls: false
-  type: vless
-  uuid: d33cc776-9c57-4ea3-8c5a-6d85043029d7
-  ws-opts:
-    headers:
-      Host: shiny-flower-c72d.105-161.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #12'
-  network: ws
-  port: 2087
-  server: 172.64.53.60
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  port: 443
+  server: rush-6it6b.teeopp.quest
+  servername: ''
   tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
+      Host: ''
+    path: ''
+- name: '美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: ws
+  port: '80'
+  server: www.true.th
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a150d554-e962-4632-829f-ee583ada3f95
+  ws-opts:
+    headers:
+      Host: d7pu5mzr9c4b0.cloudfront.net
+    path: /htun
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 美国|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
