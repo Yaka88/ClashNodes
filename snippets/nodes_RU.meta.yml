@@ -3,12 +3,12 @@ proxies:
   flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
   network: tcp
-  port: 2027
+  port: 13868
   reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '!!str 8d3293f0066e129a'
-  server: 78.159.247.253
-  servername: storage.yandex.net
+    public-key: sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk
+    short-id: '!!str e852dc'
+  server: nd14.skorostnet.space
+  servername: booking.com
   tls: false
   type: vless
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
