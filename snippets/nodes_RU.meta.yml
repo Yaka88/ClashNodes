@@ -1,14 +1,22 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
   network: tcp
-  port: 2027
+  port: 443
   reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '!!str 8d3293f0066e129a'
-  server: 78.159.247.253
-  servername: storage.yandex.net
+    public-key: 2Kh1mMFvchFolXGaTJSjwtUpIiTDuIp9Oy2tDr-hogY
+    short-id: '!!str be45c0fe845d5128'
+  server: 212.118.43.237
+  servername: nl2.panel11.ru
   tls: false
   type: vless
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
+- name: 俄罗斯+新西伯利亚justhost
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  sni: els1.mangshe.xyz
+  tls: false
+  type: hysteria2
