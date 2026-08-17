@@ -1,10 +1,4 @@
 proxies:
-- name: 香港+Amazon数据中心
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
