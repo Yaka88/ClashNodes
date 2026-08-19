@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: M_V1dM8_wcpwnmh2VZp-s3LCBjy38ZWCRpxLrBc58Do
+    short-id: '!!str a48d397391861a3c'
+  server: 95.163.232.54
+  servername: max.ru
+  tls: false
+  type: vless
+  uuid: 93fab704-cea7-4ca4-a9ac-5bb46aef263c
