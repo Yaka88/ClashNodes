@@ -22,13 +22,3 @@ proxies:
   server: 18.163.114.228
   sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - ''
-  name: JP_speednode_0014
-  network: tcp
-  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
-  port: 55682
-  server: t11.qifei.app
-  skip-cert-verify: true
-  sni: ''
-  type: trojan

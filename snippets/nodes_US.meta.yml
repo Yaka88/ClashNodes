@@ -3,8 +3,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.187
-  skip-cert-verify: false
+  server: 104.17.111.4
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -13,7 +12,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: ip.myip2.qzz.io
+  server: 172.67.221.242
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -23,18 +22,19 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.207
+  server: 104.16.174.71
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.97
-  skip-cert-verify: false
+  server: 104.20.6.134
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -43,41 +43,48 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.73
+  server: 104.18.152.144
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.159
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 2087
-  server: 172.64.53.215
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  port: 8880
-  server: www.glassdoor.com
-  tls: false
-  type: vless
-  uuid: 5fc8a5e4-d0c5-4ad2-8bfe-db589553c6c1
-  ws-opts:
-    headers:
-      Host: red-disk-58df.153-2ce.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '美国+CloudFlare节点 #7'
+- name: 美国+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.108
+  server: 165.215.250.14
+  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -86,66 +93,22 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.77
+  server: 104.16.174.72
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.37
-  skip-cert-verify: true
+  server: 104.18.152.208
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #10'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.219
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+V2CROSS.COM
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: flkf3.mangshe.xyz
-  skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '美国+CloudFlare节点 #11'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国+CloudFlare节点 #12'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.221.242
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #13'
   network: ws
   password: humanity
   port: 443
@@ -180,132 +143,145 @@ proxies:
   type: trojan
 - alpn:
   - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0130
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0
+    short-id: '!!str aebdb601b1371778'
+  server: 38.244.4.1
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0132
+  network: tcp
+  port: 11094
+  reality-opts:
+    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
+    short-id: '!!str a356addf'
+  server: 51.81.223.225
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
+- alpn:
+  - ''
   client-fingerprint: firefox
-  flow: ''
-  name: US_speednode_0117
+  flow: xtls-rprx-vision
+  name: US_speednode_0135
   network: tcp
   port: 443
   reality-opts:
-    public-key: YW6wlOE6DhEzY4nQobPKj-hoc2bpNgJineecGIgOgWM
-    short-id: '!!str 9d3734f3ff471b68'
-  server: 150.241.70.0
-  servername: stats.vk-portal.net
+    public-key: zDeF_twyyT7a7zKiURF-Q8f6kkj95rx7zQ_jar09Hi4
+    short-id: '!!str e4f6a3446ac34a23'
+  server: 89.117.123.243
+  servername: us.savesafe.cc
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 5d577f62-28a8-4b7e-9441-9307b6132065
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0118
-  network: ws
-  port: 443
-  server: 172.66.44.97
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: '%2Fmusiclovers85_musiclovers85%3Fed%3D512'
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: ''
-  name: US_speednode_0120
-  network: ws
-  port: 443
-  server: www.true.th
-  servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0122
-  network: ws
-  port: 443
-  server: 172.66.44.97
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: '%2F'
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
 - alpn:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: US_speednode_0123
+  name: US_speednode_0136
   network: tcp
-  port: 31877
+  port: 29893
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: '!!str bc8e3658db7d1323'
-  server: 155.117.199.12
+  server: 155.117.199.13
   servername: cdnjs.cloudflare.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0125
-  network: tcp
-  port: 39395
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- alpn:
-  - ''
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: US_speednode_0127
-  network: tcp
-  port: 9713
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 155.117.199.12
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - alpn:
   - ''
   client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0137
   network: tcp
-  port: 29709
+  port: 39399
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: '!!str bc8e3658db7d1323'
-  server: 155.117.199.12
+  server: 155.117.199.13
   servername: cdnjs.cloudflare.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: US_speednode_0138
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: g5UW6bf2soPSDNx7j0wanW_uLAtvTgQ8_lfztTJaP0k
+    short-id: '!!str 7025c954ff913b4c'
+  server: 107.151.250.68
+  servername: www.bing.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 055dce30-0ee3-44c3-b680-be1c95b8d6e7
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0139
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: E6Y9lNizCXo8tJ6EXwLYQIjyIwmxIs4foyRlY2MgkjA
+    short-id: '!!str 59ccabb0a1483c4b'
+  server: wr28-6njjgu.linenheath.site
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0142
+  network: tcp
+  port: 39211
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: US_speednode_0144
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: FL9zvOg48NhHk_YWJMcDXNOseisuzeBW7d8KitUaAQM
+    short-id: '!!str dc941fb0778384e2'
+  server: nsuc-znkbig.avonex.top
+  servername: www.bing.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: ec31f6d7-c71a-413d-93aa-24296805a594
