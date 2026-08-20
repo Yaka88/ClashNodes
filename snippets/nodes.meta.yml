@@ -1,69 +1,22 @@
 proxies:
-- name: 美国+Amazon数据中心
-  network: ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
   port: 443
-  server: 18.154.132.111
-  servername: d1yxsk0zprgivr.cloudfront.net
-  skip-cert-verify: false
-  tls: true
+  reality-opts:
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: '2186a755ed67b034'
+  server: 31.76.3.54
+  servername: nordic.cendora.ru
+  tls: false
   type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
-- name: 日本+东京Amazon数据中心
-  password: AE62539071
-  port: 443
-  server: 13.230.97.36
-  sni: known-albacore.rooster465.autos
-  type: trojan
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 加拿大+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 日本+东京都Amazon数据中心
-  network: tcp
-  password: AE62539071
-  port: 443
-  server: 18.183.140.61
-  sni: harmless-imp.rooster465.autos
-  type: trojan
-- flow: ''
-  name: 广东省广州市+电信IDC机房(校场西)
-  network: tcp
-  port: 58011
-  server: us22.sofast.live
-  tls: false
-  type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: '日本+东京都Amazon数据中心 #1'
-  network: tcp
-  password: AE62539071
-  port: 443
-  server: 18.183.178.158
-  sni: inviting-burro.rooster465.autos
-  type: trojan
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.6
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -71,123 +24,53 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: 132.243.231.94
-  servername: se1.se-cdn.ru
-  tls: false
-  type: vless
-  uuid: f202c7ca-17b7-416d-b3a2-ac71d35afe9c
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
-  network: tcp
-  port: 443
-  server: 192.227.169.125
-  servername: u643766u34a1d2ebs478.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  ws-opts:
-    headers:
-      Host: 34a1d2ebs478.gogocs.xyz
-    path: ''
-- name: '日本+东京都Amazon数据中心 #2'
-  network: tcp
-  password: AE62539071
-  port: 443
-  server: inviting-burro.rooster465.autos
-  sni: inviting-burro.rooster465.autos
-  type: trojan
-- name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
-  network: tcp
-  password: AE62539071
-  port: 443
-  server: frank-frog.rooster465.autos
-  sni: frank-frog.rooster465.autos
-  type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 乌克兰+V2CROSS.COM
-  network: tcp
-  port: 443
-  server: 92.112.124.174
-  servername: u643766uaa42ed90s220.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  ws-opts:
-    headers:
-      Host: aa42ed90s220.gogocs.xyz
-    path: ''
-- name: '日本+东京Amazon数据中心 #1'
-  password: AE62539071
-  port: 443
-  server: 13.113.89.229
-  sni: coherent-newt.rooster465.autos
-  type: trojan
-- name: 北美地区+V2CROSS.COM
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 198.62.62.23
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+  server: 104.18.152.140
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
+    path: '%2Fassignment'
+- name: 美国+麻省理工学院
+  network: ws
   port: 443
-  server: s299.sspcccdn.xyz
-  servername: u643766uccbf75e5s298.wagahaha.xyz
+  server: 18.239.83.112
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  ws-opts:
-    headers:
-      Host: ccbf75e5s298.wagahaha.xyz
-    path: ''
-- flow: xtls-rprx-vision
-  name: 保加利亚+V2CROSS.COM
-  network: tcp
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+- name: 法国+V2CROSS.COM
+  network: ws
   port: 443
-  reality-opts:
-    public-key: KOgPteoWEwtVtykS2FGV5NHdZw6197VzbITPGkUJDBQ
-  server: 94.156.45.130
-  servername: electric-mantis.cdn.cachefleet.com
-  tls: false
+  server: 54.240.174.87
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: be3960db-f339-479a-be7b-c1a130601141
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
 - name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.12.149
+  server: 104.18.152.50
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: 美国+加州
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -196,11 +79,111 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.71
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 伊朗+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 40443
+  server: 2.144.21.112
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.113
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 法国巴黎+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 俄罗斯+V2CROSS.COM
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 日本+东京Amazon数据中心
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 50887
+  server: 2c.fast9988.com
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alpn:
   - h2
   - http/1.1
@@ -208,18 +191,31 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: '乌克兰+V2CROSS.COM #1'
+  name: 美国纽约州水牛城+ColoCrossing数据中心
   network: tcp
-  port: 443
-  server: s2062.ccgfw.online
-  servername: u643766uaa42ed90s220.gogocs.xyz
+  port: 18443
+  server: 198.12.124.74
+  servername: u643766uf346dfdes709.gogocs.xyz
   tls: true
   type: vless
   uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
   ws-opts:
     headers:
-      Host: aa42ed90s220.gogocs.xyz
+      Host: f346dfdes709.gogocs.xyz
     path: ''
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 拉脱维亚+V2CROSS.COM
+  network: tcp
+  port: 13443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: 'a7f3c91b2e6d84c0'
+  server: 195.123.210.168
+  servername: auto.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
