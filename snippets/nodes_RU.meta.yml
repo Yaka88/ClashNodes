@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 俄罗斯+新西伯利亚ADMAN网络
+  network: tcp
+  port: 443
+  server: s462.wagahaha.xyz
+  servername: u643766uaf472521s394.csgfw.top
+  tls: true
+  type: vless
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  ws-opts:
+    headers:
+      Host: af472521s394.csgfw.top
+    path: ''
