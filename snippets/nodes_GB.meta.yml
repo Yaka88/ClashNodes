@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UR-ELTbCCTAAvg_y8vIznWFkGkCKFFaEAVgTtPYNCCk
+    short-id: '!!str 54861d36'
+  server: de3.voronvpn.com
+  servername: storage.yandexcloud.net
+  tls: false
+  type: vless
+  uuid: 9e27f64b-7ae9-461b-b4c4-99696276633b
