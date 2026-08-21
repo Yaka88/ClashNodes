@@ -1,165 +1,60 @@
 proxies:
+- client-fingerprint: firefox
+  name: 俄罗斯+V2CROSS.COM
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: xXxqDpB8gQjBddOHSOFb52xVS2Odmb63z1PYhMqe0Uo
+    short-id: '1a55b8fd25417fbf'
+  server: 188.130.234.239
+  servername: kz.node.goidanet.com
+  tls: false
+  type: vless
+  uuid: 308cf8e0-e922-49bb-9b68-203e5aafcc97
 - flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: djzfpNmvwYjCaOUUOHU_k0kl92HXIGIurq2i0p5UyDo
-    short-id: '1dc6d8a2045a7c9d'
-  server: 109.169.85.140
-  servername: slashdot.org
+    public-key: IFEZmwpGK7VCuDj3kmVdyMn7vUIG8Sntc6TG4eIS3xs
+    short-id: '1aa9f3c9021280c0'
+  server: 5.152.223.97
+  servername: strapi.io
   tls: false
   type: vless
-  uuid: faf655fc-690f-4ea8-8eed-77077f493bc8
-- client-fingerprint: qq
+  uuid: be5b6ad6-8184-4b63-82ac-3bc00c09c98c
+- name: 美国+科罗拉多州NTT(美国)通信公司
+  network: ws
+  port: 41834
+  server: 157.238.208.110
+  tls: false
+  type: vless
+  uuid: 5adeccb9-dfca-41de-cdf7-4d901f2e70f5
+  ws-opts:
+    path: /5adeccb9
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 拉脱维亚+V2CROSS.COM
-  network: tcp
-  port: 13443
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: raw
+  port: 2027
   reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: 'a7f3c91b2e6d84c0'
-  server: 195.123.210.168
-  servername: auto.cendora.ru
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '8d3293f0066e129a'
+  server: 78.159.247.253
+  servername: storage.yandex.net
   tls: false
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 日本+东京Choopa数据中心
-  password: 1e3a5c5fde1da9dd1358b4adeb0c4ca1
-  port: 443
-  server: 45.32.252.144
-  sni: vps.vpsv.cc
-  tls: false
-  type: hysteria2
-- name: 香港+Amazon数据中心
-  password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
-  port: 32135
-  server: vip-jp-4.hkd4fwmg.vip
-  skip-cert-verify: true
-  sni: vip-jp-4.hkd4fwmg.vip
-  tls: false
-  type: hysteria2
-- flow: xtls-rprx-vision
-  name: 美国+Akamai科技公司CDN网络节点
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: KmD_j9AlbGLqnGD611c_j_OB8yjRO_5009SaEsZUByg
-    short-id: '39297e26a17a2208'
-  server: 172.236.210.140
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 32626a62-8ca5-4b36-bef0-f771df8805ab
-- name: 伊朗+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: XmHZyp4G35baYkx4UyykGnNCU5vWdKii3-pow32XUgs
-    short-id: 'b7867e3942e4d4'
-  server: 81.12.92.87
-  servername: origin-www.amazon.com
-  tls: false
-  type: vless
-  uuid: e97efd96-800e-4f10-a4b4-6a7f26412461
-- flow: xtls-rprx-vision
-  name: 保加利亚+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KOgPteoWEwtVtykS2FGV5NHdZw6197VzbITPGkUJDBQ
-  server: 94.156.45.130
-  servername: electric-mantis.cdn.cachefleet.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: be3960db-f339-479a-be7b-c1a130601141
-- flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TzOfUDe1Pf7GnxEJuK1I6XD8nNe4ZsmRPCxL8aFwCXs
-    short-id: '1e623c6d7f4d01eb'
-  server: v942892.hosted-by-vdsina.com
-  servername: v942892.hosted-by-vdsina.com
-  tls: false
-  type: vless
-  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
-- name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 91.232.114.148
-  servername: vod.ensf.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
-  ws-opts:
-    headers:
-      Host: vod.ensf.top
-    path: /api/v1/irc
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.22.63
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 葡萄牙+V2CROSS.COM
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: es1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: es1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
 - name: 美国+加州
   network: ws
   password: humanity
   port: 443
   server: render.com
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: '2d6d073dc88f22a8'
-  server: se1.se-cdn.ru
-  servername: se1.se-cdn.ru
-  tls: false
-  type: vless
-  uuid: d96e05a1-18bb-45da-9e9f-ab7caab6952a
-- name: '英国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 194.154.30.154
-  servername: forfreeuse.rtqa.ru
-  tls: true
-  type: vless
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.rtqa.ru
-    path: /
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '美国+V2CROSS.COM #1'
+- name: 美国+V2CROSS.COM
   network: ws
   port: 8443
   server: 192.169.222.7
@@ -171,30 +66,34 @@ proxies:
     headers:
       Host: speed.dulacloud.store
     path: /dula?Telegram-WangCai2
-- name: '美国+CloudFlare节点 #2'
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
+  server: 104.18.22.63
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  port: 443
-  server: 208.103.161.32
-  servername: josni.hoyes.cloudns.ch
-  tls: true
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /sg-melbi_/@sil3nt_network
+- name: 香港+Amazon数据中心
+  password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
+  port: 32135
+  server: vip-jp-4.hkd4fwmg.vip
+  skip-cert-verify: true
+  sni: vip-jp-4.hkd4fwmg.vip
+  tls: false
+  type: hysteria2
+- name: 美国+加利福尼亚州洛杉矶QuadraNet数据中心
+  obfs: ''
+  obfs-password: ''
+  password: 57ec0f01-0c00-4a69-ad67-937b4735640b
+  port: 35193
+  server: 40t2.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 40t2.wxgqlfx.vip
+  tls: false
+  type: hysteria2
 - name: 挪威+V2CROSS.COM
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8443
@@ -203,6 +102,73 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
+- name: '俄罗斯+V2CROSS.COM #2'
+  network: ws
+  port: 2200
+  server: 5.42.103.91
+  tls: false
+  type: vless
+  uuid: 7b2ce6b0-6d2b-4926-b7bf-6247eb1a0050
+  ws-opts:
+    path: /v1
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 159.112.235.52
+  servername: josni.hoyes.cloudns.ch
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: '%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI%3Fed%3D512'
+- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.0
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 加拿大+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 130.250.137.171
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- flow: xtls-rprx-vision
+  name: 美国+FDC芝加哥机房
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: AYL1z7PNyo6LqYLeZpXa50FnK9eEu7o18KHRhOlST1w
+    short-id: 'bd72'
+  server: 50.7.41.142
+  servername: deepl.com
+  tls: false
+  type: vless
+  uuid: b8794f67-80d9-4124-8fc5-2d2ce5516573
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '443'
+  server: rush-w1niu.teeopp.online
+  servername: rush-w1niu.teeopp.online
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: rush-w1niu.teeopp.online
+    path: /video/v4sx3q/zxzrurkc.m3u8
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

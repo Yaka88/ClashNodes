@@ -1,14 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: TzOfUDe1Pf7GnxEJuK1I6XD8nNe4ZsmRPCxL8aFwCXs
-    short-id: '!!str 1e623c6d7f4d01eb'
-  server: v942892.hosted-by-vdsina.com
-  servername: v942892.hosted-by-vdsina.com
-  tls: false
-  type: vless
-  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
+proxies: []
