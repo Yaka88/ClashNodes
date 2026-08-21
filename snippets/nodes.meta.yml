@@ -1,67 +1,17 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 葡萄牙+V2CROSS.COM
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: es1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: es1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- alpn:
-  - http/1.1
-  name: 美国+加州
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 加拿大+魁北克省蒙特利尔Amazon数据中心
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-ca-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-ca-001.fastervpn.world
-  tls: false
-  type: hysteria2
 - flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
+  name: 英国+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: TzOfUDe1Pf7GnxEJuK1I6XD8nNe4ZsmRPCxL8aFwCXs
-    short-id: '1e623c6d7f4d01eb'
-  server: 195.63.135.112
-  servername: v942892.hosted-by-vdsina.com
+    public-key: djzfpNmvwYjCaOUUOHU_k0kl92HXIGIurq2i0p5UyDo
+    short-id: '1dc6d8a2045a7c9d'
+  server: 109.169.85.140
+  servername: slashdot.org
   tls: false
   type: vless
-  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 192.0.63.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /
-- client-fingerprint: random
+  uuid: faf655fc-690f-4ea8-8eed-77077f493bc8
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 拉脱维亚+V2CROSS.COM
   network: tcp
@@ -74,73 +24,33 @@ proxies:
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- alpn:
-  - http/1.1
-  name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: MiTiVPN
+- name: 日本+东京Choopa数据中心
+  password: 1e3a5c5fde1da9dd1358b4adeb0c4ca1
   port: 443
-  server: 140.248.185.253
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: 香港+Simcentric网络公司
-  network: tcp
-  port: 10000
-  server: 180.178.60.254
+  server: 45.32.252.144
+  sni: vps.vpsv.cc
   tls: false
-  type: vless
-  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
+  type: hysteria2
+- name: 香港+Amazon数据中心
+  password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
+  port: 32135
+  server: vip-jp-4.hkd4fwmg.vip
+  skip-cert-verify: true
+  sni: vip-jp-4.hkd4fwmg.vip
+  tls: false
+  type: hysteria2
 - flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
+  name: 美国+Akamai科技公司CDN网络节点
   network: tcp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: UR-ELTbCCTAAvg_y8vIznWFkGkCKFFaEAVgTtPYNCCk
-    short-id: '54861d36'
-  server: de3.voronvpn.com
-  servername: storage.yandexcloud.net
+    public-key: KmD_j9AlbGLqnGD611c_j_OB8yjRO_5009SaEsZUByg
+    short-id: '39297e26a17a2208'
+  server: 172.236.210.140
+  servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: 9e27f64b-7ae9-461b-b4c4-99696276633b
-- name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 2200
-  server: 5.42.103.91
-  tls: false
-  type: vless
-  uuid: 7b2ce6b0-6d2b-4926-b7bf-6247eb1a0050
-  ws-opts:
-    path: /v1
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: www.baipiao.eu.org
-  servername: misaka.cndyw.ggff.net
-  tls: true
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  ws-opts:
-    headers:
-      Host: misaka.cndyw.ggff.net
-    path: /?ed=2560fp=random
-- name: '美国+V2CROSS.COM #2'
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fe4ca690-6fd9-4471-9a9f-94528084d180
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+  uuid: 32626a62-8ca5-4b36-bef0-f771df8805ab
 - name: 伊朗+V2CROSS.COM
   network: tcp
   port: 443
@@ -153,64 +63,146 @@ proxies:
   type: vless
   uuid: e97efd96-800e-4f10-a4b4-6a7f26412461
 - flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #2'
+  name: 保加利亚+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
-    short-id: 'a1b2c3d4'
-  server: 46.29.235.9
-  servername: telegraf.lv
+    public-key: KOgPteoWEwtVtykS2FGV5NHdZw6197VzbITPGkUJDBQ
+  server: 94.156.45.130
+  servername: electric-mantis.cdn.cachefleet.com
+  skip-cert-verify: true
   tls: false
   type: vless
-  uuid: d67af820-f54c-48ab-862c-19086357f276
+  uuid: be3960db-f339-479a-be7b-c1a130601141
 - flow: xtls-rprx-vision
-  name: '美国+V2CROSS.COM #3'
+  name: 德国+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
-    short-id: '635a76c25a4b1820'
-  server: 144.31.237.77
-  servername: www.amd.com
+    public-key: TzOfUDe1Pf7GnxEJuK1I6XD8nNe4ZsmRPCxL8aFwCXs
+    short-id: '1e623c6d7f4d01eb'
+  server: v942892.hosted-by-vdsina.com
+  servername: v942892.hosted-by-vdsina.com
   tls: false
   type: vless
-  uuid: 15e83ced-7544-422e-863d-deafe29a1dbe
-- name: '美国+V2CROSS.COM #4'
+  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 91.232.114.148
+  servername: vod.ensf.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: /api/v1/irc
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 葡萄牙+V2CROSS.COM
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: es1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: es1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: 美国+加州
+  network: ws
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
   network: tcp
-  port: 41503
+  port: 443
   reality-opts:
-    public-key: RIGmegmuEpwjJWkWnJF_woRYpLH5h8d_3uZQrcqgeRs
-    short-id: 'acabab18bfcf51f4'
-  server: 132.243.212.205
-  servername: github.com
+    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
+    short-id: '2d6d073dc88f22a8'
+  server: se1.se-cdn.ru
+  servername: se1.se-cdn.ru
   tls: false
   type: vless
-  uuid: 58984fe1-5f01-486b-bb68-c2f8352d7a92
-- name: '美国+V2CROSS.COM #5'
+  uuid: d96e05a1-18bb-45da-9e9f-ab7caab6952a
+- name: '英国+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 194.154.30.154
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '美国+V2CROSS.COM #1'
   network: ws
   port: 8443
-  server: 45.130.125.114
-  servername: ssl.soren-app.com.
+  server: 192.169.222.7
+  servername: speed.dulacloud.store
   tls: true
   type: vless
-  uuid: f47ac10b-58cc-4372-a567-0e02b2c3d479
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
   ws-opts:
     headers:
-      Host: free-hzr113-cdn.soren-app.com.
-    path: /
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2
 - name: '美国+CloudFlare节点 #2'
   network: ws
+  password: humanity
   port: 443
-  server: 172.67.185.178
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+V2CROSS.COM #2'
+  network: ws
+  port: 443
+  server: 208.103.161.32
+  servername: josni.hoyes.cloudns.ch
+  tls: true
+  type: vless
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  ws-opts:
+    headers:
+      Host: josni.hoyes.cloudns.ch
+    path: /sg-melbi_/@sil3nt_network
+- name: 挪威+V2CROSS.COM
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8443
+  server: 138.124.0.168
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

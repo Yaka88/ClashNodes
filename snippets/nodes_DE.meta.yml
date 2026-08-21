@@ -7,7 +7,7 @@ proxies:
   reality-opts:
     public-key: TzOfUDe1Pf7GnxEJuK1I6XD8nNe4ZsmRPCxL8aFwCXs
     short-id: '!!str 1e623c6d7f4d01eb'
-  server: 195.63.135.112
+  server: v942892.hosted-by-vdsina.com
   servername: v942892.hosted-by-vdsina.com
   tls: false
   type: vless
