@@ -1,47 +1,44 @@
 proxies:
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 13443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: 'a7f3c91b2e6d84c0'
+  server: 31.76.5.26
+  servername: auto.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - name: 立陶宛+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
   server: 86.38.214.205
-  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: www.baipiao.eu.org
-  tls: false
-  type: vless
-  uuid: 75e19908-ecd0-4c71-99d2-4f343a52a4d9
-  ws-opts:
-    headers:
-      Host: delicate-hall-3f93.239-23c.workers.dev
-    path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net'
-- flow: xtls-rprx-vision
-  name: 伊朗+V2CROSS.COM
-  network: tcp
+- name: '英国+V2CROSS.COM #1'
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
   port: 443
-  reality-opts:
-    public-key: dkaIImQrQ1ZVQGNfyrNZbtkE-8hxp_u8AH99XDFgfHw
-    short-id: '75c55b707d25ae8d'
-  server: pol2.panel11.ru
-  servername: pol2.panel11.ru
-  tls: false
-  type: vless
-  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
-- name: 美国+惠普公司
-  password: l25nJa8z0D5pT6jl
-  port: 26001
-  server: 16.79.28.237
-  skip-cert-verify: true
-  sni: id-ls-c-4.nebulacloud.win
+  server: fast.wwwinternetvideo.click
+  skip-cert-verify: false
+  sni: fast.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
   network: tcp
   port: 443
@@ -53,105 +50,54 @@ proxies:
   tls: false
   type: vless
   uuid: d67af820-f54c-48ab-862c-19086357f276
-- name: 美国+V2CROSS.COM
+- name: 美国+加州
   network: ws
   password: humanity
   port: 443
-  server: 45.130.125.160
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 加拿大+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
+  server: 216.24.57.1
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
+    path: '%2Fassignment'
+- flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
   network: tcp
-  port: 443
+  port: 2027
   reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: '4a46213c935e2ee4'
-  server: 31.76.70.32
-  servername: baltic.cendora.ru
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 'dc8109baf0f607ea'
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: true
   tls: false
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2087
-  server: 104.18.38.47
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-    path: /
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  password: humanity
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+- name: 日本+东京Choopa数据中心
+  password: 1e3a5c5fde1da9dd1358b4adeb0c4ca1
   port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - h2
-  name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  port: 443
-  server: 151.101.56.6
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: ce99a4f9-02a4-4476-d31d-8152b0d999ea
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /?TELEGRAM--KANAL--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray
-- name: 俄罗斯+鞑靼斯坦喀山justhost
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: els.mangshe.xyz
-  skip-cert-verify: true
-  sni: els.mangshe.xyz
+  server: 45.32.252.144
+  sni: vps.vpsv.cc
   tls: false
   type: hysteria2
-- name: '美国+CloudFlare节点 #3'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: www.speedtest.org
+  server: 104.26.14.137
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国+麻省理工学院
-  network: ws
-  port: 80
-  server: 18.239.134.69
+- name: 美国+惠普公司
+  password: l25nJa8z0D5pT6jl
+  port: 26001
+  server: 16.79.28.237
+  skip-cert-verify: true
+  sni: id-ls-c-4.nebulacloud.win
   tls: false
-  type: vless
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com
-    path: '%2F'
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
