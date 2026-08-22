@@ -1,8 +1,44 @@
 proxies:
-- name: 英国+V2CROSS.COM
-  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
   port: 443
-  server: fast.wwwinternetvideo.click
-  sni: fast.wwwinternetvideo.click
+  reality-opts:
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: '!!str 2186a755ed67b034'
+  server: 31.76.3.54
+  servername: nordic.cendora.ru
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: '!!str 4a46213c935e2ee4'
+  server: 31.76.70.31
+  servername: baltic.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  ws-opts:
+    headers:
+      Host: baltic.cendora.ru
+    path: '%2F'
+- name: '英国+V2CROSS.COM #2'
+  network: ws
+  port: 8443
+  server: 91.110.174.210
+  servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
