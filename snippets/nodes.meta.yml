@@ -1,54 +1,109 @@
 proxies:
-- name: 美国+CloudFlare节点
+- name: 日本+V2CROSS.COM
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: 法国+ONLINE+S.A.S.数据中心
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 伊朗+V2CROSS.COM
+  network: ws
+  port: 2053
+  server: 217.60.63.206
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 芬兰+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '6e3f0a5b'
+  server: 185.218.194.69
+  servername: www.amd.com
+  tls: false
+  type: vless
+  uuid: f5a3bf49-07ca-0021-a96b-9606781e3600
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.72
+  server: 198.41.223.96
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
 - name: 美国+V2CROSS.COM
   network: ws
-  password: humanity
   port: 443
-  server: 45.130.125.160
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 45.130.125.207
+  servername: terazhediii.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: terazhediii.info
+    path: /hdgrbws
 - flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 80
+  reality-opts:
+    public-key: CMlXrhikqsy7lZl3kfLuiwrgdHn4hm3Jgr8gf_ZnYRM
+    short-id: 'd3fb'
+  server: 95.182.96.120
+  servername: console.hetzner.com
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
   network: tcp
   port: 443
   reality-opts:
-    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
-    short-id: '4a46213c935e2ee4'
-  server: 31.76.70.32
-  servername: baltic.cendora.ru
+    public-key: 3ei2ET7SLe8rAO3KOlUWyXy0U22zb86VNOqUCshRVl8
+    short-id: 'f648da8196bdb32e'
+  server: 167.233.219.201
+  servername: www.bing.com
   tls: false
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: 美国+加州
-  network: ws
-  password: humanity
-  port: 443
-  server: render.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+  uuid: 05bfcbaa-cba0-4bce-9103-09fe3f5f0667
+- flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: 'dc8109baf0f607ea'
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
 - name: '美国+CloudFlare节点 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.34
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
@@ -57,155 +112,95 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.161
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.124
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: '美国+V2CROSS.COM #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 443
-  server: 172.66.44.97
-  servername: josni.hoyes.cloudns.ch
-  tls: true
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  ws-opts:
-    headers:
-      Host: josni.hoyes.cloudns.ch
-    path: /Telegram-DailyConfigsTelegram-DailyConfigsTelegram-DailyConfigs
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.23.63
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #10'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #11'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.144
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 日本+东京Choopa数据中心
-  password: 1e3a5c5fde1da9dd1358b4adeb0c4ca1
-  port: 443
-  server: 45.32.252.144
-  sni: vps.vpsv.cc
-  tls: false
-  type: hysteria2
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
+- flow: xtls-rprx-vision
+  name: 巴西+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
-    short-id: '2186a755ed67b034'
-  server: 31.76.5.26
-  servername: nordic.cendora.ru
+    public-key: CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY
+    short-id: 'e2a4c6b8'
+  server: 177.3.208.85
+  servername: policies.google.com
   tls: false
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  ws-opts:
-    headers:
-      Host: nordic.cendora.ru
-    path: '%2F'
-- client-fingerprint: firefox
-  name: 俄罗斯+V2CROSS.COM
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: xXxqDpB8gQjBddOHSOFb52xVS2Odmb63z1PYhMqe0Uo
-    short-id: '1a55b8fd25417fbf'
-  server: 188.130.234.239
-  servername: kz.node.goidanet.com
+  uuid: 791a171e-c0af-4bd7-b8ce-43541c7585db
+- name: 挪威+V2CROSS.COM
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 138.124.0.168
+  sni: hopp-legend-se.roxa.org
   tls: false
-  type: vless
-  uuid: 308cf8e0-e922-49bb-9b68-203e5aafcc97
-- name: '美国+CloudFlare节点 #12'
+  type: hysteria2
+- name: '美国+V2CROSS.COM #2'
   network: ws
-  password: humanity
   port: 443
-  server: 104.18.152.108
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  uuid: 1a3829ce-f01a-4899-8537-1b4d188408ef
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
+      Host: pane2.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+- name: '挪威+V2CROSS.COM #1'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8443
+  server: 138.124.0.168
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: 英国+V2CROSS.COM
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  port: 443
+  server: fast.wwwinternetvideo.click
+  sni: fast.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- name: 德国+纽伦堡CONTABO机房
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 173.212.201.85
+  skip-cert-verify: true
+  sni: www.docker.com
+  tls: false
+  type: hysteria2
+- name: '美国+V2CROSS.COM #3'
+  network: ws
+  port: 2053
+  server: 104.194.134.129
+  servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: '%2F'
+- name: '美国+V2CROSS.COM #4'
+  network: ws
+  port: 8880
+  server: 45.131.209.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+    path: '%2F'
+- name: 新西兰+V2CROSS.COM
+  password: 083417772bc618cd61f0cca23dd91680
+  port: 55443
+  server: gorbachev-new-th.kvnfreetest.uk
+  skip-cert-verify: true
+  sni: gorbachev-new-th.kvnfreetest.uk
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -219,24 +214,24 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 14684
-  server: 18.162.120.218
+  port: 25982
+  server: 43.198.107.164
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 16.162.121.244
+  port: 1103
+  server: 16.163.147.33
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 43.198.21.141
+  port: 1103
+  server: 18.163.180.82
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -244,30 +239,30 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 16691
-  server: 43.198.21.141
+  server: 18.163.180.82
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 54876
-  server: 95.40.14.234
+  port: 40136
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 38936
-  server: 16.162.192.182
+  port: 18617
+  server: 18.163.126.92
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 45744
-  server: 18.163.126.92
+  port: 51396
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -275,14 +270,14 @@ proxies:
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
-  server: 16.162.109.29
+  server: 16.162.192.182
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 16.162.121.244
+  port: 32434
+  server: 43.199.155.17
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -290,14 +285,14 @@ proxies:
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 34039
-  server: 18.162.120.218
+  server: 43.199.143.104
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 28051
+  port: 39024
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -305,8 +300,8 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 43.199.47.78
+  port: 39024
+  server: 43.199.155.17
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

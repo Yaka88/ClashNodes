@@ -1,31 +1,32 @@
 proxies:
-- name: 日本+东京Choopa数据中心
-  password: 1e3a5c5fde1da9dd1358b4adeb0c4ca1
+- name: 日本+V2CROSS.COM
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 45.32.252.144
-  sni: vps.vpsv.cc
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 16691
-  server: 43.198.21.141
+  server: 18.163.180.82
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 54876
-  server: 95.40.14.234
+  port: 40136
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
-  port: 38936
-  server: 16.162.192.182
+  port: 18617
+  server: 18.163.126.92
   sni: www.nintendogames.net
   type: trojan

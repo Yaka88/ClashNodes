@@ -1,13 +1,28 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
-  network: grpc
-  port: 443
+  network: tcp
+  port: 80
   reality-opts:
-    public-key: xXxqDpB8gQjBddOHSOFb52xVS2Odmb63z1PYhMqe0Uo
-    short-id: '!!str 1a55b8fd25417fbf'
-  server: 188.130.234.239
-  servername: kz.node.goidanet.com
+    public-key: CMlXrhikqsy7lZl3kfLuiwrgdHn4hm3Jgr8gf_ZnYRM
+    short-id: '!!str d3fb'
+  server: 95.182.96.120
+  servername: console.hetzner.com
   tls: false
   type: vless
-  uuid: 308cf8e0-e922-49bb-9b68-203e5aafcc97
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '!!str dc8109baf0f607ea'
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
