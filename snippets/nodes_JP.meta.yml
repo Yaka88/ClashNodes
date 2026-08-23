@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 日本+东京Google云计算数据中心
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gThuDXevnythoIRLiCGP2go9z3WvSjV5HAtzVw4vwmg
+    short-id: '!!str 9e391f50'
+  server: jp-cloudgp-a.outleft-hy.xyz
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 929c5ce8-222b-4d93-a80f-9ed580e2e8c1
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
