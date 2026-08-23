@@ -3,20 +3,17 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.121
+  server: ip.myip2.qzz.io
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 172.67.221.242
+  server: 104.18.22.63
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -25,7 +22,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.244
+  server: 104.18.152.108
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -34,59 +31,84 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.72.2
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 140.248.185.253
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 104.21.46.3
+  server: 104.16.174.148
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: '美国+V2CROSS.COM #1'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 8880
+  server: 192.0.63.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: '%2F'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #5'
   network: ws
-  password: humanity
   port: 443
-  server: 104.18.152.175
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 104.21.90.215
+  servername: 0-M14.AyUTTHayA-1.KDnS.fr
+  tls: true
+  type: vless
+  uuid: 13da3f61-36bc-4f4f-9b49-4152de570bd3
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: 0-M14.ayutTHAYa-1.kDNS.FR
+    path: /awsDCktnglce5OhBQMBK8JLBwh2V
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 2087
+  server: 172.64.144.66
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
 - name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.4
+  server: 104.16.73.213
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -95,32 +117,100 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.77
+  server: 104.17.111.3
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 美国|@ripaojiedian
-  network: tcp
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 34039
-  server: 43.199.143.104
-  skip-cert-verify: true
-  sni: www.nintendogames.net
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  sni: www.ignitelimit.com
   type: trojan
-- name: 美国2|@ripaojiedian
-  network: tcp
-  password: d5517dedef425597a1b9fdbaad99544e
-  port: 39024
-  server: 95.40.14.234
-  skip-cert-verify: true
-  sni: www.nintendogames.net
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.72
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #11'
+  network: ws
+  port: 2087
+  server: 172.64.53.87
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+    path: /
+- name: '美国+CloudFlare节点 #12'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.140
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #13'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 美国2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 3kCf86Ufi0U5xBDA.v.3dns.vip
+  servername: 3kCf86Ufi0U5xBDA.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 3kCf86Ufi0U5xBDA.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 美国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: lL0GIaPVZ6Zxkd94.v.3dns.vip
+  servername: lL0GIaPVZ6Zxkd94.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: lL0GIaPVZ6Zxkd94.v.3dns.vip
+    path: /ws-vmess
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 39024
-  server: 43.199.155.17
+  server: 54.46.3.138
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
