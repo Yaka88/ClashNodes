@@ -1,14 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0ye46nPo-GJ6b2FlbxOjrbTSwbNZ55EA3zd75AD8EVg
-    short-id: '!!str e19a72a150911331'
-  server: sw-ulra.whit3.net
-  servername: sw-ulra.whit3.net
-  tls: false
-  type: vless
-  uuid: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
+proxies: []
