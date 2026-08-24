@@ -1,9 +1,1 @@
-proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: d532115bea
-  port: 11592
-  server: srv-0dc9de.21freedom.net
-  skip-cert-verify: true
-  sni: srv-0dc9de.21freedom.net
-  tls: false
-  type: hysteria2
+proxies: []
