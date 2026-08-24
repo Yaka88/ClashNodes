@@ -1,14 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+伦敦Virgin+Media
-  network: tcp
+- name: 英国+V2CROSS.COM
+  network: ws
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: FYKh5rWtirmY23OjNuhNlQFJb7DI5J79E7T-gkyYNHo
-    short-id: '!!str 80bfd8cae4850bc9'
-  server: 82.26.94.13
-  servername: mywebsite.whit3.net
+  server: 176.97.66.175
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '英国+V2CROSS.COM #1'
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  port: 443
+  server: fast.wwwinternetvideo.click
+  sni: fast.wwwinternetvideo.click
   tls: false
-  type: vless
-  uuid: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
+  type: hysteria2
