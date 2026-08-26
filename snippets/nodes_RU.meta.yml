@@ -1,14 +1,20 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
+- name: 俄罗斯+V2CROSS.COM
+  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
+  port: 8080
+  server: 139.28.168.58
+  sni: grape-honk.yyuyy.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: grpc
   port: 443
   reality-opts:
-    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
-    short-id: '!!str a1b2c3d4'
-  server: 46.29.235.9
-  servername: telegraf.lv
+    public-key: wGPdcHBZQD0Qhlf32ZKRRiUSbk_ndjcDnQxSG84X4HA
+    short-id: '!!str ea57b80afd90326b'
+  server: 212.192.246.73
+  servername: node1.nebulacurse.space
   tls: false
   type: vless
-  uuid: d67af820-f54c-48ab-862c-19086357f276
+  uuid: 073758f2-9669-0001-9541-b8656bde49a2
