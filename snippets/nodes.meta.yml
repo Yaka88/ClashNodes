@@ -3,73 +3,48 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.246
+  server: 172.67.149.60
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI
+    short-id: 'f63805c3ecc7a483'
+  server: 162.35.231.143
+  servername: savesafe.co
+  tls: false
+  type: vless
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
 - name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  server: 104.18.152.179
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #2'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.73
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 192.0.63.30
-  tls: false
+  port: 2083
+  server: 104.17.28.104
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
   ws-opts:
     headers:
-      Host: vms.lifetime36.workers.dev
-    path: '%2F'
-- name: 英国+V2CROSS.COM
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: faq.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: cabinet.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- name: '美国+V2CROSS.COM #1'
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  port: 2056
-  server: mg3.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg3.mangshe.xyz
-  tls: false
-  type: hysteria2
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-amz
 - name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.177.143
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 香港+Simcentric网络公司
-  network: tcp
-  port: 10000
-  server: 180.178.60.254
-  tls: false
-  type: vless
-  uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
@@ -80,104 +55,107 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: 广东省广州市+腾讯云
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  tls: false
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- name: '美国+V2CROSS.COM #2'
+- name: 俄罗斯+V2CROSS.COM
   network: ws
-  port: 8880
-  server: 45.131.210.30
-  servername: vms.lifetime05.workers.dev
-  tls: false
+  port: 8443
+  server: 217.78.239.142
+  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
   ws-opts:
     headers:
-      Host: vms.lifetime05.workers.dev
-    path: /
+      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
+    path: /pg/10086-dfc816f117c49173fp=chrome
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #5'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.233
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- flow: xtls-rprx-vision
+  name: '美国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZKd5bjQ8ACciPQo_0ol7WEkUYUjGXaK9fMciQkFurF4
+    short-id: 'b4c823'
+  server: ger.evovpn.pro
+  servername: www.yandex.ru
+  tls: false
+  type: vless
+  uuid: efc14823-8fc1-4174-8b33-e245ec58ce92
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.73
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: '00bca5982f82d083'
-  server: 2.27.244.96
-  servername: eu-central.cendora.ru
-  tls: false
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: rush-t2tvv.ceeopp.site
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: rush-t2tvv.ceeopp.site
-    path: /video/ke716z/7x219hzy.m3u8
-- flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: djzfpNmvwYjCaOUUOHU_k0kl92HXIGIurq2i0p5UyDo
-    short-id: '1dc6d8a2045a7c9d'
-  server: 109.169.85.138
-  servername: slashdot.org
-  tls: false
-  type: vless
-  uuid: b2dbc58c-3a92-448f-aa95-6c8fdfffb282
-- name: 美国+加州
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #7'
   network: ws
-  port: 2095
-  server: 172.64.154.8
-  tls: false
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  password: humanity
+  port: 443
+  server: 104.18.152.233
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: '美国+CloudFlare节点 #8'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.15.137
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 马来西亚+V2CROSS.COM
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2060
+  server: mlxy.mangshe.xyz
+  skip-cert-verify: true
+  sni: mlxy.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '美国+CloudFlare节点 #11'
   network: ws
   password: humanity
   port: 443
@@ -185,17 +163,35 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
+- name: '美国+CloudFlare节点 #12'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.143
+  server: 104.16.174.22
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    path: '%2F%2Fassignment'
+- name: '美国+CloudFlare节点 #13'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #14'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - alterId: 2
   cipher: auto
