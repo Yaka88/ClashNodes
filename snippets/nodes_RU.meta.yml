@@ -1,1 +1,33 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 18153
+  server: s299.kukuss.top
+  servername: u643766u3f35bd4ds298.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
+  ws-opts:
+    headers:
+      Host: 3f35bd4ds298.wagahaha.xyz
+    path: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '!!str a9c4f17e3b62d8'
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
+  tls: false
+  type: vless
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
