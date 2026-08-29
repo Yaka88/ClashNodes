@@ -1,20 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 新加坡+Amazon数据中心
-  network: tcp
-  port: 20414
-  reality-opts:
-    public-key: H4ZErlTUck4uQYnxtURj9aHLVXQIUHIPMI8dBz7wMVg
-    short-id: '!!str ed2cfa4d6d47e0'
-  server: 13.229.47.178
-  servername: www.sony.com
-  tls: false
-  type: vless
-  uuid: c3e2c992-6721-443f-a051-331cb8a29fad
-  ws-opts:
-    headers:
-      Host: v2rayNplus--v2rayNplus--v2rayNplus--
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe

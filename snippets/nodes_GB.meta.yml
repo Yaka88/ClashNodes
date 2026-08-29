@@ -3,6 +3,7 @@ proxies:
   password: 523486c6-c0b5-4e5b-8896-4af2375b41cc
   port: 8443
   server: 31.76.70.107
+  skip-cert-verify: true
   sni: quic.tyr-agentstvo.tech
   tls: false
   type: hysteria2
@@ -10,21 +11,25 @@ proxies:
   flow: xtls-rprx-vision
   name: '英国+V2CROSS.COM #1'
   network: tcp
-  port: 15006
+  port: 443
   reality-opts:
-    public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
-    short-id: '!!str 029a6cc4'
-  server: nian.001.url111.kcloud02.top
-  servername: www.adobe.com
+    public-key: 23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE
+    short-id: '!!str e90360ec7cc61b20'
+  server: 85.234.91.30
+  servername: www.mozilla.org
   tls: false
   type: vless
-  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
-- name: '英国+V2CROSS.COM #2'
-  network: ws
-  password: humanity
+  uuid: b34a52cb-cd52-49a8-9362-b8e97c151d49
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #2'
+  network: tcp
   port: 443
-  server: 176.97.66.175
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: '!!str 4a46213c935e2ee4'
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
