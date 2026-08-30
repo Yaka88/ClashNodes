@@ -1,12 +1,33 @@
 proxies:
-- client-fingerprint: firefox
-  name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 5.42.109.42
-  servername: run5.wba-pn.ru
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 俄罗斯+新西伯利亚JustHost
+  network: tcp
+  port: 443
+  server: 45.89.229.79
+  servername: u643766ua3515167s394.csgfw.top
   tls: true
   type: vless
-  uuid: 11f3e7b1-5507-46da-a268-1f70a543e40a
+  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
   ws-opts:
-    path: '%2F'
+    headers:
+      Host: a3515167s394.csgfw.top
+    path: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
+    short-id: '!!str a1b2c3d4'
+  server: 46.29.235.9
+  servername: telegraf.lv
+  tls: false
+  type: vless
+  uuid: d67af820-f54c-48ab-862c-19086357f276
