@@ -12,16 +12,16 @@ proxies:
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
+  port: 7674
+  server: 18.142.250.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 25982
-  server: 52.195.148.119
+  port: 2944
+  server: 35.78.206.14
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
