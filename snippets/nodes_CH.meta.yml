@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- name: 瑞士+V2CROSS.COM
+  network: tcp
+  port: 1901
+  server: 212.43.158.62
+  tls: false
+  type: vless
+  uuid: 6cbc63c1-97de-4460-847c-7fd7bdda3fa6
