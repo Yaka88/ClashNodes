@@ -1,27 +1,12 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
+- name: 英国+V2CROSS.COM
+  network: ws
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: '!!str 4da5d1853f04af6d'
-  server: rrr.windconnect.pro
-  servername: rrr.windconnect.pro
-  tls: false
-  type: vless
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: WblkmqKUs4-IiNsawjWBV16uB_FBxLr8xFVi6eDPkxk
-    short-id: '!!str a1b2c3d4'
-  server: 31.77.182.49
-  servername: fr.aeternavpn.space
-  tls: false
-  type: vless
-  uuid: 6379673b-197f-4944-ba81-a45c66aefe9c
+  server: 176.97.66.175
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
