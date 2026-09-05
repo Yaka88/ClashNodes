@@ -1,123 +1,87 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 80
-  server: 104.18.46.234
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 加拿大+V2CROSS.COM
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 47.129.98.169
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
   tls: false
-  type: vless
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: 美国+麻省理工学院
-  network: ws
-  port: 80
-  server: 18.239.134.69
-  tls: false
-  type: vless
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com
-    path: '%2F'
-- name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  port: 8080
-  server: 188.114.97.6
-  tls: false
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /sg-melbi
-- name: '美国+CloudFlare节点 #1'
+  type: hysteria2
+- name: 法国巴黎+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 172.67.149.60
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.74.2
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
 - flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
+  name: 日本+东京Amazon数据中心
   network: tcp
-  port: 7443
+  port: 16611
   reality-opts:
-    public-key: 8qUiIosG5-OQWo0tD29BQCbxb50neUg8BynxdAvDzB4
-    short-id: '132142'
-  server: 31.77.203.216
-  servername: setbacks.hb-website.ru-msk.vkcloud-storage.ru
+    public-key: cDzA5Efsd52LehcCFXh9bS3eCuj7HQZwau-yjPqLPgQ
+    short-id: '701b0c5c9dee514d'
+  server: 13.114.89.187
+  servername: www.intel.com
   tls: false
   type: vless
-  uuid: ecf789a5-edc3-4eef-bdea-837d048afd9a
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: MiTiVPN
+  uuid: 059fbe5b-21dc-413f-8f5c-dac39201914c
+- flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
   port: 443
-  server: 199.232.78.160
-  sni: ssl.fastly.com
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '4da5d1853f04af6d'
+  server: 31.76.71.140
+  servername: rrr.windconnect.pro
+  tls: false
+  type: vless
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
+- name: '英国+V2CROSS.COM #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 176.97.66.175
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
-    path: /
-- name: '美国+CloudFlare节点 #2'
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 443
-  server: 172.67.158.193
-  servername: 3-m13.AYUtTHaYa-XX.kdnS.fr
-  tls: true
-  type: vless
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  ws-opts:
-    headers:
-      Host: 3-M13.aYUTThaYA-XX.KDNS.fR
-    path: /ED3ZQPu7lqyeDGD58KabZ
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 18153
-  server: s151.gogocs.xyz
-  servername: u643766u3f35bd4ds298.wagahaha.xyz
-  tls: true
-  type: vless
-  uuid: 41f4cb15-5a3f-3934-89fe-b4177146adf4
-  ws-opts:
-    headers:
-      Host: 3f35bd4ds298.wagahaha.xyz
-    path: ''
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 2086
-  server: 104.18.46.234
+  port: 8080
+  server: 108.162.198.178
   tls: false
   type: vless
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- name: '英国+V2CROSS.COM #1'
-  network: ws
-  port: 2087
-  server: 188.220.67.245
+    path: '%2F'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 新加坡+亚马逊(Amazon)公司数据中心
+  network: tcp
+  port: 53836
+  reality-opts:
+    public-key: zKRmiqB6phUSq8EO4PIujKNHeNZP3JVWLwCKX8iKgVA
+    short-id: '89dd6fba1e43'
+  server: 54.254.241.82
+  servername: www.intel.com
   tls: false
   type: vless
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    path: /8f2690e2d016
+  uuid: a205aa45-9314-43c6-ab0f-8718c573ee78
 - alpn:
   - http/1.1
   name: 美国+乔治亚洲亚特兰大Fastly节点
@@ -131,36 +95,55 @@ proxies:
   ws-opts:
     headers:
       Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
-    path: '@bored_vpn'
-- name: 法国巴黎+CloudFlare节点
+    path: '@mehrosaboran'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 新加坡+Amazon数据中心
+  network: tcp
+  port: 18516
+  reality-opts:
+    public-key: 0nAOIGPKjVAgGpN_FrdSQ1qg_J-nuIhS9-UZYLMfy2g
+    short-id: '6ce3397cbd5ada'
+  server: 13.212.143.2
+  servername: www.sony.com
+  tls: false
+  type: vless
+  uuid: 5e4c4ee0-9a52-421e-8427-7ad6ff027312
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 141.101.90.101
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: '美国+CloudFlare节点 #3'
   network: ws
-  port: 443
-  server: 104.21.78.105
-  servername: 1-M17.KUwait.kDNS.Fr
-  tls: true
+  port: 8880
+  server: 172.64.158.146
+  tls: false
   type: vless
-  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: 1-m17.KUwAIT.kdNS.FR
-    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
-- name: 日本+东京Digital+VM
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20562
-  server: msjp.mangshe.xyz
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.7
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

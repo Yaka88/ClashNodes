@@ -1,4 +1,30 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 新加坡+亚马逊(Amazon)公司数据中心
+  network: tcp
+  port: 53836
+  reality-opts:
+    public-key: zKRmiqB6phUSq8EO4PIujKNHeNZP3JVWLwCKX8iKgVA
+    short-id: '!!str 89dd6fba1e43'
+  server: 54.254.241.82
+  servername: www.intel.com
+  tls: false
+  type: vless
+  uuid: a205aa45-9314-43c6-ab0f-8718c573ee78
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 新加坡+Amazon数据中心
+  network: tcp
+  port: 18516
+  reality-opts:
+    public-key: 0nAOIGPKjVAgGpN_FrdSQ1qg_J-nuIhS9-UZYLMfy2g
+    short-id: '!!str 6ce3397cbd5ada'
+  server: 13.212.143.2
+  servername: www.sony.com
+  tls: false
+  type: vless
+  uuid: 5e4c4ee0-9a52-421e-8427-7ad6ff027312
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
