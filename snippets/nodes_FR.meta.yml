@@ -8,19 +8,3 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 法国+巴黎Amazon数据中心
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-fr-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-fr-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '法国+巴黎Amazon数据中心 #1'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 35.181.169.140
-  skip-cert-verify: true
-  sni: 35.181.169.140
-  tls: false
-  type: hysteria2

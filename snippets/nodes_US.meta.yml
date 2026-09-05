@@ -1,44 +1,8 @@
 proxies:
 - name: 美国+CloudFlare节点
   network: ws
-  port: 8880
-  server: 104.21.55.229
-  servername: autumn-cloud-ab5e.229-601.workers.dev
-  tls: false
-  type: vless
-  uuid: f55a75a7-5aa6-4df7-814a-99da0edb5c86
-  ws-opts:
-    headers:
-      Host: autumn-cloud-ab5e.229-601.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 172.67.198.236
-  servername: 1-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
-  tls: true
-  type: vless
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  ws-opts:
-    headers:
-      Host: 1-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8880
-  server: 172.66.170.53
-  tls: false
-  type: vless
-  uuid: 6b6733fb-580b-411b-8bf8-51137c2aa037
-  ws-opts:
-    headers:
-      Host: restless-sky-eb31.438-aa8.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 2052
-  server: 104.18.34.14
+  port: 80
+  server: 104.18.46.234
   servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   tls: false
   type: vless
@@ -48,84 +12,7 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560security=tls
 - client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 104.21.91.76
-  servername: 7-M19.South-aFRIca-onliNE.CCwu.cC
-  tls: true
-  type: vless
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  ws-opts:
-    headers:
-      Host: 7-M19.sOuTH-afRiCa-OnlIne.ccwU.cC
-    path: /CjBjB9sn5pCvaSwScc
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 美国+乔治亚洲亚特兰大Fastly节点
-  network: ws
-  port: 443
-  server: 151.101.56.6
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 607f4f6c-2a71-43aa-e047-1ff5b5c23f67
-  ws-opts:
-    headers:
-      Host: c12.com
-    path: /?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国+华盛顿州西雅图市亚马逊(Amazon)公司数据中心
-  network: tcp
-  port: 56449
-  reality-opts:
-    public-key: anIR48iTD0Inl1z85396AwMvDhcx9y25DdFsVR896DE
-    short-id: '!!str 25a9435577670327'
-  server: 52.194.211.43
-  servername: www.intel.com
-  tls: false
-  type: vless
-  uuid: fe855f99-4eb5-4a80-ad48-354649ff1305
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 443
-  server: 104.21.85.220
-  servername: cf.udpid.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
-  ws-opts:
-    headers:
-      Host: cf.udpid.org
-    path: /@zyzzzoao
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: join-telegram-channel.tirexnet.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.2
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 美国+麻省理工学院
+  name: 美国+麻省理工学院
   network: ws
   port: 80
   server: 18.239.134.69
@@ -136,17 +23,79 @@ proxies:
     headers:
       Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com
     path: '%2F'
-- name: '美国+CloudFlare节点 #8'
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  port: 8880
-  server: skk.moe
-  tls: false
-  type: vless
-  uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 199.232.78.160
+  sni: ssl.fastly.com
+  type: trojan
   ws-opts:
     headers:
-      Host: late-mountain-6801.355.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+      Host: mitivpn-ss-mitivpn-----mitivpn.global.ssl.fastly.net
+    path: /
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 172.67.158.193
+  servername: 3-m13.AYUtTHaYa-XX.kdnS.fr
+  tls: true
+  type: vless
+  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  ws-opts:
+    headers:
+      Host: 3-M13.aYUTThaYA-XX.KDNS.fR
+    path: /ED3ZQPu7lqyeDGD58KabZ
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 2086
+  server: 104.18.46.234
+  tls: false
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- alpn:
+  - http/1.1
+  name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn-mitivpn-mitivpn--mitivpn-mitivpn--mitivpn.global.ssl.fastly.net
+    path: '@bored_vpn'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 443
+  server: 104.21.78.105
+  servername: 1-M17.KUwait.kDNS.Fr
+  tls: true
+  type: vless
+  uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+  ws-opts:
+    headers:
+      Host: 1-m17.KUwAIT.kdNS.FR
+    path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
