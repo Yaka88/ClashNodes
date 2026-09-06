@@ -1,14 +1,8 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 10101
-  reality-opts:
-    public-key: 7vvMu4dNatgCnLKqnY4-H2KNcSVyKhvN-Cymf9OzBUQ
-    short-id: '!!str 42c0b628ba6a42a9'
-  server: mewmin.esmahdi9.com
-  servername: amp-api-edge.apps.apple.com
+- name: 英国+V2CROSS.COM
+  password: niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY
+  port: 24444
+  server: give.internet-card.sbs
+  sni: bel7bel.internet-card.sbs
   tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  type: hysteria2
