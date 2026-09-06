@@ -1,8 +1,24 @@
 proxies:
-- name: 英国+V2CROSS.COM
-  password: niEGIEcu9rRmRBoA3yYiKtFRv87BMRnFEpozCmNTHyY
-  port: 24444
-  server: give.internet-card.sbs
-  sni: bel7bel.internet-card.sbs
+- flow: ''
+  name: 英国+V2CROSS.COM
+  network: ws
+  port: 2087
+  server: 188.220.67.245
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    path: /8f2690e2d016
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: '%2DqLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04'
+    short-id: '!!str abcd1234'
+  server: 31.77.149.204
+  servername: nl.yservice.help
+  tls: false
+  type: vless
+  uuid: 384e448a-880b-46ab-860d-91ece3f0f803
