@@ -1,17 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+莫斯科大学主楼
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: '!!str e7'
-  server: 217.16.31.218
-  servername: max.ru
-  tls: false
-  type: vless
-  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
-  ws-opts:
-    headers:
-      Host: /?TELEGRAM---TOOTFFARANGI
+proxies: []
