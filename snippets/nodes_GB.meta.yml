@@ -1,1 +1,26 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: H0nCazQFHVhSObfqSUhGLhK7KRwKzTMggIBPjnMMqhk
+    short-id: '!!str af04ff8094115e93'
+  server: 178.105.61.61
+  servername: 178.105.61.61
+  tls: false
+  type: vless
+  uuid: cb077bf2-70b7-457b-af42-27cdc3e0e544
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 2.26.178.138
+  servername: localhost
+  tls: false
+  type: vless
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
