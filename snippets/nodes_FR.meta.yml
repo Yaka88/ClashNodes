@@ -1,14 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 法国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: wHf1nSF3byWgtI0aprUDgbEBrgtE6Y8bpqnNxl9lhhg
-    short-id: '!!str 763a06472e66efff'
-  server: 194.110.207.75
-  servername: fernandfoxgloveinteriors.co.uk
-  tls: false
-  type: vless
-  uuid: 3aaf6f5a-bebe-42c9-a2da-0c5500146451
+proxies: []
