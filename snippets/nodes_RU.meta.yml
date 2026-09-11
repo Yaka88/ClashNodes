@@ -1,8 +1,1 @@
-proxies:
-- name: 俄罗斯+V2CROSS.COM
-  password: 5beff945-adaa-492f-85c6-8aaf5df6cfa5
-  port: 22443
-  server: 91.240.86.70
-  sni: hy.quattro-tech.ru
-  tls: false
-  type: hysteria2
+proxies: []
