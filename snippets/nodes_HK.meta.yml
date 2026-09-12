@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 香港 Amazon数据中心
+  network: tcp
+  port: '21019'
+  server: dog-hk.kunlun01dns.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
