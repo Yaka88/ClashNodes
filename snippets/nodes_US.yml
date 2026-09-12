@@ -1,5 +1,18 @@
 proxies:
-- name: '美国+CloudFlare节点 #1'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.221.242
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
@@ -7,18 +20,22 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - alpn:
+  - http/1.1
+  - h2
   - h3
-  name: '美国+CloudFlare节点 #6'
+  name: '美国+CloudFlare节点 #7'
   network: ws
-  password: xhl549341
+  password: humanity
   port: 443
-  server: cf.090227.xyz
-  sni: tro.baiyi.cloudns.org
+  server: 198.41.223.96
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2F%3Fed%3D2560'
+    path: '%2Fassignment'
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
