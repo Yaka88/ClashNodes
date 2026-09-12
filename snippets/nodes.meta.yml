@@ -1,172 +1,123 @@
 proxies:
 - name: 美国+CloudFlare节点
   network: ws
-  port: 2087
-  server: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  password: humanity
+  port: 443
+  server: 104.16.174.143
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 广东省广州市+UCloud
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 104.18.42.163
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
   tls: true
   type: vless
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   ws-opts:
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
     path: /
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  flow: xtls-rprx-vision
-  name: 巴西+圣保罗
-  network: tcp
+- name: 英国+V2CROSS.COM
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
-  reality-opts:
-    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
-    short-id: '52ccb3687fe0b7ec'
-  server: 200.165.235.78
-  servername: api8.eaglors.com
+  server: news.gazette.help
+  skip-cert-verify: true
+  sni: news.gazette.help
   tls: false
-  type: vless
-  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.21.5.156
-  servername: 5-M13.1332afdc-0737-4BB1-8CA8-EE4F0cd20Bc6.KdNs.FR
-  tls: true
-  type: vless
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
-  ws-opts:
-    headers:
-      Host: 5-m13.1332aFDC-0737-4bB1-8cA8-Ee4f0cD20bC6.Kdns.fR
-    path: /ED3ZQPu7lqyeDGD58KabZ
+  type: hysteria2
 - name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.21.46.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '英国+V2CROSS.COM #1'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: gta.internet-card.sbs
-  skip-cert-verify: true
-  sni: gta.internet-card.sbs
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 香港 Amazon数据中心
-  network: tcp
-  port: '21019'
-  server: dog-hk.kunlun01dns.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.2
+  server: 172.67.149.60
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 172.67.139.129
-  servername: 7-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
-  tls: true
-  type: vless
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
-  ws-opts:
-    headers:
-      Host: 7-m20.c79324d6-7c42-4d44-be57-c3e1debe6c59.kdns.fr
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
+    path: /assignment
 - flow: xtls-rprx-vision
-  name: 瑞士+V2CROSS.COM
+  name: 伊朗+V2CROSS.COM
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
+    short-id: 'a1b2c3d4'
+  server: 31.59.150.174
+  servername: hotcoals.aeternavpn.space
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
+- flow: xtls-rprx-vision
+  name: 乌克兰+V2CROSS.COM
   network: raw
   port: 443
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: 'c39cc7310a'
-  server: 169.40.42.90
-  servername: yahoo.com
+    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
+    short-id: '55ab5559e3a6d10a'
+  server: 5.34.178.120
+  servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
+- name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 14443
+  server: 95.163.232.171
+  servername: pr-media.pepro.site
+  tls: true
+  type: vless
+  uuid: fb67fd37-8d41-43a9-a093-c0b807fc5299
+  ws-opts:
+    path: '%2Fws'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 2087
+  server: mfa.gov.ua
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+    path: '%2F'
 - name: '美国+CloudFlare节点 #5'
   network: ws
   port: 443
-  server: 104.21.41.227
-  servername: 7-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
+  server: 172.67.140.11
+  servername: 7-m19.suDan-pARK.CcwU.cc
   tls: true
   type: vless
-  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   ws-opts:
     headers:
-      Host: 7-m20.dbfb5a2a-81c7-481a-b0cc-0f51aa86cc51.kdns.fr
-    path: /8qMLgNapWf6SBxo8fhQlVPYO
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 立陶宛+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4VzPARgETZ4lJIffknTNqmfkP567FqYV94A18Be8vxQ
-    short-id: '837f454e9c8a7e19'
-  server: 88.216.195.13
-  servername: w-mebel.pro
-  tls: false
-  type: vless
-  uuid: 3c48b5f5-7766-4896-874e-b3ba1860e83a
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  port: 2082
-  server: 172.64.150.28
-  tls: false
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  port: 8880
-  server: themeforest.net
-  tls: false
-  type: vless
-  uuid: 530868e7-d788-4595-b2d6-6a40c098164d
-  ws-opts:
-    headers:
-      Host: crimson-sea-a4bb.343-1a7.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- name: '美国+CloudFlare节点 #8'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.188.109
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #9'
-  network: ws
-  port: 2053
-  server: 172.67.67.241
-  servername: mianfei-73q.pages.dev
-  tls: true
-  type: vless
-  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
-  ws-opts:
-    headers:
-      Host: mianfei-73q.pages.dev
-    path: /proxyip=154.3.33.43
+      Host: 7-m19.sUDAN-pArk.CCwu.CC
+    path: /CjBjB9sn5pCvaSwScc
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
