@@ -1,16 +1,22 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+威尔士阿伯斯威大学
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
+    short-id: '!!str 8ffa160e608bf539'
+  server: 144.124.252.13
+  servername: nid3.pinkmoon.pro
+  tls: false
+  type: vless
+  uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
 - name: 英国+V2CROSS.COM
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: gta.internet-card.sbs
   skip-cert-verify: true
   sni: gta.internet-card.sbs
-  tls: false
-  type: hysteria2
-- name: '英国+V2CROSS.COM #1'
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: news.gazette.help
-  sni: news.gazette.help
   tls: false
   type: hysteria2

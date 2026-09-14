@@ -1,34 +1,28 @@
 proxies:
-- name: 日本东京+Oracle+Cloud
-  password: 184cdec28da5a09450803c8debcd2cc9
-  port: 50160
-  server: 138.3.208.26
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: 美国+CloudFlare节点
   network: ws
-  password: humanity
   port: 443
-  server: 104.26.14.137
-  sni: www.ignitelimit.com
-  type: trojan
+  server: 104.21.62.234
+  servername: 5-M19.sudaN-parK.ccwU.cC
+  tls: true
+  type: vless
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
   ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
+    headers:
+      Host: 5-M19.sUdaN-PArK.ccWu.CC
+    path: /CjBjB9sn5pCvaSwScc
+- name: '美国+CloudFlare节点 #1'
   network: ws
-  password: humanity
-  port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
+  port: 8880
+  server: 162.159.140.78
+  servername: flat-sun-b8d3.225-154.workers.dev
+  tls: false
+  type: vless
+  uuid: bf667068-11cb-4c37-a867-4a2b03b45555
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: flat-sun-b8d3.225-154.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
 - alpn:
   - h3
   - h2
@@ -42,39 +36,110 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 法国巴黎+CloudFlare节点
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8880
+  server: 104.21.74.214
+  tls: false
+  type: vless
+  uuid: e74e8806-06b5-4fb0-a89e-cf79d88cfd02
+  ws-opts:
+    headers:
+      Host: wild-frog-54a9.170-dcc.workers.dev
+    path: /pyip
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 199.232.78.101
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-11.global.ssl.fastly.net
+    path: '---@bored_vpn'
+- name: 新加坡+Digital+VM
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 1933
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 141.101.90.101
+  server: www.speedtest.org
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 2087
-  server: 104.18.38.47
-  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-  tls: true
+- name: 广东省广州市+UCloud
+  port: 58011
+  server: us22.sofast.live
+  tls: false
   type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
-    path: /
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
 - flow: xtls-rprx-vision
-  name: 爱尔兰+V2CROSS.COM
+  name: 英国+威尔士阿伯斯威大学
   network: tcp
   port: 443
   reality-opts:
     public-key: DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk
     short-id: '8ffa160e608bf539'
-  server: 89.124.92.66
+  server: 144.124.252.13
   servername: nid3.pinkmoon.pro
   tls: false
   type: vless
   uuid: 827a0eb0-21bf-4bce-96ef-0a7bac5d68f5
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 8880
+  server: 104.18.36.122
+  tls: false
+  type: vless
+  uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d
+  ws-opts:
+    headers:
+      Host: young-wind-3c58.240-2ce.workers.dev
+    path: /
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 8880
+  server: www.glassdoor.com
+  servername: www.glassdoor.com
+  tls: false
+  type: vless
+  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
+  ws-opts:
+    headers:
+      Host: yellow-sky-38b3.154-d73.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  port: 8880
+  server: 172.67.161.104
+  tls: false
+  type: vless
+  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
+  ws-opts:
+    headers:
+      Host: summer-bonus-aa63.52-c03.workers.dev
+    path: /
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  port: 8880
+  server: 188.114.96.1
+  tls: false
+  type: vless
+  uuid: 0fbe0c5e-b479-4d91-8b42-f194f781b6bb
+  ws-opts:
+    headers:
+      Host: z0ndd1onnp04unxjemim9lf8.abaravi51.workers.dev
+    path: /vl/YPMvUeqm6JGQPL7NGXDTWZ0M?ed=2560
 - name: 英国+V2CROSS.COM
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
@@ -83,26 +148,31 @@ proxies:
   sni: gta.internet-card.sbs
   tls: false
   type: hysteria2
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 伊朗+V2CROSS.COM
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI
-    short-id: 'a1b2c3d4'
-  server: 31.59.150.174
-  servername: hotcoals.aeternavpn.space
+- alpn:
+  - http/1.1
+  name: 美国+乔治亚洲亚特兰大Fastly节点
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.101
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---ss--s---mitivpn-5.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/des---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: '美国+CloudFlare节点 #8'
+  network: ws
+  port: 80
+  server: 104.27.2.172
   tls: false
   type: vless
-  uuid: 92089155-6602-4122-86d4-fe6de20e8c4d
-- name: '英国+V2CROSS.COM #1'
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: news.gazette.help
-  sni: news.gazette.help
-  tls: false
-  type: hysteria2
+  uuid: 234c52f2-0d7b-dc4a-0d6b-b0b300000025
+  ws-opts:
+    headers:
+      Host: billowing-surf-d251.netizo06.workers.dev
+    path: /sync
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
