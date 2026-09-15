@@ -7,10 +7,10 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: NCW-zK60GXsiDdlbxww18Pqp4kz3zTG1URHWS_bnfDk
-    short-id: '!!str 3f7e0363'
-  server: app4.betust.net
-  servername: app4.betust.net
+    public-key: YczbievYAOeZIypa58aRpil6XbfdyifK_0cFJWn8-yg
+    short-id: '!!str d6c172d3'
+  server: api.betust.net
+  servername: api.betust.net
   tls: false
   type: vless
   uuid: 01a21e01-6098-4c3b-a6fd-1a04d64d0c7f
