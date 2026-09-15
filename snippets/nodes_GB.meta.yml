@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NA5eMfdHkl_L80S75uxQwUirS9nvZ80V2u1s71KeXkc
+    short-id: '!!str 2de63d3fd7261b7e'
+  server: app-ms-35.ecom-ai-solutions.com
+  servername: assets-ms-35.ecom-ai-solutions.com
+  tls: false
+  type: vless
+  uuid: a71ad164-3b29-4dbe-aa66-24d095ca7b6d

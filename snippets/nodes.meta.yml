@@ -1,31 +1,33 @@
 proxies:
+- flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NA5eMfdHkl_L80S75uxQwUirS9nvZ80V2u1s71KeXkc
+    short-id: '2de63d3fd7261b7e'
+  server: app-ms-35.ecom-ai-solutions.com
+  servername: assets-ms-35.ecom-ai-solutions.com
+  tls: false
+  type: vless
+  uuid: a71ad164-3b29-4dbe-aa66-24d095ca7b6d
 - name: 美国+CloudFlare节点
   network: ws
-  password: humanity
-  port: 443
-  server: 104.21.46.3
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.21.86.133
-  servername: 1-m13.AyutThAya-9.KDNs.fr
-  tls: true
+  port: 8880
+  server: 104.20.6.153
+  tls: false
   type: vless
-  uuid: 1aa96574-c28b-4ee9-855d-ebdbbf1f7e90
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
   ws-opts:
     headers:
-      Host: 1-m13.aYuTThaYA-9.kDNS.fR
-    path: /ED3ZQPu7lqyeDGD58KabZ
-- name: 乌克兰+V2CROSS.COM
+      Host: index.harmonica02.workers.dev
+    path: /j100sy9wn073cxbvir
+- name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
-  port: 2053
-  server: 82.117.245.125
-  sni: www.calmlunch.com
+  port: 443
+  server: 172.67.74.2
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
@@ -33,11 +35,31 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 162.159.136.234
+  server: join-telegram-channel.tirexnet.kdns.fr
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 广东省广州市+UCloud
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.8.107
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
 - name: 巴西圣保罗+CloudFlare节点
   network: ws
   password: humanity
@@ -46,19 +68,48 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: /assignment
-- name: '美国+CloudFlare节点 #3'
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
+  server: 104.21.46.3
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #4'
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 8880
+  server: cf8.466688.xyz
+  tls: false
+  type: vless
+  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
+  ws-opts:
+    headers:
+      Host: nameless-tree-08b8.352.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+- name: '美国+CloudFlare节点 #7'
+  network: ws
+  port: 8080
+  server: 104.21.44.253
+  tls: false
+  type: vless
+  uuid: c6ba83a7-c4b5-481f-8f71-0f17deff0bf2
+  ws-opts:
+    headers:
+      Host: billowing-sunset-e340.qaraatayi.workers.dev
+    path: /eyJqdW5rIjoiOUhPbnRlV0xaekI1cjciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+- name: '美国+CloudFlare节点 #8'
   network: ws
   password: humanity
   port: 443
@@ -67,64 +118,23 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 巴西+圣保罗
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Nb9IwEEhUHEbHSc6e5uYTjxDgN4ZExhDckM3OgYhj2o
-    short-id: '52ccb3687fe0b7ec'
-  server: 200.165.235.78
-  servername: api8.eaglors.com
-  tls: false
-  type: vless
-  uuid: 238e492b-bc20-4380-92b6-135d39112ca4
-  ws-opts:
-    headers:
-      Host: '%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 443
-  server: 104.21.92.49
-  servername: 8-M19.OmAN-LInK.KdNS.FR
-  tls: true
-  type: vless
-  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-  ws-opts:
-    headers:
-      Host: 8-M19.oMan-lInk.kDNs.fr
-    path: /CjBjB9sn5pCvaSwScc
-- name: '美国+CloudFlare节点 #6'
+- name: '美国+CloudFlare节点 #9'
   network: ws
   password: humanity
   port: 443
-  server: 198.41.223.96
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.221.242
+  server: 104.26.14.137
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
+- name: 法国巴黎+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: www.speedtest.org
+  server: 141.101.90.101
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - alterId: 2
   cipher: auto
