@@ -1,27 +1,9 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 199.232.78.160
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---ss--s---mitivpn-44s.global.ssl.fastly.net
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  server: 104.21.46.3
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -30,7 +12,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 162.159.136.234
+  server: join-telegram-channel.tirexnet.kdns.fr
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -41,20 +23,70 @@ proxies:
   name: '美国+CloudFlare节点 #2'
   network: ws
   port: 443
-  server: 104.21.32.33
-  servername: 9-m9.hat-yai.kdns.fr
+  server: 172.67.136.43
+  servername: 6-M13.176F877b-9958-456A-9b39-9DE3e9aD2d9D.KdNs.fR
+  tls: true
+  type: vless
+  uuid: 7700ff6d-cefb-4768-a806-ec4f63fe3b38
+  ws-opts:
+    headers:
+      Host: 6-m13.176f877B-9958-456A-9b39-9De3e9AD2D9d.kDnS.Fr
+    path: /ED3ZQPu7lqyeDGD58KabZ
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: 104.21.92.49
+  servername: 8-M19.OmAN-LInK.KdNS.FR
+  tls: true
+  type: vless
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  ws-opts:
+    headers:
+      Host: 8-M19.oMan-lInk.kDNs.fr
+    path: /CjBjB9sn5pCvaSwScc
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8880
+  server: skk.moe
+  tls: false
+  type: vless
+  uuid: d6c595c9-bff4-4510-893a-dfa3c87fa0cd
+  ws-opts:
+    headers:
+      Host: lucky-cell-d20c.78-107.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 443
+  server: 172.67.196.178
+  servername: 4-m9.pattaya-4.kdns.fr
   tls: true
   type: vless
   uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
   ws-opts:
     headers:
-      Host: 9-m9.hat-yai.kdns.fr
+      Host: 4-m9.pattaya-4.kdns.fr
     path: /BzuntJ8qZN0TRKbC8TveMxJ0
-- name: '美国+CloudFlare节点 #3'
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 443
+  server: 104.21.75.174
+  servername: 4-m9.chiang-rai-9.kdns.fr
+  tls: true
+  type: vless
+  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  ws-opts:
+    headers:
+      Host: 4-m9.chiang-rai-9.kdns.fr
+    path: /BzuntJ8qZN0TRKbC8TveMxJ0
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
   port: 443
-  server: 172.67.188.109
+  server: 172.67.74.2
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
