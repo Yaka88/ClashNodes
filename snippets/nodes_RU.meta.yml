@@ -1,12 +1,1 @@
-proxies:
-- name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 26437
-  server: 91.107.144.22
-  tls: false
-  type: vless
-  uuid: 0b05ddba-6e1f-4a77-ac5a-4a9f9d08d543
-  ws-opts:
-    headers:
-      Host: play-apps-features.googleusercontent.com
-    path: /@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray@Nap_v2ray---@Nap_v2ray
+proxies: []
