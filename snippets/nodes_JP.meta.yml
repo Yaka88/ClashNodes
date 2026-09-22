@@ -1,12 +1,17 @@
 proxies:
-- name: 日本东京+technological.ro
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 20561
-  server: msjp1.mangshe.xyz
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
+- client-fingerprint: chrome
+  name: 日本+东京Amazon数据中心
+  network: ws
+  port: 443
+  server: 3.112.67.101
+  servername: thus-k.netnode.cc.cd
+  tls: true
+  type: vless
+  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  ws-opts:
+    headers:
+      Host: thus-k.netnode.cc.cd
+    path: /t.me/daily_free_vpn
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
