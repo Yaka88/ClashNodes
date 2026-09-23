@@ -1,82 +1,53 @@
 proxies:
-- name: '美国+CloudFlare节点 #1'
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.108
-  skip-cert-verify: false
+  server: 104.18.23.63
+  skip-cert-verify: true
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
+    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.14
+  server: 172.67.74.2
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
+- name: 加拿大+V2CROSS.COM
   network: ws
-  password: MITIVpN
+  password: humanity
   port: 443
-  server: 167.82.76.7
-  skip-cert-verify: false
-  sni: ssl.fastly.com
+  server: 130.250.137.171
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    headers:
-      Host: mitivpn---ss--s---mitivpn-33e.global.ssl.fastly.net
-    path: /---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/NLSs---@VPNine1---@VPNine1/---@VPNine1---@VPNine1/---@VPNine1---@VPNine1
+    path: '%2Fassignment'
 - name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.73
+  server: 104.18.152.155
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #5'
+- name: '美国+CloudFlare节点 #4'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.101
+  server: 104.16.174.124
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: '美国+CloudFlare节点 #6'
-  network: ws
-  password: humanity
-  port: 443
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+CloudFlare节点 #8'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.144
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '美国+V2CROSS.COM #1'
+- name: 美国+V2CROSS.COM
   network: ws
   password: humanity
   port: 443
@@ -85,22 +56,48 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
-- name: 美国+得克萨斯州达拉斯Cloudflare+Warp节点
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: '美国+CloudFlare节点 #6'
   network: ws
   password: humanity
   port: 443
-  server: 8.6.112.0
+  server: 198.41.223.96
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 乌克兰+V2CROSS.COM
+- name: '美国+CloudFlare节点 #7'
   network: ws
   password: humanity
-  port: 2053
-  server: 82.117.245.125
-  sni: www.calmlunch.com
+  port: 443
+  server: 104.18.152.210
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #9'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
@@ -108,7 +105,43 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.121
+  server: ip.myip2.qzz.io
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #12'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.177.143
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '美国+CloudFlare节点 #13'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.161
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '美国+CloudFlare节点 #14'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2F%2Fassignment'
+- name: '美国+CloudFlare节点 #16'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.149
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
