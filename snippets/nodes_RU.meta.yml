@@ -5,36 +5,10 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: YczbievYAOeZIypa58aRpil6XbfdyifK_0cFJWn8-yg
-    short-id: '!!str d6c172d3'
-  server: 188.225.77.241
-  servername: api.betust.net
+    public-key: sS3x_ZygtA9uZ5WaYm7pHjy0_lPNUUK7kOSLz0BNhCs
+    short-id: '!!str 54ac91da'
+  server: 188.225.42.6
+  servername: app6.betust.net
   tls: false
   type: vless
   uuid: 7cde4592-4758-415f-8b97-c188faa4d1c9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SxbaWzlvE_HQqqsA4PNX2PFcSYXTVE2nZlgLc7cPOgk
-    short-id: '!!str 8681edc9'
-  server: 188.225.25.142
-  servername: prime.betust.net
-  tls: false
-  type: vless
-  uuid: 7cde4592-4758-415f-8b97-c188faa4d1c9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 2ZUQYIhUijdJ1vRL8iR8RxjmJvRVHYp-JoWevQ2LyR4
-    short-id: '!!str 7bb730e3e6616d31'
-  server: 91.240.86.186
-  servername: yandex.ru
-  tls: false
-  type: vless
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
