@@ -1,14 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: sS3x_ZygtA9uZ5WaYm7pHjy0_lPNUUK7kOSLz0BNhCs
-    short-id: '!!str 54ac91da'
-  server: 188.225.42.6
-  servername: app6.betust.net
-  tls: false
-  type: vless
-  uuid: 7cde4592-4758-415f-8b97-c188faa4d1c9
+proxies: []
