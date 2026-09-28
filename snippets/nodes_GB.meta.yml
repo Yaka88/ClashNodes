@@ -1,16 +1,27 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
   network: tcp
-  port: 2063
+  port: 443
   reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  server: pl-waw.dontblockmepls.com
-  servername: rusbid.de
+    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
+    short-id: '!!str a1b2c3d4e5f67890'
+  server: 31.76.245.63
+  servername: dzen.ru
   tls: false
   type: vless
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8w1MyEJV4l9QeNWbYMXny5tTLNTw_9nsQ7jOuiQhix4
+    short-id: '!!str 0123456789abcdef'
+  server: 31.76.111.79
+  servername: hh.ru
+  tls: false
+  type: vless
+  uuid: ac9a573b-67ff-4953-9e13-4cf43576f8f0
