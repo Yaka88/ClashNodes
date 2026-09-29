@@ -1,17 +1,14 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 新加坡+Amazon数据中心
-  network: tcp
-  port: 28243
-  reality-opts:
-    public-key: IXxfPvq2OkbSuA-ZTBFpMzkDU1uO8dEI1e7s9VfHh1Y
-    short-id: '!!str 7996bf4dcf194d18'
-  server: 18.139.227.162
-  servername: www.cloudflare.com
+- name: 新加坡+甲骨文机房
+  obfs: ''
+  obfs-password: ''
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
+  skip-cert-verify: true
+  sni: 138.2.73.238
   tls: false
-  type: vless
-  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 新加坡|@ripaojiedian
