@@ -1,25 +1,9 @@
 proxies:
 - name: 香港+特别行政区
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  sni: 202.146.222.29
-  tls: false
-  type: hysteria2
-- name: '香港+特别行政区 #1'
   password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
   port: 443
   server: admin.wwwinternetvideo.click
   sni: admin.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- name: '香港+特别行政区 #2'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  sni: www.bing.com
   tls: false
   type: hysteria2
 - alterId: 2
