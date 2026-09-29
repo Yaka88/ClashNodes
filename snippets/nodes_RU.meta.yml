@@ -1,15 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 2096
-  server: 91.193.58.108
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
+proxies: []
