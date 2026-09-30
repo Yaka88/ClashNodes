@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- name: 德国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 193.227.99.2
+  tls: false
+  type: vless
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  ws-opts:
+    headers:
+      Host: old-violet-a5ce.29-440.workers.dev
+    path: /pyip=Telegram🇨🇳+@WangCai2

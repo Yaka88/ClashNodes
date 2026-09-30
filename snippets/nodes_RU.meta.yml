@@ -1,1 +1,23 @@
-proxies: []
+proxies:
+- name: 俄罗斯+V2CROSS.COM
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: 24443
+  server: 91.240.86.70
+  sni: hy.quattro-tech.ru
+  tls: false
+  type: hysteria2
+- name: 俄罗斯+鞑靼斯坦喀山justhost
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: els.mangshe.xyz
+  skip-cert-verify: true
+  sni: els.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '俄罗斯+V2CROSS.COM #1'
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: 22443
+  server: 91.240.86.70
+  sni: itsallproxy.quattro-tech.ru
+  tls: false
+  type: hysteria2
