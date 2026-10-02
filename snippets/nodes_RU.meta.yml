@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+- name: 俄罗斯+V2CROSS.COM
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: hk2.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '俄罗斯+V2CROSS.COM #1'
+  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
+  port: 24443
+  server: 91.240.86.70
+  sni: hy.quattro-tech.ru
+  tls: false
+  type: hysteria2
