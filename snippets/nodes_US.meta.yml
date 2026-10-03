@@ -1,30 +1,31 @@
 proxies:
-- flow: ''
-  name: 美国+加利福尼亚
-  network: ws
-  port: 80
-  server: platform108.golnamakcert.top
+- name: 美国+V2CROSS.COM
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.143
+  sni: hop-germany-september.dynuddns.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+惠普HP
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: '!!str 21270a66'
+  server: tk1.high-speed-test-56424.me
+  servername: aws.amazon.com
   tls: false
   type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  ws-opts:
-    headers:
-      Host: platform108.halalkhor.info
-    path: '%2Fplatform108'
-- alpn:
-  - h2
-  name: 美国+CloudFlare节点
-  network: ws
-  password: 0y7hid61k3k2vuy1
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
-  skip-cert-verify: true
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: uwu.dianaw.cc.cd
-    path: '%2F%40BlueKnight_net--%40BlueKnight_net--%40BlueKnight_net'
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+- name: '美国+V2CROSS.COM #1'
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  port: 443
+  server: 144.31.212.253
+  sni: vps155-edge.kermemehori.ru
+  tls: false
+  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092

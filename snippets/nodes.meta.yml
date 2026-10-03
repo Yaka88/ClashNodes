@@ -1,104 +1,80 @@
 proxies:
-- name: 北京市+百度电信节点
-  port: 52683
-  server: jp.sofast.live
-  tls: false
+- alpn:
+  - http/1.1
+  name: 保加利亚+V2CROSS.COM
+  network: ws
+  port: 8443
+  server: ee10.zazazuza.ru
+  servername: fdghyt.com
+  tls: true
   type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+  ws-opts:
+    headers:
+      Host: fdghyt.com
+    path: /vpn-wss/fluxor/59011/
+- name: 乌克兰+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 2053
+  server: 82.117.245.125
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: 澳大利亚+V2CROSS.COM
   password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
   port: 4433
   server: de1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: de1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 法国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M7fn-U9PikoH_WXu6HbDE5bi9ej5cFN8bgWy8qF14WU
-    short-id: '76f547961a8ca082'
-  server: 185.33.24.85
-  servername: a.wb.ru
-  tls: false
-  type: vless
-  uuid: 933eb45b-0e97-4ed1-bfb9-e34bd0b4342c
-- name: 台湾省彰化县+中华电信
-  network: ws
-  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
-  port: 443
-  server: zhilegelian1.bpca2026.top
-  sni: zhilegelian1.bpca2026.top
-  type: trojan
-  ws-opts:
-    headers:
-      Host: zhilegelian1.bpca2026.top
-    path: '%2Fimages'
-- name: 巴西+V2CROSS.COM
-  network: tcp
-  port: 47000
-  reality-opts:
-    public-key: EJrtmRT2Acb9nNj8Yc-nfPxRprxkF52zpDcnmJ0qNS0
-    short-id: '96bb9775a5'
-  server: 179.198.49.84
-  servername: www.goo.gl
-  tls: false
-  type: vless
-  uuid: d9090ce9-388b-45b9-9e84-64eac5522b8a
-- name: 俄罗斯+V2CROSS.COM
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: 22443
-  server: 91.240.86.70
-  sni: hy.quattro-tech.ru
+- name: 美国+V2CROSS.COM
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.127.143
+  sni: hop-germany-september.dynuddns.com
   tls: false
   type: hysteria2
-- flow: ''
-  name: 美国+加利福尼亚
-  network: ws
-  port: 80
-  server: platform108.golnamakcert.top
-  tls: false
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  ws-opts:
-    headers:
-      Host: platform108.halalkhor.info
-    path: '%2Fplatform108'
-- alpn:
-  - h2
-  name: 美国+CloudFlare节点
-  network: ws
-  password: 0y7hid61k3k2vuy1
-  port: 2087
-  server: uwu.blueknightnet.qzz.io
+- name: 加拿大+V2CROSS.COM
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 51285
+  server: 108.181.5.106
   skip-cert-verify: true
-  sni: uwu.dianaw.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: uwu.dianaw.cc.cd
-    path: '%2F%40BlueKnight_net--%40BlueKnight_net--%40BlueKnight_net'
-- name: 香港+V2CROSS.COM
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-hk-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-hk-004.fastervpn.world
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - flow: xtls-rprx-vision
-  name: 爱尔兰+V2CROSS.COM
+  name: 美国+惠普HP
   network: tcp
-  port: 7443
+  port: 443
   reality-opts:
-    public-key: 0BVxZKOt6wO0jIB1xRkAAtaFUkmyFAbVWfkkKSJBfEI
-    short-id: '570ffeb12f6e4635'
-  server: node.remnagecsp.ru
-  servername: node.remnagecsp.ru
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: '21270a66'
+  server: tk1.high-speed-test-56424.me
+  servername: aws.amazon.com
   tls: false
   type: vless
-  uuid: 81a227e3-cb97-40fe-b7b6-45a60ed065cf
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+- client-fingerprint: firefox
+  name: 俄罗斯+V2CROSS.COM
+  network: ws
+  port: 443
+  server: fbsv6.guardora.pro
+  servername: fbsv6.guardora.pro
+  tls: true
+  type: vless
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  ws-opts:
+    path: '%2Fws'
+- name: '美国+V2CROSS.COM #1'
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  port: 443
+  server: 144.31.212.253
+  sni: vps155-edge.kermemehori.ru
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
