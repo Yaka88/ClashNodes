@@ -1,4 +1,15 @@
 proxies:
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: 104.18.35.15
+  sni: _acme-challenge.sb.cloudns.biz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: _acme-challenge.sb.cloudns.biz
+    path: '%2F'
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
