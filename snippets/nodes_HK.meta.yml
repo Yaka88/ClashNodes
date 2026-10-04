@@ -1,66 +1,10 @@
 proxies:
 - name: 香港+电讯盈科有限公司
-  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
   port: 443
-  server: e96c3741-tmm5c0-tw2fdz-1s824.hk3.hyhuawei.com
+  server: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
   skip-cert-verify: true
-  sni: e96c3741-tmm5c0-tw2fdz-1s824.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '香港+电讯盈科有限公司 #1'
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  port: 443
-  server: ac91889e-tmm5c0-u3xqxa-1q91p.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: ac91889e-tmm5c0-u3xqxa-1q91p.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '香港+电讯盈科有限公司 #2'
-  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  port: 443
-  server: 324d64f1-tmm5c0-tnsc3a-1f0gu.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 324d64f1-tmm5c0-tnsc3a-1f0gu.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '香港+电讯盈科有限公司 #3'
-  password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-  port: 443
-  server: 70527201-tmm5c0-tubliy-1la7v.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 70527201-tmm5c0-tubliy-1la7v.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '香港+电讯盈科有限公司 #4'
-  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-  port: 443
-  server: b349b298-tmm5c0-tpda83-1lkbs.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: b349b298-tmm5c0-tpda83-1lkbs.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '香港+电讯盈科有限公司 #5'
-  password: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-  port: 443
-  server: 117776f2-tmm5c0-ttxkqc-e06r.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 117776f2-tmm5c0-ttxkqc-e06r.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '香港+电讯盈科有限公司 #6'
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  port: 443
-  server: 24f1571a-tmm5c0-tug19l-1go3q.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 24f1571a-tmm5c0-tug19l-1go3q.hk3.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: '香港+电讯盈科有限公司 #7'
-  password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-  port: 443
-  server: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com
-  skip-cert-verify: true
-  sni: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com
+  sni: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
   tls: false
   type: hysteria2
 - alterId: 2
