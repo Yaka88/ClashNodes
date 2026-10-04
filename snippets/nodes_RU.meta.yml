@@ -1,1 +1,34 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SRiCmlDq2MeazWpOaQRW0vX9biFHR-mXNFWRUjJ3LQc
+    short-id: '!!str 35dd8abf1a7df7d0'
+  server: 95.163.176.170
+  servername: at-04-10.zetnik.site
+  tls: false
+  type: vless
+  uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc
+- name: '俄罗斯+V2CROSS.COM #1'
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: hk2.xiaoliyu.cyou
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SRiCmlDq2MeazWpOaQRW0vX9biFHR-mXNFWRUjJ3LQc
+    short-id: '!!str 35dd8abf1a7df7d0'
+  server: at-04-10.zetnik.site
+  servername: at-04-10.zetnik.site
+  tls: false
+  type: vless
+  uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc
