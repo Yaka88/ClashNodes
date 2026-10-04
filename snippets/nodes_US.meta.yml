@@ -1,4 +1,127 @@
 proxies:
+- client-fingerprint: chrome
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 172.64.146.66
+  servername: ex3r.qzz.io
+  tls: true
+  type: vless
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  ws-opts:
+    headers:
+      Host: ex3r.qzz.io
+    path: /sg-orcl
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: 819.18827466.bot.cd
+  tls: true
+  type: vless
+  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
+  ws-opts:
+    headers:
+      Host: 819.18827466.bot.cd
+    path: '%2F'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 2052
+  server: 172.67.134.7
+  tls: false
+  type: vless
+  uuid: f1e5d738-2e83-4e2f-b6d6-a9013b3e7e48
+  ws-opts:
+    headers:
+      Host: a6o58qfpwvgrwmz0crtha0r24uyiu2l.x7-f5jb95s0ocjt-0.workers.dev
+    path: '%2Fvl%2Fu3oMYZoYUAozPFEA8UhR%3Fed%3D2560'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8880
+  server: envato.com
+  tls: false
+  type: vless
+  uuid: baaa882d-ac50-4bba-bd8d-5486f7d34005
+  ws-opts:
+    headers:
+      Host: blue-water-924c.174-235.workers.dev
+    path: '%2F'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 2052
+  server: 104.26.3.125
+  servername: icy-wildflower-2590.lihuifeng595.workers.dev
+  tls: false
+  type: vless
+  uuid: e8d06b09-acd9-448c-9874-3c36151d36ee
+  ws-opts:
+    headers:
+      Host: icy-wildflower-2590.lihuifeng595.workers.dev
+    path: /
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
+- name: '美国+V2CROSS.COM #1'
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  port: 443
+  server: 144.31.212.253
+  sni: vps155-edge.kermemehori.ru
+  tls: false
+  type: hysteria2
+- name: '美国+V2CROSS.COM #2'
+  password: 9cfc9458e48c028ec03ff86ebc71c744
+  port: 50160
+  server: 150-230-252-217.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 80
+  server: 104.21.56.90
+  servername: 104.21.56.90
+  tls: false
+  type: vless
+  uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
+  ws-opts:
+    headers:
+      Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
+    path: '%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+俄勒冈州波特兰Amazon数据中心
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: '!!str 21270a66'
+  server: tk1.high-speed-test-56424.me
+  servername: aws.amazon.com
+  tls: false
+  type: vless
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 8880
+  server: 172.64.151.134
+  tls: false
+  type: vless
+  uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d
+  ws-opts:
+    headers:
+      Host: young-wind-3c58.240-2ce.workers.dev
+    path: /
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092

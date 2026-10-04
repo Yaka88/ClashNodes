@@ -1,4 +1,134 @@
 proxies:
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 172.64.146.66
+  servername: ex3r.qzz.io
+  tls: true
+  type: vless
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  ws-opts:
+    headers:
+      Host: ex3r.qzz.io
+    path: /sg-orcl
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: 819.18827466.bot.cd
+  tls: true
+  type: vless
+  uuid: cd7c5c42-7677-4002-8ad3-4433b166a5d1
+  ws-opts:
+    headers:
+      Host: 819.18827466.bot.cd
+    path: '%2F'
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 2052
+  server: 172.67.134.7
+  tls: false
+  type: vless
+  uuid: f1e5d738-2e83-4e2f-b6d6-a9013b3e7e48
+  ws-opts:
+    headers:
+      Host: a6o58qfpwvgrwmz0crtha0r24uyiu2l.x7-f5jb95s0ocjt-0.workers.dev
+    path: '%2Fvl%2Fu3oMYZoYUAozPFEA8UhR%3Fed%3D2560'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8880
+  server: envato.com
+  tls: false
+  type: vless
+  uuid: baaa882d-ac50-4bba-bd8d-5486f7d34005
+  ws-opts:
+    headers:
+      Host: blue-water-924c.174-235.workers.dev
+    path: '%2F'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 2052
+  server: 104.26.3.125
+  servername: icy-wildflower-2590.lihuifeng595.workers.dev
+  tls: false
+  type: vless
+  uuid: e8d06b09-acd9-448c-9874-3c36151d36ee
+  ws-opts:
+    headers:
+      Host: icy-wildflower-2590.lihuifeng595.workers.dev
+    path: /
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
+- name: '美国+V2CROSS.COM #1'
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  port: 443
+  server: 144.31.212.253
+  sni: vps155-edge.kermemehori.ru
+  tls: false
+  type: hysteria2
+- name: '美国+V2CROSS.COM #2'
+  password: 9cfc9458e48c028ec03ff86ebc71c744
+  port: 50160
+  server: 150-230-252-217.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '美国+CloudFlare节点 #5'
+  network: ws
+  port: 80
+  server: 104.21.56.90
+  servername: 104.21.56.90
+  tls: false
+  type: vless
+  uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
+  ws-opts:
+    headers:
+      Host: r7yhmg1zxnt120wmkag.mf1h0myptv4lougs7341bmttcz8.workers.dev
+    path: '%2Fvl%2F2INL39K32mKsOBKt%3Fed%3D2560'
+- name: 阿塞拜疆+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 5.10.246.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime05.workers.dev
+    path: /
+- flow: xtls-rprx-vision
+  name: 美国+俄勒冈州波特兰Amazon数据中心
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: '21270a66'
+  server: tk1.high-speed-test-56424.me
+  servername: aws.amazon.com
+  tls: false
+  type: vless
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
+- name: '美国+CloudFlare节点 #6'
+  network: ws
+  port: 8880
+  server: 172.64.151.134
+  tls: false
+  type: vless
+  uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d
+  ws-opts:
+    headers:
+      Host: young-wind-3c58.240-2ce.workers.dev
+    path: /
 - name: 澳大利亚+V2CROSS.COM
   password: 19f72087-4591-4d72-930b-2697078ec2be
   port: 4433
@@ -6,38 +136,14 @@ proxies:
   sni: de1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 北京市+百度电信节点
-  port: 52683
-  server: jp.sofast.live
-  tls: false
-  type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 澳大利亚+新南威尔士州悉尼Amazon数据中心
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-au-001.fastervpn.world
+- name: 新加坡+甲骨文机房
+  password: f87376e17da040ed04c9665ce8972930
+  port: 50160
+  server: 138.2.73.238
   skip-cert-verify: true
-  sni: vpn-au-001.fastervpn.world
+  sni: 138.2.73.238
   tls: false
   type: hysteria2
-- name: 罗马尼亚+V2CROSS.COM
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: us3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: us3.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: 伊拉克+V2CROSS.COM
-  network: grpc
-  port: 705
-  reality-opts:
-    public-key: nn7zao7trQrkZv5IjiOPmeWPe-Qtj3tFi14Eon9RHC4
-  server: 91.108.249.201
-  servername: www.kayak.com
-  tls: false
-  type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
