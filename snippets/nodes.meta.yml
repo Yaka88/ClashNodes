@@ -1,117 +1,54 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 8880
-  server: 172.66.170.53
+- flow: xtls-rprx-vision
+  name: 福建省福州市+腾讯云
+  network: tcp
+  port: 33102
+  server: 112.49.63.11
+  servername: sgg.knhqf.com
+  tls: true
+  type: vless
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
+- name: 北京市+百度电信节点
+  port: 58011
+  server: us22.sofast.live
   tls: false
   type: vless
-  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
-  ws-opts:
-    headers:
-      Host: summer-hat-ba5c.430.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-- flow: xtls-rprx-vision
-  name: 挪威+V2CROSS.COM
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: 0yLpK5kkIBSMY9hCOmAbcQMcEZAyAgFE9uhpDDNayXc
-    short-id: 'ab293e86f3b62a'
-  server: 138.124.39.205
-  servername: clewgermany.ru
+    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
+    short-id: '494afdc75f8c2fa8'
+  server: 31.77.109.35
+  servername: d3-de1.cloud-cdn.xyz
   tls: false
   type: vless
-  uuid: a6709987-268d-4525-959e-e066ad286407
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 8880
-  server: 172.64.88.168
-  tls: false
-  type: vless
-  uuid: 645ea5d2-7d0a-4d66-940d-eefc2b84f4e9
-  ws-opts:
-    headers:
-      Host: fragrant-surf-4797.496-345.workers.dev
-    path: /pyip=ProxyIP.US.CMLiussss.net
-- flow: xtls-rprx-vision
-  name: 荷兰+V2CROSS.COM
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+- name: '北京市+百度电信节点 #1'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: QsXrvjhVX6Kwp5Gn9dMx8F9p3wUzXAp7ETkbPodmdC8
-    short-id: 'af0c601348f39d8a'
-  server: 212.237.216.55
-  servername: repo1.maven.org
+  port: 52683
+  server: jp.sofast.live
   tls: false
   type: vless
-  uuid: 790910c3-9a97-4375-998a-fcc36b0a2902
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8880
-  server: www.baipiao.eu.org
-  tls: false
-  type: vless
-  uuid: 121c3728-2b6b-4b69-bac6-170b13658d74
-  ws-opts:
-    headers:
-      Host: falling-darkness-95ea.289.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: XhzNlmMTdYr2pYTqiNNP6qWe7BkAgVHU-kZWXc9u9hY
-    short-id: '91c2269c'
-  server: 188.225.24.201
-  servername: app11.betust.net
+    public-key: Fe_144ALuRRedGs06ljDnE1f_G2B2wE4i9_diqw5LnY
+    short-id: 'a16bc894'
+  server: 188.225.25.195
+  servername: app25.betust.net
   tls: false
   type: vless
   uuid: 7610be85-9855-4010-8929-ce16d4993969
   ws-opts:
     headers:
       Host: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-- name: 北京市+百度电信节点
-  network: tcp
-  port: 58011
-  server: us22.sofast.live
-  tls: false
-  type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: 104.21.25.168
-  tls: false
-  type: vless
-  uuid: abd3678b-f654-404c-adc7-1355865197e1
-  ws-opts:
-    headers:
-      Host: vless.a-amr79.workers.dev
-    path: /eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
-- flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NCW-zK60GXsiDdlbxww18Pqp4kz3zTG1URHWS_bnfDk
-    short-id: '3f7e0363'
-  server: 188.225.57.78
-  servername: app4.betust.net
-  tls: false
-  type: vless
-  uuid: 7610be85-9855-4010-8929-ce16d4993969
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 8880
-  server: skk.moe
-  tls: false
-  type: vless
-  uuid: 7242eccf-5261-4e31-813e-871bfbde90c2
-  ws-opts:
-    headers:
-      Host: long-flower-ac0d.176-17e.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
 - name: 伊拉克+V2CROSS.COM
   network: grpc
   port: 705
@@ -122,6 +59,26 @@ proxies:
   tls: false
   type: vless
   uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+- name: 美国+V2CROSS.COM
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- flow: xtls-rprx-vision
+  name: 广东省东莞市+联通
+  port: 33102
+  server: 27.44.143.169
+  servername: sgg.knhqf.com
+  tls: true
+  type: vless
+  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

@@ -1,4 +1,16 @@
 proxies:
+- name: 美国+V2CROSS.COM
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-2.global.ssl.fastly.net
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
