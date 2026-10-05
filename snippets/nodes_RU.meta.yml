@@ -1,28 +1,30 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
   network: tcp
-  port: 8080
-  server: 91.107.151.122
+  port: 443
+  reality-opts:
+    public-key: XhzNlmMTdYr2pYTqiNNP6qWe7BkAgVHU-kZWXc9u9hY
+    short-id: '!!str 91c2269c'
+  server: 188.225.24.201
+  servername: app11.betust.net
   tls: false
   type: vless
-  uuid: 39098241-9c6e-4fe7-abbd-7f6f6ed4512c
+  uuid: 7610be85-9855-4010-8929-ce16d4993969
   ws-opts:
     headers:
-      Host: play.google.com
-    path: '%2F'
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+      Host: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '俄罗斯+V2CROSS.COM #1'
-  network: ws
+  network: tcp
   port: 443
-  server: fbsv6.guardora.pro
-  servername: fbsv6.guardora.pro
-  skip-cert-verify: false
-  tls: true
+  reality-opts:
+    public-key: NCW-zK60GXsiDdlbxww18Pqp4kz3zTG1URHWS_bnfDk
+    short-id: '!!str 3f7e0363'
+  server: 188.225.57.78
+  servername: app4.betust.net
+  tls: false
   type: vless
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
-  ws-opts:
-    headers:
-      Host: fbsv6.guardora.pro
-    path: /ws
+  uuid: 7610be85-9855-4010-8929-ce16d4993969
