@@ -1,12 +1,4 @@
 proxies:
-- name: 香港+电讯盈科有限公司
-  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-  port: 443
-  server: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

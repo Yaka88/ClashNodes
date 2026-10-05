@@ -1,15 +1,58 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
+- flow: xtls-rprx-vision
+  name: 美国+普渡大学中北部分校
   network: tcp
-  port: 8080
-  server: 91.107.151.122
+  port: 443
+  reality-opts:
+    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
+    short-id: 'ad6e08b22389abd2'
+  server: 163.245.52.91
+  servername: d3-ee1.cloud-cdn.xyz
   tls: false
   type: vless
-  uuid: 39098241-9c6e-4fe7-abbd-7f6f6ed4512c
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 63.141.128.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: play.google.com
-    path: /
+      Host: vms.lifetime42.workers.dev
+    path: '%2F'
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8880
+  server: 172.64.80.1
+  servername: misty-mouse-141d.177-f18.workers.dev
+  tls: false
+  type: vless
+  uuid: 5bbf0601-8431-45f6-a4e9-a1e8b44c0055
+  ws-opts:
+    headers:
+      Host: misty-mouse-141d.177-f18.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: 英国+V2CROSS.COM
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.104
+  skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 美国+Xerox
@@ -23,34 +66,79 @@ proxies:
   tls: false
   type: vless
   uuid: dcf8e133-09a2-4884-abf9-80356bb334ac
-- name: 美国+加利福尼亚州洛杉矶Sharktech数据中心
-  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-  port: 443
-  server: 49fe8226-tmm5c0-tuklme-ueq.los.hyhuawei.com
-  skip-cert-verify: true
-  sni: 49fe8226-tmm5c0-tuklme-ueq.los.hyhuawei.com
+- name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 8080
+  server: 91.107.151.122
   tls: false
-  type: hysteria2
-- name: 法国+ONLINE+S.A.S.数据中心
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- client-fingerprint: unsafe
-  name: 江苏省南京市+腾讯云
-  network: ws
-  port: 8443
-  server: 129.211.188.184
-  servername: jp3.yohototo.top
-  tls: true
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 39098241-9c6e-4fe7-abbd-7f6f6ed4512c
   ws-opts:
     headers:
-      Host: jp3.yohototo.top
-    path: '%2Ftyxyws'
+      Host: play.google.com
+    path: '%2F'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 8080
+  server: www.whoer.net
+  tls: false
+  type: vless
+  uuid: 9cc42ee7-1f5f-46f5-a8b0-2da76b6b6641
+  ws-opts:
+    headers:
+      Host: pe2ev-frosty-poetry-3d08.s67y4jl8.workers.dev
+    path: /
+- alpn:
+  - http/1.1
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: fbsv6.guardora.pro
+  servername: fbsv6.guardora.pro
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  ws-opts:
+    headers:
+      Host: fbsv6.guardora.pro
+    path: /ws
+- name: '美国+V2CROSS.COM #2'
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  port: 443
+  server: 144.31.212.253
+  skip-cert-verify: true
+  sni: vps155-edge.kermemehori.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 2063
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: pl-waw.dontblockmepls.com
+  servername: rusbid.de
+  tls: false
+  type: vless
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+- alpn:
+  - http/1.1
+  name: '美国+V2CROSS.COM #3'
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 167.82.76.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn---deb--s---mitivpn-4.global.ssl.fastly.net
+    path: /---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/des---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP/---@MetiVIP---@MetiVIP
 - flow: xtls-rprx-vision
   name: 广东省东莞市+联通
   network: tcp
@@ -60,65 +148,84 @@ proxies:
   tls: true
   type: vless
   uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-- name: 美国+CloudFlare节点
+- name: 亚太地区+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 103.116.7.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime35.workers.dev
+    path: /
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 8880
+  server: 172.66.132.196
+  servername: dark-dew-c3ed.48-97c.workers.dev
+  tls: false
+  type: vless
+  uuid: 2efeba50-78fe-4729-9821-1fb9819ed9e8
+  ws-opts:
+    headers:
+      Host: dark-dew-c3ed.48-97c.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8880
+  server: 104.17.144.29
+  tls: false
+  type: vless
+  uuid: 85e14d59-02ea-4642-a317-50f1e1691660
+  ws-opts:
+    headers:
+      Host: icy-hat-20f3.328-99f.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: 北京市+百度电信节点
+  network: tcp
+  port: 58011
+  server: us22.sofast.live
+  tls: false
+  type: vless
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8880
+  server: 104.16.99.215
+  tls: false
+  type: vless
+  uuid: 35e8826f-0873-492d-8b8a-d495c9947480
+  ws-opts:
+    headers:
+      Host: super-sunset-010c.24-43d.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- alpn:
+  - http/1.1
+  name: 巴西圣保罗+CloudFlare节点
   network: ws
   port: 443
-  server: argo6.5671234.xyz
-  servername: argo6.5671234.xyz
+  server: 188.114.96.9
+  servername: IdB8ONMVbntuYT5t7t6cEJfw8vLrb.paGEs.DeV
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
   ws-opts:
     headers:
-      Host: argo6.5671234.xyz
-    path: /e8e2cecb6188f7fb
-- name: '俄罗斯+V2CROSS.COM #1'
+      Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
+    path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrj
+- name: '美国+CloudFlare节点 #5'
   network: ws
-  port: 443
-  server: 78.159.246.110
-  servername: fbsv6.guardora.pro
-  tls: true
+  port: 8880
+  server: www.baipiao.eu.org
+  tls: false
   type: vless
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  uuid: 37fce9ce-9fec-4f30-89a0-fbb1f6f33b3c
   ws-opts:
-    path: '%2Fws'
-- name: 澳大利亚+V2CROSS.COM
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  port: 4433
-  server: de1.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: de1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: 香港+电讯盈科有限公司
-  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-  port: 443
-  server: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
-  skip-cert-verify: true
-  sni: 2219f493-tmm5c0-tpftcp-13x18.nw4.hyhuawei.com
-  tls: false
-  type: hysteria2
-- flow: xtls-rprx-vision
-  name: '广东省东莞市+联通 #1'
-  port: 14343
-  server: 27.44.143.169
-  servername: thuk.huaweiyouxuan.com
-  tls: true
-  type: vless
-  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
-- flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY
-    short-id: '494afdc75f8c2fa8'
-  server: 31.77.109.35
-  servername: d3-de1.cloud-cdn.xyz
-  tls: false
-  type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+    headers:
+      Host: white-night-afee.419-acc.workers.dev
+    path: /pyip=ProxyIP.US.CMLiussss.net
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
