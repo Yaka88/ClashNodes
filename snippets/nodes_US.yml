@@ -1,17 +1,4 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 美国+V2CROSS.COM
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 167.82.76.27
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
