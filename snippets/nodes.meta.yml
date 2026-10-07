@@ -1,102 +1,12 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 爱尔兰+V2CROSS.COM
-  network: tcp
-  port: 11515
-  reality-opts:
-    public-key: A826RSu-yeVM_t6v7kwHKasHSdfI9KOzUw3WaIa9SWc
-    short-id: '65149fc5ba'
-  server: assets.halyvanedorogo.ru
-  servername: www.sony.com
-  tls: false
-  type: vless
-  uuid: cb8fbad5-4f14-55bc-a24a-3510f47f4b1b
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 亚太地区+V2CROSS.COM
-  network: tcp
-  port: 10829
-  server: 103.173.155.212
-  servername: u695098u4d99b056s591.csgfw.top
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 4d99b056s591.csgfw.top
-    path: ''
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 443
-  server: 179.61.138.177
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 47d2e9bes71.gogocs.xyz
-    path: ''
-- name: 罗马尼亚+V2CROSS.COM
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 18333
-  server: us3.xiaoliyu.cyou
+- name: 爱尔兰+V2CROSS.COM
+  password: d402d4c0b8354a90b70bb2566dce9a08
+  port: 8443
+  server: i.wareznet.ru
   skip-cert-verify: true
-  sni: us3.xiaoliyu.cyou
+  sni: i.wareznet.ru
   tls: false
   type: hysteria2
-- name: 英国+V2CROSS.COM
-  network: tcp
-  port: 8080
-  server: milo.rubinaz.xyz
-  tls: false
-  type: vless
-  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 美国+普渡大学中北部分校
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ
-    short-id: 'ad6e08b22389abd2'
-  server: 163.245.52.91
-  servername: d3-ee1.cloud-cdn.xyz
-  tls: false
-  type: vless
-  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
-- name: 澳大利亚+悉尼Amazon数据中心
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-au-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-au-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- flow: xtls-rprx-vision
-  name: 英国+桑德兰大学
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-    short-id: '3cef317b'
-  server: 157.228.150.34
-  servername: addons.mozilla.org
-  tls: false
-  type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
 - alpn:
   - h2
   - http/1.1
@@ -104,18 +14,73 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: 荷兰+V2CROSS.COM
+  name: 俄罗斯+V2CROSS.COM
   network: tcp
   port: 443
-  server: s170.gogocs.xyz
-  servername: u695098u7dae9c0cs220.gogocs.xyz
+  server: s299.kukuss.top
+  servername: u695098u54d73951s298.kukuss.top
   tls: true
   type: vless
   uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   ws-opts:
     headers:
-      Host: 7dae9c0cs220.gogocs.xyz
+      Host: 54d73951s298.kukuss.top
     path: ''
+- flow: xtls-rprx-vision
+  name: 阿富汗+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: f4EJP55daJRlJkcZbbGsY-gFGGFGiXPPdfVxtNWQPCE
+    short-id: 'c8621ebb1e56abb3'
+  server: pa6r26.eu-cdn539.com
+  servername: zsde.eu-cdn294.com
+  tls: false
+  type: vless
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+- flow: xtls-rprx-vision
+  name: 挪威+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: B1g2P-3yW3cQW0WZweSPKUP3lZSQ5pgr8doCYvA0cRg
+    short-id: 'df3dc12b0b9b0c93'
+  server: c5fl8w.api-gate.org
+  servername: ca9.eu-cdn294.com
+  tls: false
+  type: vless
+  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 美国+纽约州纽约BuyVM
+  network: tcp
+  port: 57233
+  server: s554.csgfw.top
+  servername: u695098u8fad5a44s552.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 8fad5a44s552.gogocs.xyz
+    path: ''
+- flow: xtls-rprx-vision
+  name: '爱尔兰+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: x2ek6lVjJumu6nwT9BvGzcsa6ocKVtWqD8lnxNOU8RA
+    short-id: '87810942'
+  server: 89.127.216.177
+  servername: www.sony.co.uk
+  tls: false
+  type: vless
+  uuid: 5120e97f-10e6-4625-929f-9ebf2db8eed1
 - alpn:
   - h2
   - http/1.1
@@ -126,7 +91,7 @@ proxies:
   name: 芬兰+V2CROSS.COM
   network: tcp
   port: 10829
-  server: s1243.sspcccdn.xyz
+  server: s1244.csgfw.top
   servername: u695098ueb8953b4s861.gogocs.xyz
   tls: true
   type: vless
@@ -135,40 +100,95 @@ proxies:
     headers:
       Host: eb8953b4s861.gogocs.xyz
     path: ''
+- flow: xtls-rprx-vision
+  name: 英国+桑德兰大学
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: '3cef317b'
+  server: 157.228.160.166
+  servername: addons.mozilla.org
+  tls: false
+  type: vless
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8880
+  server: 104.21.55.229
+  tls: false
+  type: vless
+  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
+  ws-opts:
+    headers:
+      Host: tiny-lake-bbf1.369-766.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
 - alpn:
   - h2
   - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+  name: 德国+V2CROSS.COM
   network: tcp
-  port: 33414
-  server: s490.kukuss.top
-  servername: u695098u5cabc3b2s489.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 5cabc3b2s489.gogocs.xyz
-    path: ''
-- alpn:
-  - h3
-  - h2
-  name: 美国+CloudFlare节点
-  network: ws
+  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
   port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  server: de.zhabulik.ru
+  sni: de.zhabulik.ru
+  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  name: 美国+Xerox
+  network: tcp
+  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
+  port: 443
+  server: pl.zhabulik.ru
+  sni: pl.zhabulik.ru
+  type: trojan
+- flow: ''
+  name: 美国+加利福尼亚
+  network: ws
+  port: 80
+  server: platform113.golnamakcert.top
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+      Host: platform113.halalkhor.info
+    path: '%2Fplatform113'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 8880
+  server: 104.27.82.154
+  servername: yellow-hall-d482.260-d22.workers.dev
+  tls: false
+  type: vless
+  uuid: 0ed342c3-eb45-4d63-83a1-697252636ca9
+  ws-opts:
+    headers:
+      Host: yellow-hall-d482.260-d22.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 8880
+  server: cf2.466688.xyz
+  tls: false
+  type: vless
+  uuid: 6b504c50-8535-44cf-8e4e-f8ee674a922e
+  ws-opts:
+    headers:
+      Host: old-moon-16d0.156-a25.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8880
+  server: skk.moe
+  tls: false
+  type: vless
+  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
+  ws-opts:
+    headers:
+      Host: tiny-lake-bbf1.369-766.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

@@ -2,19 +2,10 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
   name: 德国+V2CROSS.COM
   network: tcp
+  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
   port: 443
-  server: 179.61.138.177
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 47d2e9bes71.gogocs.xyz
-    path: ''
+  server: de.zhabulik.ru
+  sni: de.zhabulik.ru
+  type: trojan
