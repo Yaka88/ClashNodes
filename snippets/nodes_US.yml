@@ -1,14 +1,4 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  name: 美国+Xerox
-  network: tcp
-  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
-  port: 443
-  server: pl.zhabulik.ru
-  sni: pl.zhabulik.ru
-  type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
