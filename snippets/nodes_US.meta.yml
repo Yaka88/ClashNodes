@@ -1,34 +1,72 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+纽约州纽约BuyVM
-  network: tcp
-  port: 57233
-  server: 198.98.48.110
-  servername: u695098u8fad5a44s552.gogocs.xyz
-  tls: true
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8880
+  server: 104.21.55.229
+  tls: false
   type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
   ws-opts:
     headers:
-      Host: 8fad5a44s552.gogocs.xyz
-    path: ''
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
+      Host: tiny-lake-bbf1.369-766.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: nuclear.us.kg
+  servername: nuclear.us.kg
+  tls: true
+  type: vless
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  ws-opts:
+    headers:
+      Host: nuclear.us.kg
+    path: /free/1.226.227.169:50001
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+FDC芝加哥机房
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8ENbaQRCWZk-wewSrdHq1_rVjJY4CrxqXUo_5vZNdi4
+    short-id: '!!str b2b44805'
+  server: 50.7.210.69
+  servername: xn--80ahcoj6a9b5d.xn----9sbekcigdcaa6cd7cafr7e.xn--p1ai
+  tls: false
+  type: vless
+  uuid: d2519b5e-495e-462e-9703-bbf68011d2f3
+- name: '美国+CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.27.21.22
-  sni: www.volumeroot.com
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
-    path: '%2Fassignment'
+    path: /assignment
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8880
+  server: 104.17.21.137
+  tls: false
+  type: vless
+  uuid: 3a38b35b-7b31-452c-954f-99c2f45dda19
+  ws-opts:
+    headers:
+      Host: sweet-truth-0f0c.71-fca.workers.dev
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 2052
+  server: 172.67.134.7
+  tls: false
+  type: vless
+  uuid: f1e5d738-2e83-4e2f-b6d6-a9013b3e7e48
+  ws-opts:
+    headers:
+      Host: a6o58qfpwvgrwmz0crtha0r24uyiu2l.x7-f5jb95s0ocjt-0.workers.dev
+    path: /vl/u3oMYZoYUAozPFEA8UhR?ed=2560
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
