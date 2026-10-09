@@ -1,43 +1,27 @@
 proxies:
-- name: 土耳其+V2CROSS.COM
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: rb.mangshe.xyz
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: 捷克+V2CROSS.COM
-  password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
-  port: 443
-  server: cz.h2.cleanersaz.help
-  skip-cert-verify: true
-  sni: cz.h2.cleanersaz.help
-  tls: false
-  type: hysteria2
 - flow: xtls-rprx-vision
-  name: 北美地区+V2CROSS.COM
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 2063
+  reality-opts:
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: 2.26.231.218
+  servername: rusbid.de
+  tls: false
+  type: vless
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+- flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: cYmfBXsDs1sqQ2ZBW3xsFroB7JHV_ufFT5m7ab7STnU
-    short-id: '9ab513f082d4c6e1'
-  server: 23.134.76.212
-  servername: us.dark-bit.cc
+    public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM
+    short-id: '21270a66'
+  server: tk1.high-speed-test-56424.me
+  servername: aws.amazon.com
   tls: false
   type: vless
-  uuid: 3cd1770d-f285-4cf4-8979-e9dd8f4be36a
-- alpn:
-  - h2
-  - http/1.1
-  flow: xtls-rprx-vision
-  name: 芬兰+V2CROSS.COM
-  port: 10829
-  server: s1243.sspcccdn.xyz
-  servername: u695098ueb8953b4s861.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761
 - alpn:
   - h2
   - http/1.1
@@ -45,50 +29,51 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: 美国+纽约州纽约BuyVM
+  name: 芬兰+V2CROSS.COM
   network: tcp
-  port: 57233
-  server: s553.sspcccdn.xyz
-  servername: u695098u8fad5a44s552.gogocs.xyz
+  port: 10829
+  server: s1244.csgfw.top
+  servername: u695098ueb8953b4s861.gogocs.xyz
   tls: true
   type: vless
   uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   ws-opts:
     headers:
-      Host: 8fad5a44s552.gogocs.xyz
+      Host: eb8953b4s861.gogocs.xyz
     path: ''
-- name: 北京市+百度电信节点
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  tls: false
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-- flow: xtls-rprx-vision
-  name: 阿富汗+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: f4EJP55daJRlJkcZbbGsY-gFGGFGiXPPdfVxtNWQPCE
-    short-id: 'c8621ebb1e56abb3'
-  server: 103.244.145.144
-  servername: zsde.eu-cdn294.com
-  tls: false
-  type: vless
-  uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
-- client-fingerprint: randomized
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 巴西+V2CROSS.COM
+  grpc-opts:
+    grpc-service-name: ''
+  name: 俄罗斯+V2CROSS.COM
   network: tcp
   port: 443
+  server: 212.192.15.191
+  servername: u695098u54d73951s298.kukuss.top
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 54d73951s298.kukuss.top
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 2063
   reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: '4be4110078ebed4a'
-  server: de2.srv.vbuste.ru
-  servername: de2.srv.vbuste.ru
+    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
+  server: pl-waw.dontblockmepls.com
+  servername: rusbid.de
   tls: false
   type: vless
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
 - alpn:
   - h2
   - http/1.1
@@ -98,16 +83,79 @@ proxies:
     grpc-service-name: ''
   name: 亚太地区+V2CROSS.COM
   network: tcp
-  port: 10829
-  server: s593.sspcccdn.xyz
-  servername: u695098u4d99b056s591.csgfw.top
+  port: 443
+  server: 160.25.74.91
+  servername: u695098ue79dbcd4s783.gogocs.xyz
   tls: true
   type: vless
   uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   ws-opts:
     headers:
-      Host: 4d99b056s591.csgfw.top
+      Host: e79dbcd4s783.gogocs.xyz
     path: ''
+- flow: xtls-rprx-vision
+  name: 英国+桑德兰大学
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws
+    short-id: '06e00e7c'
+  server: 157.228.128.59
+  servername: addons.mozilla.org
+  tls: false
+  type: vless
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  ws-opts:
+    headers:
+      Host: /?telegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+- alpn:
+  - h2
+  - http/1.1
+  flow: xtls-rprx-vision
+  name: '芬兰+V2CROSS.COM #1'
+  network: tcp
+  port: 10829
+  server: s1243.sspcccdn.xyz
+  servername: u695098ueb8953b4s861.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.27.21.22
+  sni: www.volumeroot.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- flow: xtls-rprx-vision
+  name: '英国+桑德兰大学 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: '3cef317b'
+  server: 157.228.160.166
+  servername: addons.mozilla.org
+  tls: false
+  type: vless
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: '英国+桑德兰大学 #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: '3cef317b'
+  server: 157.228.150.34
+  servername: addons.mozilla.org
+  tls: false
+  type: vless
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
