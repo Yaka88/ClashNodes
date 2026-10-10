@@ -1,58 +1,43 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+加利福尼亚州洛杉矶
-  network: tcp
-  port: 10829
-  server: s849.kukuss.top
-  servername: u695098u99a93686s848.gogocs.xyz
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: '2083'
+  server: cdn.sfacg.uk
+  servername: ''
   tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  type: vmess
+  uuid: ac251237-576f-40c8-a543-554960c958b1
   ws-opts:
     headers:
-      Host: 99a93686s848.gogocs.xyz
-    path: ''
-- alpn:
-  - h3
-  - h2
-  name: 美国+CloudFlare节点
+      Host: or3.sfacg.uk
+    path: /or3
+- name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
+  server: 172.64.158.170
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+      Host: ccc.010304.xyz
+    path: /
 - flow: xtls-rprx-vision
-  name: 伊朗+V2CROSS.COM
+  name: 爱尔兰+V2CROSS.COM
   network: tcp
-  port: 443
+  port: 11515
   reality-opts:
-    public-key: miGe3_kafjYo0ynErSJn15jkhFwbI143sEOD823Wxjc
-    short-id: '65dc600a1bec9726'
-  server: nl8.limehub.online
-  servername: nl8.limehub.online
+    public-key: A826RSu-yeVM_t6v7kwHKasHSdfI9KOzUw3WaIa9SWc
+    short-id: '65149fc5ba'
+  server: assets.halyvanedorogo.ru
+  servername: www.sony.com
   tls: false
   type: vless
-  uuid: ce73d2b8-13ea-4b8b-b7f7-8ec9cf7efe1d
-- name: 土耳其+V2CROSS.COM
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  port: 2060
-  server: rb.mangshe.xyz
-  skip-cert-verify: true
-  sni: rb.mangshe.xyz
-  tls: false
-  type: hysteria2
+  uuid: cb8fbad5-4f14-55bc-a24a-3510f47f4b1b
 - alpn:
   - h2
   - http/1.1
@@ -63,7 +48,7 @@ proxies:
   name: 亚太地区+V2CROSS.COM
   network: tcp
   port: 10829
-  server: s592.wagahaha.xyz
+  server: s593.sspcccdn.xyz
   servername: u695098u4d99b056s591.csgfw.top
   tls: true
   type: vless
@@ -72,44 +57,6 @@ proxies:
     headers:
       Host: 4d99b056s591.csgfw.top
     path: ''
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+纽约州纽约BuyVM
-  network: tcp
-  port: 57233
-  server: s554.csgfw.top
-  servername: u695098u8fad5a44s552.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 8fad5a44s552.gogocs.xyz
-    path: ''
-- flow: xtls-rprx-vision
-  name: '美国+纽约州纽约BuyVM #1'
-  network: tcp
-  port: 57233
-  server: 198.98.48.110
-  servername: u695098u8fad5a44s552.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
-  tls: true
-  type: vless
-  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
-  ws-opts:
-    path: '%2Fws%2F0b3c3f4f-843a-5b0a-98fe-132c88fbefc0'
 - client-fingerprint: randomized
   flow: xtls-rprx-vision
   name: 英国+桑德兰大学
@@ -125,8 +72,50 @@ proxies:
   uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
   ws-opts:
     headers:
-      Host: addons.mozilla.org
-    path: '%2F'
+      Host: '%2F%3FTelegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP'
+- alpn:
+  - h3
+  - h2
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: snip.edgeoneai.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
+- flow: xtls-rprx-vision
+  name: 巴西+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: '4be4110078ebed4a'
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
+  tls: false
+  type: vless
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- alpn:
+  - h3
+  - h2
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
