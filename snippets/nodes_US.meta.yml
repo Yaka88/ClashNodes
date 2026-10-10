@@ -1,29 +1,17 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: 9cfc9458e48c028ec03ff86ebc71c744
-  port: 50160
-  server: 150-230-252-217.liao.kdns.fr
-  sni: 150-230-252-217.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
+  password: humanity
   port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  server: 104.18.12.149
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- name: '美国+V2CROSS.COM #1'
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: 美国+V2CROSS.COM
   password: f25f19f29ce3fb53a35bf1b35b452a43
   port: 50160
   server: 129.159.156.109
@@ -31,35 +19,48 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+Xerox
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: '!!str d2061bb1'
-  server: gw1.edgemedia.lol
-  servername: ya.ru
-  tls: false
-  type: vless
-  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
-  network: tcp
-  port: 10829
-  server: s482.wagahaha.xyz
-  servername: u695098u764943ccs478.gogocs.xyz
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 172.64.152.241
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: 764943ccs478.gogocs.xyz
+      Host: ccc.010304.xyz
+    path: /fp=chrome
+- alpn:
+  - h3
+  - h2
+  client-fingerprint: chrome
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+加利福尼亚州洛杉矶IT7网络
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    short-id: '!!str 051f20c2344a2dfd'
+  server: c20s5.portablesubmarines.com
+  servername: portal.citygrainla.com
+  tls: false
+  type: vless
+  uuid: 85fe968d-fbb5-40dc-8422-30635eccb149
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
