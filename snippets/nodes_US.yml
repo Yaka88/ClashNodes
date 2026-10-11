@@ -1,15 +1,26 @@
 proxies:
 - name: 美国+CloudFlare节点
   network: ws
-  password: humanity
-  port: 443
+  password: '!!str 123456'
+  port: 2096
   server: 104.18.35.86
-  sni: www.volumerOot.coM.
+  skip-cert-verify: true
+  sni: 321dfbc6.uir-9i6.pages.dev
   type: trojan
   ws-opts:
     headers:
-      Host: www.volumerOot.coM.
-    path: '%2Fassignment'
+      Host: 321dfbc6.uir-9i6.pages.dev
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: 美国 V2CROSS.COM
+  network: tcp
+  port: '12330'
+  server: p05.rghvf.sbs
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 68adffea-4146-4f92-b2f9-955cd634c274
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092

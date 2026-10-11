@@ -5,10 +5,10 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: pTwj1ZO_-CMRZyDx2__1IJfRW2aw774tMfASLf-4SDk
-    short-id: '!!str 022f197e6c39'
-  server: 31.76.103.111
-  servername: fin01.deflink.net
+    public-key: INbgA5nXpjZ2P1f6lY7sMBlDM3ZMV8RX3cw-RRGM0mM
+    short-id: '!!str f22e97cfd4d9'
+  server: 31.76.68.245
+  servername: fra01.deflink.net
   tls: false
   type: vless
   uuid: f9cb2991-ad4a-4a54-aeb3-55d56ac02a8e
