@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: pTwj1ZO_-CMRZyDx2__1IJfRW2aw774tMfASLf-4SDk
+    short-id: '!!str 022f197e6c39'
+  server: 31.76.103.111
+  servername: fin01.deflink.net
+  tls: false
+  type: vless
+  uuid: f9cb2991-ad4a-4a54-aeb3-55d56ac02a8e
