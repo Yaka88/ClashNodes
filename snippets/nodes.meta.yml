@@ -1,94 +1,82 @@
 proxies:
+- alpn:
+  - h3
+  - h2
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
+- name: 北京市+聚龙无限信息技术有限公司
+  port: 58011
+  server: us22.sofast.live
+  tls: false
+  type: vless
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- name: '北京市+聚龙无限信息技术有限公司 #1'
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 Samara State University
+  name: 美国 CloudFlare节点
   network: ws
-  port: 443
-  server: renderer-stream-2-114.mirra.now
-  servername: renderer-stream-2-114.mirra.now
+  port: '443'
+  server: eu3.998998.best
+  servername: server40.9966338.xyz
   tls: true
   type: vmess
-  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   ws-opts:
     headers:
-      Host: renderer-stream-2-114.mirra.now
-    path: /api/v1/gpu-stream/socket
-- name: 美国+CloudFlare节点
+      Host: server40.9966338.xyz
+    path: /aiaiai
+- name: '美国+CloudFlare节点 #2'
   network: ws
-  port: 8080
-  server: 104.21.70.21
-  servername: testmikonim.hydrymhmdamyn7.workers.dev
-  tls: false
+  port: 443
+  server: 104.16.10.2
+  servername: v2ray.simspeedup.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   ws-opts:
     headers:
-      Host: testmikonim.hydrymhmdamyn7.workers.dev
-    path: /OAZko425kNFF0PpQ
+      Host: v2ray.simspeedup.com
+    path: /ws
 - flow: xtls-rprx-vision
-  name: 巴西+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: '4be4110078ebed4a'
-  server: de2.srv.vbuste.ru
-  servername: de2.srv.vbuste.ru
-  tls: false
-  type: vless
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- flow: xtls-rprx-vision
-  name: 拉脱维亚+V2CROSS.COM
+  name: 保加利亚+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
     public-key: PKlt_5ASsz137EvA9SKSadtjEv1k_U7VRtoelKCgADs
     short-id: '9ea74b83f4993ca9'
-  server: 213.21.232.230
-  servername: pl-1.ardesnode.ru
+  server: de-3.ardesnode.ru
+  servername: de-3.ardesnode.ru
   tls: false
   type: vless
   uuid: 616c7b3b-41f4-4038-88c6-d6fedd0ae4a7
-  ws-opts:
-    headers:
-      Host: /@Net2ray
-- name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.114.97.2
-  skip-cert-verify: false
-  sni: www.volumeroot.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- name: 法国+ONLINE+S.A.S.数据中心
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 43115
-  server: 62.210.147.2
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
-  network: tcp
-  port: 10829
-  server: 192.227.169.125
-  servername: u695098u764943ccs478.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 764943ccs478.gogocs.xyz
-    path: ''
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
