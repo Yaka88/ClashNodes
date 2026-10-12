@@ -1,26 +1,18 @@
 proxies:
-- name: 美国+CloudFlare节点
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
-  password: '123456'
-  port: 2096
-  server: 104.18.35.86
+  password: humanity
+  port: 443
+  server: 172.66.40.99
   skip-cert-verify: true
-  sni: 321dfbc6.uir-9i6.pages.dev
+  sni: www.trusteeforward.com
   type: trojan
   ws-opts:
     headers:
-      Host: 321dfbc6.uir-9i6.pages.dev
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '12330'
-  server: p05.rghvf.sbs
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 68adffea-4146-4f92-b2f9-955cd634c274
+      Host: www.trusteeforward.com
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

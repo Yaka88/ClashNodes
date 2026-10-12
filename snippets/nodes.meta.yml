@@ -1,36 +1,5 @@
 proxies:
 - flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: INbgA5nXpjZ2P1f6lY7sMBlDM3ZMV8RX3cw-RRGM0mM
-    short-id: 'f22e97cfd4d9'
-  server: 31.76.68.245
-  servername: fra01.deflink.net
-  tls: false
-  type: vless
-  uuid: f9cb2991-ad4a-4a54-aeb3-55d56ac02a8e
-- name: 北京市+腾讯云
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  tls: false
-  type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- flow: xtls-rprx-vision
-  name: 拉脱维亚+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: PKlt_5ASsz137EvA9SKSadtjEv1k_U7VRtoelKCgADs
-    short-id: '9ea74b83f4993ca9'
-  server: 213.21.232.224
-  servername: pl-4.ardesnode.ru
-  tls: false
-  type: vless
-  uuid: 616c7b3b-41f4-4038-88c6-d6fedd0ae4a7
-- flow: xtls-rprx-vision
   name: 美国+Xerox
   network: tcp
   port: 13443
@@ -42,20 +11,44 @@ proxies:
   tls: false
   type: vless
   uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
-- name: 美国+CloudFlare节点
-  network: ws
-  password: '123456'
-  port: 2096
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: 321dfbc6.uir-9i6.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 321dfbc6.uir-9i6.pages.dev
-    path: '%2F'
+- flow: xtls-rprx-vision
+  name: 巴西+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: '4be4110078ebed4a'
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
+  tls: false
+  type: vless
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- flow: xtls-rprx-vision
+  name: 丹麦+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zBNHm7DwlBZ2rfu2F5e3jMsmR2q74KpS2L6EavCVmkA
+    short-id: 'f6985908fcb5612f'
+  server: 87.58.158.82
+  servername: dk7.bbobr.win
+  tls: false
+  type: vless
+  uuid: 267b3a79-81f2-42ac-a409-c23b05b6329d
 - flow: xtls-rprx-vision
   name: 英国+桑德兰大学
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
+    short-id: '3cef317b'
+  server: 157.228.160.166
+  servername: addons.mozilla.org
+  tls: false
+  type: vless
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+- flow: xtls-rprx-vision
+  name: '英国+桑德兰大学 #1'
   network: tcp
   port: 443
   reality-opts:
@@ -66,33 +59,70 @@ proxies:
   tls: false
   type: vless
   uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-  ws-opts:
-    headers:
-      Host: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-- alterId: 0
-  cipher: auto
-  name: 美国 V2CROSS.COM
-  network: tcp
-  port: '12330'
-  server: p05.rghvf.sbs
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 68adffea-4146-4f92-b2f9-955cd634c274
 - alpn:
+  - h2
   - http/1.1
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: vpn.kovira.site
-  servername: vpn.kovira.site
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 德国+V2CROSS.COM
+  network: tcp
+  port: 10829
+  server: 185.119.19.105
+  servername: u695098u2c5f47d6s8746.gogocs.xyz
   tls: true
   type: vless
-  uuid: 22e6604e-0481-411f-8028-ffbd65f624b6
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   ws-opts:
     headers:
-      Host: vpn.kovira.site
-    path: /ws-738d2d0c5eba7609f3c37de2
+      Host: 2c5f47d6s8746.gogocs.xyz
+    path: ''
+- flow: xtls-rprx-vision
+  name: 伊拉克+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ahmKn2YPXJJ0gGtSKyEVCavB2YHyGQSbHCq40tgfHkA
+    short-id: 'e96c3d6878c984bf'
+  server: blog.salphetka.ru
+  servername: www.uni-bonn.de
+  tls: false
+  type: vless
+  uuid: 92295a0d-b610-4075-85e9-bfab09ec6f3a
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: '德国+V2CROSS.COM #1'
+  network: tcp
+  port: 10829
+  server: s8748.okgg.top
+  servername: u695098u2c5f47d6s8746.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 2c5f47d6s8746.gogocs.xyz
+    path: ''
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.66.40.99
+  skip-cert-verify: true
+  sni: www.trusteeforward.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.trusteeforward.com
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
