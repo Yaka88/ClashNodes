@@ -1,31 +1,35 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+Xerox
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: '!!str d2061bb1'
-  server: gw1.edgemedia.lol
-  servername: ya.ru
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8080
+  server: 104.21.70.21
+  servername: testmikonim.hydrymhmdamyn7.workers.dev
   tls: false
   type: vless
-  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.40.99
-  skip-cert-verify: true
-  sni: www.trusteeforward.com
-  type: trojan
+  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
   ws-opts:
     headers:
-      Host: www.trusteeforward.com
-    path: '%2Fassignment'
+      Host: testmikonim.hydrymhmdamyn7.workers.dev
+    path: /OAZko425kNFF0PpQ
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+  network: tcp
+  port: 10829
+  server: 192.227.169.125
+  servername: u695098u764943ccs478.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 764943ccs478.gogocs.xyz
+    path: ''
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092

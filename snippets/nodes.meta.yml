@@ -1,16 +1,30 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 美国+Xerox
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: 'd2061bb1'
-  server: gw1.edgemedia.lol
-  servername: ya.ru
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 Samara State University
+  network: ws
+  port: 443
+  server: renderer-stream-2-114.mirra.now
+  servername: renderer-stream-2-114.mirra.now
+  tls: true
+  type: vmess
+  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+  ws-opts:
+    headers:
+      Host: renderer-stream-2-114.mirra.now
+    path: /api/v1/gpu-stream/socket
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8080
+  server: 104.21.70.21
+  servername: testmikonim.hydrymhmdamyn7.workers.dev
   tls: false
   type: vless
-  uuid: 9ebf4fda-7395-4800-b42f-b2dda649880a
+  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
+  ws-opts:
+    headers:
+      Host: testmikonim.hydrymhmdamyn7.workers.dev
+    path: /OAZko425kNFF0PpQ
 - flow: xtls-rprx-vision
   name: 巴西+V2CROSS.COM
   network: tcp
@@ -24,105 +38,57 @@ proxies:
   type: vless
   uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
 - flow: xtls-rprx-vision
-  name: 丹麦+V2CROSS.COM
+  name: 拉脱维亚+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: zBNHm7DwlBZ2rfu2F5e3jMsmR2q74KpS2L6EavCVmkA
-    short-id: 'f6985908fcb5612f'
-  server: 87.58.158.82
-  servername: dk7.bbobr.win
+    public-key: PKlt_5ASsz137EvA9SKSadtjEv1k_U7VRtoelKCgADs
+    short-id: '9ea74b83f4993ca9'
+  server: 213.21.232.230
+  servername: pl-1.ardesnode.ru
   tls: false
   type: vless
-  uuid: 267b3a79-81f2-42ac-a409-c23b05b6329d
-- flow: xtls-rprx-vision
-  name: 英国+桑德兰大学
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M
-    short-id: '3cef317b'
-  server: 157.228.160.166
-  servername: addons.mozilla.org
-  tls: false
-  type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-- flow: xtls-rprx-vision
-  name: '英国+桑德兰大学 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws
-    short-id: '06e00e7c'
-  server: 157.228.128.59
-  servername: addons.mozilla.org
-  tls: false
-  type: vless
-  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 10829
-  server: 185.119.19.105
-  servername: u695098u2c5f47d6s8746.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  uuid: 616c7b3b-41f4-4038-88c6-d6fedd0ae4a7
   ws-opts:
     headers:
-      Host: 2c5f47d6s8746.gogocs.xyz
-    path: ''
-- flow: xtls-rprx-vision
-  name: 伊拉克+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ahmKn2YPXJJ0gGtSKyEVCavB2YHyGQSbHCq40tgfHkA
-    short-id: 'e96c3d6878c984bf'
-  server: blog.salphetka.ru
-  servername: www.uni-bonn.de
-  tls: false
-  type: vless
-  uuid: 92295a0d-b610-4075-85e9-bfab09ec6f3a
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: '德国+V2CROSS.COM #1'
-  network: tcp
-  port: 10829
-  server: s8748.okgg.top
-  servername: u695098u2c5f47d6s8746.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  ws-opts:
-    headers:
-      Host: 2c5f47d6s8746.gogocs.xyz
-    path: ''
-- alpn:
-  - http/1.1
-  name: 美国+CloudFlare节点
+      Host: /@Net2ray
+- name: 巴西圣保罗+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 172.66.40.99
-  skip-cert-verify: true
-  sni: www.trusteeforward.com
+  server: 188.114.97.2
+  skip-cert-verify: false
+  sni: www.volumeroot.com
   type: trojan
   ws-opts:
+    path: /assignment
+- name: 法国+ONLINE+S.A.S.数据中心
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+  network: tcp
+  port: 10829
+  server: 192.227.169.125
+  servername: u695098u764943ccs478.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
     headers:
-      Host: www.trusteeforward.com
-    path: '%2Fassignment'
+      Host: 764943ccs478.gogocs.xyz
+    path: ''
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
