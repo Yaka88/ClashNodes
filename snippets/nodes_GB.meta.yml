@@ -1,12 +1,1 @@
-proxies:
-- client-fingerprint: random
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg
-  server: 80.47.12.94
-  servername: pl-1-1.unturned-rust-dead.lol
-  tls: false
-  type: vless
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
+proxies: []

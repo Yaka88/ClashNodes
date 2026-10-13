@@ -1,94 +1,66 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 2086
-  server: 172.67.214.193
-  servername: 172.67.214.193
-  tls: false
-  type: vless
-  uuid: e5583623-53ef-4177-8070-8c553f70bcfa
-  ws-opts:
-    headers:
-      Host: fvfb8xac5j0nthxzqf.dr5945ov0z598kfft573isahdj3fmmv4.workers.dev
-    path: /vl/NnAT20AqcYOuOLe1r?ed=2560
 - alpn:
   - http/1.1
-  name: '美国+CloudFlare节点 #1'
+  name: 美国+CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.17.44.17
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
+  server: 104.27.21.22
+  sni: www.volumeroot.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8080
-  server: ip.sb
-  tls: false
-  type: vless
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  ws-opts:
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-    path: /
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 8880
-  server: 162.159.140.78
-  tls: false
-  type: vless
-  uuid: a8c27bd6-e395-4f9b-a75d-1c3bc6b1f83a
-  ws-opts:
-    headers:
-      Host: long-boat-7113.303-08c.workers.dev
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-- client-fingerprint: random
-  name: 英国+V2CROSS.COM
+    path: '%2Fassignment'
+- flow: xtls-rprx-vision
+  name: 德国+V2CROSS.COM
   network: tcp
-  port: 443
+  port: 28150
   reality-opts:
-    public-key: gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg
-  server: 80.47.12.94
-  servername: pl-1-1.unturned-rust-dead.lol
+    public-key: HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww
+    short-id: 'dcb858da'
+  server: fr.song69.fun
+  servername: metrika.yandex.ru
   tls: false
   type: vless
-  uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8
-- name: '美国+CloudFlare节点 #4'
+  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
+- alpn:
+  - h3
+  - h2
+  name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: vl.cocopon.top
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
-  uuid: 44f06ad1-982c-4e03-849f-899c1c8dc14f
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 443
-  server: cf.877774.xyz
-  servername: jjkkll.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 49ef59c5-3491-4cba-824d-0fc76133f67c
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: jjkkll.ccwu.cc
-    path: /anime/travel/settings/proxyip=103.170.233.213,151.241.5.88,45.95.212.117,154.31.113.22,103.53.80.24,45.63.124.130,150.230.212.247?ed=2560
-- name: 乌克兰+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 213.111.148.137
-  servername: proxy-1cu.pages.dev
-  tls: true
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- flow: xtls-rprx-vision
+  name: 台湾省桃园市+中华电信
+  network: tcp
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: '6c6c7c97'
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  tls: false
   type: vless
-  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
-  ws-opts:
-    headers:
-      Host: proxy-1cu.pages.dev
-    path: /fp=android
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+- flow: xtls-rprx-vision
+  name: 美国+Xerox
+  network: tcp
+  port: 21221
+  reality-opts:
+    public-key: RtxGqCtQJeOyUwSe7k6oZOrQWV1hPbC-TMqqgxl9fn4
+    short-id: 'c430045c'
+  server: sweedenqfds777.qcloud.surf
+  servername: metrika.yandex.ru
+  tls: false
+  type: vless
+  uuid: 8bd04756-3beb-4348-82c9-d35453df50ce
 - alpn:
   - h2
   - http/1.1
@@ -105,18 +77,18 @@ proxies:
   ws-opts:
     headers:
       Host: 764943ccs478.gogocs.xyz
-- flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 28150
-  reality-opts:
-    public-key: HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww
-    short-id: 'dcb858da'
-  server: fr.song69.fun
-  servername: metrika.yandex.ru
-  tls: false
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 104.26.4.2
+  servername: ccc.010304.xyz
+  tls: true
   type: vless
-  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /fp=chrome
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
