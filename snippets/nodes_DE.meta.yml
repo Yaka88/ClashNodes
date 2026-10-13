@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 德国+V2CROSS.COM
+  network: tcp
+  port: 28150
+  reality-opts:
+    public-key: HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww
+    short-id: '!!str dcb858da'
+  server: fr.song69.fun
+  servername: metrika.yandex.ru
+  tls: false
+  type: vless
+  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9

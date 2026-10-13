@@ -1,18 +1,18 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 Samara State University
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
   network: ws
+  password: humanity
   port: 443
-  server: renderer-stream-2-114.mirra.now
-  servername: renderer-stream-2-114.mirra.now
-  tls: true
-  type: vmess
-  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
+  server: 104.17.44.17
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
   ws-opts:
     headers:
-      Host: renderer-stream-2-114.mirra.now
-    path: /api/v1/gpu-stream/socket
+      Host: www.pleadcourt.org
+    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
