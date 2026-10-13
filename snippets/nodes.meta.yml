@@ -1,82 +1,148 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  name: 美国+CloudFlare节点
+- name: 美国+CloudFlare节点
   network: ws
-  port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
-- name: 北京市+聚龙无限信息技术有限公司
-  port: 58011
-  server: us22.sofast.live
+  port: 2082
+  server: 172.64.150.28
   tls: false
   type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: '北京市+聚龙无限信息技术有限公司 #1'
-  port: 52683
-  server: jp.sofast.live
-  tls: false
-  type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
 - alterId: 0
   cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '443'
-  server: eu3.998998.best
-  servername: server40.9966338.xyz
-  tls: true
-  type: vmess
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  ws-opts:
-    headers:
-      Host: server40.9966338.xyz
-    path: /aiaiai
-- name: '美国+CloudFlare节点 #2'
+  name: 俄罗斯 Samara State University
   network: ws
   port: 443
-  server: 104.16.10.2
-  servername: v2ray.simspeedup.com
-  skip-cert-verify: false
+  server: renderer-stream-2-114.mirra.now
+  servername: renderer-stream-2-114.mirra.now
   tls: true
-  type: vless
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  type: vmess
+  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
   ws-opts:
     headers:
-      Host: v2ray.simspeedup.com
-    path: /ws
+      Host: renderer-stream-2-114.mirra.now
+    path: /api/v1/gpu-stream/socket
+- name: 巴西+V2CROSS.COM
+  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  port: 21223
+  server: sweedenqfds777.qcloud.surf
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - flow: xtls-rprx-vision
-  name: 保加利亚+V2CROSS.COM
+  name: '巴西+V2CROSS.COM #1'
   network: tcp
   port: 443
   reality-opts:
-    public-key: PKlt_5ASsz137EvA9SKSadtjEv1k_U7VRtoelKCgADs
-    short-id: '9ea74b83f4993ca9'
-  server: de-3.ardesnode.ru
-  servername: de-3.ardesnode.ru
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+    short-id: '4be4110078ebed4a'
+  server: de2.srv.vbuste.ru
+  servername: de2.srv.vbuste.ru
   tls: false
   type: vless
-  uuid: 616c7b3b-41f4-4038-88c6-d6fedd0ae4a7
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 8880
+  server: www.glassdoor.com
+  tls: false
+  type: vless
+  uuid: f6e14309-5cff-4f5d-bce1-06a260159bbe
+  ws-opts:
+    headers:
+      Host: steep-bread-32f0.92-d12.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+- name: 美国+V2CROSS.COM
+  password: maintell
+  port: 2053
+  server: 152.70.237.123
+  skip-cert-verify: true
+  sni: 152.70.237.123
+  tls: false
+  type: hysteria2
+- flow: xtls-rprx-vision
+  name: 英国+桑德兰大学
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QnxkyscHouhaLDJHT47beyenVd4LHi62yfJIeRV01Ws
+    short-id: '06e00e7c'
+  server: 157.228.128.59
+  servername: addons.mozilla.org
+  tls: false
+  type: vless
+  uuid: df53b6c2-8005-475c-9eb9-74e1be785dc8
+  ws-opts:
+    headers:
+      Host: /@Net2ray
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 8080
+  server: 104.21.70.21
+  servername: fdjl8sdmc774ru70b3a45lv4w8.akbar1sale6.workers.dev
+  tls: false
+  type: vless
+  uuid: 8ccb3a94-9e3c-45d0-a280-850faea6bbff
+  ws-opts:
+    headers:
+      Host: fdjl8sdmc774ru70b3a45lv4w8.akbar1sale6.workers.dev
+    path: /vl/EpnESUGGdoM40CHmsDT?ed
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 美国+纽约州伊利县威廉斯维尔村ColoCrossing有限公...
+  network: tcp
+  port: 10829
+  server: 192.227.169.125
+  servername: u695098u764943ccs478.gogocs.xyz
+  tls: true
+  type: vless
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  ws-opts:
+    headers:
+      Host: 764943ccs478.gogocs.xyz
+    path: ''
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8080
+  server: 172.67.203.138
+  servername: 172.67.203.138
+  tls: false
+  type: vless
+  uuid: 015fada5-2c95-4251-9c58-39fa3abf1e24
+  ws-opts:
+    headers:
+      Host: server17.peekconfig1.workers.dev
+    path: /eyJqdW5rIjoidzY2QTdySkdOeiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6MTE6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
+- name: 南非+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 154.197.75.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime37.workers.dev
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 8880
+  server: 172.66.170.53
+  tls: false
+  type: vless
+  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
+  ws-opts:
+    headers:
+      Host: summer-hat-ba5c.430.workers.dev
+    path: '%2Fpyip%3DProxyIP.KR.CMLiussss.net'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
