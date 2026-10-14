@@ -1,4 +1,33 @@
 proxies:
+- name: 美国+CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 108.162.194.134
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.pleadcourt.org
+    path: /assignment
+- name: 加拿大+安大略省多伦多Choops数据中心
+  network: tcp
+  password: Trojan@82164024
+  port: 443
+  server: ca.tronsg.com
+  sni: ca.tronsg.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 日本 东京Oracle云计算数据中心
+  network: tcp
+  port: 18112
+  server: oc.imfun.fun
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
