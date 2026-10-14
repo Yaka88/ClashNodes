@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 加拿大+安大略省多伦多Choops数据中心
+  password: Trojan@82164024
+  port: 443
+  server: ca.tronsg.com
+  sni: ca.tronsg.com
+  type: trojan
