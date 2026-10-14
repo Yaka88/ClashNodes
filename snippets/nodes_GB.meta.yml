@@ -1,1 +1,13 @@
-proxies: []
+proxies:
+- client-fingerprint: random
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 25633
+  reality-opts:
+    public-key: YLIRYJ8UkT0nSSgxJr7YckNuXnokVyEs2G6thNyx1GE
+    short-id: '!!str 200811f031ae7463'
+  server: fi-p1.h1cloud.net
+  servername: www.icloud.com
+  tls: false
+  type: vless
+  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c

@@ -1,12 +1,1 @@
-proxies:
-- name: 法国+格拉沃利纳OVH数据中心
-  network: ws
-  port: 80
-  server: free.sahanwickramasinghe.me
-  tls: false
-  type: vless
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-  ws-opts:
-    headers:
-      Host: free.sahanwickramasinghe.me
-    path: '%2F'
+proxies: []
