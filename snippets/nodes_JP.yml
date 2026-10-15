@@ -1,14 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 东京Oracle云计算数据中心
-  network: tcp
-  port: 18112
-  server: oc.imfun.fun
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
 - name: 日本2|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092

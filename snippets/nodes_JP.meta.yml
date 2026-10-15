@@ -1,21 +1,24 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 东京Oracle云计算数据中心
-  network: tcp
-  port: 18112
-  server: oc.imfun.fun
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
-- name: 日本+V2CROSS.COM
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
+- client-fingerprint: chrome
+  name: 日本+V2CROSS.COM
+  port: 58011
+  server: us22.sofast.live
   tls: false
   type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '日本+V2CROSS.COM #1'
+  network: tcp
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: '!!str 6c6c7c97'
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  tls: false
+  type: vless
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
 - name: 日本2|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
