@@ -1,16 +1,53 @@
 proxies:
+- alpn:
+  - h3
+  - h2
+  name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 162.159.135.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
 - flow: xtls-rprx-vision
-  name: 西班牙+V2CROSS.COM
+  name: 美国+惠普HP
+  network: tcp
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: '6c6c7c97'
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  tls: false
+  type: vless
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+- name: 土耳其+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: cp947CBxZl6dHGM5epfaXvKyj7Gh3CVBnprViDFL6Rk
-    short-id: '2174c487a4c9664b'
-  server: 150.241.87.196
-  servername: nh-pl-01.farmerly.cc
+    public-key: QWyYs5c2v8Tmna5k3FJA7bcyv-oQQbsREtHclza4pH0
+    short-id: '209d915f3688b110'
+  server: 78.135.77.55
+  servername: www.akakce.com
   tls: false
   type: vless
-  uuid: a00e48ce-e56e-4ac1-8272-38983f0d8f99
+  uuid: 6c6be9c5-e364-4053-a8ef-c9c3ec5edd0b
+- name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU
+    short-id: '187eea0acfb7f778'
+  server: 95.181.170.27
+  servername: x5club.ru
+  tls: false
+  type: vless
+  uuid: c96f941e-dd8a-00aa-89d5-740b79202ed0
 - flow: xtls-rprx-vision
   name: 比利时+V2CROSS.COM
   network: tcp
@@ -23,95 +60,24 @@ proxies:
   tls: false
   type: vless
   uuid: 8d790ba0-5407-441b-b545-8ab369c591ce
-- name: 美国+CloudFlare节点
+  ws-opts:
+    headers:
+      Host: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+- name: 日本+V2CROSS.COM
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: 乌克兰+V2CROSS.COM
   network: ws
   password: humanity
-  port: 443
-  server: 104.16.72.41
-  skip-cert-verify: false
+  port: 2053
+  server: 82.117.245.125
   sni: www.calmlunch.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
-- alpn:
-  - http/1.1
-  name: 巴西圣保罗+CloudFlare节点
-  network: ws
-  port: 443
-  server: 188.114.98.0
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdipfp=chrome
-- alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  name: 印度+V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 103.90.75.41
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@VPNine1.opengw.net:1458?ed=2560
-- flow: xtls-rprx-vision
-  name: 巴西+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
-    short-id: '1c3e8241a8743df9'
-  server: 152.233.71.81
-  servername: brointelengence.com
-  tls: false
-  type: vless
-  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
-- flow: xtls-rprx-vision
-  name: 欧洲+V2CROSS.COM
-  network: tcp
-  port: 28150
-  reality-opts:
-    public-key: HRmmr0Ii4Tr9jPLwratvLhee3_VWFNK47T8AAo7kzww
-    short-id: 'dcb858da'
-  server: fr.song69.fun
-  servername: metrika.yandex.ru
-  tls: false
-  type: vless
-  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
-- flow: xtls-rprx-vision
-  name: 白俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lrbP-ePUk7nbeLS8vBLbP5yyld7ZLmTB4_VQWRO31T8
-    short-id: '8a68df3a93c63ac8'
-  server: 46.243.183.2
-  servername: stream.indigo.ru
-  tls: false
-  type: vless
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

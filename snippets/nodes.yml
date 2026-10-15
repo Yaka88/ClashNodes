@@ -1,16 +1,13 @@
 proxies:
-- name: 美国+CloudFlare节点
+- name: 乌克兰+V2CROSS.COM
   network: ws
   password: humanity
-  port: 443
-  server: 104.16.72.41
-  skip-cert-verify: false
+  port: 2053
+  server: 82.117.245.125
   sni: www.calmlunch.com
   type: trojan
   ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
