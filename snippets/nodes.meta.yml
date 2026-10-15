@@ -1,6 +1,21 @@
 proxies:
 - alpn:
   - http/1.1
+  client-fingerprint: unsafe
+  name: 英国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 31.77.126.2
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
+- alpn:
+  - http/1.1
   name: 美国+CloudFlare节点
   network: ws
   port: 443
@@ -12,138 +27,82 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560%23Telegram---bored_vpn'
-- name: 日本+V2CROSS.COM
-  port: 58011
-  server: us22.sofast.live
-  tls: false
-  type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: 英国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 80.93.202.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
     path: '%2F'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.16.10.2
-  servername: v2ray.simspeedup.com
-  tls: true
-  type: vless
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-  ws-opts:
-    headers:
-      Host: v2ray.simspeedup.com
-    path: /ws
 - flow: xtls-rprx-vision
-  name: '日本+V2CROSS.COM #1'
+  name: 白俄罗斯+V2CROSS.COM
   network: tcp
-  port: 32134
+  port: 443
   reality-opts:
-    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-    short-id: '6c6c7c97'
-  server: 3696b38bsg.murphyweb.sbs
-  servername: buylite.music.apple.com
+    public-key: lrbP-ePUk7nbeLS8vBLbP5yyld7ZLmTB4_VQWRO31T8
+    short-id: '8a68df3a93c63ac8'
+  server: 46.243.183.2
+  servername: stream.indigo.ru
   tls: false
   type: vless
-  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-- name: '美国+CloudFlare节点 #2'
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  name: 印度+V2CROSS.COM
   network: ws
-  port: 443
-  server: cf.130519.xyz
-  servername: cf-1rm.pages.dev
+  port: 8443
+  server: 103.90.75.41
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
-  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: cf-1rm.pages.dev
-    path: '%2F'
-- name: 立陶宛+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 185.148.104.30
-  servername: 185.148.104.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: '%2F'
-- name: '美国+CloudFlare节点 #3'
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@VPNine1.opengw.net:1458?ed=2560
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
   network: ws
   password: humanity
   port: 443
-  server: 108.162.194.134
+  server: 104.21.33.59
   skip-cert-verify: false
   sni: www.pleadcourt.org
   type: trojan
   ws-opts:
-    headers:
-      Host: www.pleadcourt.org
     path: /assignment
-- name: 土耳其+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QWyYs5c2v8Tmna5k3FJA7bcyv-oQQbsREtHclza4pH0
-    short-id: '209d915f3688b110'
-  server: 78.135.77.55
-  servername: www.akakce.com
-  tls: false
-  type: vless
-  uuid: 6c6be9c5-e364-4053-a8ef-c9c3ec5edd0b
-- alpn:
-  - h3
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: '123456'
-  port: 443
-  server: 104.19.150.163
-  sni: now-pages-sub-em4.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2560'
-- name: 南非+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 154.197.75.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime37.workers.dev
-- name: 巴西+V2CROSS.COM
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  port: 20270
-  server: qcloudge1.exitvpn.shop
-  sni: qcloudge1.exitvpn.shop
-  tls: false
-  type: hysteria2
 - alpn:
   - http/1.1
-  name: 美国+V2CROSS.COM
+  name: 俄罗斯+V2CROSS.COM
   network: ws
+  password: humanity
   port: 443
-  server: 199.232.78.160
-  servername: ssl.fastly.com
+  server: 46.8.228.165
+  skip-cert-verify: false
+  sni: www.volumeroot.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.volumeroot.com
+    path: /assignment
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: russia.com
+  sni: 6982410.xyz
+  type: trojan
+  ws-opts:
+    path: '%2Ftrh3'
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 8443
+  server: 172.67.155.65
+  servername: lucasjow.us.ci
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   ws-opts:
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-    path: /
+      Host: lucasjow.us.ci
+    path: /cart/docs/www/proxyip
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
