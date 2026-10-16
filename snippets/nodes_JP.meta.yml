@@ -1,4 +1,22 @@
 proxies:
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 日本+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 43.249.72.254
+  servername: default.ssl.fastly.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: f02e4193-8d89-452f-93d7-c6b133e82b9e
+  ws-opts:
+    headers:
+      Host: henzoo.global.ssl.fastly.net
+    path: /
 - name: 日本2|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
