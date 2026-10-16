@@ -1,69 +1,52 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 2082
-  server: 104.18.0.181
-  servername: hhlfy.twiladaphne.ndjp.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 美国+Xerox
+  network: tcp
+  port: 32134
+  reality-opts:
+    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
+    short-id: '!!str 6c6c7c97'
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
   tls: false
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 8443
+  server: centurylink.es
+  servername: free.sahanwickramasinghe.me
+  tls: true
+  type: vless
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
   ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
+    path: '%2F'
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '美国+Xerox #1'
+  network: tcp
+  port: 56656
+  reality-opts:
+    public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
+    short-id: '!!str aae6d935'
+  server: funagfrdfs.alixxplay.com
+  servername: cdn-dynmedia-1.microsoft.com
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: chrome
-  name: 北美地区+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 23.246.154.243
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  flow: xtls-rprx-vision
+  name: '美国+Xerox #2'
+  port: 55688
+  reality-opts:
+    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
+    short-id: '!!str a46bb5972cf50671'
+  server: funagfrdfs.alixxplay.com
+  servername: bilibili-vn.biliimg.com
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: '443'
-  server: jp4.998998.best
-  servername: nat12.9966338.xyz
-  tls: true
-  type: vmess
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  ws-opts:
-    headers:
-      Host: nat12.9966338.xyz
-    path: /vvvvvvvvv
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.16.10.2
-  servername: v2ray.simspeedup.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-  ws-opts:
-    headers:
-      Host: v2ray.simspeedup.com
-    path: /ws
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
