@@ -1,13 +1,14 @@
 proxies:
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
   network: tcp
-  port: 8443
+  port: 12443
   reality-opts:
-    public-key: 7T9ZSCdUh4IUlx17R1Vbzk8kjiopA3j5mI7-inh6aQU
-    short-id: '!!str 187eea0acfb7f778'
-  server: 95.181.170.27
-  servername: x5club.ru
+    public-key: 6RMior0_TlChA0R_T8yXvjrrpb_nUiS50uRJrLqFeWM
+    short-id: '!!str 780f5e'
+  server: 82.202.179.107
+  servername: smartcaptcha.yandexcloud.net
   tls: false
   type: vless
-  uuid: c96f941e-dd8a-00aa-89d5-740b79202ed0
+  uuid: 8822fe1c-7a83-49c0-af96-c2027cb6ddd5
