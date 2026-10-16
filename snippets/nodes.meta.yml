@@ -1,14 +1,20 @@
 proxies:
-- name: 江苏省南京市+腾讯云
-  port: 52683
-  server: jp.sofast.live
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 2082
+  server: 104.18.0.181
+  servername: hhlfy.twiladaphne.ndjp.net
   tls: false
   type: vless
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-- name: 亚太地区+V2CROSS.COM
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
+- name: 北美地区+V2CROSS.COM
   network: ws
   port: 443
-  server: 103.161.179.171
+  server: 23.246.154.243
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -17,64 +23,53 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- alpn:
-  - http/1.1
-  name: 巴西圣保罗+CloudFlare节点
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
   network: ws
-  port: 443
-  server: 188.114.98.0
-  servername: snip.edgeoneai.cc.cd
-  skip-cert-verify: false
+  port: '443'
+  server: jp4.998998.best
+  servername: nat12.9966338.xyz
   tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.145.133
-  sni: www.pleadcourt.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
-- flow: xtls-rprx-vision
+      Host: nat12.9966338.xyz
+    path: /vvvvvvvvv
+- client-fingerprint: random
+  flow: xtls-rprx-vision
   name: 巴西+V2CROSS.COM
   network: tcp
-  port: 20324
+  port: 443
   reality-opts:
-    public-key: RK2g-bLoaa9GD9cJRRk2ktU9nAvP4-YmUPnBs1-UC1A
-    short-id: 'a9391e22'
-  server: finkawwwbroy5.qcloud.surf
-  servername: metrika.yandex.ru
+    public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY
+    short-id: '1c3e8241a8743df9'
+  server: 152.233.71.81
+  servername: brointelengence.com
   tls: false
   type: vless
-  uuid: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 日本+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 43.249.72.254
-  servername: default.ssl.fastly.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f02e4193-8d89-452f-93d7-c6b133e82b9e
+  uuid: 741809be-e44e-000b-b411-bf66f0ae3860
   ws-opts:
     headers:
-      Host: henzoo.global.ssl.fastly.net
-    path: /
+      Host: brointelengence.com
 - name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: saas.sin.fan
+  server: 104.16.10.2
+  servername: v2ray.simspeedup.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  ws-opts:
+    headers:
+      Host: v2ray.simspeedup.com
+    path: /ws
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 162.159.130.234
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -82,68 +77,30 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8443
-  server: 172.67.155.65
-  servername: lucasjow.us.ci
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  ws-opts:
-    headers:
-      Host: lucasjow.us.ci
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
 - flow: xtls-rprx-vision
-  name: 爱尔兰+V2CROSS.COM
+  name: 白俄罗斯+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: jcp4Lj_qYzxtkalm_XFjrmvqEMGRG7sb19yMwLe16WE
-    short-id: 'e0215064d8d1fd7c'
-  server: 78.17.178.125
-  servername: cdn.tbank.ru
+    public-key: lrbP-ePUk7nbeLS8vBLbP5yyld7ZLmTB4_VQWRO31T8
+    short-id: '8a68df3a93c63ac8'
+  server: 46.243.183.2
+  servername: stream.indigo.ru
   tls: false
   type: vless
   uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
-  ws-opts:
-    headers:
-      Host: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-- flow: xtls-rprx-vision
-  name: '巴西+V2CROSS.COM #1'
-  network: tcp
-  port: 20324
-  reality-opts:
-    public-key: RK2g-bLoaa9GD9cJRRk2ktU9nAvP4-YmUPnBs1-UC1A
-    short-id: 'a9391e22'
-  server: 177.3.220.105
-  servername: metrika.yandex.ru
-  tls: false
-  type: vless
-  uuid: 8bd04756-3beb-4348-82c9-d35453df50ce
-- flow: xtls-rprx-vision
-  name: 俄罗斯+V2CROSS.COM
+- name: 立陶宛+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
-    short-id: '00000000'
-  server: 78.159.250.214
-  servername: qq.utiltools.site
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: '868419504747f6de'
+  server: 84.32.100.149
+  servername: tcpde7.figurapn.ru
   tls: false
   type: vless
-  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: e309e031-991e-4656-9934-44d10deb8fd8
-  port: 2053
-  server: nimm.mpd.cc.cd
-  sni: nimm.mpd.cc.cd
-  type: trojan
-  ws-opts:
-    path: '%2F0962'
+  uuid: 244d9eab-3311-40c7-b47f-4968dc3088a6
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

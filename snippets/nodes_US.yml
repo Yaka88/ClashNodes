@@ -1,24 +1,18 @@
 proxies:
-- name: 美国+CloudFlare节点
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
   network: ws
-  password: humanity
-  port: 443
-  server: 172.64.145.133
-  sni: www.pleadcourt.org
-  type: trojan
+  port: '443'
+  server: jp4.998998.best
+  servername: nat12.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   ws-opts:
     headers:
-      Host: www.pleadcourt.org
-    path: /assignment
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: e309e031-991e-4656-9934-44d10deb8fd8
-  port: 2053
-  server: nimm.mpd.cc.cd
-  sni: nimm.mpd.cc.cd
-  type: trojan
-  ws-opts:
-    path: '%2F0962'
+      Host: nat12.9966338.xyz
+    path: /vvvvvvvvv
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
