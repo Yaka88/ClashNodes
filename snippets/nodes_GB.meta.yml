@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CcMEJ-JOS4clB3gXbc6wXgzkiJQbyNpKY90I8B6AqyU
+    short-id: '!!str 4c188683e2c14a3c'
+  server: 31.76.227.60
+  servername: assets-mi-29.spbstudentlife.com
+  tls: false
+  type: vless
+  uuid: 05c8eabe-96af-4db2-bb2f-a24fa84344ba
