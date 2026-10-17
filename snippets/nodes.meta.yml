@@ -1,58 +1,78 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 巴西+V2CROSS.COM
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
   network: tcp
-  port: 20268
-  reality-opts:
-    public-key: 5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM
-    short-id: '0c774b50'
-  server: qcloudge1.exitvpn.shop
-  servername: metrika.yandex.ru
+  port: '123'
+  server: 43.108.103.167
+  servername: ''
   tls: false
-  type: vless
-  uuid: 8bd04756-3beb-4348-82c9-d35453df50ce
-- flow: xtls-rprx-vision
-  name: 美国+Xerox
-  network: tcp
-  port: 32134
-  reality-opts:
-    public-key: OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4
-    short-id: '6c6c7c97'
-  server: 3696b38bsg.murphyweb.sbs
-  servername: buylite.music.apple.com
-  tls: false
-  type: vless
-  uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-- flow: xtls-rprx-vision
-  name: 白俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lrbP-ePUk7nbeLS8vBLbP5yyld7ZLmTB4_VQWRO31T8
-    short-id: '8a68df3a93c63ac8'
-  server: 46.243.183.2
-  servername: stream.indigo.ru
-  tls: false
-  type: vless
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+  type: vmess
+  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
 - name: 美国+CloudFlare节点
   network: ws
-  port: 8443
-  server: centurylink.es
-  servername: free.sahanwickramasinghe.me
+  port: 443
+  server: 104.16.10.2
+  servername: v2ray.simspeedup.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   ws-opts:
-    path: '%2F'
+    headers:
+      Host: v2ray.simspeedup.com
+    path: /ws
 - name: 北京市+聚龙无限信息技术有限公司
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+- client-fingerprint: unsafe
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 172.64.150.43
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 108.162.194.134
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.pleadcourt.org
+    path: /assignment
+- name: 英国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 80.93.202.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: '%2F'
+- name: '北京市+聚龙无限信息技术有限公司 #1'
   network: tcp
   port: 58011
   server: us22.sofast.live
   tls: false
   type: vless
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: 英国+V2CROSS.COM
+- name: '英国+V2CROSS.COM #1'
   network: ws
   port: 8443
   server: 2.28.42.209
@@ -63,38 +83,42 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '美国+Xerox #1'
-  network: tcp
-  port: 56656
-  reality-opts:
-    public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
-    short-id: 'aae6d935'
-  server: funagfrdfs.alixxplay.com
-  servername: cdn-dynmedia-1.microsoft.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: '北京市+聚龙无限信息技术有限公司 #1'
-  network: tcp
-  port: 52683
-  server: jp.sofast.live
-  tls: false
-  type: vless
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
 - flow: xtls-rprx-vision
-  name: '美国+Xerox #2'
-  port: 55688
+  name: 日本+东京都Amazon数据中心
+  network: tcp
+  port: 47672
   reality-opts:
-    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
-    short-id: 'a46bb5972cf50671'
+    public-key: tBvlo8F8hKRXSK-EHRAfzEH-x3e4uvheGloO-9bPKx4
+    short-id: '70ab6d813e'
   server: funagfrdfs.alixxplay.com
-  servername: bilibili-vn.biliimg.com
+  servername: us1p1.xn--ghq880n3na965a.com
   tls: false
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
+- flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
+    short-id: '00000000'
+  server: 78.159.250.214
+  servername: qq.utiltools.site
+  tls: false
+  type: vless
+  uuid: 4054fdc2-ee80-4419-8a8e-d937df4719e2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

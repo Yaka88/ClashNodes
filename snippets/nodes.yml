@@ -1,4 +1,26 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: tcp
+  port: '123'
+  server: 43.108.103.167
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 108.162.194.134
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.pleadcourt.org
+    path: /assignment
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

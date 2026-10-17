@@ -1,6 +1,17 @@
 proxies:
+- name: 英国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 80.93.202.40
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime02.workers.dev
+    path: '%2F'
 - client-fingerprint: chrome
-  name: 英国+V2CROSS.COM
+  name: '英国+V2CROSS.COM #1'
   network: ws
   port: 8443
   server: 2.28.42.209
@@ -11,4 +22,4 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
