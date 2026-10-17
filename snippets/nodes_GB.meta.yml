@@ -1,25 +1,21 @@
 proxies:
-- name: 英国+V2CROSS.COM
+- alpn:
+  - http/1.1
+  name: 英国+伦敦DigitalOcean数据中心
   network: ws
-  port: 8880
-  server: 80.93.202.40
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  password: humanity
+  port: 443
+  server: 138.68.131.253
+  sni: www.pleadcourt.org
+  type: trojan
   ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '英国+V2CROSS.COM #1'
+    path: '%2Fassignment'
+- name: '英国+伦敦DigitalOcean数据中心 #1'
   network: ws
-  port: 8443
-  server: 2.28.42.209
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  password: humanity
+  port: 443
+  server: 167.172.61.197
+  sni: www.volumeroot.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+    path: '%2Fassignment'
