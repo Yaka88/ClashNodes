@@ -5,19 +5,6 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: jzDMZqyTEBy3N-JQ42jO9Tqgpr75qTZ2OsCEx2aYzRc
-    short-id: '!!str b4e8c1a7d3f29056'
-  server: s3.shardtech.pro
-  servername: media.shardshop.cc
-  tls: false
-  type: vless
-  uuid: aeffee83-4a56-4e01-ad8b-9bae65cb8d70
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '英国+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
     public-key: 4Uo8fbVgDnt_Z7FMneUnANHfU9Q_VD_ZpLtYZCGt73k
     short-id: '!!str c9e3a7d1b4f80256'
   server: s3.shardshop.cc
@@ -25,3 +12,16 @@ proxies:
   tls: false
   type: vless
   uuid: aeffee83-4a56-4e01-ad8b-9bae65cb8d70
+- client-fingerprint: randomized
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CcMEJ-JOS4clB3gXbc6wXgzkiJQbyNpKY90I8B6AqyU
+    short-id: '!!str 4c188683e2c14a3c'
+  server: 31.76.227.60
+  servername: assets-mi-29.spbstudentlife.com
+  tls: false
+  type: vless
+  uuid: 05c8eabe-96af-4db2-bb2f-a24fa84344ba
