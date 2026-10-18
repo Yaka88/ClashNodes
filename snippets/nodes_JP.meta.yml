@@ -1,4 +1,56 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 日本+V2CROSS.COM
+  network: tcp
+  port: 56415
+  reality-opts:
+    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+    short-id: '!!str cbd39bea0805e2'
+  server: funagfrdfs.alixxplay.com
+  servername: www.kaidee.com
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '日本+V2CROSS.COM #1'
+  network: tcp
+  port: 47691
+  reality-opts:
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: '!!str 2905326a'
+  server: funagfrdfs.alixxplay.com
+  servername: m.media-amazon.com
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '日本+V2CROSS.COM #2'
+  network: tcp
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: '!!str e51285e3'
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '日本+V2CROSS.COM #3'
+  network: tcp
+  port: 30892
+  reality-opts:
+    public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
+    short-id: '!!str 3d31326f95'
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - name: 日本2|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
