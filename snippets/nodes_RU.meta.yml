@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 21731
+  reality-opts:
+    public-key: QeLV1NQeTG3e1DRFSNnK_f9Ca5Gf9smexICxtr27WUA
+    short-id: '!!str 0446eb17'
+  server: 147.45.217.140
+  servername: metrika.yandex.ru
+  tls: false
+  type: vless
+  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9

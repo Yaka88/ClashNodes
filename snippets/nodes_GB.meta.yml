@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jzDMZqyTEBy3N-JQ42jO9Tqgpr75qTZ2OsCEx2aYzRc
+    short-id: '!!str b4e8c1a7d3f29056'
+  server: s3.shardtech.pro
+  servername: media.shardshop.cc
+  tls: false
+  type: vless
+  uuid: aeffee83-4a56-4e01-ad8b-9bae65cb8d70
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '英国+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4Uo8fbVgDnt_Z7FMneUnANHfU9Q_VD_ZpLtYZCGt73k
+    short-id: '!!str c9e3a7d1b4f80256'
+  server: s3.shardshop.cc
+  servername: backup.shardtech.pro
+  tls: false
+  type: vless
+  uuid: aeffee83-4a56-4e01-ad8b-9bae65cb8d70
