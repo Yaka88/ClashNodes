@@ -1,27 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 日本 V2CROSS.COM
-  network: tcp
-  port: '123'
-  server: 43.108.103.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 35aa0fda-175a-4aec-c468-0231dee1a121
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 日本+东京都亚马逊(Amazon)公司数据中心
-  network: tcp
-  port: 55688
-  reality-opts:
-    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
-    short-id: '!!str a46bb5972cf50671'
-  server: funagfrdfs.alixxplay.com
-  servername: bilibili-vn.biliimg.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - name: 日本2|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
