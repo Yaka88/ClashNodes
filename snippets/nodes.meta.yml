@@ -1,19 +1,8 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw
-  server: 144.31.4.234
-  servername: direct-nl.bachidze.com
-  tls: false
-  type: vless
-  uuid: 8a9c586c-4b2c-49e5-9e78-97408bf58500
-- name: '美国+V2CROSS.COM #1'
+- name: 巴西+V2CROSS.COM
   network: ws
   port: 8443
-  server: 45.61.149.205
+  server: 187.52.127.204
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -22,22 +11,46 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- flow: xtls-rprx-vision
+  name: 爱尔兰+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: jcp4Lj_qYzxtkalm_XFjrmvqEMGRG7sb19yMwLe16WE
+    short-id: 'e0215064d8d1fd7c'
+  server: 78.17.178.125
+  servername: cdn.tbank.ru
+  tls: false
+  type: vless
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
 - name: 美国+CloudFlare节点
   network: ws
-  password: humanity
   port: 443
-  server: 190.93.245.148
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
+  server: 162.159.130.234
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: www.pleadcourt.org
-    path: /assignment
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: 亚太地区+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 103.161.178.215
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
 - name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 104.26.4.2
+  server: cf.090227.xyz
   servername: ccc.010304.xyz
   tls: true
   type: vless
@@ -49,45 +62,7 @@ proxies:
 - name: '美国+CloudFlare节点 #2'
   network: ws
   port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
-- flow: xtls-rprx-vision
-  name: 希腊+V2CROSS.COM
-  network: tcp
-  port: 24694
-  reality-opts:
-    public-key: kaPztgo_2b2CKxytGWXzn6EauyNKr6Ho8xerGpSS-SQ
-    short-id: '58301280'
-  server: 88.218.92.41
-  servername: metrika.yandex.ru
-  tls: false
-  type: vless
-  uuid: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-- name: 法国+V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 139.100.226.187
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 104.17.148.22
+  server: 162.159.135.234
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -96,23 +71,12 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 8080
-  server: 104.26.2.223
-  tls: false
-  type: vless
-  uuid: 9cc42ee7-1f5f-46f5-a8b0-2da76b6b6641
-  ws-opts:
-    headers:
-      Host: pe2ev-frosty-poetry-3d08.s67y4jl8.workers.dev
-    path: /
 - alpn:
   - http/1.1
-  name: '美国+CloudFlare节点 #5'
+  name: '美国+CloudFlare节点 #3'
   network: ws
   port: 443
-  server: 104.19.45.195
+  server: 104.17.147.22
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -120,23 +84,11 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-- alterId: 0
-  cipher: auto
-  name: 法国 国际航空电讯集团公司(SITA)
-  network: tcp
-  port: '53183'
-  server: 57.131.168.202
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2cb092f6-d62c-4e8c-a9f2-db9d46f42de7
-- alpn:
-  - http/1.1
-  name: 巴西圣保罗+CloudFlare节点
+    path: '%2F'
+- name: 北美地区+V2CROSS.COM
   network: ws
-  port: 443
-  server: 188.114.98.0
+  port: 8443
+  server: 104.245.245.16
   servername: snip.edgeoneai.cc.cd
   skip-cert-verify: false
   tls: true
@@ -145,21 +97,47 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
+    path: /fp=chrome
+- name: 英国+V2CROSS.COM
   network: ws
-  port: '443'
-  server: jp4.998998.best
-  servername: nat12.9966338.xyz
+  port: 8443
+  server: 2.28.42.209
+  servername: snip.edgeoneai.cc.cd
   tls: true
-  type: vmess
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: nat12.9966338.xyz
-    path: /vvvvvvvvv
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- name: 江苏省南京市+腾讯云
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: 奥地利+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 212.183.88.136
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- flow: xtls-rprx-vision
+  name: 韩国+Mogu网络科技公司
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 5qe0MF8LdxPLFyPkyPkUdQs58rK9J7B0Q5TUj7tSnn4
+    short-id: '654119f9d6f01dba'
+  server: time.salphetka.ru
+  servername: www.unb.ca
+  tls: false
+  type: vless
+  uuid: 92295a0d-b610-4075-85e9-bfab09ec6f3a
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -253,137 +231,58 @@ proxies:
 - alpn:
   - ''
   flow: xtls-rprx-vision
-  name: US_speednode_0130
+  name: JP_speednode_0006
+  network: tcp
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: 'e51285e3'
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0022
+  network: ws
+  port: 80
+  server: platform109.golnamakcert.top
+  servername: platform109.halalkhor.info
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  ws-opts:
+    headers:
+      Host: platform109.halalkhor.info
+    path: '%2Fplatform109'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0023
   network: tcp
   port: 443
-  reality-opts:
-    public-key: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0
-    short-id: 'aebdb601b1371778'
-  server: 38.244.4.1
-  servername: www.apple.com
+  server: 44.251.76.224
+  servername: play.googleapis.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
 - alpn:
   - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0132
-  network: tcp
-  port: 11094
-  reality-opts:
-    public-key: 9dnXiXxP4xgvtTVRj9SBFdyO6mjGvVhWD8qVZZLCCCk
-    short-id: 'a356addf'
-  server: 51.81.223.225
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: f1fa0ad9-b122-4b7c-da82-4bea9edc48dd
-- alpn:
-  - ''
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: US_speednode_0135
+  client-fingerprint: ''
+  flow: ''
+  name: US_speednode_0024
   network: tcp
   port: 443
-  reality-opts:
-    public-key: zDeF_twyyT7a7zKiURF-Q8f6kkj95rx7zQ_jar09Hi4
-    short-id: 'e4f6a3446ac34a23'
-  server: 89.117.123.243
-  servername: us.savesafe.cc
+  server: 100.54.27.217
+  servername: play.googleapis.com
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0136
-  network: tcp
-  port: 29893
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0137
-  network: tcp
-  port: 39399
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- alpn:
-  - ''
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: US_speednode_0138
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: g5UW6bf2soPSDNx7j0wanW_uLAtvTgQ8_lfztTJaP0k
-    short-id: '7025c954ff913b4c'
-  server: 107.151.250.68
-  servername: www.bing.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 055dce30-0ee3-44c3-b680-be1c95b8d6e7
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0139
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: E6Y9lNizCXo8tJ6EXwLYQIjyIwmxIs4foyRlY2MgkjA
-    short-id: '59ccabb0a1483c4b'
-  server: wr28-6njjgu.linenheath.site
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0142
-  network: tcp
-  port: 39211
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: 'bc8e3658db7d1323'
-  server: 155.117.199.13
-  servername: cdnjs.cloudflare.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: US_speednode_0144
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FL9zvOg48NhHk_YWJMcDXNOseisuzeBW7d8KitUaAQM
-    short-id: 'dc941fb0778384e2'
-  server: nsuc-znkbig.avonex.top
-  servername: www.bing.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: ec31f6d7-c71a-413d-93aa-24296805a594
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
