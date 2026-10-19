@@ -1,9 +1,10 @@
 proxies:
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
   name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 162.159.130.234
+  server: 104.19.45.195
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -11,22 +12,11 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- client-fingerprint: chrome
+    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
+- alpn:
+  - h3
+  - h2
   name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: '%2Ffp%3Dchrome'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
   network: ws
   port: 443
   server: 162.159.135.234
@@ -38,34 +28,47 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: unsafe
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 104.16.111.102
+  servername: jp3.yohototo.top
+  tls: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: '%2Ftyxyws'
+- client-fingerprint: chrome
   name: '美国+CloudFlare节点 #3'
   network: ws
   port: 443
-  server: 104.17.147.22
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: 北美地区+V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 104.245.245.16
-  servername: snip.edgeoneai.cc.cd
+  server: www.5199dy.com
+  servername: ccc.010304.xyz
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
+      Host: ccc.010304.xyz
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 8443
+  server: 172.67.161.144
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092

@@ -1,17 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 韩国+Mogu网络科技公司
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5qe0MF8LdxPLFyPkyPkUdQs58rK9J7B0Q5TUj7tSnn4
-    short-id: '!!str 654119f9d6f01dba'
-  server: time.salphetka.ru
-  servername: www.unb.ca
-  tls: false
-  type: vless
-  uuid: 92295a0d-b610-4075-85e9-bfab09ec6f3a
 - name: 韩国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
