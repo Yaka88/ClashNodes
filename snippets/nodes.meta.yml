@@ -1,108 +1,115 @@
 proxies:
 - flow: xtls-rprx-vision
-  name: 日本+V2CROSS.COM
+  name: '美国+V2CROSS.COM #1'
   network: tcp
-  port: 56415
+  port: 443
   reality-opts:
-    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-    short-id: 'cbd39bea0805e2'
-  server: funagfrdfs.alixxplay.com
-  servername: www.kaidee.com
+    public-key: E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw
+  server: 144.31.4.234
+  servername: direct-nl.bachidze.com
   tls: false
   type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  uuid: 8a9c586c-4b2c-49e5-9e78-97408bf58500
+- name: 江苏省南京市+腾讯云
+  network: tcp
+  port: 58011
+  server: us22.sofast.live
+  tls: false
+  type: vless
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+- alterId: 0
+  cipher: auto
+  name: 美国 CloudFlare节点
+  network: ws
+  port: 443
+  server: 172.67.137.209
+  servername: ukl.lovehk.xyz
+  tls: true
+  type: vmess
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  ws-opts:
+    headers:
+      Host: ukl.lovehk.xyz
+    path: /London31
+- name: 丹麦+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 185.162.229.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime61.workers.dev
+    path: /
+- name: '江苏省南京市+腾讯云 #1'
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
 - name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
+  server: www.5199dy.com
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dunsafe'
-- name: 中国+阿里云
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  port: 443
-  server: 8.209.247.109
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- flow: xtls-rprx-vision
-  name: '日本+V2CROSS.COM #1'
-  network: tcp
-  port: 47691
-  reality-opts:
-    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
-    short-id: '2905326a'
-  server: funagfrdfs.alixxplay.com
-  servername: m.media-amazon.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 俄罗斯+V2CROSS.COM
+      Host: ccc.010304.xyz
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
   network: ws
+  password: humanity
   port: 443
-  server: 195.133.17.250
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  server: 104.27.21.22
+  sni: www.volumeroot.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- flow: xtls-rprx-vision
-  name: 爱尔兰+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: jcp4Lj_qYzxtkalm_XFjrmvqEMGRG7sb19yMwLe16WE
-    short-id: 'e0215064d8d1fd7c'
-  server: 78.17.178.125
-  servername: cdn.tbank.ru
-  tls: false
-  type: vless
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
-- flow: xtls-rprx-vision
-  name: '日本+V2CROSS.COM #2'
-  network: tcp
-  port: 34379
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: 'e51285e3'
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- flow: xtls-rprx-vision
-  name: '日本+V2CROSS.COM #3'
-  network: tcp
-  port: 30892
-  reality-opts:
-    public-key: YinI5MijeZpRatg6QNDvP0qXEif-6VHC6gV5yoji4i4
-    short-id: '3d31326f95'
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 亚太地区+V2CROSS.COM
+    path: '%2Fassignment'
+- name: '丹麦+V2CROSS.COM #1'
   network: ws
-  port: 443
-  server: 103.161.178.72
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  port: 8880
+  server: 185.162.229.50
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
+      Host: vms.lifetime61.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '美国 CloudFlare节点 #1'
+  network: ws
+  port: '443'
+  server: jp4.998998.best
+  servername: nat12.9966338.xyz
+  tls: true
+  type: vmess
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  ws-opts:
+    headers:
+      Host: nat12.9966338.xyz
+    path: /vvvvvvvvv
+- flow: xtls-rprx-vision
+  name: 巴西+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HXFe_cPryw01zqXchAFjZciDAS4UJg1-xScx6vjgjjY
+    short-id: '7f2e9c4b1a8d6e25'
+  server: swself.yandex-api.com
+  servername: swself.yandex-api.com
+  tls: false
+  type: vless
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
 - name: 阿富汗+V2CROSS.COM
   network: ws
   port: 443
@@ -115,6 +122,24 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fp=chrome
+- name: 北美地区+V2CROSS.COM
+  password: 990c8eb6-4c4e-4277-8602-79af8402cdd0
+  port: 8443
+  server: 104.165.205.42
+  sni: speedtestmark.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.hcaptcha.com
+  sni: www.volumeroot.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
