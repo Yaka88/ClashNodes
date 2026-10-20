@@ -11,10 +11,67 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: 法国+V2CROSS.COM
+- alpn:
+  - http/1.1
+  name: 美国+CloudFlare节点
   network: ws
-  port: 8443
-  server: 139.100.226.187
+  port: 443
+  server: 172.67.118.45
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    path: /fdip
+- alpn:
+  - http/1.1
+  name: 美国+V2CROSS.COM
+  network: ws
+  password: humanity
+  port: 443
+  server: 209.38.99.120
+  sni: www.volumeroot.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 江苏省南京市+腾讯云
+  network: tcp
+  port: 52683
+  server: jp.sofast.live
+  tls: false
+  type: vless
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+- name: '美国+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 149.104.5.126
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- alpn:
+  - http/1.1
+  flow: ''
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: redcloudport-bidarbash.sbs
+  servername: redcloudport-bidarbash.sbs
+  tls: true
+  type: vless
+  uuid: 2bdcf0ac-f84e-471f-98dc-a1807acab1cb
+  ws-opts:
+    headers:
+      Host: redcloudport-bidarbash.sbs
+    path: /zoodi
+- name: 亚太地区+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 103.161.178.215
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -23,51 +80,22 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: 荷兰+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 130.78.190.134
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
 - name: 俄罗斯+V2CROSS.COM
-  network: tcp
-  port: 8080
-  reality-opts:
-    public-key: t_z1GMEv2FYr0Bo57WBuKRRlkyOMj40025j-OcWCtkU
-    short-id: '8d542c72c84f'
-  server: ss2.soreanapanel.com
-  servername: graphs.4cdn.de
-  tls: false
-  type: vless
-  uuid: 22136b20-6365-4ae6-b21a-799a00ab1346
+  network: ws
+  password: humanity
+  port: 443
+  server: 95.85.32.57
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
   ws-opts:
     headers:
-      Host: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-- client-fingerprint: unsafe
-  name: 美国+CloudFlare节点
+      Host: www.pleadcourt.org
+    path: /assignment
+- name: '亚太地区+V2CROSS.COM #1'
   network: ws
   port: 443
-  server: 172.64.150.43
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.17.148.22
+  server: 103.161.178.72
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -76,88 +104,6 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffp%3Dchrome'
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
-- flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: xXMV-UbVMpP75hZoXS_QSaj_DK1O58mrPIrreudQ71o
-    short-id: '294cd0660fde9027'
-  server: app-ss-64.ecom-ai-search.com
-  servername: assets-ss-64.ecom-ai-search.com
-  tls: false
-  type: vless
-  uuid: 074690f9-cb30-44f5-84e5-f3ce8fc6cf29
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.44.17
-  sni: www.pleadcourt.org
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.27.21.22
-  sni: www.volumeroot.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 英国+伦敦DigitalOcean数据中心
-  network: ws
-  password: humanity
-  port: 443
-  server: 138.68.131.253
-  sni: www.pleadcourt.org
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: 美国 CloudFlare节点
-  network: ws
-  port: 8443
-  server: 172.67.161.144
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZJlfiMh4ebjrTl2_kwAk_zXMAaCiwNS7yMd5XzlUgmI
-  server: 85.193.85.231
-  servername: yoy-api.bachidze.com
-  tls: false
-  type: vless
-  uuid: 8a9c586c-4b2c-49e5-9e78-97408bf58500
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -250,59 +196,18 @@ proxies:
   type: trojan
 - alpn:
   - ''
-  flow: xtls-rprx-vision
-  name: JP_speednode_0006
-  network: tcp
-  port: 34379
-  reality-opts:
-    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
-    short-id: 'e51285e3'
-  server: funagfrdfs.alixxplay.com
-  servername: us1p1.xn--ghq880n3na965a.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- alpn:
-  - ''
-  client-fingerprint: ''
+  client-fingerprint: random
   flow: ''
-  name: US_speednode_0022
+  name: US_speednode_0031
   network: ws
-  port: 80
-  server: platform109.golnamakcert.top
-  servername: platform109.halalkhor.info
+  port: 443
+  server: freev2.cloudflare.182682.xyz
+  servername: jp-osa.862400.xyz
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  uuid: ed6ae8d0-0ad4-4828-8fee-621a650abb39
   ws-opts:
     headers:
-      Host: platform109.halalkhor.info
-    path: '%2Fplatform109'
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0023
-  network: tcp
-  port: 443
-  server: 44.251.76.224
-  servername: play.googleapis.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: US_speednode_0024
-  network: tcp
-  port: 443
-  server: 100.54.27.217
-  servername: play.googleapis.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+      Host: jp-osa.862400.xyz
+    path: '%2Fannouncement%3Fed%3D2048'
