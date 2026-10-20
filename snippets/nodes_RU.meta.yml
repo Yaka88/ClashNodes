@@ -1,7 +1,35 @@
 proxies:
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 8080
+  reality-opts:
+    public-key: t_z1GMEv2FYr0Bo57WBuKRRlkyOMj40025j-OcWCtkU
+    short-id: '!!str 8d542c72c84f'
+  server: ss2.soreanapanel.com
+  servername: graphs.4cdn.de
+  tls: false
+  type: vless
+  uuid: 22136b20-6365-4ae6-b21a-799a00ab1346
+  ws-opts:
+    headers:
+      Host: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xXMV-UbVMpP75hZoXS_QSaj_DK1O58mrPIrreudQ71o
+    short-id: '!!str 294cd0660fde9027'
+  server: app-ss-64.ecom-ai-search.com
+  servername: assets-ss-64.ecom-ai-search.com
+  tls: false
+  type: vless
+  uuid: 074690f9-cb30-44f5-84e5-f3ce8fc6cf29
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '俄罗斯+V2CROSS.COM #2'
   network: tcp
   port: 443
   reality-opts:
