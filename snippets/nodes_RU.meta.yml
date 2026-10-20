@@ -1,13 +1,14 @@
 proxies:
-- name: 俄罗斯+V2CROSS.COM
+- client-fingerprint: chrome
+  name: 俄罗斯+V2CROSS.COM
   network: ws
-  password: humanity
   port: 443
-  server: 95.85.32.57
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
+  server: 195.133.17.250
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: www.pleadcourt.org
-    path: /assignment
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'

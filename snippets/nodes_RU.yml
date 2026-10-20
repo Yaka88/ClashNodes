@@ -1,13 +1,1 @@
-proxies:
-- name: 俄罗斯+V2CROSS.COM
-  network: ws
-  password: humanity
-  port: 443
-  server: 95.85.32.57
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
+proxies: []
