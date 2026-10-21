@@ -1,62 +1,63 @@
 proxies:
-- name: 日本+软银网络
+- name: 美国+CloudFlare节点
   network: ws
   port: 443
-  server: 60.130.209.253
-  servername: snip.edgeoneai.cc.cd
+  server: jjkkll.ccwu.cc
   tls: true
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- alpn:
-  - h3
-  - h2
-  name: 美国+CloudFlare节点
+  uuid: 49ef59c5-3491-4cba-824d-0fc76133f67c
+- flow: xtls-rprx-vision
+  name: 日本+东京都Amazon数据中心
+  network: tcp
+  port: 35544
+  reality-opts:
+    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
+    short-id: '25c79e5856c7'
+  server: funagfrdfs.alixxplay.com
+  servername: iosapps.itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- flow: xtls-rprx-vision
+  name: '日本+东京都Amazon数据中心 #1'
+  network: tcp
+  port: 47691
+  reality-opts:
+    public-key: 6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg
+    short-id: '2905326a'
+  server: funagfrdfs.alixxplay.com
+  servername: m.media-amazon.com
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- flow: xtls-rprx-vision
+  name: '日本+东京都Amazon数据中心 #2'
+  network: tcp
+  port: 56656
+  reality-opts:
+    public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc
+    short-id: 'aae6d935'
+  server: funagfrdfs.alixxplay.com
+  servername: cdn-dynmedia-1.microsoft.com
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: '美国+CloudFlare节点 #1'
   network: ws
+  password: humanity
   port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560'
-- name: 英国+V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 2.28.42.209
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- alpn:
-  - http/1.1
-  name: '英国+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 31.77.126.2
-  servername: snip.edgeoneai.cc.cd
+  server: 108.162.194.134
   skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  sni: www.pleadcourt.org
+  type: trojan
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560
-- name: 亚太地区+V2CROSS.COM
+      Host: www.pleadcourt.org
+    path: /assignment
+- name: 尼泊尔+V2CROSS.COM
   network: ws
   port: 443
-  server: 103.161.179.171
+  server: 103.38.236.248
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -65,10 +66,34 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: 法国+V2CROSS.COM
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 172.64.150.43
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dunsafe'
+- flow: xtls-rprx-vision
+  name: '日本+东京都Amazon数据中心 #3'
+  network: tcp
+  port: 46105
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: '28f5c1f8f98a'
+  server: funagfrdfs.alixxplay.com
+  servername: www.lamer.com.sg
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: 美国+V2CROSS.COM
   network: ws
   port: 8443
-  server: 139.100.226.187
+  server: 45.61.149.205
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -77,81 +102,63 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: 乌克兰+V2CROSS.COM
+- name: 美国+加州
   network: ws
   port: 443
-  server: 178.93.160.236
-  servername: snip.edgeoneai.cc.cd
+  server: 216.24.57.1
+  servername: somersby.pt.ex33r.eu.cc
   tls: true
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 974c2588-c1cd-43ac-8823-ce3d879b09fd
   ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '美国+CloudFlare节点 #1'
-  network: ws
+    path: '%2Fid-amz'
+- flow: xtls-rprx-vision
+  name: 美国+Xerox
+  network: tcp
   port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  reality-opts:
+    public-key: rM3p4mL72kcpvnxVRYxl5J0zPbxE2U3iZua0F29SHTQ
+    short-id: '8d942904d3e87323'
+  server: app-sh-185.spbstudentlife.com
+  servername: assets-sh-185.spbstudentlife.com
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 074690f9-cb30-44f5-84e5-f3ce8fc6cf29
+- name: 巴西圣保罗+CloudFlare节点
+  network: ws
+  port: 80
+  server: 188.114.98.112
+  servername: elenaaaaaaaaaa.cloudns.pro.
+  tls: false
+  type: vless
+  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
+      Host: elenaaaaaaaaaa.cloudns.pro.
+    path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560
 - alpn:
   - http/1.1
-  name: '美国+CloudFlare节点 #2'
+  name: 英国+伦敦DigitalOcean数据中心
   network: ws
+  password: humanity
   port: 443
-  server: 172.67.118.45
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  server: 138.68.131.253
+  sni: www.pleadcourt.org
+  type: trojan
   ws-opts:
-    path: /fdip
-- name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 195.133.17.250
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+    path: '%2Fassignment'
+- flow: xtls-rprx-vision
+  name: '日本+东京都Amazon数据中心 #4'
+  network: tcp
+  port: 34379
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: 'e51285e3'
+  server: funagfrdfs.alixxplay.com
+  servername: us1p1.xn--ghq880n3na965a.com
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: 日本+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 43.174.195.1
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
