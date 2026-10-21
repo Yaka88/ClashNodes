@@ -1,13 +1,14 @@
 proxies:
-- name: 德国+巴伐利亚州纽伦堡Tor网络出口
+- client-fingerprint: chrome
+  name: 德国+V2CROSS.COM
   network: ws
-  password: humanity
   port: 443
-  server: 185.220.100.168
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  server: 194.127.192.138
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'

@@ -1,13 +1,1 @@
-proxies:
-- name: 德国+巴伐利亚州纽伦堡Tor网络出口
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.220.100.168
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
+proxies: []
