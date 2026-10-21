@@ -1,14 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 德国+V2CROSS.COM
-  network: tcp
+- name: 德国+巴伐利亚州纽伦堡Tor网络出口
+  network: ws
+  password: humanity
   port: 443
-  reality-opts:
-    public-key: '%2DtePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw'
-    short-id: '!!str 50'
-  server: test.wolf-moose.test-cdn-kkk.com
-  servername: la.cdn-tech-images.com
-  tls: false
-  type: vless
-  uuid: bbe37c75-d097-4b72-a074-445a56fe3969
+  server: 185.220.100.168
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
