@@ -1,12 +1,8 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  name: 美国+CloudFlare节点
+- name: 美国+得克萨斯州达拉斯Cologuys公司
   network: ws
   port: 443
-  server: saas.sin.fan
+  server: 173.242.51.189
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -14,24 +10,22 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560'
-- name: 美国+V2CROSS.COM
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443fp=chrome
+- name: 美国+CloudFlare公司CDN节点(shopify)
   network: ws
-  port: 8443
-  server: 144.31.181.177
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+  port: 8880
+  server: 23.227.39.30
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
+      Host: vms.lifetime17.workers.dev
     path: '%2F'
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #1'
+- name: 北美地区+V2CROSS.COM
   network: ws
   port: 8443
-  server: 45.61.149.205
+  server: 104.245.245.16
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -39,8 +33,8 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
-- name: '美国+CloudFlare节点 #1'
+    path: /fp=chrome
+- name: 美国+CloudFlare节点
   network: ws
   port: 443
   server: 172.64.150.43
@@ -52,24 +46,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #2'
+- name: 美国+佛罗里达州迈阿密市
   network: ws
   port: 443
-  server: www.5199dy.com
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 104.17.147.22
+  server: 72.56.106.210
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -77,7 +57,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2F'
+    path: /fp=chrome
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092

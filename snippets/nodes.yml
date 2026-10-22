@@ -1,4 +1,14 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 香港 阿里云
+  network: tcp
+  port: '52080'
+  server: 47.242.81.94
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
