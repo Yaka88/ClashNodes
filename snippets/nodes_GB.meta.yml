@@ -1,1 +1,17 @@
-proxies: []
+proxies:
+- alpn:
+  - ''
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: GB_speednode_0014
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: '!!str fc70174007a393b4'
+  server: netherlands02.azotvpn.xyz
+  servername: netherlands02.azotvpn.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
