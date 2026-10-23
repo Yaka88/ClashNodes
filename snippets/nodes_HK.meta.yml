@@ -1,9 +1,9 @@
 proxies:
 - client-fingerprint: chrome
-  name: 香港+新网络有限公司
+  name: 香港+野草云
   network: ws
-  port: 8443
-  server: 103.39.78.118
+  port: 443
+  server: 103.143.81.178
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -11,7 +11,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+    path: '%2F'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian

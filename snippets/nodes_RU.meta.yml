@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 2443
+  reality-opts:
+    public-key: 7VEbBMpg2DyUHU53a76muNrCES-g12FyRUvThr4lvy4
+    short-id: '!!str b208'
+  server: 82.202.182.41
+  servername: smartcaptcha.yandexcloud.net
+  tls: false
+  type: vless
+  uuid: 928a3079-7c20-40cc-9c92-e878ba959dcd
+- client-fingerprint: chrome
+  name: '俄罗斯+V2CROSS.COM #1'
+  network: ws
+  port: 443
+  server: 195.133.17.250
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'

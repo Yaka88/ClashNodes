@@ -1,14 +1,1 @@
-proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 24503
-  reality-opts:
-    public-key: iiApJD_tVRzp1t8EfIpG7T4dnx-O0ai5nkzD9GUV9Fc
-    short-id: '!!str 02ea11017a1c951f'
-  server: 31.77.10.167
-  servername: nl3-gkv6mb.vpvr4ib84nuv6hdkt.ru
-  tls: false
-  type: vless
-  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+proxies: []
