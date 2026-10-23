@@ -1,17 +1,14 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: GB_speednode_0014
+  name: 英国+V2CROSS.COM
   network: tcp
-  port: 443
+  port: 24503
   reality-opts:
-    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
-    short-id: '!!str fc70174007a393b4'
-  server: netherlands02.azotvpn.xyz
-  servername: netherlands02.azotvpn.xyz
-  skip-cert-verify: false
+    public-key: iiApJD_tVRzp1t8EfIpG7T4dnx-O0ai5nkzD9GUV9Fc
+    short-id: '!!str 02ea11017a1c951f'
+  server: 31.77.10.167
+  servername: nl3-gkv6mb.vpvr4ib84nuv6hdkt.ru
   tls: false
   type: vless
-  uuid: a500be68-4ff6-433b-9968-472be69fab14
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd

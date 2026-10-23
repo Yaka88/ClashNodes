@@ -1,81 +1,8 @@
 proxies:
-- name: 美国+Xerox
-  network: ws
-  port: 443
-  server: 13.140.29.253
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- name: 美国加利福尼亚州洛杉矶+Zenlayer
-  network: ws
-  port: 443
-  server: 128.1.186.61
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
 - name: 美国+CloudFlare节点
   network: ws
-  password: humanity
   port: 443
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2F%2Fassignment'
-- alpn:
-  - http/1.1
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 104.17.3.81
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%23TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed%3D2560'
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 45.131.4.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-    path: '%2F'
-- flow: xtls-rprx-vision
-  name: 日本+东京Amazon数据中心
-  network: tcp
-  port: 55688
-  reality-opts:
-    public-key: KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw
-    short-id: 'a46bb5972cf50671'
-  server: funagfrdfs.alixxplay.com
-  servername: bilibili-vn.biliimg.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 澳大利亚+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 203.88.117.227
+  server: 172.64.150.43
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -84,80 +11,10 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- alpn:
-  - h3
-  - h2
-  name: '美国+CloudFlare节点 #2'
+- name: 香港+新网络有限公司
   network: ws
-  port: 443
-  server: 104.20.6.134
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- name: 罗马尼亚+V2CROSS.COM
-  network: ws
-  port: 2053
-  server: 188.240.213.98
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 104.17.139.37
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: 北京市+聚龙无限信息技术有限公司
-  network: tcp
-  port: 58011
-  server: us22.sofast.live
-  tls: false
-  type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- flow: xtls-rprx-vision
-  name: '日本+东京Amazon数据中心 #1'
-  network: tcp
-  port: 46105
-  reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: '28f5c1f8f98a'
-  server: funagfrdfs.alixxplay.com
-  servername: www.lamer.com.sg
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 162.159.128.253
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 443
-  server: 104.17.134.88
+  port: 8443
+  server: 103.39.78.118
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -166,13 +23,51 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443'
+- flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 24503
+  reality-opts:
+    public-key: iiApJD_tVRzp1t8EfIpG7T4dnx-O0ai5nkzD9GUV9Fc
+    short-id: '02ea11017a1c951f'
+  server: 31.77.10.167
+  servername: nl3-gkv6mb.vpvr4ib84nuv6hdkt.ru
+  tls: false
+  type: vless
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+- name: 德国+巴伐利亚州纽伦堡Tor网络出口
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.220.100.168
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
 - alpn:
   - h3
   - h2
-  name: '新西兰+V2CROSS.COM #1'
+  name: 巴西圣保罗+CloudFlare节点
   network: ws
   port: 443
-  server: 185.71.230.237
+  server: 188.114.96.6
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- alpn:
+  - http/1.1
+  name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: 104.17.148.22
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -181,18 +76,77 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: '%2F'
-- flow: xtls-rprx-vision
-  name: 伊朗+V2CROSS.COM
+- name: '美国+CloudFlare节点 #2'
+  network: ws
+  port: 443
+  server: 104.18.42.162
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fp=chrome
+- name: 伊拉克+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: 7zsU1U-30jh-qqfmqZukMfoqHB75ksKFA5aQFi8LGW4
-    short-id: '70b4ca'
-  server: 31.59.216.141
-  servername: 193.23.216.239.cdn-one.org
+    public-key: CgbJG-9Wv2NW-cuS1ZIaCAenRUZbxGFt5EjLkFCUcWs
+    short-id: '627da539c308202e'
+  server: 178.17.52.234
+  servername: static.blog-forme.ru
   tls: false
   type: vless
-  uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
+  uuid: 0bf8538b-6299-46b0-9775-8b00939dccb5
+- flow: xtls-rprx-vision
+  name: 保加利亚+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 32XFmS-ifqooBFY89KNP3ZrqgSBOd3vel9GlNinL6yw
+    short-id: '03'
+  server: 83.219.97.18
+  servername: fi5.silalink.sbs
+  tls: false
+  type: vless
+  uuid: fe551942-d6e5-4361-ae5c-1f2e9077cd79
+- name: '美国+CloudFlare节点 #3'
+  network: ws
+  port: 443
+  server: 104.18.236.11
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: '美国+CloudFlare节点 #4'
+  network: ws
+  port: 443
+  server: 172.64.159.33
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2F'
+- name: 乌克兰+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 213.111.177.107
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: '%2Ffp%3Dchrome'
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -283,31 +237,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: DE_speednode_0002
-  network: tcp
-  port: 443
-  server: 3.79.233.186
-  servername: play.googleapis.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- alpn:
-  - ''
-  flow: xtls-rprx-vision
-  name: GB_speednode_0014
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
-    short-id: 'fc70174007a393b4'
-  server: netherlands02.azotvpn.xyz
-  servername: netherlands02.azotvpn.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: a500be68-4ff6-433b-9968-472be69fab14

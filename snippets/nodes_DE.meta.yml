@@ -1,14 +1,13 @@
 proxies:
-- alpn:
-  - ''
-  client-fingerprint: ''
-  flow: ''
-  name: DE_speednode_0002
-  network: tcp
+- name: 德国+巴伐利亚州纽伦堡Tor网络出口
+  network: ws
+  password: humanity
   port: 443
-  server: 3.79.233.186
-  servername: play.googleapis.com
+  server: 185.220.100.168
   skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
