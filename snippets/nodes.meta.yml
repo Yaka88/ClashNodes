@@ -1,204 +1,37 @@
 proxies:
 - name: 美国+CloudFlare节点
   network: ws
+  password: humanity
   port: 443
-  server: 104.18.236.11
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  server: 108.162.194.134
+  skip-cert-verify: false
+  sni: www.pleadcourt.org
+  type: trojan
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: 172.67.74.177
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: cfnode-11ivy8.pages.dev
-  tls: true
-  type: vless
-  uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
-- name: 亚太地区+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 103.97.201.61
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: 俄罗斯+V2CROSS.COM
-  network: ws
-  port: 8443
-  server: 185.239.48.154
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: 美国加利福尼亚州洛杉矶+V2CROSS.COM
-  network: ws
-  port: 2087
-  server: 45.157.233.109
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: 罗马尼亚+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 85.121.51.201
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
+      Host: www.pleadcourt.org
+    path: /assignment
 - flow: xtls-rprx-vision
-  name: '俄罗斯+V2CROSS.COM #1'
+  name: 保加利亚+V2CROSS.COM
   network: tcp
-  port: 2443
+  port: 443
   reality-opts:
-    public-key: 7VEbBMpg2DyUHU53a76muNrCES-g12FyRUvThr4lvy4
-    short-id: 'b208'
-  server: 82.202.182.41
-  servername: smartcaptcha.yandexcloud.net
+    public-key: 32XFmS-ifqooBFY89KNP3ZrqgSBOd3vel9GlNinL6yw
+    short-id: '03'
+  server: 83.219.97.18
+  servername: fi5.silalink.sbs
   tls: false
   type: vless
-  uuid: 928a3079-7c20-40cc-9c92-e878ba959dcd
-- name: '美国+CloudFlare节点 #3'
-  network: ws
-  port: 443
-  server: 104.17.167.134
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: fe551942-d6e5-4361-ae5c-1f2e9077cd79
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560fp=chromefp=chromefp=chrome
-- name: 江苏省南京市+腾讯云
-  network: tcp
-  port: 58011
-  server: us22.sofast.live
-  tls: false
-  type: vless
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-- name: '美国+CloudFlare节点 #4'
-  network: ws
-  port: 443
-  server: 104.17.103.33
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '美国+CloudFlare节点 #5'
-  network: ws
-  port: 443
-  server: 104.17.149.181
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: '罗马尼亚+V2CROSS.COM #1'
-  network: ws
-  port: 443
-  server: 81.181.166.197
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: 乌克兰+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 178.93.160.236
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
-- name: 美国+加利福尼亚
-  network: ws
-  port: 2083
-  server: 64.188.71.236
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fp=chrome
-- name: '美国+CloudFlare节点 #6'
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40public-vpn-200.opengw.net%3A443%3Fed%3D2560%23Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET'
-- name: 日本+东京Amazon数据中心
-  network: ws
-  port: 443
-  server: 3.112.67.101
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2F'
+      Host: '%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI'
 - alpn:
   - http/1.1
-  name: '美国+CloudFlare节点 #7'
+  name: '美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: 104.17.148.22
+  server: www.speedtest.net
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -206,19 +39,41 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
-- name: 美国+佛罗里达州迈阿密市
-  network: ws
-  port: 443
-  server: 72.56.106.210
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560%23Telegram---bored_vpn'
+- flow: xtls-rprx-vision
+  name: 美国+Xerox
+  network: tcp
+  port: 56415
+  reality-opts:
+    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
+    short-id: 'cbd39bea0805e2'
+  server: funagfrdfs.alixxplay.com
+  servername: www.kaidee.com
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffp%3Dchrome'
+      Host: '%2F%3FTelegram---mtmvpn---mtmvpn---mtmvpn---mtmvpn'
+- name: 罗马尼亚+V2CROSS.COM
+  network: grpc
+  port: 60023
+  reality-opts:
+    public-key: PFL3AoMNTu9-VrM2WIrvQl2l-ibVgR5vIE1Vh-txKVg
+    short-id: '6070d424a64f75'
+  server: 89.34.230.66
+  servername: starlink.com
+  tls: false
+  type: vless
+  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
+- name: 美国+V2CROSS.COM
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
