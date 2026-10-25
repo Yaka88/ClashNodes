@@ -1,55 +1,58 @@
 proxies:
-- name: 美国+CloudFlare节点
-  network: ws
-  password: humanity
-  port: 443
-  server: 108.162.194.134
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: '%2Ffdip%3Dsstp%3A%2F%2Fvpn%3Avpn%40vpn748359672.opengw.net%3A1458%3Fed%3D2560%23Telegram---bored_vpn'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 美国+Xerox
+  name: 美国+圣凯瑟琳*子大学
   network: tcp
-  port: 56415
+  port: 443
   reality-opts:
-    public-key: EG-jzQw1RyOwAM4L9rMKondSx7cyFmPyv1OP7xXkIk4
-    short-id: '!!str cbd39bea0805e2'
-  server: funagfrdfs.alixxplay.com
-  servername: www.kaidee.com
+    public-key: lrbP-ePUk7nbeLS8vBLbP5yyld7ZLmTB4_VQWRO31T8
+    short-id: '!!str 8a68df3a93c63ac8'
+  server: 140.225.199.56
+  servername: stream.indigo.ru
   tls: false
   type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
+- name: 美国+CloudFlare公司CDN节点(shopify)
+  network: ws
+  port: 8880
+  server: 23.227.39.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: '%2F%3FTelegram---mtmvpn---mtmvpn---mtmvpn---mtmvpn'
-- name: 美国+V2CROSS.COM
-  password: https://xship.best
+      Host: vms.lifetime17.workers.dev
+    path: '%2F'
+- name: 美国+CloudFlare节点
+  network: ws
+  password: bpb-trojan
   port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
+  server: 172.67.71.122
+  sni: 6982410.xyz
+  type: trojan
+  ws-opts:
+    path: /tr
+- name: 美国+V2CROSS.COM
+  network: ws
+  port: 8880
+  server: 155.46.167.30
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
+- name: 美国+加州
+  network: ws
+  port: 443
+  server: 216.24.57.1
+  servername: somersby.pt.ex33r.eu.cc
+  tls: true
+  type: vless
+  uuid: 974c2588-c1cd-43ac-8823-ce3d879b09fd
+  ws-opts:
+    path: '%2Fid-amz'
 - name: 美国|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
