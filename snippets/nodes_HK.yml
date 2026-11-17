@@ -1,1 +1,7 @@
-proxies: []
+proxies:
+- name: 香港+葵兴数据中心
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20103
+  server: sclass-01.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan

@@ -1,66 +1,6 @@
 proxies:
-- alpn:
-  - http/1.1
-  name: 伊朗+V2CROSS.COM
-  network: tcp
-  port: 443
-  server: 194.60.228.97
-  servername: base.hosamobenl.co.uk
-  tls: true
-  type: vless
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 乌克兰+V2CROSS.COM
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: 0dAUffCns_r-xP3QP1V8qy2P29vBN5ROOoX96TxpvXA
-    short-id: 'b545243c33282b73'
-  server: d4a338t.pl8.h1clayd.click
-  servername: d4a338t.pl8.h1clayd.click
-  tls: false
-  type: vless
-  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
-- client-fingerprint: firefox
-  name: 西班牙+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: 'ba2a3dce62b99092'
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  tls: false
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: 162.159.130.234
-  servername: vp19.1145678.xyz
-  tls: true
-  type: vless
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp19.1145678.xyz
-    path: '%2Fimages%2Fclassify%2Fdh'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 爱沙尼亚+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: '8d0d0679f42ffd98'
-  server: 196.196.148.76
-  servername: 8a2e72t.nl20.h1clayd.shop
-  tls: false
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
 - flow: xtls-rprx-vision
-  name: 日本+东京Amazon数据中心
+  name: 美国+Xerox
   network: tcp
   port: 43149
   reality-opts:
@@ -72,14 +12,67 @@ proxies:
   tls: false
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: '伊朗+V2CROSS.COM #1'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 西班牙+V2CROSS.COM
   network: tcp
   port: 443
-  server: 194.60.228.97
-  servername: base.hosamobenl.co.uk
-  tls: true
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: '42426c882c5fcd41'
+  server: 196.196.149.80
+  servername: 7aa271t.es1.h1clayd.click
+  tls: false
   type: vless
-  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+- client-fingerprint: firefox
+  name: '西班牙+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: 'ba2a3dce62b99092'
+  server: 196.245.52.187
+  servername: 04535dt.us8.h1clayd.click
+  tls: false
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- name: 日本+东京Amazon数据中心
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- name: 香港+葵兴数据中心
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20103
+  server: sclass-01.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- client-fingerprint: firefox
+  name: 欧盟+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fgZfPnrvmYRR3aMKxLCmcpmTjOlTcdA356_heBfqkTk
+    short-id: 'a23fc7d3b02e0a0e'
+  server: 4626b8t.nl19.h1clayd.shop
+  servername: 4626b8t.nl19.h1clayd.shop
+  tls: false
+  type: vless
+  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+- flow: xtls-rprx-vision
+  name: '美国+Xerox #1'
+  network: tcp
+  port: 30322
+  reality-opts:
+    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
+    short-id: '6a60e7e382d6'
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - flow: ''
   name: 日本|@ripaojiedian
   network: ws
