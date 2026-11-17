@@ -1,192 +1,467 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 美国+圣凯瑟琳*子大学
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lrbP-ePUk7nbeLS8vBLbP5yyld7ZLmTB4_VQWRO31T8
-    short-id: '8a68df3a93c63ac8'
-  server: 140.225.199.56
-  servername: stream.indigo.ru
-  tls: false
-  type: vless
-  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
-- name: 美国+CloudFlare公司CDN节点(shopify)
-  network: ws
-  port: 8880
-  server: 23.227.39.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime17.workers.dev
-    path: '%2F'
-- name: 日本+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 43.174.195.1
-  servername: kv.074167.xyz
-  tls: true
-  type: vless
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  ws-opts:
-    headers:
-      Host: kv.074167.xyz
-    path: '%2F'
-- flow: xtls-rprx-vision
+- alpn:
+  - http/1.1
   name: 伊朗+V2CROSS.COM
   network: tcp
   port: 443
-  reality-opts:
-    public-key: 7zsU1U-30jh-qqfmqZukMfoqHB75ksKFA5aQFi8LGW4
-    short-id: '70b4ca'
-  server: 31.59.216.141
-  servername: 193.23.216.239.cdn-one.org
-  tls: false
-  type: vless
-  uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
-- name: 美国+CloudFlare节点
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 172.67.71.122
-  sni: 6982410.xyz
-  type: trojan
-  ws-opts:
-    path: /tr
-- name: 立陶宛+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 185.148.104.30
-  servername: 185.148.104.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: '%2F'
-- name: 美国+V2CROSS.COM
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
-- name: 美国+加州
-  network: ws
-  port: 443
-  server: 216.24.57.1
-  servername: somersby.pt.ex33r.eu.cc
+  server: 194.60.228.97
+  servername: base.hosamobenl.co.uk
   tls: true
   type: vless
-  uuid: 974c2588-c1cd-43ac-8823-ce3d879b09fd
-  ws-opts:
-    path: '%2Fid-amz'
-- flow: xtls-rprx-vision
-  name: 巴西+V2CROSS.COM
-  network: tcp
-  port: 20268
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 乌克兰+V2CROSS.COM
+  network: raw
+  port: 443
   reality-opts:
-    public-key: 5H_MmyfvF4SkwS84wTbLmtcZDecXJIJtZ3uisiKQpSM
-    short-id: '0c774b50'
-  server: pl1.song69.fun
-  servername: metrika.yandex.ru
+    public-key: 0dAUffCns_r-xP3QP1V8qy2P29vBN5ROOoX96TxpvXA
+    short-id: 'b545243c33282b73'
+  server: d4a338t.pl8.h1clayd.click
+  servername: d4a338t.pl8.h1clayd.click
   tls: false
   type: vless
-  uuid: 408c51e8-9246-483d-ba73-34ab4e202eb9
-- alterId: 2
-  cipher: auto
-  name: 香港|@ripaojiedian
+  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+- client-fingerprint: firefox
+  name: 西班牙+V2CROSS.COM
   network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
+  port: 443
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: 'ba2a3dce62b99092'
+  server: 196.245.52.187
+  servername: 04535dt.us8.h1clayd.click
   tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 香港2|@ripaojiedian
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 162.159.130.234
+  servername: vp19.1145678.xyz
+  tls: true
+  type: vless
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: vp19.1145678.xyz
+    path: '%2Fimages%2Fclassify%2Fdh'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 爱沙尼亚+V2CROSS.COM
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 12103
-  server: 7d0a2gz0-7a0c.aws-agent.net
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-- name: 香港3|@ripaojiedian
+  port: 443
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: '8d0d0679f42ffd98'
+  server: 196.196.148.76
+  servername: 8a2e72t.nl20.h1clayd.shop
+  tls: false
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+- flow: xtls-rprx-vision
+  name: 日本+东京Amazon数据中心
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 10115
-  server: 7d0a2gz0-7a0c.aws-agent.net
+  port: 43149
+  reality-opts:
+    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
+    short-id: '15aa0ad4'
+  server: zfapi.zalolink.com
+  servername: psstatic.cdn.bcebos.com
   skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-- name: 香港4|@ripaojiedian
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- name: '伊朗+V2CROSS.COM #1'
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 12107
-  server: 7d0a2gz0-7a0c.aws-agent.net
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-- name: 香港5|@ripaojiedian
+  port: 443
+  server: 194.60.228.97
+  servername: base.hosamobenl.co.uk
+  tls: true
+  type: vless
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+- flow: ''
+  name: 日本|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
+    short-id: '7c6d6833'
+  server: 139.162.91.239
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
+  ws-opts:
+    path: '%2Fws'
+- name: 美国4|@ripaojiedian
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 12102
-  server: 7d0a2gz0-7a0c.aws-agent.net
+  password: MiTiVPN
+  port: 443
+  server: 167.82.76.27
   skip-cert-verify: true
-  sni: m.ctrip.com
+  sni: ssl.fastly.com
   type: trojan
+- flow: xtls-rprx-vision
+  name: 法国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: edge.bookmai.com
+  servername: mother-earth.fyi
+  tls: false
+  type: vless
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
 - name: 日本2|@ripaojiedian
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 10125
-  server: 63182sh8-4d7b.aws-agent.net
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
   skip-cert-verify: true
-  sni: m.ctrip.com
   type: trojan
-- name: 新加坡|@ripaojiedian
+- flow: ''
+  name: 日本3|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
+    short-id: 'c29f9af4'
+  server: 172.105.216.21
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
+  ws-opts:
+    path: '%2Fws'
+- flow: ''
+  name: 新加坡|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: '640c807d'
+  server: 139.162.20.241
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
+  ws-opts:
+    path: '%2Fws'
+- flow: ''
+  name: 美国2|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+    short-id: '60e39a7e'
+  server: 172.235.53.103
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
+  ws-opts:
+    path: '%2Fws'
+- flow: ''
+  name: 美国3|@ripaojiedian
+  network: ws
+  port: 443
+  reality-opts:
+    public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
+    short-id: '357a37e1'
+  server: 172.236.239.126
+  servername: itunes.apple.com
+  tls: false
+  type: vless
+  uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
+  ws-opts:
+    path: '%2Fws'
+- name: 美国5|@ripaojiedian
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 10135
-  server: 7d0a2gz0-7a0c.aws-agent.net
+  password: Mitivpn
+  port: 443
+  server: 151.101.110.219
   skip-cert-verify: true
-  sni: m.ctrip.com
+  sni: ssl.fastly.com
   type: trojan
-- name: 美国|@ripaojiedian
+- alpn:
+  - ''
+  flow: ''
+  name: AT_speednode_0001
+  network: ws
+  port: 8443
+  server: au2.pad-sservice.lat
+  servername: au2.pad-sservice.lat
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  ws-opts:
+    headers:
+      Host: au2.pad-service.com
+    path: '%2FA11U'
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: ''
+  name: AT_speednode_0002
+  network: ws
+  port: 8443
+  server: 152.53.31.46
+  servername: usa3.pad-sservice.lat
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  ws-opts:
+    headers:
+      Host: usa3.pad-service.com
+    path: '%2FU1SA'
+- alpn:
+  - ''
+  client-fingerprint: ''
+  flow: ''
+  name: BR_speednode_0003
+  network: ws
+  port: 8443
+  server: de9.pad-sservice.lat
+  servername: de9.pad-sservice.lat
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  ws-opts:
+    headers:
+      Host: de9.pad-service.com
+    path: '%2FDE9W'
+- alpn:
+  - ''
+  flow: ''
+  name: ES_speednode_0007
+  network: ws
+  port: 8443
+  server: au5.pad-sservice.lat
+  servername: au5.pad-sservice.lat
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  ws-opts:
+    headers:
+      Host: au5.pad-sservice.lat
+    path: '%2FAU5W'
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: JP_speednode_0018
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 10155
-  server: 63182sh8-4d7b.aws-agent.net
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-- name: 美国2|@ripaojiedian
+  port: 46105
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: '28f5c1f8f98a'
+  server: funagfrdfs.alixxplay.com
+  servername: www.lamer.com.sg
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: JP_speednode_0019
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 12122
-  server: 63182sh8-4d7b.aws-agent.net
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-- name: 台湾|@ripaojiedian
+  port: 54528
+  reality-opts:
+    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
+    short-id: '54cca3c1c1c7'
+  server: funagfrdfs.alixxplay.com
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: RU_speednode_0029
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 12142
-  server: 7d0a2gz0-7a0c.aws-agent.net
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
-- name: 韩国|@ripaojiedian
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 147.45.47.119
+  servername: ozon.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: RU_speednode_0030
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 11171
-  server: 63182sh8-4d7b.aws-agent.net
-  skip-cert-verify: true
-  sni: m.ctrip.com
-  type: trojan
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 45.151.71.145
+  servername: abuse.ozon.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 04edf721-b2b7-4a80-9fbd-c949438c58c9
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: RU_speednode_0031
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 147.45.47.117
+  servername: ozon.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: RU_speednode_0032
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 45.151.71.159
+  servername: gb.ozon.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: RU_speednode_0033
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 45.151.71.176
+  servername: gb.ozon.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: RU_speednode_0034
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
+    short-id: '88d9dc52ef39c8bd'
+  server: 92.42.201.107
+  servername: node-slo02.rkitman.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: d0c8aa8d-a535-432a-b521-21f0e561f643
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: RU_speednode_0035
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 147.45.46.183
+  servername: gb.ozon.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: RU_speednode_0036
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 45.151.71.167
+  servername: abuse.ozon.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: RU_speednode_0037
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 37.235.249.12
+  servername: gb.ozon.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+- alpn:
+  - ''
+  flow: xtls-rprx-vision
+  name: TR_speednode_0038
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ''
+  server: 193.160.141.27
+  servername: abuse.ozon.ru
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
+- alpn:
+  - ''
+  flow: ''
+  name: US_speednode_0042
+  network: tcp
+  port: 19167
+  server: mx001.zestapp778.com
+  servername: mx001.zestapp778.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- alpn:
+  - ''
+  client-fingerprint: firefox
+  flow: ''
+  name: US_speednode_0043
+  network: tcp
+  port: 54857
+  server: 130.94.18.208
+  servername: us001.zestapp778.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80

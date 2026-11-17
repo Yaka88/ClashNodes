@@ -1,9 +1,8 @@
 proxies:
 - name: 日本2|@ripaojiedian
   network: tcp
-  password: AA885B42-133C-3828-FB69-E45105C06092
-  port: 10125
-  server: 63182sh8-4d7b.aws-agent.net
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
   skip-cert-verify: true
-  sni: m.ctrip.com
   type: trojan
