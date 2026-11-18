@@ -1,11 +1,18 @@
 proxies:
-- name: 日本+东京Amazon数据中心
+- name: 日本东京+Amazon数据中心
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20051
   server: sclass-c2.catcat321.com
   sni: hk.catxstar.com
   type: trojan
 - name: 香港+葵兴数据中心
+  network: tcp
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20051
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- name: '香港+葵兴数据中心 #1'
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20103
   server: sclass-01.catcat321.com

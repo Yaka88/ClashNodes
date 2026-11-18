@@ -1,20 +1,6 @@
 proxies:
 - flow: xtls-rprx-vision
-  name: 美国+Xerox
-  network: tcp
-  port: 43149
-  reality-opts:
-    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
-    short-id: '15aa0ad4'
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 西班牙+V2CROSS.COM
+  name: '西班牙+V2CROSS.COM #3'
   network: tcp
   port: 443
   reality-opts:
@@ -25,6 +11,46 @@ proxies:
   tls: false
   type: vless
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  ws-opts:
+    headers:
+      Host: 7aa271t.es1.h1clayd.click
+    path: '%2F'
+- name: 日本东京+Amazon数据中心
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- client-fingerprint: firefox
+  name: '爱沙尼亚+V2CROSS.COM #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: '361d0dd59c70516f'
+  server: 196.196.148.85
+  servername: 5d0319t.nl7.h1clayd.click
+  tls: false
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  ws-opts:
+    headers:
+      Host: 5d0319t.nl7.h1clayd.click
+- name: 菲律宾+V2CROSS.COM
+  network: ws
+  port: 2053
+  server: 154.211.8.152
+  servername: proxy-1cu.pages.dev
+  tls: true
+  type: vless
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+- name: 香港+葵兴数据中心
+  network: tcp
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20051
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
 - client-fingerprint: firefox
   name: '西班牙+V2CROSS.COM #1'
   network: tcp
@@ -37,42 +63,25 @@ proxies:
   tls: false
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-- name: 日本+东京Amazon数据中心
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20051
-  server: sclass-c2.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- name: 香港+葵兴数据中心
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '西班牙+V2CROSS.COM #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: '42426c882c5fcd41'
+  server: 196.196.149.81
+  servername: 7aa271t.es1.h1clayd.click
+  tls: false
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+- name: '香港+葵兴数据中心 #1'
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20103
   server: sclass-01.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- client-fingerprint: firefox
-  name: 欧盟+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fgZfPnrvmYRR3aMKxLCmcpmTjOlTcdA356_heBfqkTk
-    short-id: 'a23fc7d3b02e0a0e'
-  server: 4626b8t.nl19.h1clayd.shop
-  servername: 4626b8t.nl19.h1clayd.shop
-  tls: false
-  type: vless
-  uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
-- flow: xtls-rprx-vision
-  name: '美国+Xerox #1'
-  network: tcp
-  port: 30322
-  reality-opts:
-    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-    short-id: '6a60e7e382d6'
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - flow: ''
   name: 日本|@ripaojiedian
   network: ws
