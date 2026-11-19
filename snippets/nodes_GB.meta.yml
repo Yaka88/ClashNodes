@@ -1,14 +1,13 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: 英国+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: '!!str 4ff31b18d1bd8227'
-  server: 2.26.251.236
-  servername: mental-deprivation.ru
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: '!!str a7c92e4b10d6f835'
+  server: 80.47.10.106
+  servername: pl8.galioncc.com
   tls: false
   type: vless
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c

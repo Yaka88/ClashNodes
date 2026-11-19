@@ -1,4 +1,11 @@
 proxies:
+- name: '美国+惠普HP #1'
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20086
+  server: sclass-c1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
 - name: 美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN
