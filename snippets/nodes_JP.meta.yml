@@ -1,39 +1,4 @@
 proxies:
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '日本+东京都亚马逊(Amazon)公司数据中心 #2'
-  network: tcp
-  port: 54528
-  reality-opts:
-    public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-    short-id: '!!str 54cca3c1c1c7'
-  server: zfapi.zalolink.com
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  ws-opts:
-    headers:
-      Host: www.apple.com
-    path: '%2F'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '日本+东京都亚马逊(Amazon)公司数据中心 #1'
-  network: tcp
-  port: 43149
-  reality-opts:
-    public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE
-    short-id: '!!str 15aa0ad4'
-  server: zfapi.zalolink.com
-  servername: psstatic.cdn.bcebos.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  ws-opts:
-    headers:
-      Host: psstatic.cdn.bcebos.com
-    path: '%2F'
 - client-fingerprint: chrome
   flow: ''
   name: 日本|@ripaojiedian
