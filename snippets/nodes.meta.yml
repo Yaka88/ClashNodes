@@ -1,4 +1,16 @@
 proxies:
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: 104.16.58.88
+  servername: cfnode-11ivy8.pages.dev
+  tls: true
+  type: vless
+  uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
+  ws-opts:
+    headers:
+      Host: cfnode-11ivy8.pages.dev
+    path: '%2Fws'
 - client-fingerprint: firefox
   name: 爱沙尼亚+V2CROSS.COM
   network: tcp
@@ -11,6 +23,10 @@ proxies:
   tls: false
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  ws-opts:
+    headers:
+      Host: 5d0319t.nl7.h1clayd.click
+    path: '%2F'
 - flow: xtls-rprx-vision
   name: 西班牙+V2CROSS.COM
   network: tcp
@@ -26,6 +42,7 @@ proxies:
   ws-opts:
     headers:
       Host: 7aa271t.es1.h1clayd.click
+    path: '%2F'
 - flow: ''
   name: 日本|@ripaojiedian
   network: ws
