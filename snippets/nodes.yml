@@ -1,4 +1,31 @@
 proxies:
+- name: 香港+葵兴数据中心
+  network: tcp
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20051
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- name: 日本+东京Amazon数据中心
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 日本 V2CROSS.COM
+  network: ws
+  port: 16616
+  server: dp8yk.xiaoyan.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
 - name: 美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN
