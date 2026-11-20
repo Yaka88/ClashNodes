@@ -1,12 +1,12 @@
 proxies:
 - flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
+  name: '英国+伦敦南岸大学 #1'
   network: tcp
   port: 443
   reality-opts:
     public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
     short-id: '8d0d0679f42ffd98'
-  server: 8a2e72t.nl20.h1clayd.shop
+  server: 136.148.208.221
   servername: 8a2e72t.nl20.h1clayd.shop
   tls: false
   type: vless
@@ -14,47 +14,55 @@ proxies:
   ws-opts:
     headers:
       Host: 8a2e72t.nl20.h1clayd.shop
-    path: '%2F'
-- name: 香港+葵兴数据中心
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 塞舌尔+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: '42426c882c5fcd41'
+  server: 196.199.122.2
+  servername: 7aa271t.es1.h1clayd.click
+  tls: false
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 西班牙+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: '42426c882c5fcd41'
+  server: 196.196.149.81
+  servername: 7aa271t.es1.h1clayd.click
+  tls: false
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+- name: '香港+葵兴数据中心 #2'
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20103
+  server: sclass-01.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- name: '香港+葵兴数据中心 #1'
   network: tcp
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20051
   server: sclass-b1.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- name: 日本+东京Amazon数据中心
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20051
-  server: sclass-c2.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: '4ff31b18d1bd8227'
-  server: 2.26.251.236
-  servername: mental-deprivation.ru
-  tls: false
-  type: vless
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - alterId: 0
   cipher: auto
-  name: 日本 V2CROSS.COM
-  network: ws
-  port: 16616
-  server: dp8yk.xiaoyan.io
+  name: 瑞士 V2CROSS.COM
+  network: tcp
+  port: '42831'
+  server: 179.43.140.24
   servername: ''
   tls: false
   type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
+  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
 - flow: ''
   name: 日本|@ripaojiedian
   network: ws
