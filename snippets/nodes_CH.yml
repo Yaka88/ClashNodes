@@ -1,11 +1,1 @@
-proxies:
-- alterId: 0
-  cipher: auto
-  name: 瑞士 V2CROSS.COM
-  network: tcp
-  port: '42831'
-  server: 179.43.140.24
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
+proxies: []

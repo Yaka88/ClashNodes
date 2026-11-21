@@ -1,27 +1,13 @@
 proxies:
-- name: '香港+葵兴数据中心 #2'
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20103
-  server: sclass-01.catcat321.com
-  sni: hk.catxstar.com
+- name: 澳大利亚+V2CROSS.COM
+  network: ws
+  password: f426d3c9-fb43-43c0-868b-898dfa451a74
+  port: 443
+  server: 103.11.76.183
+  sni: likejennie.pages.dev
   type: trojan
-- name: '香港+葵兴数据中心 #1'
-  network: tcp
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20051
-  server: sclass-b1.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 瑞士 V2CROSS.COM
-  network: tcp
-  port: '42831'
-  server: 179.43.140.24
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
+  ws-opts:
+    path: '%2F'
 - name: 美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN

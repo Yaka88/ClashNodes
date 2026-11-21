@@ -1,32 +1,12 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: '英国+伦敦南岸大学 #1'
-  network: tcp
+- name: 美国+得克萨斯州
+  password: https://xship.2fa.cat
   port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: '8d0d0679f42ffd98'
-  server: 136.148.208.221
-  servername: 8a2e72t.nl20.h1clayd.shop
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
   tls: false
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  ws-opts:
-    headers:
-      Host: 8a2e72t.nl20.h1clayd.shop
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 塞舌尔+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: '42426c882c5fcd41'
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  tls: false
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 西班牙+V2CROSS.COM
@@ -40,29 +20,107 @@ proxies:
   tls: false
   type: vless
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-- name: '香港+葵兴数据中心 #2'
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20103
-  server: sclass-01.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- name: '香港+葵兴数据中心 #1'
+- flow: xtls-rprx-vision
+  name: 英国+伦敦南岸大学
   network: tcp
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20051
-  server: sclass-b1.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 瑞士 V2CROSS.COM
-  network: tcp
-  port: '42831'
-  server: 179.43.140.24
-  servername: ''
+  port: 443
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: '8d0d0679f42ffd98'
+  server: 136.148.208.221
+  servername: 8a2e72t.nl20.h1clayd.shop
   tls: false
-  type: vmess
-  uuid: a925a98c-ad7a-40c6-9fdf-130a1de69416
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 2083
+  server: 172.64.229.239
+  servername: cdn.lahjy.xyz
+  tls: true
+  type: vless
+  uuid: 5821f560-4156-4faf-80ec-9d798b128090
+  ws-opts:
+    headers:
+      Host: cdn.lahjy.xyz
+    path: '%2F'
+- name: 罗马尼亚+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 188.213.170.198
+  servername: v5-4b5.pages.dev
+  tls: true
+  type: vless
+  uuid: bf14dc50-e9f2-49fd-8642-620446edeafb
+  ws-opts:
+    headers:
+      Host: v5-4b5.pages.dev
+    path: '%2F'
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 台湾省台北市+中华电信
+  network: tcp
+  port: 62015
+  reality-opts:
+    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+    short-id: 'fa514b83'
+  server: free.fugui.lol
+  servername: swdist.apple.com
+  tls: false
+  type: vless
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+- name: '爱沙尼亚+V2CROSS.COM #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: '361d0dd59c70516f'
+  server: 196.196.148.85
+  servername: 5d0319t.nl7.h1clayd.click
+  tls: false
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  ws-opts:
+    headers:
+      Host: 5d0319t.nl7.h1clayd.click
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '爱沙尼亚+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: '8d0d0679f42ffd98'
+  server: 196.196.148.76
+  servername: 8a2e72t.nl20.h1clayd.shop
+  tls: false
+  type: vless
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  ws-opts:
+    headers:
+      Host: 8a2e72t.nl20.h1clayd.shop
+    path: '%2F'
+- name: '美国+CloudFlare节点 #1'
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: v2n6.11676767.xyz
+  tls: true
+  type: vless
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  ws-opts:
+    headers:
+      Host: v2n6.11676767.xyz
+    path: '%2Franking%2Fhtm'
+- name: 澳大利亚+V2CROSS.COM
+  network: ws
+  password: f426d3c9-fb43-43c0-868b-898dfa451a74
+  port: 443
+  server: 103.11.76.183
+  sni: likejennie.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F'
 - flow: ''
   name: 日本|@ripaojiedian
   network: ws
