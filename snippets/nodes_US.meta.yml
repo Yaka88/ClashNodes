@@ -1,38 +1,15 @@
 proxies:
-- name: 美国+得克萨斯州
-  password: https://xship.2fa.cat
+- name: 美国+V2CROSS.COM
+  network: tcp
   port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: xship.top
+  server: 146.190.21.145
   tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 美国+CloudFlare节点
-  network: ws
-  port: 2083
-  server: 172.64.229.239
-  servername: cdn.lahjy.xyz
-  tls: true
   type: vless
-  uuid: 5821f560-4156-4faf-80ec-9d798b128090
+  uuid: 40992c2a-513e-4837-9594-23411fd42afd
   ws-opts:
     headers:
-      Host: cdn.lahjy.xyz
+      Host: fast.com
     path: '%2F'
-- client-fingerprint: chrome
-  name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: v2n6.11676767.xyz
-  tls: true
-  type: vless
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: v2n6.11676767.xyz
-    path: '%2Franking%2Fhtm'
 - name: 美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN

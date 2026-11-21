@@ -1,13 +1,4 @@
 proxies:
-- name: 澳大利亚+V2CROSS.COM
-  network: ws
-  password: f426d3c9-fb43-43c0-868b-898dfa451a74
-  port: 443
-  server: 103.11.76.183
-  sni: likejennie.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F'
 - name: 美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN
