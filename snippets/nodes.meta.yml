@@ -1,32 +1,33 @@
 proxies:
+- name: 香港+葵兴数据中心
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20103
+  server: sclass-01.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
 - name: 美国+V2CROSS.COM
-  network: tcp
+  password: https://xship.2fa.cat
   port: 443
-  server: 146.190.21.145
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
   tls: false
-  type: vless
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
-  ws-opts:
-    headers:
-      Host: fast.com
-    path: '%2F'
-- client-fingerprint: firefox
-  name: 爱沙尼亚+V2CROSS.COM
+  type: hysteria2
+- flow: xtls-rprx-vision
+  name: 乌克兰+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: '361d0dd59c70516f'
-  server: 196.196.148.85
-  servername: 5d0319t.nl7.h1clayd.click
+    public-key: 4RaNuv9yehmcfpdzvRxCWWzEWERWzZSIHqcgg3l35Cw
+    short-id: 'e16bbf1a5bee2321'
+  server: 5.34.178.120
+  servername: www.cloudflare.com
   tls: false
   type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  ws-opts:
-    headers:
-      Host: 5d0319t.nl7.h1clayd.click
-    path: '%2F'
-- flow: xtls-rprx-vision
+  uuid: 23b848b7-93e5-4d96-b36d-ed704912e5b7
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: 西班牙+V2CROSS.COM
   network: tcp
   port: 443
@@ -38,10 +39,6 @@ proxies:
   tls: false
   type: vless
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  ws-opts:
-    headers:
-      Host: 7aa271t.es1.h1clayd.click
-    path: '%2F'
 - flow: xtls-rprx-vision
   name: 台湾省台北市+中华电信
   network: tcp
@@ -58,6 +55,21 @@ proxies:
     headers:
       Host: swdist.apple.com
     path: '%2F'
+- name: 日本+东京Amazon数据中心
+  network: tcp
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: '香港+葵兴数据中心 #1'
+  network: tcp
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20051
+  server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
 - flow: ''
   name: 日本|@ripaojiedian
   network: ws

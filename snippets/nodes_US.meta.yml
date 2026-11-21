@@ -1,15 +1,12 @@
 proxies:
 - name: 美国+V2CROSS.COM
-  network: tcp
+  password: https://xship.2fa.cat
   port: 443
-  server: 146.190.21.145
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
   tls: false
-  type: vless
-  uuid: 40992c2a-513e-4837-9594-23411fd42afd
-  ws-opts:
-    headers:
-      Host: fast.com
-    path: '%2F'
+  type: hysteria2
 - name: 美国4|@ripaojiedian
   network: tcp
   password: MiTiVPN
