@@ -1,1 +1,15 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 美国 新泽西州(Merck公司)
+  network: ws
+  port: 16617
+  server: afzuv.xiaoyan.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /

@@ -1,55 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 美国+Xerox
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
-  server: 13.143.187.220
-  servername: fi-s1.kadrhub.tech
-  tls: false
-  type: vless
-  uuid: 66c78912-4e2d-41dc-8742-aaae2590804e
-- client-fingerprint: chrome
-  name: 美国+V2CROSS.COM
-  port: 443
-  server: 168.113.253.178
-  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
-  tls: true
-  type: vless
-  uuid: eb88bb1a-7bf0-0001-b9cd-4f97c89f0e9b
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #1'
-  port: 443
-  server: 168.113.253.178
-  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
-  tls: true
-  type: vless
-  uuid: 58708e38-dd5a-0001-902d-93621ee2bd83
-- client-fingerprint: chrome
-  name: '美国+V2CROSS.COM #2'
-  port: 443
-  server: 168.113.253.178
-  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
-  tls: true
-  type: vless
-  uuid: 608172ed-68e4-0001-85dc-f92c25d0eb92
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 美国+纽约(Prudential)
+- alterId: 0
+  cipher: auto
+  name: 美国 新泽西州(Merck公司)
   network: ws
-  port: 444
-  server: 48.102.173.24
-  servername: neplay603.gangtype.com
-  tls: true
-  type: vless
-  uuid: ef5a57c7-84d5-4f86-b99c-875a16da485f
+  port: 16617
+  server: afzuv.xiaoyan.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
   ws-opts:
     headers:
-      Host: neplay603.gangtype.com
-    path: '%2Fstream%2Fupdates%2Fa66d7902'
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 美国|@ripaojiedian
