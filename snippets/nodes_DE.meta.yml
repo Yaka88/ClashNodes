@@ -1,16 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  name: 德国+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: '!!str ba2a3dce62b99092'
-  server: 217.69.174.175
-  servername: 04535dt.us8.h1clayd.click
-  tls: false
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 德国|@ripaojiedian
