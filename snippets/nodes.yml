@@ -1,4 +1,10 @@
 proxies:
+- name: 美国+惠普HP
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20103
+  server: sclass-00.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
 - name: 香港+葵兴数据中心
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20103
@@ -6,41 +12,17 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: 日本+东京Amazon数据中心
-  network: tcp
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  port: 20051
-  server: sclass-c2.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: '香港+葵兴数据中心 #1'
-  network: tcp
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20051
-  server: sclass-b1.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- name: 美国4|@ripaojiedian
-  network: tcp
-  password: MiTiVPN
-  port: 443
-  server: 167.82.76.27
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-- name: 日本2|@ripaojiedian
-  network: tcp
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  skip-cert-verify: true
-  type: trojan
-- name: 美国5|@ripaojiedian
-  network: tcp
-  password: Mitivpn
-  port: 443
-  server: 151.101.110.219
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 韩国 首尔Amazon数据中心
+  network: ws
+  port: 16616
+  server: dp8yk.xiaoyan.io
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /

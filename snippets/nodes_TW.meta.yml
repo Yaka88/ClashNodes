@@ -1,9 +1,9 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: ios
   flow: xtls-rprx-vision
   name: 台湾省台北市+中华电信
   network: tcp
-  port: 47396
+  port: 51283
   reality-opts:
     public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
     short-id: '!!str fa514b83'
@@ -12,7 +12,16 @@ proxies:
   tls: false
   type: vless
   uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
-  ws-opts:
-    headers:
-      Host: swdist.apple.com
-    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 台湾|@ripaojiedian
+  network: tcp
+  port: 11102
+  reality-opts:
+    public-key: oW6HMjniDmBJdjGKwhBAIS2zMS1VvHORubh9vdazqQ0
+    short-id: '!!str ed571d022f7bc3bf'
+  server: 116.213.43.43
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 530d31fc-2690-49e4-bfc9-3f991e145008

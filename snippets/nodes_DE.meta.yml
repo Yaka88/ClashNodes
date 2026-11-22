@@ -1,1 +1,26 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  name: 德国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: '!!str ba2a3dce62b99092'
+  server: 217.69.174.175
+  servername: 04535dt.us8.h1clayd.click
+  tls: false
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 德国|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 77HTpkO_F3cUfA5Trka3eSh8V18atRMLyclGqZ__8C8
+    short-id: '!!str b73c53b18b65dd90'
+  server: 189.24.82.30
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: b354463f-ac84-422e-9a26-556c81ba001c

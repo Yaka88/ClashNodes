@@ -6,10 +6,42 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: '香港+葵兴数据中心 #1'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港|@ripaojiedian
   network: tcp
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20051
-  server: sclass-b1.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
+  port: 11103
+  reality-opts:
+    public-key: 5NNdXPMTBLP-xeDKFwcG-j6u-c4DhXIfnlHMqMJZ4n4
+    short-id: '!!str 9564e1a7a1cf8b3a'
+  server: 116.213.43.43
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: bb836d81-d0c5-4f01-a584-806cdf65e36a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港2|@ripaojiedian
+  network: tcp
+  port: 11107
+  reality-opts:
+    public-key: 6GRzkPbs12fKBdBBFzs5dmtmbSHCXMngUCBKLrXYm3U
+    short-id: '!!str e2ccd8eedcbee2ce'
+  server: 116.213.43.43
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 08a37d1f-7bf1-4b5d-a2ec-5ced6a633d7f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港3|@ripaojiedian
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: NNBFlHVb2xbmURjkxXCZfqZNFmd5MprUtg5usEg_LRw
+    short-id: '!!str 58d234c8c6a009bc'
+  server: 47.243.230.253
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 27c26119-090b-4ae3-80d2-e9f08a575862
