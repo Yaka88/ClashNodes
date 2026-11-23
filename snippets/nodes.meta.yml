@@ -1,97 +1,38 @@
 proxies:
+- name: 英国+伦敦南岸大学
+  port: 443
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
+  tls: true
+  type: vless
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+- client-fingerprint: qq
+  name: '英国+伦敦南岸大学 #2'
+  network: tcp
+  port: 443
+  server: 136.148.83.69
+  servername: szqbx-ru-77dc.my-fade.cloud
+  tls: true
+  type: vless
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
 - flow: xtls-rprx-vision
-  name: '西班牙+V2CROSS.COM #3'
+  name: 美国+Xerox
   network: tcp
   port: 443
   reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: '42426c882c5fcd41'
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
-  skip-cert-verify: true
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: '8d0d0679f42ffd98'
+  server: 8a2e72t.nl20.h1clayd.shop
+  servername: 8a2e72t.nl20.h1clayd.shop
   tls: false
   type: vless
   uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
   ws-opts:
     headers:
-      Host: 7aa271t.es1.h1clayd.click
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 2053
-  server: saas.sin.fan
-  servername: vp11.1145678.xyz
-  tls: true
-  type: vless
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp11.1145678.xyz
-    path: '%2Fvideos%2Fforum'
-- name: 美国+V2CROSS.COM
-  port: 443
-  server: 168.113.253.178
-  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
-  tls: true
-  type: vless
-  uuid: 58708e38-dd5a-0001-902d-93621ee2bd83
-- flow: xtls-rprx-vision
-  name: 塞舌尔+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: '42426c882c5fcd41'
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  tls: false
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  ws-opts:
-    headers:
-      Host: 7aa271t.es1.h1clayd.click
-- name: '美国+CloudFlare节点 #1'
-  network: ws
-  port: 2053
-  server: 104.16.243.122
-  servername: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
-  tls: true
-  type: vless
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-- name: '美国+V2CROSS.COM #1'
-  password: https://xship.2fa.cat
-  port: 443
-  server: starlink-ft.251313.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: 香港+葵兴数据中心
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20103
-  server: sclass-01.catcat321.com
-  sni: hk.catxstar.com
-  type: trojan
-- name: '美国+V2CROSS.COM #2'
-  port: 443
-  server: 168.113.253.178
-  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
-  tls: true
-  type: vless
-  uuid: eb88bb1a-7bf0-0001-b9cd-4f97c89f0e9b
-- flow: xtls-rprx-vision
-  name: 爱尔兰+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: kpQWnVk3fEJXfPGFsMerUoPV_ZqUJUJFRnF1FvKyhRY
-    short-id: '7a7d19880a9ee786'
-  server: 83.141.92.168
-  servername: sladovna.russianpiwo.fun
-  tls: false
-  type: vless
-  uuid: a7595994-695d-484e-bfcb-e9fbb73cfa39
+      Host: 8a2e72t.nl20.h1clayd.shop
+    path: '%2F'
 - client-fingerprint: firefox
-  name: '爱沙尼亚+V2CROSS.COM #1'
+  name: '爱沙尼亚+V2CROSS.COM #2'
   network: tcp
   port: 443
   reality-opts:
@@ -99,54 +40,42 @@ proxies:
     short-id: '361d0dd59c70516f'
   server: 196.196.148.85
   servername: 5d0319t.nl7.h1clayd.click
-  skip-cert-verify: true
   tls: false
   type: vless
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-- name: '美国+CloudFlare节点 #2'
-  network: ws
-  port: 8443
-  server: 104.18.15.19
-  servername: hk.zhaoqing.city
-  tls: true
-  type: vless
-  uuid: 226279dd-28b2-4b61-96be-a2a0b1afd522
   ws-opts:
     headers:
-      Host: hk.zhaoqing.city
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=random
-- name: 加拿大+温尼伯大学
-  network: tcp
-  port: 1003
-  server: 142.132.140.143
+      Host: 5d0319t.nl7.h1clayd.click
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: 智利 V2CROSS.COM
+  network: ws
+  port: '16632'
+  server: pdmv4.xiaoyan.io
+  servername: ''
   tls: false
-  type: vless
-  uuid: 0e6cd6ca-fba2-4b86-923c-f0a021f7ad15
-- client-fingerprint: firefox
-  name: 美国+Xerox
+  type: vmess
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  ws-opts:
+    headers:
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
+    path: /
+- flow: xtls-rprx-vision
+  name: '英国+伦敦南岸大学 #3'
   network: tcp
   port: 443
   reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: '361d0dd59c70516f'
-  server: 5d0319t.nl7.h1clayd.click
-  servername: 5d0319t.nl7.h1clayd.click
+    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+    short-id: '8d0d0679f42ffd98'
+  server: 136.148.208.221
+  servername: 8a2e72t.nl20.h1clayd.shop
   tls: false
   type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 台湾省台北市+中华电信
-  network: tcp
-  port: 19482
-  reality-opts:
-    public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-    short-id: 'fa514b83'
-  server: free.fugui.lol
-  servername: swdist.apple.com
-  tls: false
-  type: vless
-  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  ws-opts:
+    headers:
+      Host: 8a2e72t.nl20.h1clayd.shop
 - flow: ''
   name: 新加坡5|@ripaojiedian
   network: ws
