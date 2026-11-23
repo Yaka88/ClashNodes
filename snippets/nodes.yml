@@ -1,22 +1,23 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 美国 新泽西州(Merck公司)
-  network: ws
-  port: 16617
-  server: afzuv.xiaoyan.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
 - name: 香港+葵兴数据中心
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20103
   server: sclass-01.catcat321.com
-  skip-cert-verify: true
   sni: hk.catxstar.com
+  type: trojan
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: nu2rb.supertoolify.com
+  skip-cert-verify: true
+  sni: nu2rb.supertoolify.com
+  type: trojan
+- name: 越南|@ripaojiedian
+  network: tcp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: xvxn1hkzf.mateflora.com
+  skip-cert-verify: true
+  sni: xvxn1hkzf.mateflora.com
   type: trojan

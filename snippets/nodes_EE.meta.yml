@@ -1,1 +1,14 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  name: '爱沙尼亚+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: '!!str 361d0dd59c70516f'
+  server: 196.196.148.85
+  servername: 5d0319t.nl7.h1clayd.click
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
