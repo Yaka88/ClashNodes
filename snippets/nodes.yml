@@ -1,18 +1,31 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 智利 V2CROSS.COM
-  network: ws
-  port: '16632'
-  server: pdmv4.xiaoyan.io
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 904f0569-8695-466f-97cf-0de2face1b46
-  ws-opts:
-    headers:
-      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
-    path: /
+- name: 荷兰+V2CROSS.COM
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 443
+  server: 77.93.89.2
+  skip-cert-verify: true
+  sni: bgsg1.hikigo.com
+  type: trojan
+- name: 新加坡+Amazon数据中心
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20051
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: 香港+Amazon数据中心
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20123
+  server: sclass-00.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: '香港+Amazon数据中心 #1'
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
