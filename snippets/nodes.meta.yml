@@ -1,24 +1,8 @@
 proxies:
-- name: '荷兰+V2CROSS.COM #1'
-  network: tcp
+- name: 荷兰+V2CROSS.COM
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   port: 443
   server: 77.93.89.2
-  skip-cert-verify: true
-  sni: bgsg1.hikigo.com
-  type: trojan
-- name: 英国+伦敦南岸大学
-  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
-  port: 443
-  server: 136.148.83.69
-  skip-cert-verify: true
-  sni: szqbx-ru-77dc.my-fade.cloud
-  tls: false
-  type: hysteria2
-- name: '荷兰+V2CROSS.COM #2'
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: bgsg1.hikigo.com
   sni: bgsg1.hikigo.com
   type: trojan
 - flow: ''
