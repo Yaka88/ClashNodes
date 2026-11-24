@@ -1,10 +1,9 @@
 proxies:
-- client-fingerprint: qq
-  name: 英国+伦敦南岸大学
-  network: tcp
+- name: 英国+伦敦南岸大学
+  password: 87bb2ac4-b7a1-0001-b11d-2107709ea6cb
   port: 443
   server: 136.148.83.69
-  servername: szqbx-ru-77dc.my-fade.cloud
-  tls: true
-  type: vless
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  skip-cert-verify: true
+  sni: szqbx-ru-77dc.my-fade.cloud
+  tls: false
+  type: hysteria2
