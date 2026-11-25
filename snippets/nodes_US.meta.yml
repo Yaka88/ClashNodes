@@ -1,4 +1,25 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 48637
+  reality-opts:
+    public-key: XFWI_MEMvP6tajJyho0y7JYe5AkDKtNf4b5Bpkwfg0k
+    short-id: '!!str 1125242fc281d82f'
+  server: 136.234.36.156
+  servername: 6da588t.nl7.h1clayd.click
+  tls: false
+  type: vless
+  uuid: cae99415-10a6-4317-81bd-19a4586b5d76
+- name: 北美地区+V2CROSS.COM
+  password: ePPsH1bMFD
+  port: 50541
+  server: 23.141.172.229
+  skip-cert-verify: true
+  sni: is1-ssl.mzstatic.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: ''
   name: 美国|@ripaojiedian
@@ -16,3 +37,45 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
+- client-fingerprint: chrome
+  flow: ''
+  name: 美国2|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 179.255.132.42
+  servername: senflarelink-node-71i.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: 美国3|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 95.169.13.59
+  servername: senflarelink-node-m3bfbn.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-m3bfbn.pages.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: ''
+  name: 美国4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 179.255.137.204
+  servername: senflarelink-node-xfcyh2.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-xfcyh2.pages.dev
+    path: '%2F'

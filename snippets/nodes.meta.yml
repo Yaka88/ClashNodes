@@ -1,44 +1,49 @@
 proxies:
-- name: 荷兰+V2CROSS.COM
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: 77.93.89.2
-  sni: bgsg1.hikigo.com
-  type: trojan
-- flow: ''
-  name: 新加坡5|@ripaojiedian
-  network: ws
-  port: 443
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 美国+V2CROSS.COM
+  network: tcp
+  port: 48637
   reality-opts:
-    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
-    short-id: '640c807d'
-  server: 139.162.20.241
-  servername: itunes.apple.com
+    public-key: XFWI_MEMvP6tajJyho0y7JYe5AkDKtNf4b5Bpkwfg0k
+    short-id: '1125242fc281d82f'
+  server: 136.234.36.156
+  servername: 6da588t.nl7.h1clayd.click
   tls: false
   type: vless
-  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
-  ws-opts:
-    path: '%2Fws'
-- flow: xtls-rprx-vision
-  name: 新加坡2|@ripaojiedian
+  uuid: cae99415-10a6-4317-81bd-19a4586b5d76
+- client-fingerprint: firefox
+  name: 西班牙+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: EXPjsObdfDnKuRmw4-A9_G4k-WP2cUXuuvUo8It1sAo
-    short-id: '4d1244cd42a20e6c'
-  server: 47.84.39.7
-  servername: www.amazon.com
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: 'ba2a3dce62b99092'
+  server: 196.245.52.187
+  servername: 04535dt.us8.h1clayd.click
   tls: false
   type: vless
-  uuid: a6fd460c-88bd-4425-bb56-2b73d29455cc
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: nu2rb.supertoolify.com
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- name: 北美地区+V2CROSS.COM
+  password: ePPsH1bMFD
+  port: 50541
+  server: 23.141.172.229
   skip-cert-verify: true
-  sni: nu2rb.supertoolify.com
-  type: trojan
+  sni: is1-ssl.mzstatic.com
+  tls: false
+  type: hysteria2
+- flow: xtls-rprx-vision
+  name: 英国+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
+    short-id: '4ff31b18d1bd8227'
+  server: 2.26.251.236
+  servername: mental-deprivation.ru
+  tls: false
+  type: vless
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
 - flow: ''
   name: 日本3|@ripaojiedian
   network: ws
@@ -71,104 +76,6 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
-- name: 新加坡1|@ripaojiedian
-  obfs: salamander
-  obfs-password: sj1awrdwnn5lbuno
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: bgsg2.hikigo.com
-  skip-cert-verify: true
-  sni: bgsg2.hikigo.com
-  tls: false
-  type: hysteria2
-- flow: ''
-  name: 新加坡3|@ripaojiedian
-  network: ws
-  port: 443
-  reality-opts:
-    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
-    short-id: '640c807d'
-  server: 139.162.20.241
-  servername: itunes.apple.com
-  tls: false
-  type: vless
-  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
-  ws-opts:
-    headers:
-      Host: itunes.apple.com
-    path: '%2Fws'
-- flow: xtls-rprx-vision
-  name: 台湾|@ripaojiedian
-  network: tcp
-  port: 11102
-  reality-opts:
-    public-key: oW6HMjniDmBJdjGKwhBAIS2zMS1VvHORubh9vdazqQ0
-    short-id: 'ed571d022f7bc3bf'
-  server: 116.213.43.43
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 530d31fc-2690-49e4-bfc9-3f991e145008
-- name: 越南|@ripaojiedian
-  network: tcp
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: xvxn1hkzf.mateflora.com
-  skip-cert-verify: true
-  sni: xvxn1hkzf.mateflora.com
-  type: trojan
-- flow: ''
-  name: 香港3|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 151.158.0.83
-  servername: senflarelink-node-6b9.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-6b9.pages.dev
-    path: '%2F'
-- flow: ''
-  name: 香港4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 206.237.18.145
-  servername: senflarelink-node-m3bfbn.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-m3bfbn.pages.dev
-    path: '%2F'
-- flow: ''
-  name: 台湾3|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 154.40.61.186
-  servername: senflarelink-node-wj1gsa.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-wj1gsa.pages.dev
-    path: '%2F'
-- flow: ''
-  name: 新加坡|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 43.159.41.66
-  servername: senflarelink-node-il65vh.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-il65vh.pages.dev
-    path: '%2F'
 - flow: ''
   name: 美国|@ripaojiedian
   network: ws
@@ -185,19 +92,6 @@ proxies:
     headers:
       Host: itunes.apple.com
     path: '%2Fws'
-- flow: ''
-  name: 新加坡4|@ripaojiedian
-  network: ws
-  port: 8443
-  server: 43.134.187.97
-  servername: senflarelink-node-2ott2x.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-2ott2x.pages.dev
-    path: '%2F'
 - flow: ''
   name: 日本4|@ripaojiedian
   network: ws
@@ -225,20 +119,72 @@ proxies:
       Host: senflarelink-node-nwz76h.pages.dev
     path: '%2F'
 - flow: ''
-  name: 韩国|@ripaojiedian
+  name: 香港|@ripaojiedian
   network: ws
   port: 8443
-  server: 131.186.22.95
-  servername: senflarelink-node-il65vh.pages.dev
+  server: 185.206.171.66
+  servername: senflarelink-node-7uv.pages.dev
   tls: true
   type: vless
   uuid: b69cf773-da16-486e-afce-a45b94f998b3
   ws-opts:
     headers:
-      Host: senflarelink-node-il65vh.pages.dev
+      Host: senflarelink-node-7uv.pages.dev
     path: '%2F'
 - flow: ''
-  name: 韩国2|@ripaojiedian
+  name: 新加坡|@ripaojiedian
+  network: ws
+  port: 2087
+  server: 13.140.95.76
+  servername: senflarelink-node-6b9.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-6b9.pages.dev
+    path: '%2F'
+- flow: ''
+  name: 美国2|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 179.255.132.42
+  servername: senflarelink-node-71i.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-71i.pages.dev
+    path: '%2F'
+- flow: ''
+  name: 美国3|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 95.169.13.59
+  servername: senflarelink-node-m3bfbn.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-m3bfbn.pages.dev
+    path: '%2F'
+- flow: ''
+  name: 美国4|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 179.255.137.204
+  servername: senflarelink-node-xfcyh2.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-xfcyh2.pages.dev
+    path: '%2F'
+- flow: ''
+  name: 韩国|@ripaojiedian
   network: ws
   port: 12101
   server: 14.44.19.57
@@ -249,6 +195,45 @@ proxies:
   ws-opts:
     headers:
       Host: senflarelink-node-nwz76h.pages.dev
+    path: '%2F'
+- flow: ''
+  name: 德国2|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 49.13.31.189
+  servername: senflarelink-node-c43.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-c43.pages.dev
+    path: '%2F'
+- flow: ''
+  name: 德国|@ripaojiedian
+  network: ws
+  port: 8443
+  server: 178.104.77.229
+  servername: senflarelink-node-m3bfbn.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-m3bfbn.pages.dev
+    path: '%2F'
+- flow: ''
+  name: TG频道:@ripaojiedian
+  network: ws
+  port: 443
+  server: cloudflare.seeck.cn
+  servername: senflarelink-node-xfcyh2.pages.dev
+  tls: true
+  type: vless
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  ws-opts:
+    headers:
+      Host: senflarelink-node-xfcyh2.pages.dev
     path: '%2F'
 - alpn:
   - ''
