@@ -1,37 +1,4 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 美国+V2CROSS.COM
-  network: tcp
-  port: 48637
-  reality-opts:
-    public-key: XFWI_MEMvP6tajJyho0y7JYe5AkDKtNf4b5Bpkwfg0k
-    short-id: '1125242fc281d82f'
-  server: 136.234.36.156
-  servername: 6da588t.nl7.h1clayd.click
-  tls: false
-  type: vless
-  uuid: cae99415-10a6-4317-81bd-19a4586b5d76
-- client-fingerprint: firefox
-  name: 西班牙+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: 'ba2a3dce62b99092'
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  tls: false
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-- name: 北美地区+V2CROSS.COM
-  password: ePPsH1bMFD
-  port: 50541
-  server: 23.141.172.229
-  skip-cert-verify: true
-  sni: is1-ssl.mzstatic.com
-  tls: false
-  type: hysteria2
 - flow: xtls-rprx-vision
   name: 英国+V2CROSS.COM
   network: tcp
@@ -44,6 +11,18 @@ proxies:
   tls: false
   type: vless
   uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+- client-fingerprint: firefox
+  name: 西班牙+V2CROSS.COM
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: 'ba2a3dce62b99092'
+  server: 196.245.52.187
+  servername: 04535dt.us8.h1clayd.click
+  tls: false
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
 - flow: ''
   name: 日本3|@ripaojiedian
   network: ws
