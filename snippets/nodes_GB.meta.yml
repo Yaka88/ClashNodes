@@ -1,14 +1,12 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 英国+V2CROSS.COM
+- client-fingerprint: qq
+  name: '英国+伦敦南岸大学 #1'
   network: tcp
   port: 443
-  reality-opts:
-    public-key: 1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4
-    short-id: '!!str 4ff31b18d1bd8227'
-  server: 2.26.251.236
-  servername: mental-deprivation.ru
-  tls: false
+  server: 136.148.83.71
+  servername: wccfu-ru-79dc.my-fade.cloud
+  tls: true
   type: vless
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  uuid: 00000000-0000-0001-0000-000000000000
+  ws-opts:
+    path: '%2F'
