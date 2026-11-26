@@ -2,9 +2,17 @@ proxies:
 - name: 美国+V2CROSS.COM
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
-  server: uk-tube-01.stre4m.net
+  server: 128.254.186.57
   skip-cert-verify: true
   sni: mother-earth.fyi
+  tls: false
+  type: hysteria2
+- name: 北美地区+V2CROSS.COM
+  password: ePPsH1bMFD
+  port: 50541
+  server: 23.141.172.229
+  skip-cert-verify: true
+  sni: is1-ssl.mzstatic.com
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
