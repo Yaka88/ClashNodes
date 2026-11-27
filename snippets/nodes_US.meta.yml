@@ -1,28 +1,4 @@
 proxies:
-- name: 美国+V2CROSS.COM
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.114.166
-  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
-  type: trojan
-- name: '美国+V2CROSS.COM #1'
-  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-  port: 13337
-  server: 128.254.186.190
-  skip-cert-verify: true
-  sni: mother-earth.fyi
-  tls: false
-  type: hysteria2
-- name: 美国+CloudFlare节点
-  network: ws
-  password: c48qMRRfLJ3kwD4P_XpgfIq6
-  port: 443
-  server: 3x-sub.linzhonghong.com
-  skip-cert-verify: true
-  sni: 3x-sub.linzhonghong.com
-  type: trojan
-  ws-opts:
-    path: '%2Ftjbbb7eab89c9a'
 - client-fingerprint: chrome
   flow: ''
   name: 美国1|@ripaojiedian
