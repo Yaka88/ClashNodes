@@ -1,4 +1,20 @@
 proxies:
+- name: 美国+V2CROSS.COM
+  password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
+  port: 13337
+  server: uk-tube-01.stre4m.net
+  skip-cert-verify: true
+  sni: mother-earth.fyi
+  tls: false
+  type: hysteria2
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 443
+  server: saas.sin.fan
+  servername: v2n6.11676767.xyz
+  tls: true
+  type: vless
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
 - client-fingerprint: chrome
   flow: ''
   name: 美国1|@ripaojiedian
