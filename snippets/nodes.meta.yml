@@ -1,17 +1,61 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: 西班牙+V2CROSS.COM
+- name: 美国+CloudFlare节点
+  network: ws
+  port: 2053
+  server: ws.dhafhdtjdti.site
+  servername: ws.dhafhdtjdti.site
+  tls: true
+  type: vless
+  uuid: 9f749472-c636-4c5a-af51-7f8feefaac81
+  ws-opts:
+    path: '%2F'
+- client-fingerprint: firefox
+  name: 爱沙尼亚+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: '42426c882c5fcd41'
-  server: 196.196.149.80
-  servername: 7aa271t.es1.h1clayd.click
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: '361d0dd59c70516f'
+  server: 196.196.148.85
+  servername: 5d0319t.nl7.h1clayd.click
   tls: false
   type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-- name: 美国+V2CROSS.COM
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+- name: 北美地区+V2CROSS.COM
+  password: ePPsH1bMFD
+  port: 50541
+  server: 23.141.172.229
+  skip-cert-verify: true
+  sni: is1-ssl.mzstatic.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 美国+Xerox
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: p35RUaaaItuoyNiCrLpGeStBUpEJMSiZ2AajdfhhmiM
+    short-id: '92aee92130b46fe2'
+  server: 6bf329t.nl18.h1clayd.click
+  servername: 6bf329t.nl18.h1clayd.click
+  tls: false
+  type: vless
+  uuid: e894c08a-fecc-46f5-bf03-c95d0274c79d
+- client-fingerprint: qq
+  name: 英国+伦敦南岸大学
+  network: tcp
+  port: 443
+  server: 136.148.83.71
+  servername: wccfu-ru-79dc.my-fade.cloud
+  tls: true
+  type: vless
+  uuid: 00000000-0000-0001-0000-000000000000
+  ws-opts:
+    path: '%2F'
+- alpn:
+  - h3
+  name: 美国+V2CROSS.COM
   password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
   port: 13337
   server: uk-tube-01.stre4m.net
@@ -19,73 +63,6 @@ proxies:
   sni: mother-earth.fyi
   tls: false
   type: hysteria2
-- name: 美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: saas.sin.fan
-  servername: v2n6.11676767.xyz
-  tls: true
-  type: vless
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 塞舌尔+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: '42426c882c5fcd41'
-  server: 196.199.122.2
-  servername: 7aa271t.es1.h1clayd.click
-  tls: false
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-- client-fingerprint: firefox
-  name: '西班牙+V2CROSS.COM #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
-    short-id: 'ba2a3dce62b99092'
-  server: 196.245.52.187
-  servername: 04535dt.us8.h1clayd.click
-  tls: false
-  type: vless
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-- name: 荷兰+V2CROSS.COM
-  network: ws
-  port: 443
-  server: 188.164.248.110
-  servername: imanvipreserved.pages.dev
-  tls: true
-  type: vless
-  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
-- client-fingerprint: qq
-  name: 英国+伦敦南岸大学
-  network: tcp
-  port: 443
-  server: 136.148.83.70
-  servername: aszbk-ru-78dc.my-fade.cloud
-  tls: true
-  type: vless
-  uuid: 00000000-0000-0001-0000-000000000000
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 爱沙尼亚+V2CROSS.COM
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: '8d0d0679f42ffd98'
-  server: 196.196.148.76
-  servername: 8a2e72t.nl20.h1clayd.shop
-  tls: false
-  type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  ws-opts:
-    headers:
-      Host: 8a2e72t.nl20.h1clayd.shop
-    path: '%2F'
 - flow: ''
   name: 日本3|@ripaojiedian
   network: ws

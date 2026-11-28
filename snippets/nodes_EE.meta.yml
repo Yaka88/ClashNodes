@@ -1,18 +1,13 @@
 proxies:
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
   name: 爱沙尼亚+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
-    public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-    short-id: '!!str 8d0d0679f42ffd98'
-  server: 196.196.148.76
-  servername: 8a2e72t.nl20.h1clayd.shop
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: '!!str 361d0dd59c70516f'
+  server: 196.196.148.85
+  servername: 5d0319t.nl7.h1clayd.click
   tls: false
   type: vless
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  ws-opts:
-    headers:
-      Host: 8a2e72t.nl20.h1clayd.shop
-    path: '%2F'
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
